@@ -79,10 +79,13 @@ def new_dictionaries():
         'w': []
     }
     final_regest_dict = {
+        'pope': [],
         'date': [],
         'place': [],
         'number': [],
-        'text': []
+        'text': [],
+        'page_nr': []
+        #'incipi':[]
     }
 
     return textRegion_dict, unknown_region_dict, final_regest_dict
@@ -103,24 +106,24 @@ def add_coords_to_dict(dict, coords):
 
     return dict
 
-def detect_page(region_coords):
+def detect_page(region):
     '''
         Detects whether the corresponding page is on left or right side of a book based on the passed coords of a page number region. Conditions for this decision are defined globally (NUMBERREGION_THRESHOLD_MAX_W_COORD, NUMBERREGION_THRESHOLD_MAX_X_COORD and NUMBERREGION_THRESHOLD_MIN_X_COORD)
 
         :param region_coords: A dictionary containing integers on keys 'x', 'y', 'w', 'h'
         :return: Returns either 'l', 'r' or 'not a pageNr'
     '''
-
+    region_coords = region.coords.box
     if region_coords['w'] < NUMBERREGION_THRESHOLD_MAX_W_COORD and region_coords['x'] < NUMBERREGION_THRESHOLD_MAX_X_COORD:                
         # Left page
-        return 'l'
+        return 'l', region.lines[0].text
     elif region_coords['w'] < NUMBERREGION_THRESHOLD_MAX_W_COORD and region_coords['x'] > NUMBERREGION_THRESHOLD_MIN_X_COORD:                
         # Right page
-        return 'r'
+        return 'r', region.lines[0].text
     else:
-        return 'not a pageNr'
+        return 'not a pageNr', ''
             
-def classify_left_page_columns(scan, textRegion_dict, unknown_region_dict):
+def classify_left_page_columns(scan, textRegion_dict, unknown_region_dict, final_regest_dict):
     '''
         Iterates through each region of the passed scan and tries to classify it based on the globally defined thresholds for left page. Page Number region doesnt get recognised because its only relevant for page side detection.
         Also makes basic classification of all lines from the table region filling the textRegion_dict with the coordinates of each line, its text and a basic classification of either on of the three columns ('date', 'place', 'regest_text')
@@ -148,7 +151,7 @@ def classify_left_page_columns(scan, textRegion_dict, unknown_region_dict):
                         textRegion_dict['type'].append('regest_text')
                     elif line_coords['x'] < REGEST_THRESHOLD_MIN_X_COORD_LEFT and line_coords['x'] > PLACE_THRESHOLD_MIN_X_COORD_LEFT:
                         # Regest place column
-                        textRegion_dict['type'].append('place')  
+                        textRegion_dict['type'].append('place')
                     else:
                         # Regest date column
                         textRegion_dict['type'].append('date')
@@ -157,14 +160,21 @@ def classify_left_page_columns(scan, textRegion_dict, unknown_region_dict):
 
             elif region_coords['x'] > HEADERREGION_THRESHOLD_MIN_X_COORD and region_coords['x'] < HEADERREGION_THRESHOLD_MAX_X_COORD and region_coords['h'] < HEADERREGION_THRESHOLD_MAX_H_COORD:
                 # Header region
-                pass
+                pope = ''
+                for char in region.lines[0].text:
+                    if char != '.':
+                        pope += char
+                    else:
+                        pope += char
+                        break
+                final_regest_dict['pope'].append(pope)
             else:
                 # Unknown region
                 add_coords_to_dict(unknown_region_dict, region_coords)
 
-    return textRegion_dict, unknown_region_dict
+    return textRegion_dict, unknown_region_dict, final_regest_dict
 
-def classify_right_page_columns(scan, textRegion_dict, unknown_region_dict):
+def classify_right_page_columns(scan, textRegion_dict, unknown_region_dict, final_regest_dict):
     '''
         Iterates through each region of the passed scan and tries to classify it based on the globally defined thresholds for right page. Page Number region doesnt get recognised because its only relevant for page side detection.
         Also makes basic classification of all lines from the table region filling the textRegion_dict with the coordinates of each line, its text and a basic classification of either on of the three columns ('date', 'place', 'regest_text')
@@ -201,12 +211,19 @@ def classify_right_page_columns(scan, textRegion_dict, unknown_region_dict):
 
             elif region_coords['x'] > HEADERREGION_THRESHOLD_MIN_X_COORD and region_coords['x'] < HEADERREGION_THRESHOLD_MAX_X_COORD and region_coords['h'] < HEADERREGION_THRESHOLD_MAX_H_COORD:
                 # Header region
-                pass
+                pope = ''
+                for char in region.lines[0].text:
+                    if char != '.':
+                        pope += char
+                    else:
+                        pope += char
+                        break
+                final_regest_dict['pope'].append(pope)
             else:
                 # Unknown region
                 add_coords_to_dict(unknown_region_dict, region_coords)
 
-    return textRegion_dict, unknown_region_dict
+    return textRegion_dict, unknown_region_dict, final_regest_dict
 
 def classify_regest_start(df):
     '''
@@ -248,6 +265,12 @@ def classify_regest_date(df):
         if row['type'] == 'regest_start' and row['x'] < regestDate_threshold_max_x_Coord and row['text'][0] in ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'] : # The rows on the far left, including some space if the rows as a whole are moved slightly to the right over time
             if row['w'] < regestDate_threshold_max_w_Coord or row['h'] > regestDate_threshold_min_h_Coord: # The rows dont spread over the whole distance and are a little bit higher than other indented lines
                 df.at[idx, 'type'] = 'regest_date'
+
+    return df
+
+def classify_incipit(df):
+    text_lines = df[(df['type'] == 'regest_text')]
+    print(text_lines)
 
     return df
 
@@ -534,33 +557,35 @@ def classify(scan):
         :param: scan: The PageXML scan to classify the regests from
         :return: A Pandas DataFrame containing positional data for plotting and Pandas Dataframe containing all regests
     '''
-    try:
-        textRegion_dict, unknown_region_dict, final_regest_dict = new_dictionaries()
-        for region in scan.text_regions:
-            if len(region.lines) > 0:
-                region_coords = region.coords.box
-                page = detect_page(region_coords)
-                if page == 'l':
-                    textRegion_dict, unknown_region_dict = classify_left_page_columns(scan, textRegion_dict, unknown_region_dict)
-                elif page == 'r':
-                    textRegion_dict, unknown_region_dict = classify_right_page_columns(scan, textRegion_dict, unknown_region_dict)
-        df = pd.DataFrame(textRegion_dict)
-        df = df.sort_values('y')
-        df = df.reset_index(drop=True)
-        df = detect_new_pope(df)
-        df = detect_pope_overview(df)
-        df = drop_unnecessary(df)
-        df = classify_regest_start(df)
-        df = classify_regest_date(df)
-        df, final_regest_dict = classify_whole_regests(df, final_regest_dict)
+    textRegion_dict, unknown_region_dict, final_regest_dict = new_dictionaries()
+    for region in scan.text_regions:
+        if len(region.lines) > 0:                
+            page, page_nr = detect_page(region)
+            if page == 'l':
+                final_regest_dict['page_nr'].append(page_nr)
+                textRegion_dict, unknown_region_dict, final_regest_dict = classify_left_page_columns(scan, textRegion_dict, unknown_region_dict, final_regest_dict)
+            elif page == 'r':
+                final_regest_dict['page_nr'].append(page_nr)
+                textRegion_dict, unknown_region_dict, final_regest_dict = classify_right_page_columns(scan, textRegion_dict, unknown_region_dict, final_regest_dict)
+    df = pd.DataFrame(textRegion_dict)
+    df = df.sort_values('y')
+    df = df.reset_index(drop=True)
+    df = detect_new_pope(df)
+    df = detect_pope_overview(df)
+    df = drop_unnecessary(df)
+    df = classify_regest_start(df)
+    df = classify_regest_date(df)
+    ff = classify_incipit(df)
+    df, final_regest_dict = classify_whole_regests(df, final_regest_dict)
 
-        final_df = pd.DataFrame(final_regest_dict)
-    except Exception as e:
-        print('Error ocurred on ' + scan.metadata['filename'] + ' Could not create DataFrame.')
-        #print(df)
-        #print(final_regest_dict)
-        print('Lengths: ', len(final_regest_dict['date']), len(final_regest_dict['place']), len(final_regest_dict['number']), len(final_regest_dict['text']))
-        print(e)
+    i = 0
+    while i < len(final_regest_dict['date']):
+        if i != 0:
+            final_regest_dict['pope'].append(final_regest_dict['pope'][0])
+            final_regest_dict['page_nr'].append(final_regest_dict['page_nr'][0])
+        i += 1
+
+    final_df = pd.DataFrame(final_regest_dict)
 
     return df, final_df
 
@@ -746,6 +771,12 @@ else:
 '''
 Noch zu tun:
 
-- Regesten ohne Nummer -> erweiterte Nummer der vorherigen Regeste z.B: 10614-02
+- Regesten ohne Nummer -> erweiterte Nummer der vorherigen Regeste z.B: 10614-02 oder:
+- Seitennummer hinzufügen als eigenes XML-Element, da wichtig für Regesten ohne Jaffé-Nummer
+- Papst bzw. Aussteller als XML Element
+- Generell Regionenerkennung verbessern
+- Bei Datum Anführungszeichen ersetzen
+- Recipit
+- Aufräumen :)
 
 '''
