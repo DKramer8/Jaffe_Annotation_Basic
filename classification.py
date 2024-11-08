@@ -8,8 +8,10 @@ import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 import os
 import pagexml.helper.text_helper as text_helper
+import io
 from pagexml.helper.file_helper import  read_page_archive_files
 from pagexml import parser as pxml_parser
+from zipfile import ZipFile
 
 # ------------------------------------------------------------------------------------
 # ------------------------------------------------------------------------------------
@@ -85,7 +87,6 @@ def new_dictionaries():
         'number': [],
         'text': [],
         'page_nr': []
-        #'incipi':[]
     }
 
     return textRegion_dict, unknown_region_dict, final_regest_dict
@@ -268,12 +269,6 @@ def classify_regest_date(df):
 
     return df
 
-def classify_incipit(df):
-    text_lines = df[(df['type'] == 'regest_text')]
-    print(text_lines)
-
-    return df
-
 def detect_new_pope(df):
     '''
         Classifies all pope headers and the following pope unnecessary overview that are part of the third columns based on the their position in the middle of the column and the fact thath there is no date in the next line (in this case a new regest would start afterwards). 
@@ -281,14 +276,13 @@ def detect_new_pope(df):
         :param: df: A Pandas DataFrame created from the textRegion_dict structure containing all lines of the table region.
         :return: The DataFrame without pope stuff
     '''
-
     new_pope_idx = []
     new_pope = False
     is_next_date = False
     df_text = df[(df['type'] == 'regest_text')]
     x_min = df_text['x'].min()
     x_avg = df_text['x'].mean()    
-    regestDate_threshold_max_x_Coord = x_min + x_avg*0.015
+    regestDate_threshold_max_x_Coord = x_min + x_avg*0.015    
     for idx, row in df.iterrows():
         is_next_date = False
         if idx > 0 and idx < len(df.index)-1:
@@ -307,7 +301,7 @@ def detect_new_pope(df):
                     new_pope = False
                 new_pope_idx.append(idx)
         elif idx == len(df.index)-1 and new_pope == True:
-            new_pope_idx.append(idx)
+            new_pope_idx.append(idx)   
     df = df.drop(index=new_pope_idx)
     df = df.reset_index(drop=True)
 
@@ -400,6 +394,11 @@ def get_regest_number(txt):
         if len(txt) > 0:
             if txt[0] == ' ':
                 txt = txt[1:]
+        
+        if len(regest_nr) > 1:
+            if regest_nr[-1] == ' ':
+                regest_nr = regest_nr[:-1]
+
     else:
         regest_nr = False
 
@@ -564,9 +563,11 @@ def classify(scan):
             if page == 'l':
                 final_regest_dict['page_nr'].append(page_nr)
                 textRegion_dict, unknown_region_dict, final_regest_dict = classify_left_page_columns(scan, textRegion_dict, unknown_region_dict, final_regest_dict)
+                break
             elif page == 'r':
                 final_regest_dict['page_nr'].append(page_nr)
                 textRegion_dict, unknown_region_dict, final_regest_dict = classify_right_page_columns(scan, textRegion_dict, unknown_region_dict, final_regest_dict)
+                break
     df = pd.DataFrame(textRegion_dict)
     df = df.sort_values('y')
     df = df.reset_index(drop=True)
@@ -575,16 +576,24 @@ def classify(scan):
     df = drop_unnecessary(df)
     df = classify_regest_start(df)
     df = classify_regest_date(df)
-    ff = classify_incipit(df)
+    
     df, final_regest_dict = classify_whole_regests(df, final_regest_dict)
 
     i = 0
     while i < len(final_regest_dict['date']):
-        if i != 0:
-            final_regest_dict['pope'].append(final_regest_dict['pope'][0])
-            final_regest_dict['page_nr'].append(final_regest_dict['page_nr'][0])
+        if i >= len(final_regest_dict['pope']):
+            if len(final_regest_dict['pope']) == 0:
+                final_regest_dict['pope'].append('')
+            else:
+                final_regest_dict['pope'].append(final_regest_dict['pope'][0])
+        if i >= len(final_regest_dict['page_nr']):
+            if len(final_regest_dict['page_nr']) == 0:
+                final_regest_dict['page_nr'].append('')
+            else:
+                final_regest_dict['page_nr'].append(final_regest_dict['page_nr'][0])
         i += 1
 
+    print(len(final_regest_dict['pope']), len(final_regest_dict['date']), len(final_regest_dict['place']), len(final_regest_dict['number']), len(final_regest_dict['text']), len(final_regest_dict['page_nr']))
     final_df = pd.DataFrame(final_regest_dict)
 
     return df, final_df
@@ -676,7 +685,7 @@ def combine_regests(df):
 
 def output(df, format, file_name):
     '''
-        Exports the given pandas DataFrame into csv or tsv file depending on passed format string.
+        Exports the given pandas DataFrame into csv, xml or tsv file depending on passed format string.
 
         :param: df: The Pandas DataFrame to export
         :param: format: Either 'csv' or 'tsv' depending on favored output format.    
@@ -686,8 +695,17 @@ def output(df, format, file_name):
         df.to_csv(OUTPUT_PATH + '\\' + file_name + 'CSV.csv', index=True)
     elif format.lower() == 'tsv':
         df.to_csv(OUTPUT_PATH + '\\' + file_name + 'TSV.tsv', index=True, sep='\t')
-    elif format.lower() == 'xml':
-        df.to_xml(OUTPUT_PATH + '\\' + file_name + 'XML.xml')        
+    elif format.lower() == 'single_xml':
+        df.to_xml(OUTPUT_PATH + '\\' + file_name + 'XML.xml')
+    elif format.lower() == 'multi_xml':
+        zip = OUTPUT_PATH + '\\' + file_name + '.zip'
+        with ZipFile(zip, 'w') as zipFile:
+            for i in range(len(df)):
+                single_regest = df.iloc[[i]]
+                with io.BytesIO() as puffer:
+                    single_regest.to_xml(puffer, index=False, encoding='utf-8')
+                    puffer.seek(0)
+                    zipFile.writestr(f"{single_regest['number'].values[0]}.xml", puffer.read())
     else:
         print('Invalid output format. COuld not create output file.')
 
@@ -711,6 +729,7 @@ if input_type == 'single':
 
     scan = pxml_parser.parse_pagexml_file(single_file)
     df, final_df = classify(scan)
+    #print(final_df)
 
     # Plot the regions if wanted
     if ask_for_plot() == True:
@@ -718,7 +737,7 @@ if input_type == 'single':
 
     # Ask for output format
     print('----------------------------------------------------------------------------------------------------------------------')
-    print('Please enter output format (csv/tsv/xml)')
+    print('Please enter output format (csv/tsv//single_xml/multi_xml)')
     output_format = input()
 
     output(final_df, output_format, file_name)
@@ -742,7 +761,7 @@ elif input_type == 'zip':
 
     # Ask for output format
     print('----------------------------------------------------------------------------------------------------------------------')
-    print('Please enter output format (csv/tsv/xml)')
+    print('Please enter output format (csv/tsv//single_xml/multi_xml)')
     output_format = input()
 
     print('Processing...')
