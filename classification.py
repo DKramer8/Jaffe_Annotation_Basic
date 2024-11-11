@@ -85,8 +85,7 @@ def new_dictionaries():
         'date': [],
         'place': [],
         'number': [],
-        'text': [],
-        'page_nr': []
+        'text': []
     }
 
     return textRegion_dict, unknown_region_dict, final_regest_dict
@@ -117,12 +116,12 @@ def detect_page(region):
     region_coords = region.coords.box
     if region_coords['w'] < NUMBERREGION_THRESHOLD_MAX_W_COORD and region_coords['x'] < NUMBERREGION_THRESHOLD_MAX_X_COORD:                
         # Left page
-        return 'l', region.lines[0].text
+        return 'l'
     elif region_coords['w'] < NUMBERREGION_THRESHOLD_MAX_W_COORD and region_coords['x'] > NUMBERREGION_THRESHOLD_MIN_X_COORD:                
         # Right page
-        return 'r', region.lines[0].text
+        return 'r'
     else:
-        return 'not a pageNr', ''
+        return 'not a pageNr'
             
 def classify_left_page_columns(scan, textRegion_dict, unknown_region_dict, final_regest_dict):
     '''
@@ -559,13 +558,11 @@ def classify(scan):
     textRegion_dict, unknown_region_dict, final_regest_dict = new_dictionaries()
     for region in scan.text_regions:
         if len(region.lines) > 0:                
-            page, page_nr = detect_page(region)
+            page = detect_page(region)
             if page == 'l':
-                final_regest_dict['page_nr'].append(page_nr)
                 textRegion_dict, unknown_region_dict, final_regest_dict = classify_left_page_columns(scan, textRegion_dict, unknown_region_dict, final_regest_dict)
                 break
             elif page == 'r':
-                final_regest_dict['page_nr'].append(page_nr)
                 textRegion_dict, unknown_region_dict, final_regest_dict = classify_right_page_columns(scan, textRegion_dict, unknown_region_dict, final_regest_dict)
                 break
     df = pd.DataFrame(textRegion_dict)
@@ -586,14 +583,9 @@ def classify(scan):
                 final_regest_dict['pope'].append('')
             else:
                 final_regest_dict['pope'].append(final_regest_dict['pope'][0])
-        if i >= len(final_regest_dict['page_nr']):
-            if len(final_regest_dict['page_nr']) == 0:
-                final_regest_dict['page_nr'].append('')
-            else:
-                final_regest_dict['page_nr'].append(final_regest_dict['page_nr'][0])
         i += 1
 
-    print(len(final_regest_dict['pope']), len(final_regest_dict['date']), len(final_regest_dict['place']), len(final_regest_dict['number']), len(final_regest_dict['text']), len(final_regest_dict['page_nr']))
+    print(len(final_regest_dict['pope']), len(final_regest_dict['date']), len(final_regest_dict['place']), len(final_regest_dict['number']), len(final_regest_dict['text']))
     final_df = pd.DataFrame(final_regest_dict)
 
     return df, final_df
@@ -705,7 +697,7 @@ def output(df, format, file_name):
                 with io.BytesIO() as puffer:
                     single_regest.to_xml(puffer, index=False, encoding='utf-8')
                     puffer.seek(0)
-                    zipFile.writestr(f"{single_regest['number'].values[0]}.xml", puffer.read())
+                    zipFile.writestr(f"{i}_{single_regest['number'].values[0]}.xml", puffer.read())
     else:
         print('Invalid output format. COuld not create output file.')
 

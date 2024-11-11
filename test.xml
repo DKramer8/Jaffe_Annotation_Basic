@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Converted Document</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Automated Transformation</publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Source XML Document</bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div n="">
+                <number type="JL">10672</number>
+                <div type="abstract">
+                    <p>Capituli lanuensis possessiones quasdam confirmat. Pflugk-Harttung Iter p.
+                        263. — „Iustis petentium“.</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
