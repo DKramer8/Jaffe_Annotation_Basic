@@ -38,6 +38,9 @@ PLACE_THRESHOLD_MIN_X_COORD_RIGHT =  350
 
 NEW_POPE_THRESHOLD_Y_COOD = 300
 
+current_month = ''
+current_day = ''
+
 # ------------------------------------------------------------------------------------
 # ------------------------------------------------------------------------------------
 # Functions
@@ -477,10 +480,34 @@ def classify_whole_regests(df, final_regest_dict):
 
             # Get the date of regest
             full_date = current_year
+            global current_month
+            global current_day
             for i in date_closest_regest:
                 if i[1] == idx:
                     if df_date.loc[i[0]]['text'] is not None:
-                        full_date += ' ' + df_date.loc[i[0]]['text']
+                        month_day = df_date.loc[i[0]]['text']
+                        try:
+                            month, day = month_day.split(' ', 1)
+                        except:
+                            month = ' '
+                            day = ' '
+                        if '(„)' in month or '(„' in month or '„)' in month:
+                            month = '(' + current_month + ')'
+                            full_date += ' ' + month
+                        elif '„' in month:
+                            full_date += ' ' + current_month
+                        else:
+                            current_month = month
+                            full_date += ' ' + month
+
+                        if '(„)' in day or '(„' in day or '„)' in day:
+                            day = '(' + current_day + ')'
+                            full_date += ' ' + day
+                        elif '„' in day:
+                            full_date += ' ' + current_day
+                        else:
+                            current_day = day
+                            full_date += ' ' + day                        
                     else:
                         full_date += ' '
             final_regest_dict['date'].append(full_date)
@@ -571,7 +598,7 @@ def classify(scan):
     df = detect_new_pope(df)
     df = detect_pope_overview(df)
     df = drop_unnecessary(df)
-    df = classify_regest_start(df)
+    df = classify_regest_start(df)  
     df = classify_regest_date(df)
     
     df, final_regest_dict = classify_whole_regests(df, final_regest_dict)
@@ -585,8 +612,9 @@ def classify(scan):
                 final_regest_dict['pope'].append(final_regest_dict['pope'][0])
         i += 1
 
-    print(len(final_regest_dict['pope']), len(final_regest_dict['date']), len(final_regest_dict['place']), len(final_regest_dict['number']), len(final_regest_dict['text']))
+    #print(len(final_regest_dict['pope']), len(final_regest_dict['date']), len(final_regest_dict['place']), len(final_regest_dict['number']), len(final_regest_dict['text']))
     final_df = pd.DataFrame(final_regest_dict)
+    print(final_df)
 
     return df, final_df
 
