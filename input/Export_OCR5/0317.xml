@@ -1,0 +1,803 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+  <Metadata>
+	<Creator>escriptorium</Creator>
+	<Created>2024-07-19T10:11:04.446643+00:00</Created>
+        <LastChange>2024-08-08T08:40:15.201409+00:00</LastChange>
+  </Metadata>
+  <Page imageFilename="0317.png" imageWidth="3007" imageHeight="3975">
+    <TextRegion id="eSc_textblock_34e6a53b"  custom="structure {type:default;}">
+      <Coords points="320,176 448,185 457,245 309,271 282,220 320,176"/>
+      <TextLine id="eSc_line_0ae7cc55" custom="structure {type:default;}">
+        <Coords points="307,185 311,238 311,269 437,260 437,231 433,187 313,183 307,185"/>
+        <Baseline points="311,238 437,231"/>
+        <TextEquiv conf="0.9999936819076538">
+          <Unicode>304</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="eSc_textblock_0efa5557"  custom="structure {type:default;}">
+      <Coords points="331,326 565,379 600,353 855,362 945,326 2892,335 2892,3416 2865,3557 892,3566 318,3548 282,3522 273,441 282,371 331,326"/>
+      <TextLine id="eSc_line_42728437" custom="structure {type:default;}">
+        <Coords points="2222,331 2200,331 2193,331 2171,337 2125,331 2112,331 2090,331 2068,331 2045,331 2023,331 2001,331 1979,331 1977,331 1884,342 1606,342 1584,333 1566,329 1559,329 1537,329 1535,329 1522,335 1513,340 1455,335 1319,326 1316,326 1314,326 1290,340 1285,342 1272,340 1208,326 1206,326 1022,337 930,329 919,335 897,342 874,351 852,359 855,388 855,410 1018,410 1031,421 1031,424 1034,424 1036,424 1038,424 1040,424 1095,410 1098,410 1102,410 1208,421 1210,421 1212,421 1237,410 1243,408 1360,408 1369,410 1394,421 1396,421 1398,421 1462,410 1484,408 1500,410 1535,421 1537,421 1539,421 1619,412 1634,410 1639,412 1657,419 1659,419 1661,419 1663,419 1690,412 1710,406 1725,412 1741,419 1743,419 1745,421 1866,421 1866,419 1869,419 1871,419 1880,412 1895,404 1922,412 1937,417 1939,417 1942,417 2235,412 2235,379 2227,331 2222,331"/>
+        <Baseline points="855,388 2235,379"/>
+        <TextEquiv conf="0.990305820479989">
+          <Unicode>1177. (Ind. 10. — 25. Sept. — 11, pont. a. 18. — 20. Sept. — 19.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_4dcab414" custom="structure {type:default;}">
+        <Coords points="331,454 331,477 543,474 543,450 539,393 457,382 455,382 452,382 450,382 433,393 426,395 329,395 331,454"/>
+        <Baseline points="331,454 543,450"/>
+        <TextEquiv conf="0.9982778893576728">
+          <Unicode>Mart. 16.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_f690d632" custom="structure {type:default;}">
+        <Coords points="614,452 614,481 802,483 804,448 797,388 726,388 702,375 682,362 680,362 678,362 676,362 609,362 614,452"/>
+        <Baseline points="614,452 804,448"/>
+        <TextEquiv conf="0.9993685398783002">
+          <Unicode>raderae</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_b334cf76" custom="structure {type:default;}">
+        <Coords points="888,448 888,477 2852,474 2854,454 2852,412 888,406 888,448"/>
+        <Baseline points="888,448 2854,454"/>
+        <TextEquiv conf="0.9997120807679851">
+          <Unicode>12792 Philippo, civi Barensi, eiusque successoribus indulget, ut in ecclesia SS. Petri et</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_c466b309" custom="structure {type:default;}">
+        <Coords points="938,507 938,530 2852,530 2852,507 2852,477 938,465 938,507"/>
+        <Baseline points="938,507 2852,507"/>
+        <TextEquiv conf="0.9989412948489189">
+          <Unicode>Andreae, non longe a castello Basiliano constructa, capellanum eligant et Barensi archi-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_bc3da009" custom="structure {type:default;}">
+        <Coords points="936,558 934,578 2845,585 2850,565 2847,532 2211,518 2209,518 936,523 936,558"/>
+        <Baseline points="936,558 2850,565"/>
+        <TextEquiv conf="0.9988678219497845">
+          <Unicode>episcopo praesentent. Alia iura addit. Pflugk-Harttung ActaIII. 254. — „Votis et desideriis“.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_b58b4e58" custom="structure {type:default;}">
+        <Coords points="366,620 366,647 543,638 543,620 543,580 366,571 366,620"/>
+        <Baseline points="366,620 543,620"/>
+        <TextEquiv conf="0.9999752283096314">
+          <Unicode>„ 17.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_84bf3086" custom="structure {type:default;}">
+        <Coords points="618,613 618,636 797,633 797,613 797,578 618,578 618,613"/>
+        <Baseline points="618,613 797,613"/>
+        <TextEquiv conf="1.0">
+          <Unicode>Iadera</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_9ef7cd25" custom="structure {type:default;}">
+        <Coords points="885,611 885,642 2434,640 2436,616 2434,585 885,576 885,611"/>
+        <Baseline points="885,611 2436,616"/>
+        <TextEquiv conf="0.9999310435617671">
+          <Unicode>profisciscitur „post quartam diem“. Bosonis card. vit. Alex. p. 437.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_baa44b53" custom="structure {type:default;}">
+        <Coords points="375,708 406,706 404,680 397,647 366,638 373,684 375,708"/>
+        <Baseline points="373,684 404,680"/>
+        <TextEquiv conf="1.0">
+          <Unicode>„</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_7ed447da" custom="structure {type:default;}">
+        <Coords points="574,671 574,702 835,689 837,666 832,627 572,624 574,671"/>
+        <Baseline points="574,671 837,666"/>
+        <TextEquiv conf="0.9999981901862405">
+          <Unicode>per insulas</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_053bf4d4" custom="structure {type:default;}">
+        <Coords points="883,666 881,689 2666,700 2671,673 2668,638 883,633 883,666"/>
+        <Baseline points="883,666 2671,673"/>
+        <TextEquiv conf="0.9972701165583227">
+          <Unicode>Solavorum et maritimas Histriae civitates. V. Bosonis card. vit Alex. p. 437.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_048de425" custom="structure {type:default;}">
+        <Coords points="364,733 364,755 444,748 459,755 477,761 479,761 481,761 483,761 508,753 525,746 539,750 558,759 561,759 563,759 713,757 715,757 746,744 751,742 757,744 810,755 813,755 815,755 843,739 843,724 839,691 720,680 718,680 532,695 523,695 521,695 481,684 479,684 477,684 362,697 364,733"/>
+        <Baseline points="364,733 843,724"/>
+        <TextEquiv conf="0.9887145687552059">
+          <Unicode>„ 23. apud S. Ni-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_2f1588a6" custom="structure {type:default;}">
+        <Coords points="883,722 881,742 2847,746 2852,726 2850,693 883,682 883,722"/>
+        <Baseline points="883,722 2852,726"/>
+        <TextEquiv conf="0.9959041766631298">
+          <Unicode>Hist. ducum Venet. in MG. SS. XIV. 82: „die septimo, (immo nono) exeunte mense</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_80121199" custom="structure {type:default;}">
+        <Coords points="581,779 581,801 841,801 841,779 841,750 581,748 581,779"/>
+        <Baseline points="581,779 841,779"/>
+        <TextEquiv conf="0.9999999867545234">
+          <Unicode>colaum ad</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_4c55cf3c" custom="structure {type:default;}">
+        <Coords points="936,783 936,801 2845,812 2847,783 2847,750 936,742 936,783"/>
+        <Baseline points="936,783 2847,783"/>
+        <TextEquiv conf="0.9954792137553052">
+          <Unicode>Martio“; quibus verbis significari diem 23 m. Martii, liquet ex ipsa Hist. Veneta.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_e6dff828" custom="structure {type:default;}">
+        <Coords points="636,836 636,856 768,854 768,832 764,803 653,795 651,795 649,795 647,795 634,801 636,836"/>
+        <Baseline points="636,836 768,832"/>
+        <TextEquiv conf="0.999999213218689">
+          <Unicode>litus</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_ac1f9788" custom="structure {type:default;}">
+        <Coords points="934,834 932,852 2843,856 2847,839 2845,803 934,797 934,834"/>
+        <Baseline points="934,834 2847,839"/>
+        <TextEquiv conf="0.9914241061582194">
+          <Unicode>Romoaldi Salern. Annal. in MG. SS. XIX. 443: „nono die stante mensis Martii“.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_0c9b5224" custom="structure {type:default;}">
+        <Coords points="364,896 364,920 375,929 377,929 380,929 382,929 384,929 386,929 406,914 408,914 413,914 525,927 528,927 530,927 532,927 556,909 561,909 574,909 751,923 753,923 828,920 830,920 832,920 852,905 852,885 843,828 740,854 629,843 550,834 547,834 545,834 514,850 514,852 512,850 490,836 488,836 486,836 483,836 481,836 479,836 448,856 437,863 362,863 364,896"/>
+        <Baseline points="364,896 852,885"/>
+        <TextEquiv conf="0.9985531638650333">
+          <Unicode>„ 24. Venetias ad</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_5d67dbc9" custom="structure {type:default;}">
+        <Coords points="879,885 879,916 2845,916 2847,894 2847,861 2353,848 2350,848 2003,856 1984,856 1975,856 1844,845 1842,845 1391,854 1372,854 1369,854 1303,843 1301,843 879,852 879,885"/>
+        <Baseline points="879,885 2847,894"/>
+        <TextEquiv conf="0.9967265810285296">
+          <Unicode>pervenit „altera die, quae fuit vigilia annuntiationis b. Mariae“, Hist. ducum Venet. I. I.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_ccc99e7e" custom="structure {type:default;}">
+        <Coords points="561,942 561,971 846,978 848,942 848,914 561,912 561,942"/>
+        <Baseline points="561,942 848,942"/>
+        <TextEquiv conf="0.9997675369183222">
+          <Unicode>ecclesiam b.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_c7ffb332" custom="structure {type:default;}">
+        <Coords points="930,942 927,965 1056,978 1058,978 1612,971 1844,969 1893,973 1961,980 1964,982 2847,982 2850,947 2847,914 930,909 930,942"/>
+        <Baseline points="930,942 2850,947"/>
+        <TextEquiv conf="0.9981317802881583">
+          <Unicode>Annal. Pegav 1177 in MG. SS. XVI. 261. „Nono kal. Aprilis“, Bosonis card. vita</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_617cf89e" custom="structure {type:default;}">
+        <Coords points="634,1000 634,1020 786,1026 788,1000 788,965 634,965 634,1000"/>
+        <Baseline points="634,1000 788,1000"/>
+        <TextEquiv conf="0.9262499332427978">
+          <Unicode>Marci</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_b1ef9a03" custom="structure {type:default;}">
+        <Coords points="936,1000 936,1020 1259,1022 1261,1000 1259,965 936,967 936,1000"/>
+        <Baseline points="936,1000 1261,1000"/>
+        <TextEquiv conf="0.9940507870454055">
+          <Unicode>Alex. p. 437.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_2514ee41" custom="structure {type:default;}">
+        <Coords points="368,1060 371,1097 424,1079 441,1088 452,1093 455,1093 457,1093 525,1090 528,1090 530,1090 530,1088 543,1073 543,1053 536,1009 366,1024 368,1060"/>
+        <Baseline points="368,1060 543,1053"/>
+        <TextEquiv conf="0.9999996662139893">
+          <Unicode>„ 25.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_83783811" custom="structure {type:default;}">
+        <Coords points="609,1053 609,1077 662,1093 665,1093 667,1093 813,1077 813,1053 813,1022 609,1022 609,1053"/>
+        <Baseline points="609,1053 813,1053"/>
+        <TextEquiv conf="0.9999987334012985">
+          <Unicode>Venetiis</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_7248eae5" custom="structure {type:default;}">
+        <Coords points="883,1057 883,1077 2843,1079 2845,1057 2845,1020 1820,1007 1818,1007 1705,1018 1687,1007 1685,1007 1683,1007 1526,1007 1524,1007 1422,1018 1314,1007 1312,1007 1014,1018 934,1007 932,1007 930,1007 883,1018 883,1057"/>
+        <Baseline points="883,1057 2845,1057"/>
+        <TextEquiv conf="0.9940938263438469">
+          <Unicode>„in festo annunciationis virginis“, Romoaldi Salernit. Ann. p. 444, Hist. ducum Venet.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_c984416c" custom="structure {type:default;}">
+        <Coords points="932,1110 932,1130 1548,1128 1551,1106 1546,1075 930,1075 932,1110"/>
+        <Baseline points="932,1110 1551,1106"/>
+        <TextEquiv conf="0.99180485256787">
+          <Unicode>I. I. p. 82, cf. ibid. p. 72.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_6527e2dd" custom="structure {type:default;}">
+        <Coords points="340,1170 338,1207 437,1214 441,1174 441,1121 384,1099 382,1099 380,1099 377,1099 342,1115 340,1170"/>
+        <Baseline points="340,1170 441,1174"/>
+        <TextEquiv conf="0.9999610185623169">
+          <Unicode>(„)</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_9365b305" custom="structure {type:default;}">
+        <Coords points="649,1170 649,1199 673,1212 676,1212 678,1212 753,1203 753,1170 753,1135 649,1128 649,1170"/>
+        <Baseline points="649,1170 753,1170"/>
+        <TextEquiv conf="1.0">
+          <Unicode>(„)</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_d5e42873" custom="structure {type:default;}">
+        <Coords points="890,1163 888,1183 2850,1194 2854,1168 2852,1128 1948,1128 1904,1119 1869,1115 1866,1115 1597,1117 989,1124 890,1113 890,1163"/>
+        <Baseline points="890,1163 2854,1168"/>
+        <TextEquiv conf="0.9977238542893354">
+          <Unicode>12793 *Universis episcopis et rectoribus civitatum Lombardiae mandat, „ut in dominica</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_057c9feb" custom="structure {type:default;}">
+        <Coords points="941,1216 938,1238 2843,1252 2847,1223 2845,1185 941,1181 941,1216"/>
+        <Baseline points="941,1216 2847,1223"/>
+        <TextEquiv conf="0.9888373044099701">
+          <Unicode>die dominicae passionis (10. Apr.) ad eius praesentiam in civitate Ferrariae conveniant“.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_50fe4218" custom="structure {type:default;}">
+        <Coords points="938,1269 936,1289 2023,1294 2028,1274 2026,1238 938,1238 938,1269"/>
+        <Baseline points="938,1269 2028,1274"/>
+        <TextEquiv conf="0.9937671904868268">
+          <Unicode>Bosonis card. vita Alex. ap. Watterich II. 438.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_19ef9f1b" custom="structure {type:default;}">
+        <Coords points="368,1336 371,1369 417,1358 837,1358 839,1329 837,1283 366,1283 368,1336"/>
+        <Baseline points="368,1336 612,1325 839,1329"/>
+        <TextEquiv conf="0.9806618955400255">
+          <Unicode>„ 31.  Venetiis in</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_fcd05bd9" custom="structure {type:default;}">
+        <Coords points="888,1329 888,1353 2852,1353 2852,1329 2850,1285 888,1285 888,1329"/>
+        <Baseline points="888,1329 2852,1329"/>
+        <TextEquiv conf="0.9935261422679538">
+          <Unicode>12794 (8469) Abbatem fratesque monasterii in Valle S. Iohannis Seizensis ad virtutem</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_bee1ea64" custom="structure {type:default;}">
+        <Coords points="589,1384 589,1411 828,1408 828,1380 824,1351 587,1351 589,1384"/>
+        <Baseline points="589,1384 828,1380"/>
+        <TextEquiv conf="0.9999634159935845">
+          <Unicode>Rivo alto</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_9dceb85f" custom="structure {type:default;}">
+        <Coords points="936,1384 936,1408 2845,1415 2847,1384 2847,1353 936,1342 936,1384"/>
+        <Baseline points="936,1384 2847,1384"/>
+        <TextEquiv conf="0.9939115666723871">
+          <Unicode>hortatur. Nunciat, se eos Otokaro, marchioni Styrensi, commendasse. Pez Thes.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_03dd1da8" custom="structure {type:default;}">
+        <Coords points="938,1435 936,1464 2843,1472 2847,1442 2845,1406 938,1395 938,1435"/>
+        <Baseline points="938,1435 2847,1442"/>
+        <TextEquiv conf="0.9968063489692968">
+          <Unicode>anecd. VI. I. 400, Pusch et Froenlich Dipl. St. II. 61, Zahn Urk. v. Steiermark I.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_2c7575a9" custom="structure {type:default;}">
+        <Coords points="938,1488 936,1508 965,1521 967,1521 969,1523 1193,1523 1193,1521 1195,1521 1197,1521 1212,1510 1367,1521 1369,1521 1372,1521 1374,1521 1385,1512 1398,1521 1400,1521 1402,1521 1405,1521 1619,1512 1630,1521 1630,1523 1632,1523 1634,1523 1637,1523 1822,1512 1836,1523 1838,1523 1840,1523 1842,1523 1953,1510 1955,1492 1953,1461 938,1457 938,1488"/>
+        <Baseline points="938,1488 1955,1492"/>
+        <TextEquiv conf="0.9955037862826617">
+          <Unicode>554, Migne 200 p. 1100. — „Cum divina“.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_d0b97dff" custom="structure {type:default;}">
+        <Coords points="333,1550 331,1625 545,1629 550,1554 545,1501 333,1508 333,1550"/>
+        <Baseline points="333,1550 550,1554"/>
+        <TextEquiv conf="0.9991011023521423">
+          <Unicode>Apr. 4.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_82d0db03" custom="structure {type:default;}">
+        <Coords points="682,1561 680,1583 735,1581 737,1563 735,1506 682,1512 682,1561"/>
+        <Baseline points="682,1561 737,1563"/>
+        <TextEquiv conf="1.0">
+          <Unicode>„</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_63b16ec3" custom="structure {type:default;}">
+        <Coords points="892,1550 892,1583 952,1572 2843,1578 2847,1545 2843,1512 1880,1501 1877,1501 1802,1512 912,1503 910,1503 908,1503 905,1503 890,1510 892,1550"/>
+        <Baseline points="892,1550 2847,1545"/>
+        <TextEquiv conf="0.9995562419479276">
+          <Unicode>12795 Monasterium S. Mariae (Scotorum) Wiennense, petente Leupoldo duce Austriae.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_fdc533c2" custom="structure {type:default;}">
+        <Coords points="938,1601 936,1623 2843,1631 2847,1605 2845,1574 938,1570 938,1601"/>
+        <Baseline points="938,1601 2847,1605"/>
+        <TextEquiv conf="0.9996806309546953">
+          <Unicode>tuendum suscipit, imposito monachis unius aurei censu annuo. Font. Rer. Austriac.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_eaead122" custom="structure {type:default;}">
+        <Coords points="938,1658 938,1680 1869,1673 1871,1651 1864,1623 936,1625 938,1658"/>
+        <Baseline points="938,1658 1871,1651"/>
+        <TextEquiv conf="0.9891698011537877">
+          <Unicode>II. XVIII. 9. — „Religiosos viros tanto“.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_057af0f0" custom="structure {type:default;}">
+        <Coords points="368,1722 368,1771 413,1771 413,1768 415,1768 417,1768 417,1766 421,1762 437,1746 479,1755 508,1760 510,1760 512,1760 550,1744 550,1715 543,1673 366,1680 368,1722"/>
+        <Baseline points="368,1722 550,1715"/>
+        <TextEquiv conf="0.8925353288650513">
+          <Unicode>„ 3.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_d837116b" custom="structure {type:default;}">
+        <Coords points="576,1713 576,1740 843,1737 843,1713 841,1669 576,1669 576,1713"/>
+        <Baseline points="576,1713 843,1713"/>
+        <TextEquiv conf="0.9999999674883756">
+          <Unicode>Venetiis in</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_0ec7d913" custom="structure {type:default;}">
+        <Coords points="883,1709 881,1731 2845,1735 2850,1713 2847,1680 883,1676 883,1709"/>
+        <Baseline points="883,1709 2850,1713"/>
+        <TextEquiv conf="0.9992942104979259">
+          <Unicode>sacra procurat „dominica, qua cantatur: Laetare Ierusalem“, et „rosam auream, quam</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_bf64eaf4" custom="structure {type:default;}">
+        <Coords points="583,1764 581,1786 729,1799 731,1799 837,1788 839,1768 837,1737 583,1733 583,1764"/>
+        <Baseline points="583,1764 839,1768"/>
+        <TextEquiv conf="0.9996638677336953">
+          <Unicode>ecclesia b.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_c1eac5d1" custom="structure {type:default;}">
+        <Coords points="941,1768 941,1793 2847,1802 2850,1768 2850,1737 941,1735 941,1768"/>
+        <Baseline points="941,1768 2850,1768"/>
+        <TextEquiv conf="0.9951412345789656">
+          <Unicode>detulerat, duci Venetico confert“. Bosonis card. vita Alex. p. 438. Hist. ducum</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_924880ab" custom="structure {type:default;}">
+        <Coords points="631,1824 631,1846 784,1843 784,1819 779,1790 629,1790 631,1824"/>
+        <Baseline points="631,1824 784,1819"/>
+        <TextEquiv conf="1.0">
+          <Unicode>Marci</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_978283a6" custom="structure {type:default;}">
+        <Coords points="945,1819 943,1837 1186,1852 1188,1852 1360,1841 1363,1824 1360,1790 945,1786 945,1819"/>
+        <Baseline points="945,1819 1363,1824"/>
+        <TextEquiv conf="0.9921968140100178">
+          <Unicode>Venet. I. I. p. 84.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_88d9fcaf" custom="structure {type:default;}">
+        <Coords points="366,1888 366,1919 402,1921 404,1921 406,1921 408,1921 408,1919 415,1914 426,1903 470,1908 528,1914 530,1914 532,1914 534,1914 554,1899 554,1879 552,1848 503,1830 501,1830 499,1830 497,1830 470,1841 446,1852 362,1837 366,1888"/>
+        <Baseline points="366,1888 554,1879"/>
+        <TextEquiv conf="0.9624186903238297">
+          <Unicode>„ 5.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_5f3fa1df" custom="structure {type:default;}">
+        <Coords points="572,1879 572,1899 704,1910 707,1910 843,1896 846,1874 841,1839 570,1835 572,1879"/>
+        <Baseline points="572,1879 846,1874"/>
+        <TextEquiv conf="0.9678624109788374">
+          <Unicode>Venetiis in</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_a3812383" custom="structure {type:default;}">
+        <Coords points="888,1879 888,1901 2845,1903 2847,1870 2843,1839 2043,1830 2041,1830 885,1843 888,1879"/>
+        <Baseline points="888,1879 2847,1870"/>
+        <TextEquiv conf="0.9940150830803848">
+          <Unicode>12796 (8470) Ecclesiam Parentinam tuendam suscipit et bona eius confirmat, petente</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_c66456f9" custom="structure {type:default;}">
+        <Coords points="589,1932 589,1965 826,1967 828,1927 824,1894 603,1890 600,1890 598,1890 596,1890 587,1896 589,1932"/>
+        <Baseline points="589,1932 828,1927"/>
+        <TextEquiv conf="0.9858387774891324">
+          <Unicode>Rivo alto</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_409092bb" custom="structure {type:default;}">
+        <Coords points="941,1934 941,1958 2845,1958 2847,1930 2843,1894 938,1894 941,1934"/>
+        <Baseline points="941,1934 2847,1930"/>
+        <TextEquiv conf="0.9992560794554561">
+          <Unicode>Petro episcopo. (Pro „Dat. p. m. Bardi S. R. E. iud. et notarii“ legendum esse puto</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_8c73172a" custom="structure {type:default;}">
+        <Coords points="945,1991 945,2025 1933,2011 2350,2020 2368,2020 2370,2020 2372,2020 2408,2009 2843,2018 2847,1983 2843,1952 1420,1945 1418,1945 1288,1956 967,1947 965,1947 963,1947 943,1956 945,1991"/>
+        <Baseline points="945,1991 2847,1983"/>
+        <TextEquiv conf="0.9889366310763071">
+          <Unicode>„Dat. p. m. Gerardi S. R. E. subdiac. et not“.) Ughelli It. sacr. V. 404, Migne 200</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_f44742ea" custom="structure {type:default;}">
+        <Coords points="938,2044 938,2064 1646,2058 1648,2040 1643,2009 1290,1998 1288,1998 1285,1998 1257,2009 1025,2000 1022,2000 936,2011 938,2044"/>
+        <Baseline points="938,2044 1648,2040"/>
+        <TextEquiv conf="0.988364786937319">
+          <Unicode>p. 1101. — „Quoties illud a“.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_34cac670" custom="structure {type:default;}">
+        <Coords points="364,2111 364,2131 395,2137 397,2137 399,2137 402,2137 402,2135 408,2128 419,2115 470,2113 486,2124 492,2131 494,2131 497,2131 499,2131 547,2120 547,2100 543,2060 503,2047 501,2047 499,2047 497,2047 494,2047 470,2062 455,2071 360,2064 364,2111"/>
+        <Baseline points="364,2111 547,2100"/>
+        <TextEquiv conf="0.9998978525400162">
+          <Unicode>„ 5.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_9b0d1120" custom="structure {type:default;}">
+        <Coords points="671,2111 671,2128 764,2126 764,2106 757,2053 667,2058 671,2111"/>
+        <Baseline points="671,2111 764,2106"/>
+        <TextEquiv conf="1.0">
+          <Unicode>„</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_8dec58e3" custom="structure {type:default;}">
+        <Coords points="892,2100 892,2122 2850,2120 2852,2093 2845,2053 890,2053 892,2100"/>
+        <Baseline points="892,2100 2852,2093"/>
+        <TextEquiv conf="0.993840651950617">
+          <Unicode>12797 (8471) Monasterii Ebracensis protectionem suscipit, ac possessiones et privilegia</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_4edf6aa6" custom="structure {type:default;}">
+        <Coords points="941,2153 941,2181 2852,2173 2852,2153 2850,2113 941,2120 941,2153"/>
+        <Baseline points="941,2153 2852,2153"/>
+        <TextEquiv conf="0.9932092547416687">
+          <Unicode>confirmat, petente Conrado abbate. Pflugk-Harttung Acta I. 261, (Lang Regesta I.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_a15090b1" custom="structure {type:default;}">
+        <Coords points="943,2206 943,2234 1327,2228 1396,2232 1478,2239 1480,2239 1533,2232 1566,2228 1597,2232 1657,2239 1659,2239 1699,2230 1714,2228 1727,2230 1758,2239 1760,2239 1763,2239 1765,2239 1767,2239 1778,2230 1782,2228 1807,2230 1866,2237 1869,2237 1937,2230 1970,2226 1977,2228 1986,2237 1988,2237 1990,2237 1992,2239 2218,2239 2218,2237 2269,2228 2277,2226 2282,2228 2306,2237 2308,2237 2311,2239 2642,2239 2642,2237 2644,2237 2691,2223 2691,2201 2686,2175 1816,2164 1813,2164 1811,2164 1776,2175 963,2166 961,2166 958,2166 956,2166 941,2173 943,2206"/>
+        <Baseline points="943,2206 2691,2201"/>
+        <TextEquiv conf="0.9955058701940485">
+          <Unicode>295, cf. Brevem not. mon. Ebrac. p. 68). — „Religiosam vitam eligentibus“.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_8d16cf2f" custom="structure {type:default;}">
+        <Coords points="366,2276 368,2307 439,2283 547,2296 550,2265 543,2214 362,2239 366,2276"/>
+        <Baseline points="366,2276 550,2265"/>
+        <TextEquiv conf="0.9999999403953552">
+          <Unicode>„ 6.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_68486ad1" custom="structure {type:default;}">
+        <Coords points="669,2276 669,2292 724,2305 726,2305 729,2305 766,2290 766,2276 764,2243 669,2245 669,2276"/>
+        <Baseline points="669,2276 766,2276"/>
+        <TextEquiv conf="0.9999961853027344">
+          <Unicode>„</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_10101e15" custom="structure {type:default;}">
+        <Coords points="892,2261 892,2290 2850,2290 2852,2256 2847,2228 890,2223 892,2261"/>
+        <Baseline points="892,2261 2852,2256"/>
+        <TextEquiv conf="0.9967710652521679">
+          <Unicode>12798 (8472) Monasterii S. Salvatoris Milstatensis protectionem suscipit, bonaque et</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_d7e1a536" custom="structure {type:default;}">
+        <Coords points="943,2320 943,2345 2845,2343 2847,2314 2843,2283 1590,2274 1588,2274 1586,2274 1584,2274 1570,2285 1003,2276 1000,2276 941,2287 943,2320"/>
+        <Baseline points="943,2320 2847,2314"/>
+        <TextEquiv conf="0.9860004362734881">
+          <Unicode>privilegia confirmat, petente Henrico abbate. Arch. f. K. österr. Gesch.-Quellen XI. 14.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_b73bf122" custom="structure {type:default;}">
+        <Coords points="943,2373 943,2393 2134,2391 2136,2369 2129,2336 941,2340 943,2373"/>
+        <Baseline points="943,2373 2136,2369"/>
+        <TextEquiv conf="0.9976802176120234">
+          <Unicode>— „Religiosam vitam degentibus (an eligentibus ?)“.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_310f3fac" custom="structure {type:default;}">
+        <Coords points="366,2440 366,2455 388,2466 391,2466 393,2466 395,2466 426,2457 459,2449 472,2460 477,2462 477,2464 479,2464 481,2464 483,2464 545,2462 547,2433 543,2396 492,2385 490,2385 488,2385 486,2385 468,2400 463,2402 450,2400 402,2391 399,2391 397,2391 364,2402 366,2440"/>
+        <Baseline points="366,2440 547,2433"/>
+        <TextEquiv conf="0.9999200999736786">
+          <Unicode>„ 6.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_67daebe3" custom="structure {type:default;}">
+        <Coords points="671,2440 671,2460 764,2457 764,2440 764,2391 722,2382 720,2382 718,2382 671,2396 671,2440"/>
+        <Baseline points="671,2440 764,2440"/>
+        <TextEquiv conf="1.0">
+          <Unicode>„</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_7425574c" custom="structure {type:default;}">
+        <Coords points="892,2426 892,2449 2854,2442 2854,2420 2847,2389 890,2389 892,2426"/>
+        <Baseline points="892,2426 2854,2420"/>
+        <TextEquiv conf="0.9999086781479847">
+          <Unicode>12799 Monasterii S. Pauli in Carinthia protectionem suscipit, possessionesque et privi-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_1cbbf494" custom="structure {type:default;}">
+        <Coords points="943,2482 943,2504 2847,2508 2852,2477 2845,2446 941,2446 943,2482"/>
+        <Baseline points="943,2482 2852,2477"/>
+        <TextEquiv conf="0.9955044977966396">
+          <Unicode>legia confirmat, petente Piligrimo abbate. Archiv f. K. österr. Gesch.-Quellen XI. 313,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_2fc77c38" custom="structure {type:default;}">
+        <Coords points="943,2537 943,2566 2576,2552 2578,2530 2571,2495 941,2497 943,2537"/>
+        <Baseline points="943,2537 2578,2530"/>
+        <TextEquiv conf="0.9935105519635337">
+          <Unicode>Fontes Rer. Austriac. II. XxxIx. 89. — „Religiosam vitam eligentibus“.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_a0df47c8" custom="structure {type:default;}">
+        <Coords points="371,2603 373,2643 457,2614 541,2636 545,2594 541,2548 366,2546 371,2603"/>
+        <Baseline points="371,2603 545,2594"/>
+        <TextEquiv conf="0.9999847114086151">
+          <Unicode>„ 7.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_a29bbc0a" custom="structure {type:default;}">
+        <Coords points="682,2605 682,2625 757,2619 757,2605 757,2550 682,2550 682,2605"/>
+        <Baseline points="682,2605 757,2605"/>
+        <TextEquiv conf="0.9998934268951416">
+          <Unicode>„</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_d72ba4eb" custom="structure {type:default;}">
+        <Coords points="894,2590 894,2614 2850,2610 2852,2585 2847,2555 892,2552 894,2590"/>
+        <Baseline points="894,2590 2852,2585"/>
+        <TextEquiv conf="0.9999886900186539">
+          <Unicode>12800 (8473) Monasterium S. Viti tuendum suscipit et eius possessiones ac privilegia</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_dbe6b40c" custom="structure {type:default;}">
+        <Coords points="943,2647 943,2672 1206,2665 1230,2669 1259,2676 1261,2676 1305,2669 1334,2665 1341,2669 1347,2676 1349,2676 1352,2676 1354,2678 1444,2678 1444,2676 1447,2676 1449,2676 1460,2667 1469,2663 1509,2667 1562,2674 1564,2674 1674,2667 1729,2663 1734,2665 1743,2674 1745,2674 1747,2674 1749,2676 1891,2676 1891,2674 1988,2663 2021,2661 2103,2663 2390,2672 2392,2672 2454,2658 2456,2641 2452,2612 1480,2603 1478,2603 1475,2603 1442,2614 1031,2605 1029,2605 941,2616 943,2647"/>
+        <Baseline points="943,2647 2456,2641"/>
+        <TextEquiv conf="0.9975488346720499">
+          <Unicode>confirmat. Mon. Boic. V. 239. — „Religiosam vitam eligentibus“.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_554831ad" custom="structure {type:default;}">
+        <Coords points="375,2711 377,2742 417,2725 541,2733 543,2703 536,2656 371,2658 375,2711"/>
+        <Baseline points="375,2711 543,2703"/>
+        <TextEquiv conf="0.9983419626951218">
+          <Unicode>„ 9.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_321b20cd" custom="structure {type:default;}">
+        <Coords points="888,2700 888,2727 2847,2727 2850,2694 2845,2661 885,2661 888,2700"/>
+        <Baseline points="888,2700 2850,2694"/>
+        <TextEquiv conf="0.9996840400355202">
+          <Unicode>ecclesiam S. Mariae de Caritate consecrat. Vide Hist. ducum Ven. in MG. SS. XIV. 84.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_8e9d0dbe" custom="structure {type:default;}">
+        <Coords points="371,2769 371,2786 545,2780 545,2760 539,2718 368,2725 371,2769"/>
+        <Baseline points="371,2769 545,2760"/>
+        <TextEquiv conf="1.0">
+          <Unicode>„ 9.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_01f2d863" custom="structure {type:default;}">
+        <Coords points="612,2756 612,2780 821,2778 821,2751 815,2654 762,2661 740,2650 735,2647 733,2647 731,2647 724,2647 667,2663 647,2645 647,2643 645,2643 642,2643 607,2643 612,2756"/>
+        <Baseline points="612,2756 821,2751"/>
+        <TextEquiv conf="0.8605640530586243">
+          <Unicode>ver.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_89a7b945" custom="structure {type:default;}">
+        <Coords points="890,2756 890,2791 2850,2778 2852,2749 2845,2720 888,2720 890,2756"/>
+        <Baseline points="890,2756 2852,2749"/>
+        <TextEquiv conf="0.9941862121570942">
+          <Unicode>proficiscitur, cum; ibi „per decem septem dies“ substitisset. Hist. ducum Venet. I. I.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_3691066f" custom="structure {type:default;}">
+        <Coords points="938,2815 938,2833 1098,2828 1098,2811 1093,2780 1027,2769 1025,2769 936,2782 938,2815"/>
+        <Baseline points="938,2815 1098,2811"/>
+        <TextEquiv conf="0.9699592789014181">
+          <Unicode>p. 84.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_38e9f47a" custom="structure {type:default;}">
+        <Coords points="375,2873 377,2897 439,2877 486,2888 501,2892 503,2892 505,2892 545,2884 545,2866 539,2826 373,2833 375,2873"/>
+        <Baseline points="375,2873 545,2866"/>
+        <TextEquiv conf="1.0">
+          <Unicode>„ 9.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_3fbc7145" custom="structure {type:default;}">
+        <Coords points="589,2866 589,2890 826,2884 828,2862 824,2822 587,2817 589,2866"/>
+        <Baseline points="589,2866 828,2862"/>
+        <TextEquiv conf="1.0">
+          <Unicode>Lauretum</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_7a112f1d" custom="structure {type:default;}">
+        <Coords points="892,2864 892,2884 2266,2881 2269,2859 2264,2824 890,2824 892,2864"/>
+        <Baseline points="892,2864 2269,2859"/>
+        <TextEquiv conf="0.9922985168440002">
+          <Unicode>navi venit. Romoaldi Salern. Annal. in MG. SS. XIX. 444.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_d8e341de" custom="structure {type:default;}">
+        <Coords points="373,2928 373,2950 558,2950 558,2921 552,2875 371,2884 373,2928"/>
+        <Baseline points="373,2928 558,2921"/>
+        <TextEquiv conf="0.9999703764915466">
+          <Unicode>„ 9.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_746abd56" custom="structure {type:default;}">
+        <Coords points="576,2919 576,2952 839,2948 839,2919 837,2877 576,2884 576,2919"/>
+        <Baseline points="576,2919 839,2919"/>
+        <TextEquiv conf="0.9999822510613335">
+          <Unicode>per Padum</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_9b7c04f3" custom="structure {type:default;}">
+        <Coords points="890,2921 890,2943 2379,2937 2381,2912 2377,2879 888,2879 890,2921"/>
+        <Baseline points="890,2921 2381,2912"/>
+        <TextEquiv conf="0.9894642550498247">
+          <Unicode>Romoaldi Salern. Annal. p. 444, Bosonis card. vita Alex. p. 438.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_7fe12dd1" custom="structure {type:default;}">
+        <Coords points="373,2983 373,3007 547,2994 550,2974 543,2932 371,2939 373,2983"/>
+        <Baseline points="373,2983 550,2974"/>
+        <TextEquiv conf="0.9999702453613282">
+          <Unicode>„ 10.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_ec4a0d0d" custom="structure {type:default;}">
+        <Coords points="592,2974 592,2998 835,2994 837,2970 830,2939 589,2941 592,2974"/>
+        <Baseline points="592,2974 837,2970"/>
+        <TextEquiv conf="0.9999999867545234">
+          <Unicode>Ferrariam</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_fbda1c0b" custom="structure {type:default;}">
+        <Coords points="888,2972 888,2998 2406,3001 2410,2968 2406,2939 1676,2928 1674,2928 1672,2928 1643,2939 1003,2930 1000,2930 885,2941 888,2972"/>
+        <Baseline points="888,2972 2410,2968"/>
+        <TextEquiv conf="0.9922935320064425">
+          <Unicode>accedit „in dominica passionis“. Romoaldi Salern. Annal. p. 444.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_6ad324f9" custom="structure {type:default;}">
+        <Coords points="373,3036 373,3065 545,3045 545,3032 539,2994 371,2996 373,3036"/>
+        <Baseline points="373,3036 545,3032"/>
+        <TextEquiv conf="0.9999683618545532">
+          <Unicode>„ 11.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_ba06951d" custom="structure {type:default;}">
+        <Coords points="598,3027 598,3058 832,3054 832,3027 832,2998 598,2996 598,3027"/>
+        <Baseline points="598,3027 832,3027"/>
+        <TextEquiv conf="0.9999939600626627">
+          <Unicode>Ferrariae</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_9785f429" custom="structure {type:default;}">
+        <Coords points="892,3029 892,3051 2090,3049 2092,3023 2087,2994 1290,2985 1288,2985 1285,2985 1263,2996 932,2987 930,2987 927,2987 890,2998 892,3029"/>
+        <Baseline points="892,3029 2092,3023"/>
+        <TextEquiv conf="0.9900699082542869">
+          <Unicode>„in sequenti die“. Bosonis card. vita Alex. p. 438.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_6990f473" custom="structure {type:default;}">
+        <Coords points="368,3091 368,3153 413,3153 413,3151 415,3151 417,3151 417,3149 428,3140 455,3113 545,3113 547,3091 545,3047 368,3058 368,3091"/>
+        <Baseline points="368,3091 547,3091"/>
+        <TextEquiv conf="0.9390505313873291">
+          <Unicode>„ 17.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_4095f489" custom="structure {type:default;}">
+        <Coords points="662,3089 662,3162 764,3175 766,3089 766,3054 662,3047 662,3089"/>
+        <Baseline points="662,3089 766,3089"/>
+        <TextEquiv conf="0.9999986489613851">
+          <Unicode>(„)</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_9dc606fd" custom="structure {type:default;}">
+        <Coords points="894,3082 894,3104 2852,3102 2854,3074 2850,3040 1427,3034 1425,3034 1422,3034 1378,3045 978,3036 976,3036 892,3047 894,3082"/>
+        <Baseline points="894,3082 2854,3074"/>
+        <TextEquiv conf="0.9998099645481834">
+          <Unicode>12801 Monasterii S. Laudi protectionem suscipit possessionesque confirmat. (Pro</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_e2a9043a" custom="structure {type:default;}">
+        <Coords points="947,3142 947,3171 2850,3157 2852,3129 2845,3098 2527,3098 2461,3087 2459,3087 2116,3100 2045,3089 2043,3089 2041,3089 2017,3100 1820,3091 1818,3091 1754,3102 1738,3091 1736,3091 1734,3091 1601,3091 1599,3091 1383,3104 1265,3093 1263,3093 983,3096 980,3096 945,3109 947,3142"/>
+        <Baseline points="947,3142 2852,3129"/>
+        <TextEquiv conf="0.9971326540594232">
+          <Unicode>„MCLXXXII“ lege „MCLXXVII“). Vidim. s. XV. et Copia a. 1608 in Arch. dép.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_10d518c6" custom="structure {type:default;}">
+        <Coords points="943,3191 943,3210 2076,3213 2079,3191 2076,3155 943,3157 943,3191"/>
+        <Baseline points="943,3191 2079,3191"/>
+        <TextEquiv conf="0.9846620440483094">
+          <Unicode>de la Manche in St.-L0. — „Cura nos ammonet“.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_9a3a7b73" custom="structure {type:default;}">
+        <Coords points="373,3255 373,3281 505,3286 508,3286 510,3286 554,3268 554,3246 541,3175 519,3188 490,3180 483,3177 481,3177 479,3177 477,3177 470,3180 448,3191 433,3184 424,3180 421,3180 419,3180 417,3180 415,3180 415,3182 413,3182 410,3184 404,3195 368,3188 373,3255"/>
+        <Baseline points="373,3255 554,3246"/>
+        <TextEquiv conf="0.9882016777992249">
+          <Unicode>„ 19.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_27a7efba" custom="structure {type:default;}">
+        <Coords points="680,3261 680,3336 771,3334 771,3261 771,3197 680,3197 680,3261"/>
+        <Baseline points="680,3261 771,3261"/>
+        <TextEquiv conf="1.0">
+          <Unicode>„</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_5f23039e" custom="structure {type:default;}">
+        <Coords points="894,3246 894,3272 2852,3270 2852,3241 2847,3206 892,3206 894,3246"/>
+        <Baseline points="894,3246 2852,3241"/>
+        <TextEquiv conf="0.9998309052572018">
+          <Unicode>12802 Canonicis S. Laudi de Burgo-Achardi tres ecclesias de Tobvilla, a R(otroco),</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_3de1d43a" custom="structure {type:default;}">
+        <Coords points="943,3299 943,3323 2850,3316 2852,3292 2845,3263 941,3268 943,3299"/>
+        <Baseline points="943,3299 2852,3292"/>
+        <TextEquiv conf="0.9998738634121882">
+          <Unicode>archiepiscopo Rothomagensi concessas, et molendinum quoddam asserit. Chartul.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_3f17566f" custom="structure {type:default;}">
+        <Coords points="945,3354 945,3380 2845,3372 2847,3345 2843,3316 1895,3308 1893,3308 1818,3319 1564,3310 1562,3310 1358,3321 961,3312 958,3312 956,3312 954,3312 943,3319 945,3354"/>
+        <Baseline points="945,3354 2847,3345"/>
+        <TextEquiv conf="0.9883241591065429">
+          <Unicode>S. Laudi, ms. lat. 9212 s. XVIII. f. 7, Coll. Moreau 69. f. 225 in bibl. nat. Paris. —</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_57aeaba3" custom="structure {type:default;}">
+        <Coords points="945,3409 945,3431 1597,3425 1599,3403 1595,3374 1380,3363 1378,3363 1376,3363 1374,3363 1358,3374 978,3367 976,3367 974,3367 943,3378 945,3409"/>
+        <Baseline points="945,3409 1599,3403"/>
+        <TextEquiv conf="0.9997175713380178">
+          <Unicode>„Iustis petentium desideriis“.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_d5903198" custom="structure {type:default;}">
+        <Coords points="380,3473 380,3531 466,3520 490,3537 492,3537 494,3537 497,3539 558,3539 556,3467 550,3414 459,3416 435,3405 433,3405 430,3405 428,3405 375,3418 380,3473"/>
+        <Baseline points="380,3473 556,3467"/>
+        <TextEquiv conf="0.9788577795028687">
+          <Unicode>„ 20.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_395816ea" custom="structure {type:default;}">
+        <Coords points="671,3478 671,3537 760,3539 762,3478 760,3407 671,3416 671,3478"/>
+        <Baseline points="671,3478 762,3478"/>
+        <TextEquiv conf="0.9999847412109375">
+          <Unicode>„</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_28ce4960" custom="structure {type:default;}">
+        <Coords points="899,3462 899,3511 1352,3511 1394,3539 1396,3539 1398,3539 1546,3551 1548,3551 1831,3537 1864,3548 1866,3548 1869,3551 2198,3551 2198,3548 2200,3548 2277,3524 2322,3546 2324,3546 2326,3546 2328,3546 2330,3546 2375,3517 2394,3522 2397,3522 2399,3522 2401,3522 2439,3504 2445,3502 2538,3502 2543,3504 2611,3539 2613,3539 2615,3539 2618,3539 2706,3517 2724,3526 2726,3526 2728,3526 2730,3526 2733,3526 2768,3504 2770,3504 2852,3504 2852,3456 2845,3414 897,3418 899,3462"/>
+        <Baseline points="899,3462 2852,3456"/>
+        <TextEquiv conf="0.9056462538831028">
+          <Unicode>12sos Peclesiae S. Nariae ad Nontem et Oivate cr privileeium dat. Pdagt diarmtans</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_efa4d88c" custom="structure {type:default;}">
+        <Coords points="947,3515 945,3573 1124,3586 1126,3586 1129,3586 1131,3586 1131,3584 1146,3570 1151,3566 1193,3566 1197,3568 1215,3581 1217,3581 1219,3581 1221,3581 1224,3581 1226,3581 1239,3570 1241,3520 1239,3489 947,3482 947,3515"/>
+        <Baseline points="947,3515 1241,3520"/>
+        <TextEquiv conf="0.9522131035725275">
+          <Unicode>Iter p. 284-</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="eSc_textblock_1f1f1695"  custom="structure {type:default;}">
+      <Coords points="1301,167 2052,176 2070,253 2026,280 1208,280 1120,271 1093,236 1111,176 1301,167"/>
+      <TextLine id="eSc_line_3767e45b" custom="structure {type:default;}">
+        <Coords points="1126,238 1124,260 1131,267 1131,269 1133,269 1135,269 1137,269 2041,267 2043,242 2041,192 1984,178 1981,178 1873,189 1869,189 1847,178 1844,178 1842,178 1657,189 1632,189 1630,189 1612,176 1610,176 1608,176 1606,176 1524,187 1451,174 1449,174 1126,185 1126,238"/>
+        <Baseline points="1126,238 2043,242"/>
+        <TextEquiv conf="0.9997844672203064">
+          <Unicode>ALEXANDER III. 1159—1181.</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+  </Page>
+</PcGts>

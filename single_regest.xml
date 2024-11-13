@@ -11,8 +11,9 @@
             <sourceDesc>
                 <bibl>Source XML Document</bibl>
                 <diploDesc>
-                    <p><issued><date type="issued">1161 „
-                            14.</date><placeName>Praeneste</placeName></issued></p>
+                    <p><issued><date type="issued">1161 „ —
+                                4.</date><placeName>Anagniae</placeName><p>ALEXANDER
+                            III.</p></issued></p>
                 </diploDesc>
             </sourceDesc>
         </fileDesc>
@@ -20,9 +21,10 @@
     <text>
         <body>
             <div>
-                <p>10672</p>
-                <p>Capituli lanuensis possessiones quasdam confirmat. Pflugk-Harttung Iter p. 263. —
-                    „Iustis petentium“.</p>
+                <p>10675</p>
+                <p>Sororibus Strumensibus interdicit, ne possessiones monasterii b. Vedasti illicte
+                    occupent. Guimann Cart. de S.-Vaast d'Arras p. 308, Mon. Germ. SS. XIII. 715. —
+                    „Iustitiae naturalis ratio“.</p>
             </div>
         </body>
     </text>

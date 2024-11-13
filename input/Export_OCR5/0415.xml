@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+  <Metadata>
+	<Creator>escriptorium</Creator>
+	<Created>2024-07-19T10:14:14.058162+00:00</Created>
+        <LastChange>2024-08-08T08:46:46.161144+00:00</LastChange>
+  </Metadata>
+  <Page imageFilename="0415.png" imageWidth="3007" imageHeight="3975">
+    <TextRegion id="eSc_textblock_773575bc"  custom="structure {type:default;}">
+      <Coords points="302,141 421,141 439,209 291,236 273,176 302,141"/>
+      <TextLine id="eSc_line_51bd6a7b" custom="structure {type:default;}">
+        <Coords points="298,203 300,313 417,318 417,198 410,147 293,150 298,203"/>
+        <Baseline points="298,203 417,198"/>
+        <TextEquiv conf="0.9951447248458862">
+          <Unicode>402</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="eSc_textblock_3dd2b3c7"  custom="structure {type:default;}">
+      <Coords points="879,291 2883,309 2839,3513 919,3531 839,3504 821,362 879,291"/>
+      <TextLine id="eSc_line_3f1ba4c9" custom="structure {type:default;}">
+        <Coords points="1104,291 1102,291 1047,302 1016,309 870,295 855,318 846,326 835,353 835,375 1164,373 1164,346 1162,309 1106,291 1104,291"/>
+        <Baseline points="835,353 1164,346"/>
+        <TextEquiv conf="0.992176505652341">
+          <Unicode>1159— 1181.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_4ec48f8e" custom="structure {type:default;}">
+        <Coords points="919,410 916,435 2828,446 2832,419 2830,373 2708,373 2706,371 2686,355 2684,355 2682,355 2680,355 2677,355 2635,371 2633,371 2624,371 2470,357 2467,357 2417,368 2355,353 2353,353 2350,353 2233,366 2204,353 2202,353 2200,353 2065,355 2063,355 2037,368 2034,368 2032,368 1979,353 1977,353 1975,353 1838,364 1811,353 1809,353 1807,353 1805,353 1769,366 1692,351 1690,351 1592,366 1586,366 1581,366 1522,351 1520,351 1517,351 1444,364 1272,348 1270,348 1182,364 1177,364 919,364 919,410"/>
+        <Baseline points="919,410 2832,419"/>
+        <TextEquiv conf="0.9812558314629963">
+          <Unicode>nihilominus deferatur“. Comp. II. L. 2. t. 10. c. 1, Deer. Greg. L. II. t. 19. e. 2.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_7a32493d" custom="structure {type:default;}">
+        <Coords points="870,518 868,545 2828,552 2832,525 2830,481 870,474 870,518"/>
+        <Baseline points="870,518 2832,525"/>
+        <TextEquiv conf="0.9896591291370163">
+          <Unicode>14190 (9257) Quibusdam concedit, ut „si hospitale absque oratorio fecerint, liberum</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_101470b6" custom="structure {type:default;}">
+        <Coords points="914,465 914,492 1447,485 1447,465 1447,435 914,428 914,465"/>
+        <Baseline points="914,465 1447,465"/>
+        <TextEquiv conf="0.9999798763365972">
+          <Unicode>— „Sicut consuetudo“.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_a37e7932" custom="structure {type:default;}">
+        <Coords points="919,580 919,600 2777,609 2779,609 2781,609 2828,596 2828,576 2823,545 916,538 919,580"/>
+        <Baseline points="919,580 2828,576"/>
+        <TextEquiv conf="0.9977667710997842">
+          <Unicode>sit iis, absque conscientia episcopi, in cuius parochia fuerit, ipsam domum construere“.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_b5cba645" custom="structure {type:default;}">
+        <Coords points="866,686 866,713 2832,713 2832,686 2832,658 866,653 866,686"/>
+        <Baseline points="866,686 2832,686"/>
+        <TextEquiv conf="0.9946049408740308">
+          <Unicode>14191 (9258) Quibusdam scribit, „si super decimis inter eos et aliquam personam ec-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_da38a7a5" custom="structure {type:default;}">
+        <Coords points="916,633 916,655 2792,653 2794,633 2792,602 916,602 916,633"/>
+        <Baseline points="916,633 2794,633"/>
+        <TextEquiv conf="0.9933074750477755">
+          <Unicode>Comp. II. L. 3. t. 26. c. 1, Mansi XXI. 1098. — „Ad petitionem“ „Si hospitale“.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_d95f75f4" custom="structure {type:default;}">
+        <Coords points="916,742 916,766 2832,766 2832,742 2832,711 916,711 916,742"/>
+        <Baseline points="916,742 2832,742"/>
+        <TextEquiv conf="0.9982681632041931">
+          <Unicode>clesiasticam assensu episcopi vel archidiaconi sui compositio facta fuerit, rata per-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_ba6eccee" custom="structure {type:default;}">
+        <Coords points="919,799 919,819 2828,828 2830,799 2830,766 919,766 919,799"/>
+        <Baseline points="919,799 2830,799"/>
+        <TextEquiv conf="0.9959714086942895">
+          <Unicode>sistat“. App. conc. Lat. XXVIII. 3, Coll. Lips. V. 2, Coll. Cass. XVII. 2, Coll. Bamb.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_71925f37" custom="structure {type:default;}">
+        <Coords points="925,852 923,870 996,885 998,887 1215,887 1215,885 1217,885 1219,885 1237,874 1239,872 1259,874 1345,885 1347,885 1411,874 1436,872 1528,876 1699,885 1701,885 1703,885 1725,878 1745,872 1791,878 1836,885 1838,885 1840,885 1855,878 1877,872 1937,881 1990,887 1992,887 1995,887 2021,881 2043,876 2182,883 2299,887 2302,887 2324,883 2375,874 2825,887 2830,856 2828,819 925,812 925,852"/>
+        <Baseline points="925,852 2830,856"/>
+        <TextEquiv conf="0.9974686243595221">
+          <Unicode>V. 2, Comp. I. L. 1. t. 27. c. 2, Decr. Greg. L. I. t. 36. c. 2. — „Statuimus,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_9c10bd33" custom="structure {type:default;}">
+        <Coords points="914,907 914,916 980,931 983,931 1080,912 1080,903 1073,859 912,859 914,907"/>
+        <Baseline points="914,907 1080,903"/>
+        <TextEquiv conf="0.9804924925168356">
+          <Unicode>ut si“</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_6e5827f2" custom="structure {type:default;}">
+        <Coords points="866,960 866,991 2832,984 2832,960 2830,918 866,918 866,960"/>
+        <Baseline points="866,960 2832,960"/>
+        <TextEquiv conf="0.9942317874658675">
+          <Unicode>14192 (9259) Quibusdam interdicit, ne „in presbyteros talias et indebitas exactiones</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_5f7f4d29" custom="structure {type:default;}">
+        <Coords points="916,1015 914,1033 2823,1046 2828,1020 2825,987 916,982 916,1015"/>
+        <Baseline points="916,1015 2828,1020"/>
+        <TextEquiv conf="0.9972601913544069">
+          <Unicode>exercere praesumant“. App. conc. Lat. II. 7, Coll. Lips. IV. 2, Coll. Cass. XVI. 2,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_6bb5ddad" custom="structure {type:default;}">
+        <Coords points="919,1068 916,1088 2819,1093 2823,1073 2821,1040 919,1035 919,1068"/>
+        <Baseline points="919,1068 2823,1073"/>
+        <TextEquiv conf="0.9971427291631698">
+          <Unicode>Coll. Bamb. III. 2, Comp. I. L. 5. t. 27. c. 1, Decr. Greg. L. V. t. 31. c. 1. —</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_ea4dac95" custom="structure {type:default;}">
+        <Coords points="919,1130 919,1150 1517,1139 1520,1121 1515,1090 1067,1084 1064,1084 916,1097 919,1130"/>
+        <Baseline points="919,1130 1520,1121"/>
+        <TextEquiv conf="0.9801214671134949">
+          <Unicode>„Pervenit ad audientiam“.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_ae5d54b1" custom="structure {type:default;}">
+        <Coords points="866,1183 866,1203 2836,1199 2836,1177 2832,1139 2180,1128 2178,1128 2176,1128 2129,1141 2125,1141 2123,1141 2083,1130 2081,1130 2079,1130 1981,1141 1977,1141 1972,1141 1809,1130 1807,1130 1292,1143 1274,1132 1272,1132 1270,1132 980,1132 978,1132 863,1146 866,1183"/>
+        <Baseline points="866,1183 2836,1177"/>
+        <TextEquiv conf="0.9959367520925475">
+          <Unicode>14193 (9261) Quibusdam mandat, ut decumas quasdam et oblationes iubeant G. clerico</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_04d4b0fa" custom="structure {type:default;}">
+        <Coords points="916,1232 914,1252 2823,1256 2828,1236 2825,1205 916,1196 916,1232"/>
+        <Baseline points="916,1232 2828,1236"/>
+        <TextEquiv conf="0.9961998240892277">
+          <Unicode>restitui. Comp. II. L. 3. t. 11. c. 1, Mansi XXI. 1097. — „Constitutus in praesentia“.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_167f38e5" custom="structure {type:default;}">
+        <Coords points="868,1294 868,1313 2828,1318 2832,1289 2828,1256 1849,1245 1847,1245 1844,1245 1809,1256 883,1247 881,1247 879,1247 877,1247 866,1254 868,1294"/>
+        <Baseline points="868,1294 2832,1289"/>
+        <TextEquiv conf="0.998728946030858">
+          <Unicode>14194 (9262) Quibusdam praescribit, ne filios lohannis et T. mulieris „succedere in</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_cfd68a5e" custom="structure {type:default;}">
+        <Coords points="919,1347 919,1366 2830,1375 2832,1347 2832,1313 919,1313 919,1347"/>
+        <Baseline points="919,1347 2832,1347"/>
+        <TextEquiv conf="0.9910733059048653">
+          <Unicode>bona paterna prohibeant“. App. conc. Lat. XXXIII. 4, Coll. Lips. LXIII. 2, Coll.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_16989fc7" custom="structure {type:default;}">
+        <Coords points="919,1397 916,1419 2828,1433 2832,1402 2830,1364 919,1364 919,1397"/>
+        <Baseline points="919,1397 2832,1402"/>
+        <TextEquiv conf="0.9747193742681433">
+          <Unicode>Cass. LXII. 2, Coll. Bamb. LIV. 4, Comp. I. L. 4. t. 18. c. 2, Decr. Greg. L. IV.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_0072adc5" custom="structure {type:default;}">
+        <Coords points="916,1455 916,1475 1106,1484 1109,1484 1111,1484 1113,1484 1113,1481 1122,1472 1124,1472 1129,1472 1177,1481 1179,1481 1254,1472 1265,1470 1268,1470 1277,1479 1277,1481 1279,1481 1281,1481 1283,1484 1440,1484 1440,1481 1617,1466 1619,1446 1612,1413 914,1426 916,1455"/>
+        <Baseline points="916,1455 1619,1446"/>
+        <TextEquiv conf="0.9974854506295303">
+          <Unicode>t. 17. c. 2. — „Cum inter I.“</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_7f5928c8" custom="structure {type:default;}">
+        <Coords points="868,1510 868,1539 2832,1534 2832,1510 2832,1472 868,1470 868,1510"/>
+        <Baseline points="868,1510 2832,1510"/>
+        <TextEquiv conf="0.9994059131469255">
+          <Unicode>14195 (9263) Quibusdam mandat, ut ecclesiam de Frag. iubeant G. clerico de Nobil.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_fdccef86" custom="structure {type:default;}">
+        <Coords points="919,1565 919,1596 2830,1594 2830,1565 2830,1532 919,1532 919,1565"/>
+        <Baseline points="919,1565 2830,1565"/>
+        <TextEquiv conf="0.9973004347161402">
+          <Unicode>restitui a Philippo comite de Columbis. Comp. II. L. 1. t. 16. c. 2, Mansi XXI.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_6f22ad14" custom="structure {type:default;}">
+        <Coords points="921,1620 921,1640 1707,1647 1710,1647 1712,1647 1758,1634 1758,1616 1752,1576 919,1587 921,1620"/>
+        <Baseline points="921,1620 1758,1616"/>
+        <TextEquiv conf="0.9999855666449575">
+          <Unicode>1094. — „Veniens ad praesentiam“.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_aef6518e" custom="structure {type:default;}">
+        <Coords points="863,1676 863,1702 2830,1702 2832,1669 2828,1634 2171,1623 2169,1623 1895,1636 1884,1636 1882,1636 1847,1625 1844,1625 1842,1625 1760,1636 1758,1636 1756,1636 1531,1627 1528,1627 1526,1627 1524,1627 1511,1638 1509,1638 1458,1638 881,1627 879,1627 877,1627 874,1627 861,1634 863,1676"/>
+        <Baseline points="863,1676 2832,1669"/>
+        <TextEquiv conf="0.996494739905171">
+          <Unicode>14196 (9264) Quibusdam scribit de causa A. clerici, quae vertitur inter ipsum et Sales-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_c05f6caa" custom="structure {type:default;}">
+        <Coords points="916,1731 916,1764 2003,1751 2823,1760 2828,1726 2823,1698 914,1698 916,1731"/>
+        <Baseline points="916,1731 2828,1726"/>
+        <TextEquiv conf="0.98076236769557">
+          <Unicode>beriensem episcopum super ecclesia de Bribec. Comp. II. L. 1. t. 18. c. 1, Decr.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_6841d2ac" custom="structure {type:default;}">
+        <Coords points="916,1784 916,1806 2050,1799 2052,1777 2045,1744 914,1751 916,1784"/>
+        <Baseline points="916,1784 2052,1777"/>
+        <TextEquiv conf="0.9910214969090053">
+          <Unicode>Greg. L. I. t. 38. c. 2. — „Querelam A. clerici“.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_7be5b084" custom="structure {type:default;}">
+        <Coords points="866,1841 866,1863 2830,1857 2832,1835 2828,1799 2251,1788 2249,1788 2180,1799 2171,1802 863,1802 866,1841"/>
+        <Baseline points="866,1841 2832,1835"/>
+        <TextEquiv conf="0.9975113806336425">
+          <Unicode>14197 (9265) Statuit, clericos „extra provinciam suam in transmarinis partibus ordina-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_dc1029d2" custom="structure {type:default;}">
+        <Coords points="919,1896 919,1919 1042,1930 1045,1930 1188,1921 1230,1919 1248,1921 1296,1930 1299,1930 1407,1921 1451,1919 1462,1921 1489,1930 1491,1930 1493,1930 1573,1923 1634,1916 1778,1923 1891,1927 1893,1927 1895,1927 1897,1927 1902,1923 1913,1916 2251,1925 2326,1925 2328,1925 2346,1925 2470,1914 2487,1925 2489,1925 2492,1925 2494,1927 2828,1927 2830,1890 2825,1861 916,1861 919,1896"/>
+        <Baseline points="919,1896 2830,1890"/>
+        <TextEquiv conf="0.9960390161245297">
+          <Unicode>tos“ pro ordinatis non esse habendos. App. conc. Lat. XXVI. 26. — „Quia quidam</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_6a0dc159" custom="structure {type:default;}">
+        <Coords points="916,1949 916,1974 1102,1974 1102,1949 1102,1916 916,1914 916,1949"/>
+        <Baseline points="916,1949 1102,1949"/>
+        <TextEquiv conf="0.999995059437222">
+          <Unicode>clerici“.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_67701844" custom="structure {type:default;}">
+        <Coords points="863,2002 863,2025 2828,2033 2830,2002 2830,1965 863,1956 863,2002"/>
+        <Baseline points="863,2002 2830,2002"/>
+        <TextEquiv conf="0.9983529994286686">
+          <Unicode>14198 (9266) Statuit haec: „Suffraganeis alicuius metropolitani ad mandatum ipsius,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_456ebb62" custom="structure {type:default;}">
+        <Coords points="919,2060 919,2091 2832,2084 2832,2055 2825,2025 916,2027 919,2060"/>
+        <Baseline points="919,2060 2832,2055"/>
+        <TextEquiv conf="0.9956672767112995">
+          <Unicode>post confirmationem electionis suae, etiamsi pallium non receperit, licitum est electum</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_8cafcd60" custom="structure {type:default;}">
+        <Coords points="916,2117 916,2137 2825,2144 2830,2113 2825,2080 1873,2069 1871,2069 1756,2080 958,2071 956,2071 954,2071 914,2082 916,2117"/>
+        <Baseline points="916,2117 2830,2113"/>
+        <TextEquiv conf="0.9957865636016048">
+          <Unicode>aliquem consecrare, qui ad eius iurisdictionem pertineat“. Comp. II. L. 1. t. 3. c. 1,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_7146a63f" custom="structure {type:default;}">
+        <Coords points="916,2170 916,2188 2691,2184 2693,2166 2688,2133 914,2128 916,2170"/>
+        <Baseline points="916,2170 2693,2166"/>
+        <TextEquiv conf="0.9942053785690894">
+          <Unicode>Decr. Greg. L. I. t. 6. c. 11. — „Suffraganeis alicuius“ „Suffraganeis autem“.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_1f7e9ba1" custom="structure {type:default;}">
+        <Coords points="837,2223 837,2248 2823,2248 2823,2217 2814,2173 2781,2184 2299,2177 2178,2175 2176,2175 2174,2175 2169,2177 2149,2188 835,2188 837,2223"/>
+        <Baseline points="837,2223 2823,2217"/>
+        <TextEquiv conf="0.9992124209037194">
+          <Unicode>f14199 (9267) Iubet haec: „Nemo presbyterorum xenium vel emolumentum quodlibet</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_3d33d9e1" custom="structure {type:default;}">
+        <Coords points="914,2279 914,2305 2825,2305 2828,2270 2821,2232 912,2243 914,2279"/>
+        <Baseline points="914,2279 2828,2270"/>
+        <TextEquiv conf="0.9960457546801507">
+          <Unicode>temporale a quocumque publice peccante vel incestuoso accipiat, ut episcopo vel</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_a33559a6" custom="structure {type:default;}">
+        <Coords points="916,2334 916,2365 1626,2351 2165,2360 2167,2360 2169,2360 2204,2349 2823,2358 2828,2327 2821,2294 914,2303 916,2334"/>
+        <Baseline points="916,2334 2828,2327"/>
+        <TextEquiv conf="0.9955630153417587">
+          <Unicode>ministris eius peccatum celet“. (Secundum Burchardi collectionem pertinet ad</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_0719abc7" custom="structure {type:default;}">
+        <Coords points="916,2391 916,2411 2825,2409 2828,2385 2823,2351 941,2345 938,2345 936,2345 914,2354 916,2391"/>
+        <Baseline points="916,2391 2828,2385"/>
+        <TextEquiv conf="0.9976739136569471">
+          <Unicode>Alexandrum I.; sed quia in Coll. can. Alexandro III. ascribi solet et inter Regesta</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_9a3f4ace" custom="structure {type:default;}">
+        <Coords points="916,2446 916,2468 2823,2468 2825,2438 2819,2404 914,2411 916,2446"/>
+        <Baseline points="916,2446 2825,2438"/>
+        <TextEquiv conf="0.9877509084485826">
+          <Unicode>Alexandri I. deest decretalis, hoc loco eam manere sivimus). Coll. Lips. I. 6, Coll.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_f71cdfb1" custom="structure {type:default;}">
+        <Coords points="910,2497 910,2524 2823,2524 2825,2493 2821,2462 908,2462 910,2497"/>
+        <Baseline points="910,2497 2825,2493"/>
+        <TextEquiv conf="0.9910802741845449">
+          <Unicode>Cass. XIII. 6, Coll. Bamb. I. 5, Comp. I. L. 5. t. 2. c. 13, Decr. Greg. L. V. t. 3.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_93cdd87f" custom="structure {type:default;}">
+        <Coords points="910,2550 910,2570 983,2583 985,2583 1067,2572 1142,2572 1153,2581 1153,2583 1155,2583 1157,2583 1159,2583 1312,2572 1325,2583 1327,2583 1330,2583 1332,2585 1628,2585 1628,2583 1685,2570 1685,2550 1685,2519 910,2517 910,2550"/>
+        <Baseline points="910,2550 1685,2550"/>
+        <TextEquiv conf="0.968381921450297">
+          <Unicode>c. 14. — „Nemo presbyterorum“.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_d67d798b" custom="structure {type:default;}">
+        <Coords points="863,2608 863,2634 2825,2623 2828,2599 2821,2557 2295,2563 2284,2557 2280,2552 2277,2552 2275,2552 2273,2552 2271,2552 2262,2557 2246,2563 2182,2557 2140,2552 2138,2552 2136,2552 2125,2557 2105,2563 2026,2557 1972,2552 1970,2552 1944,2557 1906,2563 1818,2557 1780,2555 1778,2555 1776,2555 1771,2557 1754,2566 1559,2557 1531,2557 1528,2557 1509,2557 1349,2568 861,2559 863,2608"/>
+        <Baseline points="863,2608 2828,2599"/>
+        <TextEquiv conf="0.9951330173162767">
+          <Unicode>14200 (9268) Scribit ita: „Si quis sane puerum tunc merserit dicendo: „„in nomine</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_95ead174" custom="structure {type:default;}">
+        <Coords points="916,2665 916,2696 1051,2683 2825,2680 2825,2654 2819,2621 914,2630 916,2665"/>
+        <Baseline points="916,2665 2825,2654"/>
+        <TextEquiv conf="0.9998174597477091">
+          <Unicode>patris et filii et spiritus sancti““, si non dixerit: „„ego te baptizo““ talis immersio</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_1e3f33a3" custom="structure {type:default;}">
+        <Coords points="912,2718 912,2740 2814,2742 2819,2711 2814,2680 2216,2669 2213,2669 2211,2669 2178,2680 1632,2672 1630,2672 910,2685 912,2718"/>
+        <Baseline points="912,2718 2819,2711"/>
+        <TextEquiv conf="0.9974862841998829">
+          <Unicode>non potest dici baptimus“ cet. Coll. Luc. ap. Baluzii Misc. III. 373, Mansi XXI. 1101</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_ddc7a8cf" custom="structure {type:default;}">
+        <Coords points="910,2771 910,2793 2814,2795 2819,2767 2812,2736 908,2738 910,2771"/>
+        <Baseline points="910,2771 2819,2767"/>
+        <TextEquiv conf="0.9968964723979725">
+          <Unicode>Comp. II. L. 5. t. 19. c. 1. 2, Decr. Greg. L. III. t. 42. c. 1. 2, cf. Manrique Ann.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_184a1a25" custom="structure {type:default;}">
+        <Coords points="910,2826 910,2848 2547,2839 2549,2817 2543,2789 908,2795 910,2826"/>
+        <Baseline points="910,2826 2549,2817"/>
+        <TextEquiv conf="0.9945513255455914">
+          <Unicode>Cist. III. 39. — „Si quis sane“ „Si quis puerum“ „De quibus dubium“.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_71396cf1" custom="structure {type:default;}">
+        <Coords points="863,2881 863,2906 2819,2901 2821,2875 2816,2844 910,2837 908,2837 905,2837 861,2848 863,2881"/>
+        <Baseline points="863,2881 2821,2875"/>
+        <TextEquiv conf="0.9862691766993944">
+          <Unicode>14201 (9269) Scribit „de infantibus, qui mortui reperiuntur cum patre et matre“. Comp.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_3060be63" custom="structure {type:default;}">
+        <Coords points="908,2939 908,2959 2518,2950 2520,2930 2516,2899 2185,2888 2182,2888 2032,2899 2012,2901 905,2901 908,2939"/>
+        <Baseline points="908,2939 2520,2930"/>
+        <TextEquiv conf="0.9899866371087624">
+          <Unicode>II. L. 5. t. 5. c. 1, Decr. Greg. L. V. t. 10. c. 3. — „De infantibus“.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_1973b018" custom="structure {type:default;}">
+        <Coords points="859,2990 859,3016 2816,3016 2819,2983 2814,2950 857,2945 859,2990"/>
+        <Baseline points="859,2990 2819,2983"/>
+        <TextEquiv conf="0.9954003601573235">
+          <Unicode>14202 Statuit, ut si apud monachum „pecunia fuerit inventa et in vita non patefecerit,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_9dd18622" custom="structure {type:default;}">
+        <Coords points="912,3047 912,3071 2816,3060 2819,3038 2812,3007 910,3014 912,3047"/>
+        <Baseline points="912,3047 2819,3038"/>
+        <TextEquiv conf="0.9975568974719328">
+          <Unicode>nec ad ecclesiam nec ad hospitale sepeliatur, sed extra civitatem in campis ponatur“.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_31f045f1" custom="structure {type:default;}">
+        <Coords points="910,3100 910,3120 1955,3115 1957,3096 1950,3056 908,3065 910,3100"/>
+        <Baseline points="910,3100 1957,3096"/>
+        <TextEquiv conf="0.9941871531985023">
+          <Unicode>Comp. II. 3. t. 22. c. 1. — „Si cum aliquo“.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_b50cbc06" custom="structure {type:default;}">
+        <Coords points="861,3155 861,3184 2819,3168 2821,3144 2816,3113 2585,3100 2582,3100 2443,3113 2423,3113 2375,3113 2037,3102 2034,3102 1933,3113 1904,3115 1842,3113 1652,3104 1650,3104 1648,3104 1615,3113 1597,3118 1511,3113 1372,3107 1369,3107 1285,3113 1212,3120 859,3115 861,3155"/>
+        <Baseline points="861,3155 2821,3144"/>
+        <TextEquiv conf="0.9994539387085859">
+          <Unicode>14203 Laicum decimas aut ecclesiam sine pontificis licentia monasteriis vel canonicis</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_adffe652" custom="structure {type:default;}">
+        <Coords points="910,3210 910,3233 2816,3228 2819,3199 2812,3168 908,3168 910,3210"/>
+        <Baseline points="910,3210 2819,3199"/>
+        <TextEquiv conf="0.9871981572814104">
+          <Unicode>conferre vetat. App. conc. Lat. XV. 18, Coll. Lips. LII. 23, Coll. Cass. LIII. 16,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_fe10004d" custom="structure {type:default;}">
+        <Coords points="910,3263 910,3288 2816,3281 2819,3257 2814,3228 938,3221 936,3221 934,3221 908,3230 910,3263"/>
+        <Baseline points="910,3263 2819,3257"/>
+        <TextEquiv conf="0.990448064114674">
+          <Unicode>Coll. Bamb. XLV. 16, Comp. I. L. 3. t. 33. c. 21, Decr. Greg. L. III. t. 38. c. 17.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_9d225996" custom="structure {type:default;}">
+        <Coords points="910,3314 908,3332 1131,3352 1133,3352 1352,3336 1354,3319 1352,3281 910,3270 910,3314"/>
+        <Baseline points="910,3314 1354,3319"/>
+        <TextEquiv conf="0.9989412162039015">
+          <Unicode>— „Nullus laicus“.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_a967d4c6" custom="structure {type:default;}">
+        <Coords points="859,3374 859,3400 2821,3396 2821,3365 2816,3330 2428,3316 2425,3316 2333,3330 2326,3330 2322,3330 2277,3319 2275,3319 2273,3319 2045,3330 2039,3330 2032,3330 1842,3319 1840,3319 1694,3332 1676,3332 1674,3332 1650,3321 1648,3321 1425,3321 1422,3321 1360,3332 1343,3334 857,3334 859,3374"/>
+        <Baseline points="859,3374 2821,3365"/>
+        <TextEquiv conf="0.9961460031820147">
+          <Unicode>14204 Statuit, ut altare, „si motum fuerit aut lapis suprapositus, qui sigillum continet,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_da8f58c6" custom="structure {type:default;}">
+        <Coords points="910,3427 910,3449 994,3462 996,3462 1133,3451 1140,3451 1146,3451 1261,3462 1263,3462 1458,3451 1486,3451 1491,3451 1522,3462 1524,3462 1526,3462 1528,3462 1555,3451 1566,3449 1670,3449 1676,3453 1685,3460 1687,3460 1690,3460 1692,3460 1694,3460 1723,3453 1743,3449 1824,3453 1913,3458 1915,3458 2017,3453 2180,3447 2255,3456 2288,3458 2291,3458 2819,3456 2819,3420 2812,3392 908,3396 910,3427"/>
+        <Baseline points="910,3427 2819,3420"/>
+        <TextEquiv conf="0.9972259886124555">
+          <Unicode>confractus aut diminutus exstiterit“, denuo consecretur. Comp. II. L. 5. t. 20. c. 1,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_b4a68e21" custom="structure {type:default;}">
+        <Coords points="912,3482 912,3537 1014,3526 1095,3539 1098,3539 1100,3539 1102,3539 1115,3528 1131,3542 1140,3548 1142,3548 1144,3548 1146,3548 1148,3548 1164,3542 1197,3526 1232,3539 1235,3539 1237,3539 1239,3539 1281,3528 1303,3542 1323,3557 1325,3557 1327,3557 1330,3557 1332,3557 1356,3544 1360,3542 1363,3544 1389,3557 1391,3557 1394,3557 1396,3557 1420,3544 1440,3533 1495,3539 1497,3539 1500,3539 1528,3524 1687,3522 1707,3539 1707,3542 1710,3542 1712,3542 1756,3548 1824,3555 1827,3555 1829,3555 1853,3548 1957,3522 1997,3551 1999,3551 2001,3551 2003,3551 2006,3551 2059,3524 2076,3542 2076,3544 2079,3544 2081,3544 2083,3544 2112,3539 2125,3551 2125,3553 2127,3553 2129,3553 2132,3555 2293,3555 2295,3473 2291,3445 910,3442 912,3482"/>
+        <Baseline points="912,3482 2295,3473"/>
+        <TextEquiv conf="0.9488338549931844">
+          <Unicode>Dcer. Greg. I. IIf. t. 40. c. 1. — „-Desinant“ „Ae haec si“.</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="eSc_textblock_02b25854"  custom="structure {type:default;}">
+      <Coords points="1168,132 2043,141 2052,218 2026,245 1084,227 1084,141 1168,132"/>
+      <TextLine id="eSc_line_5d801f90" custom="structure {type:default;}">
+        <Coords points="1104,203 1102,229 2021,236 2026,207 2023,150 1104,145 1104,203"/>
+        <Baseline points="1104,203 2026,207"/>
+        <TextEquiv conf="0.9800485920906067">
+          <Unicode>ALEXANDER III. 1159—1181.</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+  </Page>
+</PcGts>

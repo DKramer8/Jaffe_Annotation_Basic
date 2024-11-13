@@ -811,10 +811,7 @@ else:
 Noch zu tun:
 
 - Regesten ohne Nummer -> erweiterte Nummer der vorherigen Regeste z.B: 10614-02 oder:
-- Seitennummer hinzufügen als eigenes XML-Element, da wichtig für Regesten ohne Jaffé-Nummer
-- Papst bzw. Aussteller als XML Element
 - Generell Regionenerkennung verbessern
-- Bei Datum Anführungszeichen ersetzen
 - Recipit
 - Aufräumen :)
 

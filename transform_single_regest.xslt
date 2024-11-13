@@ -26,6 +26,9 @@
                                     <placeName>
                                         <xsl:value-of select="/data/row/place"/>
                                     </placeName>
+                                    <p>
+                                        <xsl:value-of select="/data/row/pope"/>
+                                    </p>
                                 </issued>
                             </p>
                         </diploDesc>
