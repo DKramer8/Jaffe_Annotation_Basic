@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+  <Metadata>
+	<Creator>escriptorium</Creator>
+	<Created>2024-07-19T10:08:16.801190+00:00</Created>
+        <LastChange>2024-08-08T08:33:34.423618+00:00</LastChange>
+  </Metadata>
+  <Page imageFilename="0219.png" imageWidth="3007" imageHeight="3975">
+    <TextRegion id="eSc_textblock_564f2b3d"  custom="structure {type:default;}">
+      <Coords points="276,159 413,159 421,209 273,236 276,159"/>
+      <TextLine id="eSc_line_9ffc64fc" custom="structure {type:default;}">
+        <Coords points="368,159 346,159 324,159 302,159 280,161 282,207 282,231 404,227 404,203 402,163 386,159 368,159"/>
+        <Baseline points="282,207 404,203"/>
+        <TextEquiv conf="1.0">
+          <Unicode>206</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="eSc_textblock_f754080f"  custom="structure {type:default;}">
+      <Coords points="287,300 802,309 813,335 857,300 2874,318 2847,3513 1164,3522 952,3548 556,3522 536,2603 528,3513 265,3495 238,1113 247,353 287,300"/>
+      <TextLine id="eSc_line_5eff72b2" custom="structure {type:default;}">
+        <Coords points="1970,309 1948,309 1926,309 1908,309 1904,311 1900,313 1897,311 1893,309 1882,309 1860,306 1858,306 1851,311 1849,313 1822,311 1767,306 1749,306 1727,306 1714,311 1694,320 1537,320 1526,311 1517,304 1506,304 1484,304 1464,304 1455,311 1449,318 1405,311 1345,302 1343,302 1341,302 1338,302 1338,304 1330,311 1323,318 1301,311 1279,304 1277,304 1274,304 1272,304 1270,304 1263,311 1252,320 1210,311 1179,304 1135,304 1133,304 1131,304 1129,304 1129,306 1122,311 1111,320 1073,311 1047,304 1045,304 837,309 821,324 824,359 824,384 969,384 974,386 992,397 994,397 996,397 998,397 1078,386 1095,384 1109,386 1153,397 1155,397 1157,397 1159,397 1190,386 1199,384 1257,386 1409,395 1411,395 1414,395 1416,395 1427,386 1436,382 1467,386 1513,395 1515,395 1756,390 1758,390 1765,388 1785,379 1824,388 1849,393 1851,393 1853,393 1866,388 1884,382 1902,388 1911,393 1913,393 1915,393 2138,388 2140,353 2134,313 2003,315 1986,311 1975,309 1970,309"/>
+        <Baseline points="824,359 2140,353"/>
+        <TextEquiv conf="0.9854304377109774">
+          <Unicode>1167. (Ind. 15. — 25. Sept. — 1, pont. a. 5. — 20. Sept. — 9.)</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_dfd3ded7" custom="structure {type:default;}">
+        <Coords points="278,494 455,505 457,424 452,329 406,348 346,348 329,333 326,333 324,333 322,333 320,333 296,344 282,333 278,424 278,494"/>
+        <Baseline points="278,424 457,424"/>
+        <TextEquiv conf="0.9998473405838013">
+          <Unicode>(taa)</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_919cd2ca" custom="structure {type:default;}">
+        <Coords points="532,424 532,461 815,488 817,424 815,348 768,353 766,353 764,353 764,355 744,373 682,362 680,362 678,362 676,362 676,364 665,373 605,371 600,366 583,351 581,351 578,351 576,351 574,351 532,371 532,424"/>
+        <Baseline points="532,424 817,424"/>
+        <TextEquiv conf="0.9894659459590912">
+          <Unicode>(Beneventy</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_6d3b586d" custom="structure {type:default;}">
+        <Coords points="852,424 852,454 2819,448 2821,424 2819,386 852,386 852,424"/>
+        <Baseline points="852,424 2821,424"/>
+        <TextEquiv conf="0.9969485880330552">
+          <Unicode>11360 (7597) Wilhelmo tit. S. Petri ad vincula presbytero et Ottoni S. Nicolai in car-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_1fbf3da0" custom="structure {type:default;}">
+        <Coords points="908,474 905,496 2814,512 2819,481 2816,446 908,443 908,474"/>
+        <Baseline points="908,474 2819,481"/>
+        <TextEquiv conf="0.9948188230909151">
+          <Unicode>cere Tulliano diacono cardinalibus, apostolicae sedis legatis, mandat, ut, quos Thomas,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_13775bec" custom="structure {type:default;}">
+        <Coords points="908,536 908,560 2819,560 2821,530 2814,499 905,501 908,536"/>
+        <Baseline points="908,536 2821,530"/>
+        <TextEquiv conf="0.9999172156903802">
+          <Unicode>archiepiscopus Cantuariensis, excommunicaverit, si absoluti possessiones ecclesiae</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_c98aa7ec" custom="structure {type:default;}">
+        <Coords points="908,589 908,611 2819,607 2821,585 2816,556 905,556 908,589"/>
+        <Baseline points="908,589 2821,585"/>
+        <TextEquiv conf="0.9999244545781335">
+          <Unicode>Cantuariensis non restituerint, eos „omni dilatione et appellatione cessante, in prio-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_77cc4adc" custom="structure {type:default;}">
+        <Coords points="908,644 908,666 2814,673 2816,644 2814,611 908,611 908,644"/>
+        <Baseline points="908,644 2816,644"/>
+        <TextEquiv conf="0.9983670023225603">
+          <Unicode>rem excommunicationis sententiam reducant“. Epist. Gilberti Foliot ed. Giles II. 56,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_bdb6a66b" custom="structure {type:default;}">
+        <Coords points="910,695 908,719 925,730 927,730 930,730 932,730 2819,722 2821,700 2819,669 910,658 910,695"/>
+        <Baseline points="910,695 2821,700"/>
+        <TextEquiv conf="0.9905992495386224">
+          <Unicode>Epist. S. Thomae ed. Lupus p. 468, Mansi XXI. 887, Migne 200 p. 460. — „Sug-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_061e1200" custom="structure {type:default;}">
+        <Coords points="910,755 910,772 1022,783 1025,783 1027,783 1071,770 1078,770 1084,770 1153,781 1155,781 1157,781 1159,781 1159,779 1170,770 1294,779 1296,779 1299,779 1341,766 1341,748 1334,719 908,724 910,755"/>
+        <Baseline points="910,755 1341,748"/>
+        <TextEquiv conf="0.9993297225899167">
+          <Unicode>gestum est nobis“.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_a9ea3180" custom="structure {type:default;}">
+        <Coords points="857,810 857,832 2819,828 2821,806 2816,766 855,764 857,810"/>
+        <Baseline points="857,810 2821,806"/>
+        <TextEquiv conf="0.9982147646504779">
+          <Unicode>11561 (7598) Alberto, presbytero cardinali tit. S. Laurentii in Lucina, legato aposto-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_0c4021cc" custom="structure {type:default;}">
+        <Coords points="342,812 344,852 399,830 444,848 446,848 448,848 512,845 512,806 505,757 340,764 342,812"/>
+        <Baseline points="342,812 512,806"/>
+        <TextEquiv conf="0.9991989016532898">
+          <Unicode>„ 31.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_e5112a00" custom="structure {type:default;}">
+        <Coords points="640,823 640,854 687,872 689,872 691,872 693,872 731,859 731,821 724,768 638,783 640,823"/>
+        <Baseline points="640,823 731,821"/>
+        <TextEquiv conf="0.9999924898147583">
+          <Unicode>„</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_6f1285a2" custom="structure {type:default;}">
+        <Coords points="910,863 910,889 2816,883 2819,856 2812,819 908,823 910,863"/>
+        <Baseline points="910,863 2819,856"/>
+        <TextEquiv conf="0.9952644809432651">
+          <Unicode>lico, significat, se ex eius consilio de „liberando (Guoffridi) filio Bon(umiri) de Siponto“</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_b24a67eb" custom="structure {type:default;}">
+        <Coords points="910,914 908,936 2816,940 2821,918 2819,885 910,876 910,914"/>
+        <Baseline points="910,914 2821,918"/>
+        <TextEquiv conf="0.9912867008903881">
+          <Unicode>litteras ad Lampridium, archiepiscopum Iaderensem, dedisse. Archiepiscopatum Spa-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_acac7117" custom="structure {type:default;}">
+        <Coords points="912,973 912,1002 2816,1009 2819,973 2819,938 912,936 912,973"/>
+        <Baseline points="912,973 2819,973"/>
+        <TextEquiv conf="0.9974511636628045">
+          <Unicode>latinum ei oblatum accipi vetat. Farlati III. sacr. III. 188, Mon. Hung. hist. I. XI. 108,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_80a7c893" custom="structure {type:default;}">
+        <Coords points="910,1029 910,1048 1875,1057 1877,1057 1880,1057 1928,1044 1928,1024 1924,995 919,987 916,987 914,987 912,987 912,989 910,989 908,989 910,1029"/>
+        <Baseline points="910,1029 1928,1024"/>
+        <TextEquiv conf="0.9998818252767835">
+          <Unicode>Migne 200 p. 461. — „Litteras devotionis“.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_1247c861" custom="structure {type:default;}">
+        <Coords points="296,1084 296,1106 338,1124 340,1124 342,1124 344,1124 397,1110 410,1106 415,1110 426,1119 426,1121 428,1121 430,1121 433,1121 519,1113 519,1079 510,1015 479,1024 446,1011 441,1011 439,1011 437,1011 435,1011 433,1011 380,1026 293,1007 296,1084"/>
+        <Baseline points="296,1084 519,1079"/>
+        <TextEquiv conf="0.9653170704841614">
+          <Unicode>Sept. 10.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_8d7bba50" custom="structure {type:default;}">
+        <Coords points="857,1084 857,1108 2819,1106 2821,1079 2814,1046 855,1046 857,1084"/>
+        <Baseline points="857,1084 2821,1079"/>
+        <TextEquiv conf="0.9923375148371042">
+          <Unicode>11362 Ecclesiam S. Leonardi in Lamavolari tuendam suscipit, eiusque possessiones ac</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_146ecea2" custom="structure {type:default;}">
+        <Coords points="636,1097 636,1157 735,1159 737,1097 735,1022 636,1029 636,1097"/>
+        <Baseline points="636,1097 737,1097"/>
+        <TextEquiv conf="0.9999995231628418">
+          <Unicode>„</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_c10999e4" custom="structure {type:default;}">
+        <Coords points="910,1137 910,1166 1153,1166 1155,1166 1188,1177 1190,1177 1193,1177 1195,1177 1197,1177 1215,1166 1230,1177 1232,1177 1235,1177 1237,1177 1325,1166 1336,1166 1431,1166 1433,1166 1447,1177 1449,1177 1451,1177 1453,1179 1703,1179 1703,1177 1705,1177 1736,1168 1745,1166 1787,1168 1933,1177 1935,1177 2059,1168 2112,1166 2125,1168 2154,1177 2156,1177 2158,1177 2823,1170 2823,1137 2823,1108 910,1106 910,1137"/>
+        <Baseline points="910,1137 2823,1137"/>
+        <TextEquiv conf="0.999749065881752">
+          <Unicode>iura confirmat, petente Richardo priore. Pflugk-Harttung Iter p. 267. — „Religiosis</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_40782609" custom="structure {type:default;}">
+        <Coords points="908,1192 908,1205 978,1219 980,1219 1064,1199 1064,1188 1060,1154 905,1154 908,1192"/>
+        <Baseline points="908,1192 1064,1188"/>
+        <TextEquiv conf="0.9298322541373116">
+          <Unicode>votis“.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_84601a0c" custom="structure {type:default;}">
+        <Coords points="300,1243 298,1283 393,1285 406,1294 428,1305 430,1305 433,1305 514,1300 517,1247 517,1207 475,1192 472,1192 470,1192 468,1192 433,1201 415,1205 300,1194 300,1243"/>
+        <Baseline points="300,1243 517,1247"/>
+        <TextEquiv conf="0.9994983375072479">
+          <Unicode>Nov. 24.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_62a753c1" custom="structure {type:default;}">
+        <Coords points="857,1252 857,1274 2819,1267 2821,1243 2816,1207 2523,1194 2520,1194 2414,1205 2377,1194 2375,1194 2372,1194 2370,1194 2330,1207 2324,1207 2302,1207 2182,1196 2180,1196 2178,1196 2156,1207 2151,1207 2123,1207 1970,1196 1968,1196 1873,1207 1833,1210 1782,1207 1679,1199 1433,1199 1431,1199 1429,1199 1414,1207 1407,1210 1365,1207 1301,1201 1299,1201 1296,1201 1294,1201 1288,1207 1279,1212 1241,1207 1201,1201 1199,1201 855,1205 857,1252"/>
+        <Baseline points="857,1252 2821,1243"/>
+        <TextEquiv conf="0.998910305755479">
+          <Unicode>11363 (7599) Henrico, abbati Biburgensi, praecipit, ut abbatiam S. Petri Salzburgen-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_fa5be9e6" custom="structure {type:default;}">
+        <Coords points="638,1263 638,1298 740,1318 742,1263 740,1205 638,1212 638,1263"/>
+        <Baseline points="638,1263 742,1263"/>
+        <TextEquiv conf="0.5058969855308533">
+          <Unicode>„</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_099aa31b" custom="structure {type:default;}">
+        <Coords points="910,1305 910,1327 2821,1325 2821,1305 2821,1276 910,1274 910,1305"/>
+        <Baseline points="910,1305 2821,1305"/>
+        <TextEquiv conf="0.9951516807853401">
+          <Unicode>sem, a Conrado archiepiscopo monachisque oblatam, suscipiat. Nov. chron. mon.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_2185ff91" custom="structure {type:default;}">
+        <Coords points="905,1358 905,1380 2671,1380 2671,1358 2671,1327 905,1325 905,1358"/>
+        <Baseline points="905,1358 2671,1358"/>
+        <TextEquiv conf="0.9960668577423578">
+          <Unicode>S. Petri Salisb. p. 241, Pez Thes. anecd. VI. I. 394. — „Dilecti filii nostri“.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_f7d57c88" custom="structure {type:default;}">
+        <Coords points="859,1415 859,1439 2821,1437 2823,1408 2816,1373 857,1375 859,1415"/>
+        <Baseline points="859,1415 2823,1408"/>
+        <TextEquiv conf="0.9995608035522171">
+          <Unicode>11364 (7600). Monachis Biburgensibus praecipit, ut Heinricum abbatem monasterio</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_478f2ff9" custom="structure {type:default;}">
+        <Coords points="331,1422 331,1444 391,1433 424,1444 446,1450 448,1450 450,1450 514,1439 514,1415 508,1360 329,1378 331,1422"/>
+        <Baseline points="331,1422 514,1415"/>
+        <TextEquiv conf="0.9761947393417358">
+          <Unicode>„ 24.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_c2c5b396" custom="structure {type:default;}">
+        <Coords points="642,1428 642,1470 693,1490 695,1490 698,1490 733,1481 733,1426 726,1360 640,1371 642,1428"/>
+        <Baseline points="642,1428 733,1426"/>
+        <TextEquiv conf="1.0">
+          <Unicode>„</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_faa350b2" custom="structure {type:default;}">
+        <Coords points="908,1470 908,1492 2816,1497 2821,1466 2814,1435 905,1437 908,1470"/>
+        <Baseline points="908,1470 2821,1466"/>
+        <TextEquiv conf="0.9932867515654791">
+          <Unicode>S. Petri Salzburgensi concedant. Nov. chron. mon. S. Petri Salisb. p. 241, Pez Thes.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_d96ca556" custom="structure {type:default;}">
+        <Coords points="908,1523 908,1543 1875,1548 1880,1521 1875,1492 1020,1481 1018,1481 905,1492 908,1523"/>
+        <Baseline points="908,1523 1880,1521"/>
+        <TextEquiv conf="0.9893805940042842">
+          <Unicode>anecd. VI. I. 394. — „Dilecti filii nostri“.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_6f19e9b5" custom="structure {type:default;}">
+        <Coords points="293,1576 293,1629 517,1627 517,1576 517,1530 293,1519 293,1576"/>
+        <Baseline points="293,1576 517,1576"/>
+        <TextEquiv conf="0.9999168962240219">
+          <Unicode>Dec. 26.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_f4b157d2" custom="structure {type:default;}">
+        <Coords points="857,1578 857,1605 2816,1607 2821,1574 2814,1537 855,1541 857,1578"/>
+        <Baseline points="857,1578 2821,1574"/>
+        <TextEquiv conf="0.994561820194639">
+          <Unicode>11365 (7675) Universis ecclesiasticis in terra ducis Welfonis, quae in Augustensi terra</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_1acc3ebf" custom="structure {type:default;}">
+        <Coords points="627,1587 625,1634 662,1647 665,1647 667,1647 669,1647 671,1647 671,1645 693,1627 695,1623 735,1620 737,1592 737,1534 627,1532 627,1587"/>
+        <Baseline points="627,1587 737,1592"/>
+        <TextEquiv conf="1.0">
+          <Unicode>„</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_5b57d541" custom="structure {type:default;}">
+        <Coords points="908,1634 908,1658 2819,1654 2821,1629 2814,1601 905,1603 908,1634"/>
+        <Baseline points="908,1634 2821,1629"/>
+        <TextEquiv conf="0.9981875622973723">
+          <Unicode>sita est, constitutis petente duce permittit, ut quamdiu in unitate catholica persti-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_4635334e" custom="structure {type:default;}">
+        <Coords points="910,1689 910,1713 2819,1709 2821,1684 2814,1656 908,1656 910,1689"/>
+        <Baseline points="910,1689 2821,1684"/>
+        <TextEquiv conf="0.9993336078632309">
+          <Unicode>terint et Augustensis dictus episcopus (Conradus) ecclésiam tenuerit, „ordinationes</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_57f2d84c" custom="structure {type:default;}">
+        <Coords points="910,1742 910,1768 2821,1768 2821,1742 2821,1713 910,1713 910,1742"/>
+        <Baseline points="910,1742 2821,1742"/>
+        <TextEquiv conf="0.9981481195932411">
+          <Unicode>et consecrationes ecclesiarum et cetera ecclesiastica sacramenta a quocumque volue-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_1171945b" custom="structure {type:default;}">
+        <Coords points="908,1799 908,1821 2821,1815 2821,1793 2814,1764 905,1768 908,1799"/>
+        <Baseline points="908,1799 2821,1793"/>
+        <TextEquiv conf="0.9942394949495792">
+          <Unicode>rint catholico episcopo suscipiant“. (Contra Conradum schismaticum directam esse</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_bb974f41" custom="structure {type:default;}">
+        <Coords points="910,1855 910,1874 2816,1883 2819,1855 2819,1824 910,1813 910,1855"/>
+        <Baseline points="910,1855 2819,1855"/>
+        <TextEquiv conf="0.9966877787201492">
+          <Unicode>hanc epistolam, probat Adler Herzog Welf VI. und sein Sohn p. 123, cf. Forsch. 2.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_34f8cfe6" custom="structure {type:default;}">
+        <Coords points="908,1908 908,1932 2814,1936 2819,1903 2812,1874 905,1877 908,1908"/>
+        <Baseline points="908,1908 2819,1903"/>
+        <TextEquiv conf="0.9966421993573507">
+          <Unicode>d. Gesch. XXII. 671: minime vero concedendum est, eam a. 1161 tribuendam et</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_12fab8d6" custom="structure {type:default;}">
+        <Coords points="910,1967 910,1998 1215,1985 1383,1996 1389,1996 1391,1996 1405,1996 1676,1985 1796,1994 1829,1996 1831,1996 1869,1994 2003,1983 2074,1991 2090,1994 2092,1994 2816,1987 2819,1963 2814,1930 908,1923 910,1967"/>
+        <Baseline points="910,1967 2819,1963"/>
+        <TextEquiv conf="0.9902824856514154">
+          <Unicode>pro „VII. kal. Ian.“ legendum esse „VII. kal. Iun.“. Equidem potius puto, epistolam d.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_414b18d5" custom="structure {type:default;}">
+        <Coords points="910,2018 910,2042 2819,2038 2819,2018 2819,1987 910,1983 910,2018"/>
+        <Baseline points="910,2018 2819,2018"/>
+        <TextEquiv conf="0.9988936295634822">
+          <Unicode>26. Dec. a. 1167 scriptam esse, dum missi Welfonis ducis mortem episcopi, d.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_e4d8e9ce" custom="structure {type:default;}">
+        <Coords points="910,2073 910,2100 2816,2106 2819,2073 2819,2042 910,2038 910,2073"/>
+        <Baseline points="910,2073 2819,2073"/>
+        <TextEquiv conf="0.9999411070203207">
+          <Unicode>22. Nov. huius anni defuncti, ignorantes Beneventi morabantur.) Mon. Boic. VI. 488,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_a257652a" custom="structure {type:default;}">
+        <Coords points="910,2128 910,2148 1842,2157 1844,2157 1915,2144 1917,2124 1913,2095 908,2095 910,2128"/>
+        <Baseline points="910,2128 1917,2124"/>
+        <TextEquiv conf="0.97839954024867">
+          <Unicode>Migne 200 p. 525. — „Et communi fama“.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_faad8819" custom="structure {type:default;}">
+        <Coords points="857,2186 857,2208 2814,2212 2819,2181 2814,2146 855,2144 857,2186"/>
+        <Baseline points="857,2186 2819,2181"/>
+        <TextEquiv conf="0.9997395483064063">
+          <Unicode>11366 (7601) Ecclesiam Ragusinam tuendam suscipit eiusque possessiones confirmat,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_15bb775d" custom="structure {type:default;}">
+        <Coords points="335,2190 335,2219 415,2206 428,2217 444,2228 446,2228 448,2228 450,2230 483,2230 483,2228 486,2228 488,2228 512,2212 512,2186 505,2133 333,2142 335,2190"/>
+        <Baseline points="335,2190 512,2186"/>
+        <TextEquiv conf="0.9274136424064636">
+          <Unicode>„ 29.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_f3b8d3b7" custom="structure {type:default;}">
+        <Coords points="634,2197 631,2226 731,2226 733,2201 733,2142 636,2131 634,2197"/>
+        <Baseline points="634,2197 733,2201"/>
+        <TextEquiv conf="1.0">
+          <Unicode>„</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_9776e2c3" custom="structure {type:default;}">
+        <Coords points="910,2241 910,2263 2814,2267 2819,2234 2812,2203 908,2203 910,2241"/>
+        <Baseline points="910,2241 2819,2234"/>
+        <TextEquiv conf="0.9931577541107355">
+          <Unicode>petente Tribuno archiepiscopo. Farlati III. sacr. VI. 80, Mon. Hung. hist. I. xI. 109,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_457d4c9f" custom="structure {type:default;}">
+        <Coords points="910,2294 910,2314 1780,2309 1782,2290 1778,2261 908,2256 910,2294"/>
+        <Baseline points="910,2294 1782,2290"/>
+        <TextEquiv conf="0.9930567706332487">
+          <Unicode>Migne 200 p. 462. — „In eminenti“.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_87a0aac1" custom="structure {type:default;}">
+        <Coords points="857,2347 857,2373 2819,2376 2823,2343 2819,2312 855,2307 857,2347"/>
+        <Baseline points="857,2347 2823,2343"/>
+        <TextEquiv conf="0.9994445540010929">
+          <Unicode>11367 (7602) Pullatensem, (Petrum) Suaciensem, (Martinum) Drivastensem episcopos</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_57ad8824" custom="structure {type:default;}">
+        <Coords points="338,2351 338,2380 514,2380 514,2345 512,2303 448,2285 446,2285 444,2285 441,2285 439,2285 417,2303 410,2305 335,2303 338,2351"/>
+        <Baseline points="338,2351 514,2345"/>
+        <TextEquiv conf="0.9354850888252259">
+          <Unicode>„ 29.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_bdef3b29" custom="structure {type:default;}">
+        <Coords points="638,2362 638,2424 731,2424 731,2362 731,2305 638,2294 638,2362"/>
+        <Baseline points="638,2362 731,2362"/>
+        <TextEquiv conf="1.0">
+          <Unicode>„</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_f0c42862" custom="structure {type:default;}">
+        <Coords points="910,2404 910,2426 2819,2422 2821,2400 2816,2369 908,2369 910,2404"/>
+        <Baseline points="910,2404 2821,2400"/>
+        <TextEquiv conf="0.9968622319582032">
+          <Unicode>iubet Tribuno, archiepiscopo Ragusino, obtemperare; alioquin cos dignitatibus pri-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_cdf5de76" custom="structure {type:default;}">
+        <Coords points="910,2460 910,2484 1151,2484 1157,2486 1184,2495 1186,2495 1188,2495 1391,2486 1524,2482 1544,2486 1570,2495 1573,2495 1575,2495 1577,2495 1597,2488 1610,2482 1619,2488 1630,2495 1632,2495 1634,2495 1637,2495 1738,2488 1827,2482 1840,2488 1853,2495 1855,2495 1858,2495 1933,2488 2034,2479 2079,2488 2098,2493 2101,2495 2341,2495 2341,2493 2344,2493 2350,2491 2372,2479 2414,2491 2417,2491 2419,2491 2421,2493 2688,2493 2688,2491 2691,2491 2717,2479 2816,2491 2821,2451 2814,2422 908,2426 910,2460"/>
+        <Baseline points="910,2460 2821,2451"/>
+        <TextEquiv conf="0.9990833058076747">
+          <Unicode>vatum iri ostendit. Farlati III. sacr. VI. 81, Mon. Hung. hist. I. xI. 110, Migne 200</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_96223883" custom="structure {type:default;}">
+        <Coords points="910,2513 910,2535 1069,2544 1071,2544 1073,2544 1075,2544 1084,2535 1089,2532 1168,2532 1179,2535 1228,2544 1230,2544 1232,2544 1263,2532 1268,2532 1281,2532 1372,2544 1374,2544 1542,2530 1542,2513 1539,2475 910,2477 910,2513"/>
+        <Baseline points="910,2513 1542,2513"/>
+        <TextEquiv conf="0.9984263800657712">
+          <Unicode>p. 462. — „Si quanta sit“.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_8d778bf4" custom="structure {type:default;}">
+        <Coords points="857,2568 857,2592 2819,2599 2821,2568 2821,2532 2673,2519 2671,2519 2620,2530 2618,2530 2613,2530 2509,2519 2507,2519 2412,2530 2401,2532 2116,2532 2109,2528 2076,2519 2074,2519 2072,2519 1966,2528 1939,2530 1926,2528 1877,2519 1875,2519 1771,2528 1736,2530 1725,2528 1696,2519 1694,2519 1692,2519 857,2524 857,2568"/>
+        <Baseline points="857,2568 2821,2568"/>
+        <TextEquiv conf="0.9967302097363419">
+          <Unicode>11368 (7603) Clericis Dulchiniensis et Antibarensis episcopatuum praecipit, ne episcopis,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_38772c8e" custom="structure {type:default;}">
+        <Coords points="338,2572 338,2630 377,2645 380,2645 382,2645 384,2645 419,2636 441,2632 512,2643 514,2568 510,2528 410,2508 408,2508 406,2508 404,2508 404,2510 386,2528 335,2530 338,2572"/>
+        <Baseline points="338,2572 514,2568"/>
+        <TextEquiv conf="0.9972612380981445">
+          <Unicode>„ 29.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_e0c0e99d" custom="structure {type:default;}">
+        <Coords points="620,2636 691,2652 693,2652 695,2652 733,2632 735,2585 737,2521 729,2513 729,2510 726,2510 724,2510 722,2510 720,2510 698,2519 682,2526 629,2513 625,2581 620,2636"/>
+        <Baseline points="625,2581 735,2585"/>
+        <TextEquiv conf="0.9999921321868896">
+          <Unicode>„</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_028243a9" custom="structure {type:default;}">
+        <Coords points="910,2625 910,2650 2819,2650 2821,2621 2816,2592 908,2590 910,2625"/>
+        <Baseline points="910,2625 2821,2621"/>
+        <TextEquiv conf="0.9951529655514694">
+          <Unicode>a T(ribuno) archiepiscopo Ragusino excommunicatis, obtemperent. Farlati IIl. sacr.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_24100e07" custom="structure {type:default;}">
+        <Coords points="914,2678 914,2700 2554,2700 2554,2678 2554,2650 2330,2636 2328,2636 2326,2636 2324,2636 2313,2647 2311,2650 2204,2650 2191,2645 2140,2636 2138,2636 2052,2645 2017,2647 1992,2643 1946,2636 1944,2636 1889,2643 1851,2647 1816,2643 1774,2636 1771,2636 1769,2636 1767,2636 1760,2643 1752,2647 1736,2643 1721,2636 1718,2636 1716,2636 1659,2641 1590,2647 1544,2641 1515,2636 1513,2636 1489,2641 1447,2647 1411,2638 1398,2636 1396,2636 1394,2636 1365,2638 1290,2647 1252,2638 1243,2636 1241,2636 1239,2636 1228,2638 1184,2647 1120,2636 1111,2636 1109,2636 1106,2636 1104,2636 1078,2647 1051,2636 1049,2636 1047,2636 1045,2636 1042,2636 1040,2636 994,2647 914,2636 914,2678"/>
+        <Baseline points="914,2678 2554,2678"/>
+        <TextEquiv conf="0.987075991490308">
+          <Unicode>VI. 81, Mon. Hung. hist. I. XI. 111, Migne 200 p. 463. — „Sicut ex“.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_3d30af65" custom="structure {type:default;}">
+        <Coords points="857,2736 857,2758 2819,2751 2821,2729 2814,2696 855,2696 857,2736"/>
+        <Baseline points="857,2736 2821,2729"/>
+        <TextEquiv conf="0.9999993451033966">
+          <Unicode>11369 (7605) Hugonem, archiepiscopum Senonensem, reprehendit, quod „absque con-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_06496ab7" custom="structure {type:default;}">
+        <Coords points="908,2789 908,2811 2812,2806 2814,2784 2808,2749 905,2756 908,2789"/>
+        <Baseline points="908,2789 2814,2784"/>
+        <TextEquiv conf="0.999978422425514">
+          <Unicode>scientia et mandato suo (Alani) episcopi Altissiodorensis abrenunciationem receperit“.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_76b0d83d" custom="structure {type:default;}">
+        <Coords points="908,2844 908,2864 2812,2870 2816,2839 2810,2806 905,2806 908,2844"/>
+        <Baseline points="908,2844 2816,2839"/>
+        <TextEquiv conf="0.9905479801328558">
+          <Unicode>Concedit tamen, ut W(illelmum) in eius locum consecret. Coll. Lips. XXXI. 2,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_9bc67f8a" custom="structure {type:default;}">
+        <Coords points="908,2899 908,2919 2812,2926 2816,2895 2812,2864 932,2855 930,2855 927,2855 905,2864 908,2899"/>
+        <Baseline points="908,2899 2816,2895"/>
+        <TextEquiv conf="0.995477400529079">
+          <Unicode>Coll. Cass. XL. 2, Coll. Bamb. XXX. 2, Comp. I. L. 1. t. 5. c. 1, Bouquet Rec.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_db51acf5" custom="structure {type:default;}">
+        <Coords points="910,2954 910,2979 2814,2987 2819,2950 2814,2919 908,2912 910,2954"/>
+        <Baseline points="910,2954 2819,2950"/>
+        <TextEquiv conf="0.998605226999835">
+          <Unicode>XV. 854, Mansi XXI. 1083, Migne 200 p. 466. — „Quanta importunitate“ „Quanta</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_2fa01623" custom="structure {type:default;}">
+        <Coords points="905,3009 905,3027 1025,3038 1027,3038 1246,3023 1248,3005 1241,2972 903,2974 905,3009"/>
+        <Baseline points="905,3009 1248,3005"/>
+        <TextEquiv conf="0.9870350996653239">
+          <Unicode>opportunitate“.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_ee7dfaf9" custom="structure {type:default;}">
+        <Coords points="855,3062 855,3087 2816,3089 2821,3056 2816,3018 1504,3012 1502,3012 1500,3012 1471,3023 1467,3025 852,3025 855,3062"/>
+        <Baseline points="855,3062 2821,3056"/>
+        <TextEquiv conf="0.9979593927347208">
+          <Unicode>11370 (7606) Henricum, archiepiscopum Remensem, vituperat, „quod canonicos suos</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_e981b41f" custom="structure {type:default;}">
+        <Coords points="908,3115 908,3140 2814,3142 2819,3109 2812,3082 905,3087 908,3115"/>
+        <Baseline points="908,3115 2819,3109"/>
+        <TextEquiv conf="0.9999673680255288">
+          <Unicode>dure nimis et graviter tractet et ad eorum gravamen Francorum regem, fratrem</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_e81416f9" custom="structure {type:default;}">
+        <Coords points="910,3173 910,3195 2816,3191 2819,3168 2812,3140 908,3140 910,3173"/>
+        <Baseline points="910,3173 2819,3168"/>
+        <TextEquiv conf="0.9921550161954833">
+          <Unicode>suum, provocaverit, in hoc minus, quam eum decuerit, libertati ecclesiasticae pro-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_dbb7cbb3" custom="structure {type:default;}">
+        <Coords points="912,3228 912,3255 2812,3255 2814,3228 2812,3195 912,3191 912,3228"/>
+        <Baseline points="912,3228 2814,3228"/>
+        <TextEquiv conf="0.99801639392972">
+          <Unicode>videns“. Martene Coll. II. 934, Marlot Metr. Rem. II. 393, Bouquet Rec. XV. 855,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_1094fed4" custom="structure {type:default;}">
+        <Coords points="910,3283 910,3303 1003,3314 1005,3314 1071,3303 1075,3303 1078,3303 1113,3314 1115,3314 1117,3314 1120,3314 1164,3303 1166,3303 1199,3314 1201,3314 1204,3314 1206,3314 1243,3303 1270,3314 1272,3314 1274,3314 1349,3301 1358,3301 1385,3301 1604,3312 1606,3312 1608,3312 1641,3301 2001,3310 2003,3310 2006,3310 2050,3297 2050,3277 2045,3244 908,3244 910,3283"/>
+        <Baseline points="910,3283 2050,3277"/>
+        <TextEquiv conf="0.9973742054856342">
+          <Unicode>Migne 200 p. 466. — „Quanto maiori dignitate“.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_53410c77" custom="structure {type:default;}">
+        <Coords points="855,3336 855,3361 2821,3354 2821,3330 2814,3288 852,3292 855,3336"/>
+        <Baseline points="855,3336 2821,3330"/>
+        <TextEquiv conf="0.9971995033868929">
+          <Unicode>11371 (7607) Ludovicum, Francorum regem, hortatur, ut canonicis ecclesiae Remensis</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_6db758db" custom="structure {type:default;}">
+        <Coords points="910,3389 910,3411 2814,3416 2816,3389 2816,3358 910,3358 910,3389"/>
+        <Baseline points="910,3389 2816,3389"/>
+        <TextEquiv conf="0.998239347733647">
+          <Unicode>et gratiam suam et ereptas possessiones reddat. Martene Coll. II. 935, Marlot Metr.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_e4a2b12d" custom="structure {type:default;}">
+        <Coords points="912,3442 912,3489 1224,3489 1235,3495 1243,3502 1246,3502 1248,3502 1250,3502 1252,3502 1265,3495 1281,3489 1310,3498 1422,3528 1425,3528 1427,3528 1522,3515 1643,3531 1646,3533 1707,3533 1707,3531 1710,3531 1758,3509 1829,3531 1831,3531 1833,3533 2196,3533 2196,3531 2198,3531 2200,3531 2220,3517 2242,3504 2258,3515 2260,3515 2262,3515 2264,3515 2266,3515 2269,3515 2308,3491 2368,3502 2370,3502 2372,3502 2417,3489 2481,3489 2573,3526 2587,3531 2589,3531 2591,3531 2593,3531 2602,3526 2673,3489 2710,3489 2808,3531 2814,3442 2812,3414 912,3411 912,3442"/>
+        <Baseline points="912,3442 2814,3442"/>
+        <TextEquiv conf="0.9479747181885863">
+          <Unicode>Nete. Rem. II. 288. Bouuuet Rec. XNI. S55. Miene 26 p. 491. — „later atis</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_deb98ba2" custom="structure {type:default;}">
+        <Coords points="910,3502 910,3559 1020,3548 1120,3562 1122,3498 1115,3464 908,3467 910,3502"/>
+        <Baseline points="910,3502 1122,3498"/>
+        <TextEquiv conf="0.9998430371284485">
+          <Unicode>pietatis“.</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="eSc_textblock_3346eb81"  custom="structure {type:default;}">
+      <Coords points="1124,141 2017,150 2034,227 1992,253 1084,245 1067,159 1124,141"/>
+      <TextLine id="eSc_line_e0899183" custom="structure {type:default;}">
+        <Coords points="1091,218 1091,234 2003,238 2008,214 2003,161 1911,152 1908,152 1906,152 1904,152 1895,159 1884,167 1787,167 1771,159 1745,147 1743,147 1676,147 1674,147 1672,147 1670,147 1670,150 1659,159 1650,165 1586,159 1513,150 1511,150 1509,150 1506,150 1506,152 1500,156 1489,167 1462,156 1440,150 1438,150 1436,150 1378,156 1325,163 1310,156 1296,150 1294,150 1292,150 1089,154 1091,218"/>
+        <Baseline points="1091,218 2008,214"/>
+        <TextEquiv conf="0.9981258797645569">
+          <Unicode>ALEXANDER III. 1159—1181.</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+  </Page>
+</PcGts>

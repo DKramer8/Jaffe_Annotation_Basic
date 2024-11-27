@@ -7,7 +7,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 import os
-import pagexml.helper.text_helper as text_helper
 import io
 from pagexml.helper.file_helper import  read_page_archive_files
 from pagexml import parser as pxml_parser
@@ -575,6 +574,14 @@ def drop_unnecessary(df):
 
     return df
 
+def produceGT(df): #name
+    excel_df = df.drop(['x', 'y', 'w', 'h'], axis=1)
+    name = int(name[:-4])-13
+    name = str(name)
+    reshaped_df = excel_df.pivot(columns='type', values='text')
+    reshaped_df = reshaped_df.fillna('')
+    reshaped_df.reset_index(drop=True).to_excel(f'{OUTPUT_PATH}\\{name}.xlsx', index=False)
+
 def classify(scan):
     '''
         Main classification function. Iterates through each region of the passed scan and manages classification of table region 
@@ -595,6 +602,7 @@ def classify(scan):
     df = pd.DataFrame(textRegion_dict)
     df = df.sort_values('y')
     df = df.reset_index(drop=True)
+    #produceGT(df, name)
     df = detect_new_pope(df)
     df = detect_pope_overview(df)
     df = drop_unnecessary(df)
@@ -614,7 +622,7 @@ def classify(scan):
 
     #print(len(final_regest_dict['pope']), len(final_regest_dict['date']), len(final_regest_dict['place']), len(final_regest_dict['number']), len(final_regest_dict['text']))
     final_df = pd.DataFrame(final_regest_dict)
-    print(final_df)
+    #print(final_df)
 
     return df, final_df
 
@@ -748,7 +756,7 @@ if input_type == 'single':
     print('----------------------------------------------------------------------------------------------------------------------')
 
     scan = pxml_parser.parse_pagexml_file(single_file)
-    df, final_df = classify(scan)
+    df, final_df = classify(scan) #''
     #print(final_df)
 
     # Plot the regions if wanted
@@ -789,7 +797,7 @@ elif input_type == 'zip':
     for info, data in read_page_archive_files(zip_file):
         if info['archived_filename'] != 'METS.xml':
             scan = pxml_parser.parse_pagexml_file(pagexml_file=info['archived_filename'], pagexml_data=data)
-            df, final_df = classify(scan)
+            df, final_df = classify(scan) #info['archived_filename']
             zip_df.append(final_df)
 
             # Plot specific page if wanted
@@ -810,9 +818,10 @@ else:
 '''
 Noch zu tun:
 
-- Regesten ohne Nummer -> erweiterte Nummer der vorherigen Regeste z.B: 10614-02 oder:
+- Regesten ohne Nummer -> erweiterte Nummer der vorherigen Regeste z.B: 10614-02?
 - Generell Regionenerkennung verbessern
-- Recipit
+- Recipit?
+- Monatsangaben normalisieren?
 - Aufräumen :)
 
 '''
