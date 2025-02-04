@@ -87,7 +87,8 @@ def new_dictionaries():
         'date': [],
         'place': [],
         'number': [],
-        'text': []
+        'text': [],
+        'incipit': []
     }
 
     return textRegion_dict, unknown_region_dict, final_regest_dict            
@@ -518,6 +519,8 @@ def classify(scan):
                 if len(regest_nr) > 1:
                     if regest_nr[-1] == ' ':
                         regest_nr = regest_nr[:-1]
+                elif len(regest_nr) == 0:
+                    regest_nr = False
 
             else:
                 regest_nr = False
@@ -589,7 +592,8 @@ def classify(scan):
                 if regest_nr != False:
                     final_regest_dict['number'].append(regest_nr)
                 else: 
-                    final_regest_dict['number'].append(' ')
+                    final_regest_dict['number'].append('')
+                    final_regest_dict['incipit'].append(False)
                 
                 # Append date of regest to final_regest_dict
                 full_date = get_full_date(df_date, date_closest_regest, current_year)
