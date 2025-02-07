@@ -88,7 +88,6 @@ def new_dictionaries():
         'place': [],
         'number': [],
         'text': [],
-        'incipit': []
     }
 
     return textRegion_dict, unknown_region_dict, final_regest_dict            
@@ -593,7 +592,6 @@ def classify(scan):
                     final_regest_dict['number'].append(regest_nr)
                 else: 
                     final_regest_dict['number'].append('')
-                    final_regest_dict['incipit'].append(False)
                 
                 # Append date of regest to final_regest_dict
                 full_date = get_full_date(df_date, date_closest_regest, current_year)
@@ -651,9 +649,8 @@ def classify(scan):
                 final_regest_dict['pope'].append(final_regest_dict['pope'][0])
         i += 1
 
-    #print(len(final_regest_dict['pope']), len(final_regest_dict['date']), len(final_regest_dict['place']), len(final_regest_dict['number']), len(final_regest_dict['text']))
+    #print(len(final_regest_dict['pope']), len(final_regest_dict['date']), len(final_regest_dict['place']), len(final_regest_dict['number']), len(final_regest_dict['text']), len(final_regest_dict['incipit']))
     final_df = pd.DataFrame(final_regest_dict)
-    #print(final_df)
 
     return df, final_df
 
@@ -708,6 +705,36 @@ def combine_regests(df):
         :param: df: The Pandas DataFrame whichs regests get merged
         :return: The Pandas DataFrame without rows that belong to previous regest
     '''
+
+    def find_incipit(df):
+        incipits = []
+        texts = []
+        slice_idx = False
+        for idx, regest in df.iterrows():
+            txt = regest['text']
+            if len(txt) > 75:
+                max_chars = len(txt) - 75
+            else:
+                max_chars = len(txt)
+
+            for idx, char in enumerate(txt):
+                if idx > max_chars:
+                    if char == '—':
+                        slice_idx = idx
+
+            if slice_idx != False:
+                incipit = txt[slice_idx+2:]
+                only_txt = txt[:slice_idx-1:]
+                incipits.append(incipit)
+                texts.append(only_txt)
+            else:
+                incipits.append('')
+                texts.append(txt)
+        df['incipit'] = incipits
+        df['text'] = texts
+
+        return df
+
     # Merge text
     drop_idx = []
     for idx, row in df.iterrows():
@@ -742,6 +769,8 @@ def combine_regests(df):
                     df.loc[idx, 'place'] = '(' + df.loc[i, 'place'] + ')'
                     i = 0
                 i = i-1                
+
+    df = find_incipit(df)
 
     return df
 
