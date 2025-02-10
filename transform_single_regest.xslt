@@ -41,9 +41,19 @@
                         <p>
                             <xsl:value-of select="/data/row/number"/>
                         </p>
-                        <p>
-                            <xsl:value-of select="/data/row/text"/>
-                        </p>
+                        <div type="abstract">
+                            <p>
+                                <xsl:value-of select="/data/row/text"/>
+                            </p>
+                        </div>
+                        <div type="incipit">
+                            <diploPart>
+                                <p>
+                                    <xsl:value-of select="/data/row/incipit"/>
+                                </p>
+                            </diploPart>
+                        </div>
+
                     </div>
                 </body>
             </text>

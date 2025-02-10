@@ -781,6 +781,7 @@ def output(df, format, file_name):
         :param: df: The Pandas DataFrame to export
         :param: format: Either 'csv' or 'tsv' depending on favored output format.    
     '''
+
     file_name = file_name[:-4]
     if format.lower() == 'csv':
         df.to_csv(OUTPUT_PATH + '\\' + file_name + 'CSV.csv', index=True)
@@ -797,8 +798,10 @@ def output(df, format, file_name):
                     single_regest.to_xml(puffer, index=False, encoding='utf-8')
                     puffer.seek(0)
                     zipFile.writestr(f"{i}_{single_regest['number'].values[0]}.xml", puffer.read())
+    elif format.lower() == 'excel':
+        df.to_excel(OUTPUT_PATH + '\\' + file_name + '.xlsx', index=False)
     else:
-        print('Invalid output format. COuld not create output file.')
+        print('Invalid output format. Could not create output file.')
 
 # ------------------------------------------------------------------------------------
 # ------------------------------------------------------------------------------------
@@ -828,7 +831,7 @@ if input_type == 'single':
 
     # Ask for output format
     print('----------------------------------------------------------------------------------------------------------------------')
-    print('Please enter output format (csv/tsv//single_xml/multi_xml)')
+    print('Please enter output format (csv/tsv//single_xml/multi_xml/excel)')
     output_format = input()
 
     output(final_df, output_format, file_name)
@@ -852,7 +855,7 @@ elif input_type == 'zip':
 
     # Ask for output format
     print('----------------------------------------------------------------------------------------------------------------------')
-    print('Please enter output format (csv/tsv//single_xml/multi_xml)')
+    print('Please enter output format (csv/tsv//single_xml/multi_xml/excel)')
     output_format = input()
 
     print('Processing...')
