@@ -4,25 +4,27 @@ import re
 import calendar
 from datetime import datetime
 
-month_map = {
-    'Jan': '01', 'Januar': '01', 'Janr': '01', 'Ian': '01',
-    'Feb': '02', 'Febr': '02', 'Februar': '02',
-    'Mar': '03', 'März': '03', 'Maerz': '03',
-    'Apr': '04', 'April': '04',
-    'May': '05', 'Mai': '05',
-    'Jun': '06', 'Juni': '06',
-    'Jul': '07', 'Juli': '07',
-    'Aug': '08', 'August': '08',
-    'Sep': '09', 'Sept': '09', 'September': '09',
-    'Oct': '10', 'Okt': '10', 'Oktober': '10',
-    'Nov': '11', 'November': '11',
-    'Dec': '12', 'Dez': '12', 'Dezember': '12'
+MONTH_MAP = {
+    'januar': '01', 'janr': '01', 'ianuar': '01', 'ianr': '01',
+    'februar': '02',
+    'märz': '03', 'mart': '03', 'maerz': '03',
+    'april': '04',
+    'may': '05', 'mai': '05',
+    'iuni': '06', 'juni': '06',
+    'iuli': '07', 'juli': '07',
+    'august': '08',
+    'september': '09',
+    'october': '10', 'oktober': '10',
+    'november': '11',
+    'december': '12', 'dezember': '12'
 }
+COLUMNS = ['pope', 'date', 'place', 'number', 'abstract', 'incipit']
 
-df = pd.read_excel('Jaffe_Korrekturdatei_I.xlsx')
+#df = pd.read_excel('Jaffe_Korrekturdatei_I.xlsx')
+df = pd.read_excel('jaffe_test.xlsx')
 print(list(df.columns.values))
 
-def get_timespan(row):
+def get_timespan(row, nr):
     """
     Extracts and constructs a timespan (notBefore and notAfter) based on the given row data.
     This function processes day, month, and year values to generate a valid date range.
@@ -63,25 +65,44 @@ def get_timespan(row):
             first, last = parts[0], parts[1]
         else: # No timespan
             first, last = str(row[columnName]), str(row[columnName])
-        first, last = re.sub(r'\D', '', first), re.sub(r'\D', '', last) # Remove non-digit characters
 
         return first, last
        
-    firstDay, lastDay = check_for_timespan('Day')
-    firstDay, lastDay = firstDay.zfill(2), lastDay.zfill(2) # Ensure two digits for day
-    firstMonth, lastMonth = check_for_timespan('Month')
-    firstMonth, lastMonth = month_map.get(firstMonth[:4], None), month_map.get(lastMonth[:4], None)
-    if firstMonth is None or lastMonth is None:
-        firstMonth, lastMonth = '01', '12' # Default to January and December if month is not found in the map
-    firstYear, lastYear = check_for_timespan('Year')
+    def get_month_digits(month_str):
+        """
+        Converts a month name or abbreviation to its corresponding digits.
+        Args:
+            month_str (str): The name or abbreviation of the month (e.g., "January", "Jan", "Feb").
+        Returns:
+            int: The digits corresponding to the month (01 for January, 02 for February, etc.),
+            None if the input does not match any month in the MONTH_MAP.
+        """
+        
+        for key, value in MONTH_MAP.items():
+            if re.search(month_str.lower(), key):
+                return value
+        return '' 
 
-    if firstDay == '00': # Day is not found
-        firstDay = '01'    
+    firstYear, lastYear = check_for_timespan('Year')
+    firstYear, lastYear = re.sub(r'\D', '', firstYear), re.sub(r'\D', '', lastYear) # Remove non-digit characters
+
+    firstMonth, lastMonth = check_for_timespan('Month')
+    firstMonth, lastMonth = re.sub(r'[^a-zA-ZäöüÄÖÜß]', '', firstMonth), re.sub(r'[^a-zA-ZäöüÄÖÜß]', '', lastMonth) # Remove non-alphabetic characters
+    if firstMonth != '' or lastMonth != '':
+        firstMonth, lastMonth = get_month_digits(firstMonth), get_month_digits(lastMonth)
+    else:
+        firstMonth, lastMonth = '01', '12' # If month is not found -> get full year timespan
+    
+    firstDay, lastDay = check_for_timespan('Day')
+    firstDay, lastDay = re.sub(r'\D', '', firstDay), re.sub(r'\D', '', lastDay) # Remove non-digit characters
+    firstDay, lastDay = firstDay.zfill(2), lastDay.zfill(2) # Ensure two digits for day
+    if firstDay == '00': 
+        firstDay = '01'  # Day is not found -> get full month timespan  
         try:
             _, last_day_of_month = calendar.monthrange(int(lastYear), int(lastMonth))
             lastDay = str(last_day_of_month).zfill(2)    
         except ValueError as e:
-            print(e)
+            print(f'{nr}, {row['date']}: Cant get first and last day of month: {e}')
     
     try:
         notBefore = f"{firstYear}-{firstMonth}-{firstDay}"
@@ -89,17 +110,18 @@ def get_timespan(row):
         notAfter = f"{lastYear}-{lastMonth}-{lastDay}"
         datetime.strptime(notAfter, "%Y-%m-%d")
     except ValueError as e:
-        print(e)
+        print(f'{nr}, {row['date']}: Cant build full date: {e}')
         notBefore, notAfter = None, None
     
     return notBefore, notAfter
 
+root = ET.Element('data')
 for id, row in df.iterrows():
-    root = ET.Element('data')
+    #root = ET.Element('data')
     nr = ''
     row_element = ET.SubElement(root, 'row')
     for col, value in row.items():
-        if any(w in col for w in ['pope', 'date', 'place', 'number', 'abstract', 'incipit']): # Transform only the columns we want into xml
+        if any(w in col for w in COLUMNS): # Transform only the columns we want into xml
             col_element = ET.SubElement(row_element, col)
             if str(value) == 'nan': # Handle NaN values
                 value = ''
@@ -108,12 +130,16 @@ for id, row in df.iterrows():
                 nr = str(value)
                 nr = nr.replace('?', '')
 
-    notBefore, notAfter = get_timespan(row)
-    if notBefore or notAfter: # Only add notBefore and notAfter attributes if they are not None
-        notBeforeElement = ET.SubElement(row_element, 'notBefore')
-        notBeforeElement.text = str(notBefore)
-        notAfterElement = ET.SubElement(row_element, 'notAfter')
-        notAfterElement.text = str(notAfter)
+    if pd.isna(row['date']):
+        pass
+    else:
+        notBefore, notAfter = get_timespan(row, id)
+        if notBefore or notAfter: # Only add notBefore and notAfter attributes if they are not None
+            notBeforeElement = ET.SubElement(row_element, 'notBefore')
+            notBeforeElement.text = str(notBefore)
+            notAfterElement = ET.SubElement(row_element, 'notAfter')
+            notAfterElement.text = str(notAfter)
 
     tree = ET.ElementTree(root)
-    tree.write(f'transformInput/{id}_{nr}.xml', encoding='utf-8', xml_declaration=True)
+    #tree.write(f'transformInput/{id}_{nr}.xml', encoding='utf-8', xml_declaration=True)
+tree.write(f'test/{id}_{nr}.xml', encoding='utf-8', xml_declaration=True)
