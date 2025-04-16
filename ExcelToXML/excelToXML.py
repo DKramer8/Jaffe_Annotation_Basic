@@ -20,8 +20,8 @@ MONTH_MAP = {
 }
 COLUMNS = ['pope', 'date', 'place', 'number', 'abstract', 'incipit']
 
-#df = pd.read_excel('Jaffe_Korrekturdatei_I.xlsx')
-df = pd.read_excel('jaffe_test.xlsx')
+df = pd.read_excel('Jaffe_Korrekturdatei_I.xlsx')
+#df = pd.read_excel('jaffe_test.xlsx')
 print(list(df.columns.values))
 
 def get_timespan(row, nr):
@@ -49,7 +49,7 @@ def get_timespan(row, nr):
         """
         Extracts and processes a timespan or single time value from a specified column in a row.
         This function checks the value in the specified column of a row to determine if it contains
-        a timespan (e.g., "10-20" or "10—20") or a single time value. It then extracts the numeric
+        a timespan (e.g., "10-20", "10—20" or "10 20") or a single time value. It then extracts the numeric
         components of the timespan or single value, removing any non-digit characters.
         Args:
             columnName (str): The name of the column to check in the row.
@@ -60,8 +60,11 @@ def get_timespan(row, nr):
         """
         if pd.isna(row[columnName]) or row[columnName] == '': # No entry
             first, last = '', ''
-        elif any(c in str(row[columnName]) for c in ['-', '—']): # Timespan
+        elif any(c in str(row[columnName]) for c in ['-', '—']): # Timespan divided by '-' or '—'
             parts = re.split(r'[-—]', str(row[columnName]), maxsplit=1)
+            first, last = parts[0], parts[1]
+        elif re.search(r'(?<=\d)\s(?=\d)|(?<!\d)\s(?!\d)|(?<=\d\.)\s(?=\d)|(?<=\D\.)\s(?=\D)', str(row[columnName])): # Timespan divided by whitespace
+            parts = re.split(r'\s', str(row[columnName]), maxsplit=1)
             first, last = parts[0], parts[1]
         else: # No timespan
             first, last = str(row[columnName]), str(row[columnName])
@@ -102,7 +105,7 @@ def get_timespan(row, nr):
             _, last_day_of_month = calendar.monthrange(int(lastYear), int(lastMonth))
             lastDay = str(last_day_of_month).zfill(2)    
         except ValueError as e:
-            print(f'{nr}, {row['date']}: Cant get first and last day of month: {e}')
+            print(f'{nr}, {row['JL']}, {row['Year']}.{row['Month']}.{row['Day']}: Cant get first and last day of month: {e}')
     
     try:
         notBefore = f"{firstYear}-{firstMonth}-{firstDay}"
@@ -110,7 +113,7 @@ def get_timespan(row, nr):
         notAfter = f"{lastYear}-{lastMonth}-{lastDay}"
         datetime.strptime(notAfter, "%Y-%m-%d")
     except ValueError as e:
-        print(f'{nr}, {row['date']}: Cant build full date: {e}')
+        print(f'{nr}, {row['JL']}, {row['Year']}.{row['Month']}.{row['Day']}: Cant build full date: {e}')
         notBefore, notAfter = None, None
     
     return notBefore, notAfter
