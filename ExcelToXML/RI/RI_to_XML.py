@@ -1,5 +1,6 @@
 from lxml import etree
 import pandas as pd
+from bs4 import BeautifulSoup
 
 INPUT_PATH = "RI_test.xlsx"
 OUTPUT_PATH = "RI_Output.xml"
@@ -46,7 +47,12 @@ xml_content_map = { # "xml": "content"
     "notes_head": "[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]",
 }
 
-def create_tei_xml(output_file, df):
+def remove_html_tags(text):
+    if isinstance(text, str):
+        return BeautifulSoup(text, "html.parser").get_text()
+    return text
+
+def create_tei_xml(output_file):
     # Define namespaces
     namespaces = {
         None: "http://www.tei-c.org/ns/1.0",
@@ -222,9 +228,13 @@ df = pd.read_excel(INPUT_PATH, header=0, dtype=str)
 for id, row in df.iterrows():
     for col, value in row.items():
         if col in COLUMNS_XML_MAP and value != "nan":
+            print(value)
+            clean_value = remove_html_tags(value)
+            print(clean_value)
             try:
-                xml_content_map[COLUMNS_XML_MAP[col]] = value
+                xml_content_map[COLUMNS_XML_MAP[col]] = clean_value
             except:
                 print(f"Spalte '{col}' nicht in xml_content_map gefunden.")
-create_tei_xml(OUTPUT_PATH, df)
+
+create_tei_xml(OUTPUT_PATH)
 print(f"XML-Datei wurde erstellt: {OUTPUT_PATH}")
