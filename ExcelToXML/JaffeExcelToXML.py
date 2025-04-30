@@ -4,7 +4,7 @@ import re
 import calendar
 from datetime import datetime
 
-MONTH_MAP = {
+MONTH_DICT = {
     'januar': '01', 'janr': '01', 'ianuar': '01', 'ianr': '01',
     'februar': '02',
     'märz': '03', 'mart': '03', 'maerz': '03',
@@ -19,16 +19,16 @@ MONTH_MAP = {
     'december': '12', 'dezember': '12'
 }
 COLUMNS = ['pope', 'date', 'place', 'number', 'abstract', 'incipit']
+INPUT_FILE = 'Jaffe_Korrekturdatei_I.xlsx'
 
-df = pd.read_excel('Jaffe_Korrekturdatei_I.xlsx')
+df = pd.read_excel(INPUT_FILE)
 #df = pd.read_excel('jaffe_test.xlsx')
 print(list(df.columns.values))
 
-def get_timespan(row, nr):
+def get_dates(row, nr):
     """
     Extracts and constructs a timespan (notBefore and notAfter) based on the given row data.
     This function processes day, month, and year values to generate a valid date range.
-    It ensures proper formatting and handles edge cases such as missing or invalid dates.
     Args:
         row (dict): A dictionary or data structure containing the row data from which
                     the timespan is to be extracted.
@@ -78,10 +78,10 @@ def get_timespan(row, nr):
             month_str (str): The name or abbreviation of the month (e.g., "January", "Jan", "Feb").
         Returns:
             int: The digits corresponding to the month (01 for January, 02 for February, etc.),
-            None if the input does not match any month in the MONTH_MAP.
+            None if the input does not match any month in the MONTH_DICT.
         """
         
-        for key, value in MONTH_MAP.items():
+        for key, value in MONTH_DICT.items():
             if re.search(month_str.lower(), key):
                 return value
         return '' 
@@ -99,7 +99,7 @@ def get_timespan(row, nr):
     firstDay, lastDay = check_for_timespan('Day')
     firstDay, lastDay = re.sub(r'\D', '', firstDay), re.sub(r'\D', '', lastDay) # Remove non-digit characters
     firstDay, lastDay = firstDay.zfill(2), lastDay.zfill(2) # Ensure two digits for day
-    if firstDay == '00': 
+    if firstDay == '00': # Happens if day is not found
         firstDay = '01'  # Day is not found -> get full month timespan  
         try:
             _, last_day_of_month = calendar.monthrange(int(lastYear), int(lastMonth))
@@ -136,7 +136,7 @@ for id, row in df.iterrows():
     if pd.isna(row['date']):
         pass
     else:
-        notBefore, notAfter = get_timespan(row, id)
+        notBefore, notAfter = get_dates(row, id)
         if notBefore or notAfter: # Only add notBefore and notAfter attributes if they are not None
             notBeforeElement = ET.SubElement(row_element, 'notBefore')
             notBeforeElement.text = str(notBefore)
