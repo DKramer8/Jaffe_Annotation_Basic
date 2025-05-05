@@ -10,7 +10,8 @@
             <xsl:text>type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"</xsl:text>
         </xsl:processing-instruction>
         <TEI xmlns="http://www.tei-c.org/ns/1.0"
-            xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+            source="formierung-europas_jaffe">
             <teiHeader>
                 <fileDesc>
                     <titleStmt>
@@ -30,7 +31,7 @@
                                                 <xsl:value-of select="/data/row/notBefore"/>
                                             </xsl:attribute>
                                         </xsl:if>
-                                        
+
                                         <xsl:if test="/data/row/notAfter != ''">
                                             <xsl:attribute name="notAfter">
                                                 <xsl:value-of select="/data/row/notAfter"/>
@@ -52,21 +53,50 @@
             </teiHeader>
             <text>
                 <body>
-                    <div>
+                    <p>
+                        <xsl:value-of select="/data/row/number"/>
+                    </p>
+                    <div type="abstract">
+                        <head>Abstract:</head>
                         <p>
-                            <xsl:value-of select="/data/row/number"/>
+                            <xsl:value-of select="/data/row/abstract"/>
                         </p>
-                        <div type="abstract">
-                            <p>
-                                <xsl:value-of select="/data/row/abstract"/>
-                            </p>
+                    </div>
+                    <div>
+                        <head>Echtheitskriterien:</head>
+                        <authen type="formula" n="deperditum">
+                            <p/>
+                        </authen>
+                    </div>
+                    <div>
+                        <head>Incipit:</head>
+                        <diploPart type="incipit" xml:lang="lat">
+                            <xsl:value-of select="/data/row/incipit"/>
+                        </diploPart>
+                    </div>
+                    <div type="msSources">
+                        <head>Handschriftliche Überlieferung und alte Drucke</head>
+                        <div>
+                            <listBibl>
+                                <bibl> </bibl>
+                            </listBibl>
                         </div>
-                        <div type="incipit">
-                            <diploPart>
-                                <xsl:value-of select="/data/row/incipit"/>
-                            </diploPart>
-                        </div>
-
+                    </div>
+                    <div type="editions">
+                        <head>Editionen</head>
+                        <listBibl>
+                            <bibl> </bibl>
+                        </listBibl>
+                    </div>
+                    <div type="commentary">
+                        <head>Sachkommentar</head>
+                        <p/>
+                    </div>
+                    <div type="bibliography">
+                        <head>Bibliographie</head>
+                        <listBibl>
+                            <bibl> </bibl>
+                        </listBibl>
                     </div>
                 </body>
             </text>

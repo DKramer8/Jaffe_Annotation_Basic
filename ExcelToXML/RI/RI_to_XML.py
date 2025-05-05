@@ -10,10 +10,12 @@ COLUMNS_XML_MAP = { # "excel_column": "xml"
     "start_date": "date_notBefore",
     "end_date": "date_notAfter",
     "summary": "abstract_p",
-    "commentary": "commentary_p", 
-    "urn": "idno_urn", # Steht nicht so im Template
     "archival_history": "bibliography_list_bibl",
-    "recipient": "legal_actor_recipient_inner" # Steht nicht so im Template
+    "title": "bibl", # Plus den identifier; ist so in der Logik unten eingbaut    
+    "commentary": "commentary_p",
+    "original_date": "date",
+    "recipient": "legal_actor_recipient_inner", # Steht nicht so im Template    
+    "urn": "idno_urn" # Steht nicht so im Template
 }
 xml_content_map = { # "xml": "content"
     "title": "[Die Nummer des Regests im Projekt]",
@@ -25,7 +27,8 @@ xml_content_map = { # "xml": "content"
     "idno": "",
     "idno_urn": "",
     "licence": "Lizenz",
-    "bibl": "[Jaffe-Nummer]",
+    "bibl": "",
+    "bibl_jaffe": "[Jaffe-Nummer]",
     "place_name": "[Ausstellungsort]",
     "date": "[Ausstellungsdatum]",
     "date_notBefore": "1000-01-01",
@@ -60,7 +63,7 @@ def create_tei_xml(output_file):
     }
 
     # Root element
-    tei = etree.Element("TEI", nsmap=namespaces)
+    tei = etree.Element("TEI", nsmap=namespaces, source="formierung-europas_regesta-imperii")
 
     # teiHeader
     tei_header = etree.SubElement(tei, "teiHeader")
@@ -93,8 +96,10 @@ def create_tei_xml(output_file):
     licence.text = xml_content_map["licence"]
 
     source_desc = etree.SubElement(file_desc, "sourceDesc")
-    bibl = etree.SubElement(source_desc, "bibl", attrib={"type": "jaffe"})
-    bibl.text = xml_content_map["bibl"]
+    bibl = etree.SubElement(source_desc, "bibl")
+    bibl.text = f"{xml_content_map["bibl"]}, {xml_content_map["idno"]}"
+    bibl_jaffe = etree.SubElement(source_desc, "bibl", attrib={"type": "jaffe"})
+    bibl_jaffe.text = xml_content_map["bibl_jaffe"]
 
     diplo_desc = etree.SubElement(source_desc, "diploDesc")
     issued = etree.SubElement(diplo_desc, "p")
