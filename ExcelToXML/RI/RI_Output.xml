@@ -30,7 +30,7 @@
           <p>
             <issued>
               <placeName>Lodi</placeName>
-              <date type="issued" notBefore="1161-06-19" notAfter="1161-06-22">Ja das war</date>
+              <date type="issued" notBefore="1161-06-19" notAfter="1161-06-22">1161 Juni 19-22</date>
             </issued>
           </p>
           <p>
@@ -70,7 +70,7 @@
       </div>
       <div>
         <head>Incipit:</head>
-        <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+        <diploPart type="incipit" xml:lang="lat">nan</diploPart>
       </div>
       <div>
         <head>Datatio:</head>
@@ -91,7 +91,7 @@
       <div type="historiography">
         <head>Erwähnungen in der Historiographie</head>
         <listBibl>
-          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+          <bibl>Acerbus Morena, ed. Güterbock, MG. SS rer. Germ. N. S. VII, 138 ff., Ann. s. Petri Erph. antiqui, ed. Holder-Egger, MG. SS rer. Germ. in us. schol., 20, Ann. s. Petri Erph. mai., ed. Holder-Egger, MG. SS rer. Germ. in us. schol., 58, Cron. s. Petri Erf. mod., ed. Holder-Egger, MG. SS rer. Germ. in us. schol., 181, Ann. s. Disibodi, MG. SS XVII, 30, Gislebert von Mons, ed. Vanderkindere, 65 (zu 1160), Chron. reg. Col., ed. Waitz, MG. SS rer. Germ. in us. schol., 106 (zu Cremona) und 113 (zu 1163), Ann. Laubienses, MG. SS IV, 24 (zu 1161 Mai, Cremona), Cron. Reinhardsbrunn., MG. SS XXX/1, 537 (zu Mai 21).</bibl>
         </listBibl>
       </div>
       <div type="editions">
@@ -113,7 +113,7 @@
       <div type="bibliography">
         <head>Bibliographie</head>
         <listBibl>
-          <bibl>Acerbus Morena, ed. Güterbock, MG. SS rer. Germ. N. S. VII, 138 ff., Ann. s. Petri Erph. antiqui, ed. Holder-Egger, MG. SS rer. Germ. in us. schol., 20, Ann. s. Petri Erph. mai., ed. Holder-Egger, MG. SS rer. Germ. in us. schol., 58, Cron. s. Petri Erf. mod., ed. Holder-Egger, MG. SS rer. Germ. in us. schol., 181, Ann. s. Disibodi, MG. SS XVII, 30, Gislebert von Mons, ed. Vanderkindere, 65 (zu 1160), Chron. reg. Col., ed. Waitz, MG. SS rer. Germ. in us. schol., 106 (zu Cremona) und 113 (zu 1163), Ann. Laubienses, MG. SS IV, 24 (zu 1161 Mai, Cremona), Cron. Reinhardsbrunn., MG. SS XXX/1, 537 (zu Mai 21).</bibl>
+          <bibl>nan</bibl>
         </listBibl>
       </div>
       <div type="note">
