@@ -70,7 +70,7 @@
       </div>
       <div>
         <head>Incipit:</head>
-        <diploPart type="incipit" xml:lang="lat">nan</diploPart>
+        <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
       </div>
       <div>
         <head>Datatio:</head>
@@ -113,7 +113,7 @@
       <div type="bibliography">
         <head>Bibliographie</head>
         <listBibl>
-          <bibl>nan</bibl>
+          <bibl>[Weitere Referenzen als listBibl]</bibl>
         </listBibl>
       </div>
       <div type="note">

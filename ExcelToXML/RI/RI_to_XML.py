@@ -2,42 +2,32 @@ from lxml import etree
 import pandas as pd
 from bs4 import BeautifulSoup
 
-INPUT_PATH = "RI_test.xlsx"
-OUTPUT_PATH = "RI_Output.xml"
+INPUT_PATH = "input/RIplus_sondiert_IB.xlsx"
+OUTPUT_FOLDER = "output"
+REGEST_TYPE = "plus"
 COLUMNS_XML_MAP = { # "excel_column": "xml" 
-    # "zählen": "",
     "identifier": "idno",
     "locality_string": "place_name",
     "start_date": "date_notBefore",
     "end_date": "date_notAfter",
     "summary": "abstract_p",
-    # "import": "", # Wahrscheinlich irrelevant
-    "archival_history": "historiography_list_bibl",
-    "title": "bibl", # Plus den identifier; ist so in der Logik unten eingbaut    
+    "archival_history": "archival_history_bibl",# -> archival_history
+    "title": "bibl", # Plus den identifier; ist so in der Logik unten eingbaut
     "commentary": "commentary_p",
-    "literature": "bibliography_list_bibl",
-    # "annotations": "", # Ist irgendwie in allen drei Excels leer
+    "literature": "literature_bibl", # neuer div wie bei bibliografie
+    "footnotes": "notes_p", # footnotes -> div notes
+    "annotations": "note", # -> <note><p>
     "incipit": "incipit_diploPart",
-    # "original_date": "date", # Was ist das? Scheint nicht das gleiche wie date_string zu sein
-    # "verso_note": "", # Ist irgendwie in allen drei Excels leer
-    # "seal": "", # Scheint mir wichtig, aber kein Platz im Template?
+    "original_date": "datatio_diploPart", #  -> datatio
+    "seal": "seal_p", # -> div note
     "recipient": "legal_actor_recipient_inner",
-    # "witnesses": "", # Zeuge scheint auch wichtig zu sein, aber kein Platz im Template?
-    #" clerk": "", # Scheint mir wichtig, aber kein Platz im Template?
-    # "chancellor": "", # Scheint mir wichtig, aber kein Platz im Template?
-    # "signature": "", # Ist irgendwie in allen drei Excels leer
-    # "signature_addition": "",	# Ist irgendwie in allen drei Excels leer
-    # "external_links": "", # Scheint mir wichtig, aber kein Platz im Template?
+    # "witnesses": "", # -> zu anderen legalActors nur als witness
+    #" clerk": "", # -> wie oben
+    # "chancellor": "", # -> wie oben
+    # "external_links": "", # div bibliografie <bibl>
     # "exchange_identifier": "", # Ist zumindest in de Excels gefüllt, aber keine Ahnung wie wichtig das ist
     "urn": "idno_urn", 
-    # "pid": "", # Was ist das? 
-    # "uid": "", # Was ist das?
-    # "sorting": "", # Was ist das?
-    # "banpk": "", # Was ist das?
-    # "laufendenummer": "", # Brauchen wir wohl nicht
-    # "regeestennummernorm": "", # Was ist das?
-    # "persistent_identifier": "", # Was ist das?
-    "date_string": "date"
+    "date_string": "date",
 }
 xml_content_map = { # "xml": "content"
     "title": "[Die Nummer des Regests im Projekt]",
@@ -68,8 +58,11 @@ xml_content_map = { # "xml": "content"
     "editions_list_bibl": "[Edition 1]",
     "regesta_list_bibl": "[Regest 1]",
     "commentary_p": "[Inhalt des Sachkommentars. Bibliographische Referenzen werden als <bibl>Bibliographische Angabe</bibl> getagged.]",
-    "bibliography_list_bibl": "[Weitere Referenzen als listBibl]",
-    "notes_head": "[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]",
+    "archival_history_bibl": "[Weitere Referenzen als listBibl]",
+    "literature_bibl": "[Literaturverzeichnis]",
+    "notes_p": "[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]",
+    "seal_p": "",
+    "note": "",
 }
 
 def remove_html_tags(text):
@@ -85,7 +78,7 @@ def create_tei_xml(output_file):
     }
 
     # Root element
-    tei = etree.Element("TEI", nsmap=namespaces, source="formierung-europas_regesta-imperii")
+    tei = etree.Element("TEI", nsmap=namespaces, source="formierung-europas_regesta_imperii")
 
     # teiHeader
     tei_header = etree.SubElement(tei, "teiHeader")
@@ -235,14 +228,29 @@ def create_tei_xml(output_file):
     etree.SubElement(commentary_div, "p").text = str(xml_content_map["commentary_p"])
 
     # Bibliography
-    bibliography_div = etree.SubElement(body, "div", attrib={"type": "bibliography"})
-    etree.SubElement(bibliography_div, "head").text = "Bibliographie"
-    bibliography_list_bibl = etree.SubElement(bibliography_div, "listBibl")
-    etree.SubElement(bibliography_list_bibl, "bibl").text = str(xml_content_map["bibliography_list_bibl"])
+    archival_history_div = etree.SubElement(body, "div", attrib={"type": "bibliography"})
+    etree.SubElement(archival_history_div, "head").text = "Archival History"
+    archival_history_bibl = etree.SubElement(archival_history_div, "listBibl")
+    etree.SubElement(archival_history_bibl, "bibl").text = str(xml_content_map["archival_history_bibl"])
+
+    # Literature
+    literature_div = etree.SubElement(body, "div", attrib={"type": "bibliography"})
+    etree.SubElement(literature_div, "head").text = "Literatur"
+    literature_bibl = etree.SubElement(literature_div, "listBibl")
+    etree.SubElement(literature_bibl, "bibl").text = str(xml_content_map["literature_bibl"])    
 
     # Notes
     notes_div = etree.SubElement(body, "div", attrib={"type": "note"})
-    etree.SubElement(notes_div, "head").text = str(xml_content_map["notes_head"])
+    etree.SubElement(notes_div, "head").text = str(xml_content_map["notes_p"])
+    etree.SubElement(notes_div, "p").text = str(xml_content_map["notes_p"])
+
+    # Seal
+    seal_div = etree.SubElement(body, "div", attrib={"type": "note"})
+    etree.SubElement(seal_div, "p").text = str(xml_content_map["seal_p"])
+
+    # Single Note Element
+    note = etree.SubElement(body, "note")
+    etree.SubElement(note, "p").text = str(xml_content_map["note"])
 
     # Write to file with processing instructions
     with open(output_file, "wb") as f:
@@ -254,14 +262,16 @@ def create_tei_xml(output_file):
 df = pd.read_excel(INPUT_PATH, header=0, dtype=str)
 for id, row in df.iterrows():
     for col, value in row.items():
-        if col in COLUMNS_XML_MAP and value != "nan" and value is not None:
-            print(value)
+        if col in COLUMNS_XML_MAP and str(value) != "nan" and value is not None and not pd.isna(value):
             clean_value = remove_html_tags(value)
-            print(clean_value)
             try:
                 xml_content_map[COLUMNS_XML_MAP[col]] = clean_value
             except:
-                print(f"Spalte '{col}' nicht in xml_content_map gefunden.")
+                print(f"{id}: Spalte '{col}' nicht in xml_content_map gefunden.")
+    output_file = f"{OUTPUT_FOLDER}/RI_{REGEST_TYPE}_{id}.xml"
+    create_tei_xml(output_file)
+    print(f"XML-Datei wurde erstellt: {output_file}")
 
-create_tei_xml(OUTPUT_PATH)
-print(f"XML-Datei wurde erstellt: {OUTPUT_PATH}")
+#output_file = f"{OUTPUT_FOLDER}/RI_{REGEST_TYPE}_{id}.xml"
+#create_tei_xml(output_file)
+#print(f"XML-Datei wurde erstellt: {output_file}")
