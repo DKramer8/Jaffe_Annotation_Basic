@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,2,2 n. 1643</idno>
+        <idno type="urn">1167-03-22_1_0_4_2_2_1086_1643</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Friedrich I., RI IV,2,2 n. 1643</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>[Ausstellungsort]</placeName>
+              <date type="issued" notBefore="1167-03-08" notAfter="1167-03-22">1167 März 8-Mai 22</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">Entstehung der Lega Lombarda</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Entstehung der Lega Lombarda  : Ausgehend von einem Bündnis zwischen Bergamo, Brescia, Cremona und Mantua formiert sich der städtische Widerstand gegen die Bedrückungen durch die Reichsherrschaft in der Lombardei. Noch im März treten die Mailänder, vielleicht auch die Ferraresen dem Bündnis bei, das am 27. April in demonstrativer Weise die Mailänder zurück in ihre Stadt führt (Wiederbegründung von Mailand) und im Mai den Beitritt von Lodi durch die Anwendung von militärischem Druckerreicht.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">-</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Die Anfänge des Bündnisses sind wohl auf den 8. März 1167 (Giesebrecht - Simson, Kaiserzeit VI, 473 f.) bzw. auf den Zeitraum Ende Februar/Anfang März dieses Jahres (Vignati, Lega Lombarda, 105) zu datieren. - Zur Lega Lombarda vgl. neben dem bis heute nicht ersetzten, klassischen Werk von Vignati die in den Sammelbänden I problemi della civiltà comunale (Bergamo 1971) sowie Popolo e stato in Italia nell'età di Federico Barbarossa (Torino 1970) enthaltenen Beiträge sowie Fasoli, Barbarossa und die lombardischen Städte, in: Friedrich Barbarossa, hg. von G. Wolf. (Wege der Forschung 390, 1975) 149 ff. - In den Gesta Fed. I. ist die Rede von einem Bündnis zwischen Städten der Mark und der Lombardei, was wohl auf frühe Kontakte zur Lega Veronese hinweist, die allerdings erst am 1. Dezember 1167 (Manaresi, a. a. O., 83 no  LVI) urkundlich fixiert wurden. - Zur Anwesenheit von Deutschen in Mailand von 1162-1167, die nunmehr weichen mußten, vgl. die bei Bognetti, La condizione giuridica, Rivista di storia del diritto ital. 1 (1928) 321 mit Anm. 1 und 2 zitierten Zeugenverhöre aus den Jahren 1200 und 1211. - Der oströmische Kaiser Manuel unterstützte den Wiederaufbau von Mailand durch Gold, wofür ihm die Mailänder den Treueid leisteten, vgl. Classen, Mailands Treueid, Akten des XI. internat. Byzantinistenkongresses München 1958 (1960) 79 ff.    Verbesserungen und Zusätze (2001):  Entscheidenden Anteil Cremonas am Abfall der Stadt Lodi vom Kaiser erwähnt die Klageschrift des Kaisers gegen die Cremonesen von (1185 Januar 17 ‒ Juli), MG.DF.I.895.  Verbesserungen und Zusätze (2011):  Neben den angeführten Editionen urkundlicher Quellen zur Entstehung der Lega Lombarda (Vignati und Manaresi) ist nunmehr als neu erschienene Publikation auch heranzuziehen: Liber iurium del Comune di Lodi, ed. Grossi (Pubblicazione degli Archivi diStato, Fonti 42, 2004) no 40 bis 64. – Zu den Skulpturen an der Mailänder Porta Romana, welche – in Verbindung mit den Inschriften an diesem Stadttor (siehe dazu zuletzt mit Abbildung: Lomartire, Inschriftenstein, in: Die Staufer und Italien, Bd. 2: Objekte [2010] 139 f. Kat.-Nr. IV.B.2) – eine bedeutende Quelle für den Wiedereinzug der Mailänder in ihre fünf Jahr zuvor zerstörte Stadt bilden vgl. insbesondere die Ausführungen bei Hülsen-Esch, Romanische Skulptur in Oberitalien 36–118; dort (96–109) – sowie zuletzt bei: Handle, „Barbarossa“-Relief, in: Die Staufer und Italien, Bd. 2: Objekte (2010) 129 f. Kat.-Nr. IV.B.1 (mit Abbildung des Reliefs) – auch zur Interpretation des „Barbarossa-Reliefs“ an der Porta Romana sowie auch der – in der Forschung irrig mit Kaiserin Beatrix verbundenen – weiblichen Figur an der Porta Tosa (Hülsen-Esch, 108 f. mit Anm. 402). – Unmittelbar vor der Drucklegung dieses Teilbandes der Regesta Imperii ist das Buch von Raccagni, The Lombard League, erschienen, das die modernste Untersuchung zum lombardischen Städtebund darstellt und von dem in Kürze auch eine umfassendere italienische Version im Druck vorliegen wird. Eine bei Bernardino Corio um 1500 bezeugte Gründungsversammlung der Lega Lombarda am 7. April 1167 in der Abtei Pontida, eine Tradition, die insbesondere von der italienischen Partei der Lega Nord gepflegt wird, ist historisch nicht zu belegen, vgl. dazu Raccagi, a.a.O., 40, sowie Coleman, The Lombard League, in: European Encounters: Essays in Memory of Albert Lovett, ed. Devlin – Clarke (2003) 22–45; Unterstützung für den Wiederaufbau von Mailand kam nicht nur von Seiten Kaiser Manuels, sondern auch vom englischen König Heinrich II., vgl. dazu Raccagni, a.a.O., 132–134.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Cont. Anonymi (Morena), ed. Güterbock, MG. SS rer. Genn. N. S. VII, 184 ff., Gesta Fed. I., ed. Holder-Egger, MG. SS rer. Germ. in us. schol., 61; vgl. auch Ann. Camerac., MG. SS XVI, 540 (teilweise irrig), Ann. Med. brevium, ed. Holder-Egger, MG. SS rer. Germ. in us. schol., 73 (zu Februar 24), Ann. Plac. Gib., MG. SS XVIII, 462, Boso, ed. Duchesne, 414, Chron. Magni presb. Reichersperg., MG. SS XVII, 489, Cron. s. Petri Erf. mod., ed. Holder-Egger, MG. SS rer. Germ. in us. schol., 184, E Gervasii Cantuariensis Chronica, MG. SS XXVII, 299, Notae s. Georgii Mediol., ed. Holder-Egger, MG. SS rer. Germ. in us. schol., 72 (zu April 25), Roberti de Monte Cron., MG. SS VI, 516; die urkundlichen Quellen finden sich bei Vignati, Lega Lombarda, 105 ff. sowie bei Manaresi, Atti del comune di Milano, 73 ff. no  L ff.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>Digitalisat der RI-Buchseite</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

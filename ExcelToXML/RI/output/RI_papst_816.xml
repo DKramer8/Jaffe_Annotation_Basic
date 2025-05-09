@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,4 n. 190</idno>
+        <idno type="urn">1188-04-05_9_0_4_4_4_190_190</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Clemens III., RI IV,4,4,4 n. 190</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>[Ausstellungsort]</placeName>
+              <date type="issued" notBefore="1188-04-05" notAfter="1188-04-05">(1188 April 5)</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Clemens III. nimmt Abt Garinus und die Brüder des Klosters St Albans (Garino abbati monasterii sancti Albani eiusque fratribus) (D. Lincoln), deren Kloster im besonderen Recht des hl. Petrus steht, auf ihre Bitten mit ihren Zellen und zugehörigen Kirchen wie Calixt (II.), Cölestin (II.), Eugen (III.), Hadrian (IV.), Alexander (III.) und Lucius (III.) in den päpstlichen Schutz, bestätigt genannte Besitzungen, die ihnen von den englischen Königen Offa (von Mercien) und dessen Sohn Egfrith, Ethelred (II.), Wilhelm (I.), Heinrich (I.) und Heinrich II. (Offa ... et filius eius Egfridus, Eldredus, Willelmus et Henricus et Henricus secundus) und anderen übertragen wurden und im folgenden genannt werden, bestätigt die Würde, Freiheit und Gewohnheiten des Klosters, insbesondere die Freiheit des Klosters und seiner Zellen von allen Abgaben, bestätigt alle Pontifikalrechte des Abts über die Zellen, erlaubt, für den Empfang von Chrisma, Heiligem Öl, Konsekrationen und Ordinationen den Bischof frei zu wählen, gewährt die Wahl des Abts gemäß der Benediktinerregel, der nur der Römischen Kirche Profeß und Obödienz erweisen muß, erlaubt dem Abt, einem der Brüder die Seelsorge zu übertragen, gewährt ihm die bischöflichen Rechte und Insignien sowie das Strafrecht über die Brüder und Prioren der Zellen, setzt für den Abt den ersten Rang unter den englischen Äbten fest und gewährt ihm das Recht, Prioren und Mönche ein- und abzusetzen, das sich kein Kleriker oder Laie anmaßen darf, befreit das Kloster von der bischöflichen Gewalt, behält das Recht, Exkommunikation oder Interdikt zu verhängen, dem Papst und dessen Legaten vor, verbietet jedem Bischof und Erzbischof, im Kloster öffentliche Messen zu feiern, Versammlungen oder Synoden einzuberufen, gestattet Gottesdienst bei Interdikt, gewährt das Appellationsrecht auch in Fällen, in denen die Appellation ausgeschlossen ist, verbietet, ihre Mönche nach geleisteter Profeß anderswo aufzunehmen, setzt für die Kirchen, Kapellen und Friedhöfe, für die der Abt keine Pontifikalrechte besitzt, die Exemtion fest mit Ausnahme der Rechte des Bischofs, bestätigt das Präsentationsrecht, verbietet, Übertragungen an das Kloster zu behindern oder Amtsträger in ihrem Kloster und in ihren Zellen durch den König oder andere weltliche Große einzusetzen, und bestätigt ihre im einzelnen angeführten Einnahmen gemäß ihren alten Gewohnheiten.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Religiosam vitam eligentibus apostolicum convenit</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">-</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zur Überlieferung vgl. Holtzmann, PUU England 1, S. 87 und Holtzmann 3 S. 80f. – Das Privileg muß 1188 April 5 ausgestellt worden sein, da an diesem Tag Kardinaldiakon Bobo von S. Angelo letztmals (Reg. 186) und Kardinaldiakon Bobo von S. Giorgio in Velabro erstmals drei Privilegien (Reg. 182, Reg. 185 und Reg. 186) unterschreibt. Die Kardinalpriester Albinus und Pandulf unterschreiben entgegen Kanzleibrauch in dieser Reihenfolge. Die genannten Urkk. sind die Privilegien Calixts II. von 1122 November 25 (JL –, Holtzmann 3 S. 130-131 Nr. 6), Cölestins II. von 1143 Oktober 19 (JL –, Holtzmann 3 S. 166-168 Nr. 43), Eugens III. von 1147 August 2 (JL 9143a [zu 1147 Juli-Oktober], Holtzmann 3 S. 197-200 Nr. 68, vgl. hierzu Crick, Charters of St Albans S. 227f.), Hadrians IV. von 1156 Februar 5 (JL *10113 [zu 1155-1156], Holtzmann 3 S. 234-238 Nr. 100) und von 1157 Mai 14 (JL *10324 [zu 1157], Holtzmann 3 S. 258-261 Nr. 118) sowie Alexanders III. von 1161 Februar 7 (JL –, Holtzmann 3 S. 276-278 Nr. 135). Zum verlorenen Privileg Lucius' III. vgl. Böhmer-Baaken-Schmidt, Papstregesten Lucius' III. 2, Nr. 2252. NU ist das Privileg Cölestins III. von 1193 Mai 30 (JL 17603 [zu 1191-1198], Holtzmann 3 S. 548-552 Nr. 459). Die Königsurkk. sind gedruckt bei Matthäus Parisiensis, Chronica maiora, ed. Luard 6: Offa (von Mercien) (S. 1-4 Nr. 1 und S. 4-8 Nr. 2), Egfrith (S. 10-11 Nr. 4), Ethelred II. (S. 15-18 Nr. 7, S. 21-24 Nr. 9, S. 24-27 Nr. 10), Wilhelm I. (S. 34 Nr. 17, S. 35 Nr. 19, 35 Nr. 20), Heinrich I. (S. 36-38 Nr. 22, S. 38 Nr. 23, S. 38-39 Nr. 24, S. 39-40 Nr. 25, S. 40 Nr. 26). Die genannte Urk. König Heinrichs II. ist gedruckt Calendar of the Charter Rolls 3 S. 19 und Davies, Cartae Antiquae Rolls 11-20 2 Nr. 606, vgl. Holt/Mortimer, Acta of Henry II and Richard I, S. 144 Nr. 256. Zur Sache vgl. Sayers, Papal Privileges S. 59-65.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Kopie 13. Jh., Belvoir Castle, Duke of Rutland, The small Belvoir priory chartulary p. 89 (ohne Datum) (Davis, Medieval cartularies Nr. 43); Kopie 14./15. Jh., Bakewell, Chatsworth House, The Trustees of the Chatsworth Settlement, MS 73A fol. 38-39' (ohne Datum) (Chart. von St Albans, Davis, Medieval cartularies Nr. 832).   Drucke: Gesta abbatum monasterii Sancti Albani, ed. Riley S. 498-504; Lunt, Papal Revenues 2 S. 75 (Auszug in engl. Übersetzung).   Reg.: JL 16342 (zu 1188).</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

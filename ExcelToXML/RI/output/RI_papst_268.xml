@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,2 n. 1292</idno>
+        <idno type="urn">1184-12-03_1_0_4_4_2_126_1292</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Lucius III., RI IV,4,4,2 n. 1292</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Verona</placeName>
+              <date type="issued" notBefore="1184-12-03" notAfter="1184-12-03">1184 Dezember 3</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Lucius III. nimmt Erzbischof Albert von Salzburg (Alberto Salzburgensi archiepiscopo) und die Salzburger Kirche auf dessen Bitten wie Alexander II. und Alexander III. in den päpstlichen Schutz, bestätigt ihren Besitz und die Entscheidung, die Bischof Albert von Freising und Abt Heinrich von Heiligenkreuz (D. Passau) (Alberto Frisingensi episcopo et Henrico abbate Sancte Crucis) im Auftrag Alexanders III. im Streit zwischen Alberts Vorgänger Konrad (antecessorem tuum Conradum archiepiscopum) und den Kanonikern und den Ministerialen von Gurk (canonicos et ministeriales Gurgensis ecclesie) um das Recht der Wahl des Bischofs (von Gurk) (super electione pontificis), das letztere aufgrund des gemeinen Rechts sowie des Privilegs Lucius' (II.) beanspruchten, gefällt haben und wonach gemäß den Privilegien Alexanders II. und Alexanders III. die Wahl und Weihe des Bischofs von Gurk (Gurgensis episcopi) dem Erzbischof von Salzburg zustehe; der Papst gewährt diesem das Recht, sich das Kreuz vorantragen zu lassen sowie bei Stationsgottesdiensten auf einem feierlich geschmückten Pferd zu reiten, Rechtssachen in Stellvertretung des Papstes zu entscheiden sowie das Pallium in feierlichen Messen zu genannten Terminen zu tragen, und gestattet die Ausübung der apostolischen Gewalt in Noricum (tota Norica provincia).</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Pastoralis officii consideratione compellimur fratribus</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Verone pm. Hugonis SRE. notarii 3 non. dec. ind. 3 inc. 1184 pont. a. 4.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zur Überlieferung vgl. auch KEHR, PUU röm. Bibl. II S. 76 = Acta Rom. pont. 4 S. 76, KEHR, Ältere PUU III S. 507 und S. 511 = Acta Rom. pont. 3 S. 481 und S. 485 sowie KEHR, Nachträge zu den römischen Berichten S. 532 = Acta Rom. pont. 4 S. 190. – Die genannten Urkk. sind die Privilegien Alexanders II. von 1070 März 21 (JL 4673, GP I S. 17-18 Nr. 40, JAKSCH, Monumenta Carinthiae 1 S. 68-69 Nr. 27) und Alexanders III. von 1179 April 12 (JL 13380, GP I S. 40-41 Nr. 134, ZAHN, UB Steiermark 1 S. 565-567 Nr. 599). Das angeführte Privileg Lucius' II. ist JL 8712, GP I S. 130 Nr. 1, Jaksch 1 S. 129-132 Nr. 136 von 1145 Februar 11, in dem dem Propst und dem Kapitel von Gurk die freie Wahl des Bischofs bestätigt wird. Als VU diente das Privileg Lucius' III. von 1182 Mai 9 (Reg. 220). Zum verlorenen Delegationsmandat Alexanders III., das auf den Zeitraum 1179-1180 zu datieren ist, vgl. GP I S. 41-42 Nr. *137. NU ist das Privileg Innocenz' III. von 1201 Februar 3 (POTTHAST 1259, Jaksch 1 S. 283 Nr. 386 [Teildruck]). Vgl. auch die Urkk. Innocenz' III. von 1206 April 11 (POTTHAST 2744, Jaksch 1 S. 304-307 Nr. 414), 1207 März 19 (POTTHAST 3050, Jaksch 1 S. 307-310 Nr. 417) und 1208 Juni 5 (POTTHAST 3435, Jaksch 1 S. 313-319 Nr. 420). Zur Sache vgl. JAKSCH, Geschichte Kärntens 1 S. 324 und DOPSCH, Geschichte Salzburgs 1 S. 301, zu Erzbischof Albert GATZ, Bischöfe S. 659-661. Zur Bedeutung von Noricum im Mittelalter vgl. LexMA 6 Sp. 1240.    Verbesserungen und Zusätze (2012):  Zur Sache vgl. jetzt Murauer, Gurker Bischofsstuhl, passim, der hier allerdings auf diese Urk. nicht eingeht, und Murauer, Gerichtsbarkeit S. 113-116.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Überl.: Orig., Wien, Österreichisches StArch., Haus-, Hof- und StArch., Allgemeine Urkundenreihe 1184 Dezember 3; Kopie 13. Jh., Wien, Österreichisches StArch., Haus-, Hof- und StArch., Handschrift weiß 194 Band 1 (Böhm 359/1) fol. 25'-28 (Registrum capituli ecclesiae Salisburgensis I); 2 Kopien 15. Jh., Wien, Österreichisches StArch., Haus-, Hof- und StArch., Handschrift weiß 194 Band 4 (Böhm 359/4) fol. 213'-215' und fol. 420-421'; Kopie 15. Jh., Wien, Österreichisches StArch., Haus-, Hof- und StArch., Allgemeine Urkundenreihe 1431 Dezember 17; 2 Kopien 15. Jh., Wien, Österreichisches StArch., Haus-, Hof- und StArch., Allgemeine Urkundenreihe 1432 November 24; Kopie 15. Jh., Wien, Österreichisches StArch., Haus-, Hof- und StArch., Allgemeine Urkundenreihe 1440 Januar 8; Kopie 15. Jh., Rom, Arch. Seg. Vat., Reg. Lat. 645 fol. 46-52 (inseriert in die Urk. Pauls II. von 1466 Mai 4).</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl> MEZGER, Historia Salisburgensis S. 987-900 (ohne Unterschriften); LÜNIG, Spicilegium ecclesiasticum 1,2 S. 963-964 Nr. 25 (ohne Unterschriften); HANSIZ, Germania sacra 2 S. 303-305 (ohne Unterschriften); JAKSCH, Monumenta Carinthiae 1 S. 249 Nr. 331 (Teildruck); HAUTHALER/MARTIN, Salzburger UB 2 S. 603-605 Nr. 442 (Teildruck unter Verweis auf das Privileg Lucius' III., Reg. 220, und mit Ergänzungen S. 760). JL 15128 (J 9644); KLEINMAYRN, Nachrichten Iuvavia S. 275 Anm. f; ANKERSHOFEN, Archiv 2 S. 137 Nr. 467; ANKERSHOFEN, Regesten Kärnten S. 332 Nr. 511; MEILLER, Reg. Salzburg S. 144 Nr. 12; ZAHN, UB Steiermark 1 S. 600 Nr. 629; GP I S. 43 Nr. 142.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

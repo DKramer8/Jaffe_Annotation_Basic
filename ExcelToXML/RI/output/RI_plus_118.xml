@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RIplus Regg. EB Mainz 2 [n. 228]</idno>
+        <idno type="urn"></idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Christian I., RIplus Regg. EB Mainz 2 [n. 228]</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Anagni</placeName>
+              <date type="issued" notBefore="1176-10-21" notAfter="1176-10-21">1176 Oct. 21 c. Nov. 4</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>geht nach der für den Kaiser sehr unglücklich ausgefallenen schlacht bei Legnano als kaiserlicher abgeordneter zum papst Alexander III und verabredet mit demselben praeliminarien des friedens, welche das verhältniss inter ecclesiam et imperium betrafen. Tunc vero manifeste cognoscens [imperator] Dei sibi repugnare potenciam, cuius ecclesiam et ministros persequi non cessabat, ad cor rediens, habito saniori consilio Magdeburgensem aeum [Wichmannum], electum Guarmaciensem [Conradum] et protonotarium suum [Wortwinum] cum Christiano cancellario, qui in partibus illis erat, ad Alexandrum papam pro consequenda pace Anagniam direxit. Qui cum aliquantis diebus circa papam et eius curiam moram fecissent, habito cum eo et paucis cardinalibus secreto nimis et privato de modo et forma pacis consilio, hac lege et condicione proposita discesserunt. Papa quidem Alexander .. promisit per mare usque Ravennam vel Veneciam pergere, et habito Lombardorum consilio, colloquium cum imperatore de bono pacis habere. Romoaldi Ann. in M. G. SS. XIX, 442. ‒ 1176 ind. 8, 12 kal. Novembris venit cancellarius imperatoris ad Anagniam ad papam Alexandrum.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">-</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>[Inhalt des Sachkommentars. Bibliographische Referenzen werden als &lt;bibl&gt;Bibliographische Angabe&lt;/bibl&gt; getagged.]</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Ann. Ceccan. in: M. G. SS. XIX, 286; .... honorifice deducti in civitatem Anagninam. In crastinum vero cum Pontifex in consistorio, adstante clericorum et nobilium multitudine, resideret, accesserunt ad maiorem ecclesiam cum decora societate sua et exinde intrarunt in conspectum Pontificis. Stantes autem in medio coram ipso et cum multa reverentia loquentes dixerunt: Hier werden wechselreden mitgetheilt. His itaque auditis, universus conventus discessit et Pontifex cum fratribus suis et eisdem legatis secretarium consilii solus intravit. Coeperunt autem de verbo pacis ad invicem diligenter tractare. Sed quoniam res ardua et multum difficilis agebatur, ‒ multi enim nobiles ac potentes in schismate graviter lapsi fuerant et de quibusdam capitulis inter ecclesiam et imperium controversia vertebatur, ultra quindecim dies tractatus ipse duravit. In quo spatio sanctorum patrum auctoritates, privilegia imperatorum et antiquae consuetudines atque aliae rationes ostensae sunt et super eis diutius est laboratum atque subtiliter disputatum. Bosonis Vita Alexandri III. in: Watterich, Vitae pontif. Rom. II, 432. ‒ Pro tractata pace, de qua in Lombardia et in aliis locis verbum fuerat motum, nuntios F. dicti imperatoris, videlicet Magdeburgensem archiepiscopum C. cancellarium, Warmatiensem electum, et A. protonotarium eiusdem imperatoris recepimus, instanter et constanter firmantes, eundem imperatorem circa pacem ferventissimum gerere animum et voluntatem. Qui cum vehementer apud nos institissent, ut ad pacem inter ecclesiam et imperatorem complendam intenderemus, nec possent obtinere, quod sine Lombardis, aut sine rege Siciliae, vel Constantinopolitani imperatoris pacem ad plenum et ad solidum statueremus, tandem etc. Schreiben des papst's Alexander III ad cardinales in Longobardiam legatos. Jaffé, Reg. Pont. nr. 8444; auch: Migne, CC, 1180. Sed quicquid dicat ipse, quicquid dicant et alii, illud volumus vos pro certo tenere, quod inter nos et eundem imperatorem pax non est iuramento vel scripto firmata, quamquam inter nos et ipsum diu sit de pace tractatum. Licet autem Maideburgensis archiepiscopus, O. cancellarius, Warmaciensis electus, et protonotarius imperatoris ad nos ab eodem imperatore pro pacis reformatione transmissi apud nos multum instarent, ut pacem ecclesiae redderemus, nunquam tamen nos potuerunt inducere, ut pacem ecclesiae sine vestra et regis Siciliae et aliorum adiutorum ecclesiae vellemus recipere. Schreiben papst's Alexander des dritten ad rectores Marchiae. Jaffé, Reg. Pont. nr. 8449; auch Migne, CC, 1086. Per Wecelonem vero de Camino, qui nuper Bononia rediit, didicimus, quod Magdeburgensis archiepiscopus, et W. episcopus, quorum mandato et consiliis dominus imperator in infirmitate super negotio ecclesiae se iure, uti fertur, iurando supposuit, Romanam curiam pro pacis reformatione adierint, et una cum domino papa dominum cancellarium, qui Firmam civitatem nuper destruxit, ad se dimisso exercitu venire fecerint. Quorum consilium, quo fine claudatur, catholici certant, et adhuc sub iudice lis est. Schreiben des patriarchen Udalrich von Aquileia ad O. praepositum Lunensem. in: Pez, Thesaurus anecdot. VIa, 422. ‒ Unterliegt es keinem zweifel, dass zu Anagni friedenspräliminarien verabredet wurden, so ist es als nicht weniger gewiss anzusehen, dass die betreffende urkunde zur zeit noch nicht zum vorschein gekommen ist. Denn das als „Pactum Anagninum' mehrfach gedruckte actenstück ist nach älteren und neueren forschern das friedensinstrument von 1177. Das nähere hierüber siehe unter nr. 155. Reuter, Papst Alexander III. Bd III, 245 flgde. hat durch „kritische Mittel' das „pactum Anagninum' herzustellen versucht. Unter die bestimmungen desselben rechnet er auch die: „Das Erzstift Mainz wird dem Canzler Christian, das Cölner dem Philipp eingeräumt und in aller Form Rechtens bestätigt.' ‒ Prutz, K. Friedrich I. . Bd II, 287 flgde. [Nummer im Druck: 137]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,3 n. 1409</idno>
+        <idno type="urn">1187-12-14_1_0_4_4_3_1409_1409</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Gregor VIII., RI IV,4,4,3 n. 1409</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Pisa</placeName>
+              <date type="issued" notBefore="1187-12-14" notAfter="1187-12-14">1187 Dezember 14</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Gregor VIII. nimmt Propst Arditio und die Kanoniker von Luni (Arditioni preposito et canonicis Lunensis ecclesie) auf deren Bitten wie Alexander (III.) in den päpstlichen Schutz, bestätigt genannte Besitzungen sowie die Vereinbarung, die der Prior von S. Frediano (in Lucca) und der Archipresbiter von Pisa (prior sancti Frediani et archipresbiter Pisanus) zwischen ihnen und dem damaligen Bischof Gottfried von Luni (inter vos et Gotofredum quondam Lunensem episcopum) im beiderseitigen Einverständnis über gewisse Kapitel getroffen und die die Kardinalpriester Hubald (von S. Prassede), Jordan (von S. Susanna) und Kardinaldiakon G. (Gerhard von S. Maria in Via lata oder Guido von S. Maria in Portico) (Ubaldus et Iordanus presbiteri et G. sancte Romane ecclesie diaconus cardinales) auf Geheiß Eugens (III.) bestätigt haben, worin die Wahl der Kanoniker und der Prioren durch das Kapitel mit dem Einverständnis des Bischofs festgelegt wurde und zudem festgesetzt worden sei, daß die Einkünfte vakanter Präbenden zum Nutzen der Kirche durch zwei Kanoniker, die mit ihrer Zustimmung durch den Bischof benannt werden, verwaltet werden; der Papst bestätigt auch die in demselben Vertrag festgehaltenen Bestimmungen über die Berufung der Brüder und der Prioren und setzt fest, daß über die Einkünfte der Kirche nur durch gemeinsame Beratung der Brüder verfügt werden soll und daß der Archidiakon, der Propst und die Kanoniker dem Bischof die schuldige Obödienz und Reverenz erweisen, wie dies in den Statuten festgehalten sei; weiterhin soll der Archidiakon bei Meßfeier, Kirchweihe und Ordinationen dem Bischof assistieren; der Papst setzt fest, daß der Archidiakon nicht mehr als vier Pferde bei Visitationen mit sich führen darf, es sei denn, der Bischof bestimme etwas anderes, untersagt den Dienern des Bischofs und der Kanoniker, etwas von den Oblationen unbefugt an sich zu nehmen, setzt fest, daß die Kanoniker an genannten Terminen anwesend sein müssen vorbehaltlich kanonischer Entschuldigung, und bestimmt, daß in der übrigen Zeit mindestens sechs Kanoniker oder Kleriker in der Kirche dienen sollen.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Pie postulatio voluntatis effectu debet</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Pisis pm. Moysis Lateranensis canonici vicem agentis cancellarii 19 kal. ian. ind. 6 inc. 1187 pont. a. 1.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zur Überlieferung vgl. Kehr, PUU Ligurien S. 184 = Acta Rom. pont. 3 S. 358 und Kehr, Ältere PUU III S. 506 = Acta Rom. pont. 3 S. 480. Zum Insert in der Urk. Nikolaus' V. vgl. Vecchi, Lettere Niccolò V S. 591-592 Nr. 11. Die Unterschriften sind in der Sammlung der Pius-Stiftung für Papsturkundenforschung in Göttingen verzeichnet. – Das genannte Privileg Alexanders III. ist verloren (JL – , IP VI,2 S. 383 Nr. *5), ebenso wie das Mandat Eugens III. und die Bestätigung der Vereinbarung zwischen dem Domkapitel und Bischof Gottfried von Luni, die von Kardinalpriester Hubald von S. Prassede, dem späteren Lucius III., und Kardinalpriester Jordan von S. Susanna sowie einem Kardinaldiakon G. (Gerhard von S. Maria in Via lata [1152-1155] oder Guido von S. Maria in Portico [1145-1158]) vorgenommen wurde (IP VI,2 S. 382 Nr. *2 zu [1146-1153]). Zu den angeführten Besitzungen vgl. Formentini, Plebs civitatis S. 2-9 und Pistarino, Pievi Luni 1 S. 48-51. Vgl. hierzu auch Ronzani, Pievi et parrocchie S. 313f. Anm. 19.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Orig., Sarzana, Bibl. Niccolò V, Arch. Storico del Capitolo della Cattedrale di Sarzana (ohne Signatur); Kopie 15. Jh., Sarzana, Bibl. Niccolò V, Arch. Storico del Capitolo della Cattedrale di Sarzana, volumen A, Diversorum pro Episcopis et Canonicis Lunen. Sarzan. 1149 ad 1565, n. 35 (inseriert in das Orig. der Urk. Nikolaus' V. von 1453 Juli 6); Kopie 16. Jh., Sarzana, Biblioteca Niccolò V, Arch. Storico del Capitolo della Cattedrale di Sarzana, volumen A, Diversorum pro Episcopis et Canonicis Lunen. Sarzan. 1149 ad 1565, n. 36 (inseriert in die Kopie der Urk. Nikolaus' V.; Kopie 15. Jh., Rom, Arch. Seg. Vat., Reg. Lat. 426 fol. 120 (inseriert in die Urk. Nikolaus' V. von 1453 Juli 6).   Druck: Desimoni, Regesti Liguria S. 482-485 Nr. 31 (ohne Unterschriften mit 14 kal. ian. zu 1187 Dezember 19).   Reg.: Desimoni, Regesti Liguria S. 473 Nr. 263a; IP VI,2 S. 383-384 Nr. 10.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

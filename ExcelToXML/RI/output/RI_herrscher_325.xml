@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,2,3 n. 2110</idno>
+        <idno type="urn">1174-10-00_1_0_4_2_3_337_2110</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Friedrich I., RI IV,2,3 n. 2110</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>bei Alessandria</placeName>
+              <date type="issued" notBefore="1174-10-01" notAfter="1174-10-31">1174 Ende Oktober — 1175 April</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Friedrich, der wegen schwerer Regenfälle entgegen seiner Absicht nicht rasch auf Alessandria hat vorrücken können, schließt diese Stadt, die wegen ihres noch mangelhaften Ausbaus von den Deutschen verächtlich Palea  (= die Strohstadt) genannt wird, mit seinem Heer, zu denen auch die zuvor unter Leistung des Treueids auf seine Seite zurückgekehrten Pavesen und Markgraf Wilhelm von Montferrat stoßen, insgesamt 20.000 Mann, mit einem Belagerungsring ein. Dabei läßt er Belagerungstürme, die von den Genuesen bereitgestellt worden sind, einsetzen. Eine Ebenhoe  genannte Belagerungsmaschine wird bei Kämpfen am Graben, bei denen er viele Leute einbüßt, gemeinsam mit den darauf Befindlichen durch griechisches Feuer zerstört (wohl erst gegen Ende der Belagerung). Obwohl der Stadt noch Befestigungen fehlen — sie wird nur durch Gräben und den Fluß Tanaro geschützt —, vermag er sie nicht im Sturm zu nehmen. Probleme bereiten vor allem die schlechte Witterung wie auch die ungünstigen Geländeverhältnisse im sumpfigen Umland der belagerten Stadt. Der regnerische, feuchte Winter führt sodann zu Versorgungsengpässen; nur Pavia bietet einen Markt und schafft Güter auf Schiffen herbei. Die böhmischen Truppen bitten ihn um Erlaubnis zur vorzeitigen Heimkehr. Obwohl Friedrich darauf nicht einwilligt, ziehen dann viele der Böhmen um Weihnachten heimlich ab (vgl. Reg. 2114). Während der Belagerung befiehlt der Kaiser, drei Gefangene zu blenden. Als diese Strafe bereits an zweien von ihnen vollzogen ist, läßt er den dritten, den jüngsten, befragen, warum er rebelliere. Dieser betont, dies nur auf Befehl seines Herrn in der Stadt zu tun. Friedrich verschont ihn und läßt alle drei in die Stadt zurückführen.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">-</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Die vergebliche Belagerung von Alessandria ist eines der zentralen Ereignisse der Herrschaft Barbarossas in Italien, vgl. dazu den Sammelband Popolo e Stato in Italia nell'età di Federico Barbarossa. Alessandria e la Lega Lombarda (Relazioni e comunicazioni presentate al XXXIII Convegno storico subalpino/Alessandria 1968, Torino 1970); zu den Anfangen Alessandrias siehe schon oben Reg. 1785; zu den Einzelheiten der Belagerung vgl. Giesebrecht, Kaiserzeit V, 749 ff.; zur Interpretation des Geschehens vgl. jüngst Görich, Ehre Friedrich Barbarossas, 264 ff — Die Belagerung von Alessandria wird auch in der Datierung einer Urkunde Herzog Gottfrieds von Lothringen von 1173 (recte: 1175) Februar 26, Lüttich erwähnt, ed. Lahaye, Inventaire analytique des chartes de la Collégiale de Saint-Jean l'Évangeliste à Liége Tome I (Bruxelles 1921) 18 no  23: Acta sunt hec ... Mo Co LXXo IIIo  (!), Friderico imper Alexandriam novellam civitatem Italie potenter expugnante. Verbesserungen und Zusätze (2011):  Die Belagerung von Alessandria gehört ohne Zweifel zu den besonders häufig memorierten Ereignissen. Neben dem hier angeführten Beleg der Erwähnung der Belagerung in einer Urkunde Herzog Gottfrieds von Lothringen ist auch auf die Erwähnung auf einer Inschrift in der Krypta zu S. Apollinare in Classe bei Ravenna (… Frederico imperatore regnante Alexandriam quoque tunc expugnante …) zu verweisen, die zur Erinnerung an die im Herbst 1173 zur Entscheidung eines Streites zwischen den Kamaldulenser- und den Benediktinermönchen von S. Apollinare in Classe von den Kardinallegaten Ildebrandinus von XII Apostoli und Teodinus durchgeführte Erhebung der Gebeine des Heiligen dort angebracht wurde, vgl. dazu – mit Abbildung der Inschrift – Raccagni, Le legazioni del cardinale Ildebrando Crasso a Ravenna, in: Ravenna studi e ricerche 13 (2006) nach Anm. 100 (online verfügbar unter: ‚Le legazioni del cardinale Ildebrando Crasso a Ravenna e lo scontro tra Alessandro III e Federico I (1152–1178)‘, Zugriff: 27.2.2011). Und hierher gehören auch die zahlreichen Bezugnahmen auf dieses Ereignisses in den Zeugenaussagen, die von Bewohnern von fünf kleinen Orten an den Grenzen der contadi von Pavia und Piacenza im November 1184 zu Pavia gemacht wurden, vgl. dazu Opll, Zwang und Willkür, passim.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Ann. Seligenstad., MG. SS XVII, 32 (27. 10.); Ann. Plac. Gib., MG. SS XVIII, 462 (27. 10.); Ioh. Cod. Ann., ed. Holder-Egger, MG. SS rer.Germ.in us.schol., 9 (27. 10.); Gesta Fed. I., ed. Holder-Egger, MG. SS rer.Germ.in us.schol., 62 (29. 10. 1174 — 11. 4. 1175); Ex Radulfi de Diceto Ymaginibus historiarum, MG. SS XXVII, 267 (1. 11.); Boso, ed. Duchesne, 427 f. (Oktober, 4 Monate lang); Ann. s. Eustorgii Mediol., ed. Holder-Egger, MG. SS rer.Germ.in us.schol., 70 (Oktober 1174 — März 1175); Ann. Marbacenses, ed. Bloch, MG. SS rer.Germ.in us.schol., 54 (= ed. Schmale, Freiherr vom Stein-Gedächtnisausgabe XVIIIa, 168: Belagerungsmaschine Ebenhoe); Ann. Mediolanenses minores, MG. SS XVIII, 395 (Oktober 1174 — März 1175); Ann. s. Trinitatis Veronenses, MG. SS XIX, 4 (Mitte Oktober); Burchard von Ursberg, ed. Holder-Egger, MG. SS rer.Germ.in us.schol., 52 f. (Mißerfolg, da Heinrich der Löwe sich in perfider Weise vom Kaiser entfernt hat); Cont. Gerlaci abbatis Milovicensis, MG. SS XVII, 687 f. (Desertion der böhmischen Truppen); Chron. reg. Col., ed. Waitz, MG. SS rer.Germ.in us.schol., 125 f. (Blendung der Gefangenen); Ex Chronico universali anonymi Laudunensis, MG. SS XXVI, 448 f. (7 Monate Belagerung); Corpus Chron. Bononiensium, ed. Sorbelli, Rer. Ital. SS N. Ed. XVIII/1, 39; Cron. Alberti de Bezanis, ed. Holder-Egger, MG. SS rer.Germ.in us.schol., 36 (20.000 Mann); Gottfried von Viterbo, Gesta Friderici, MG. SS XXII, 309 V. 91 ff., 327 V. 901 ff. (Versorgung aus Pavia), 327 V. 916 (Desertion der böhmischen Truppen), 327 f. V. 921 ff. (Belagerungsmaschinen der Genuesen); Hist. ducum Venet, MG. SS XIV, 82 (zu 1173: Treueid der Pavesen); Hofmeister, Annalen von St. Georgen, ZGORh N.F. 33 (1918) 45; Otto von St. Blasien, Chronica, ed. Hofmeister, MG. SS rer.Germ.in us.schol., 31 f. (ed. Schmale, Freiherr vom Stein-Gedächtnisausgabe XVIIIa, 66 ff.); Romuald von Salerno, ed. Garufi, Rer. Ital. SS N. Ed. VII/1, 262 f. (zu 1173); Sigeb. Cont. Aquicinct, MG. SS VI, 41f f. (nach Pfingsten 1174; regnerischer, feuchter Winter); vgl. des weiteren: Cont. Admunt, MG. SS IX, 585; Ann. Augustani minores, MG. SS X, 9; Ann. s. Georgii, Cont. A, MG. SS XVII, 296; Ann. Magdeburg., MG. SS XVI, 193; Ann. Neresheim., MG. SS X, 22; Ann. s. Rudberti Salisburg., MG. SS IX, 777; Ann. Zwifalt, MG. SS X, 56 (zu 1175); Cont. Zwetlensis altera, MG. SS IX, 541; Cron. fratris Salimbene de Adam, MG. SS XXXII, 2; Hermanni Altahensis Ann., MG. SS XVII, 384; Magistri Tolosani Chron. Faventinum, Rer. Ital. SS N. Ed. 28/1, 59 f.; Roberti de Monte Cronica, MG. SS VI, 524; Sicardi ep. Cremon. Cronica, MG. SS XXXI, 167; zur Belagerung vgl. auch den Rhythmus auf den Sieg des Lombardenbundes bei Holder-Egger, Resie nach Italien, NA 17 (1892) 493 — 496.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>Digitalisat der RI-Buchseite</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

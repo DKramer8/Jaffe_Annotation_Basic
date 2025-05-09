@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,4 n. 253</idno>
+        <idno type="urn">1188-05-15_1_0_4_4_4_253_253</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Clemens III., RI IV,4,4,4 n. 253</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Rom, Lateran</placeName>
+              <date type="issued" notBefore="1188-05-15" notAfter="1188-05-15">1188 Mai 15</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Clemens III. nimmt Archipresbiter Obertus und die Kanoniker (des Kollegiatstifts San Giovanni Battista) in Monza (Oberto Modoetiensi archipresbitero eiusque fratribus) (Erzd. Mailand) mit ihrem Stift auf deren Bitten wie Calixt (II.), Innocenz (II.), Cölestin (II.), Anastasius (IV.) und Alexander (III.) in den päpstlichen Schutz, bestätigt ihre Besitzungen, die sie bis zum Amtsantritt seines Vorgängers Urban (III.) ungestört in ihrem Besitz hatten, und zählt diese namentlich auf, sowie das Recht der Bestätigung der Äbtissinnenwahl des Klosters S. Pietro in Cremella (Cremellensis abbatisse) (Erzd. Mailand), wie ihnen dies vom damaligen Erzbischof Robaldus von Mailand (quondam Robaldo Mediolanensi archiepiscopo) urkundlich gewährt worden ist, bekräftigt ihr Recht und ihre Gewohnheiten in diesem Kloster (b. Petri ecclesia de Cremella), bestätigt weiteren genannten Besitz und die Benefizien, die ihnen vom damaligen Erzbischof Jordanus von Mailand (Jordanus quondam Mediolanensis archiepiscopus) übertragen wurden, und verbietet deren Entfremdung; der Papst bekräftigt die Freiheiten, alten Immunitäten und Gewohnheiten, wie sie ihrer Kirche von seinen päpstlichen Vorgängern bis zum Zeitpunkt der Wahl seines Vorgängers Urban (III.) gewährt wurden ungeachtet irgendwelcher später vorgenommener Änderungen, verbietet, innerhalb ihrer Pfarrei Gotteshäuser zu errichten ohne ihre Zustimmung und die des Diözesanbischofs vorbehaltlich päpstlicher Privilegien.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Pie postulatio voluntatis effectu debet</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Lat. pm. Moysis SRE. subdiaconi vicem agentis cancellarii id. maii ind. 6 inc. 1188 pont. a. 1.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zur Überlieferung, die nicht überprüft werden konnte, vgl. Kehr, PUU Mailand, S. 75 = Acta Rom. pont. 3 S. 251 und Kehr, PUU Lombardei S. 132 = Acta Rom. pont. 3 S. 307. – Bei Pfaff, Clemens III., S. 291 Nr. 56 fehlt in der Liste der Kardinalsunterschriften Kardinalpriester Peter von S. Pietro in Vincoli. Die genannten Urkk. sind die Privilegien Calixts II. von 1120 April 11 (JL 6839, IP VI,1 S. 145 Nr. 5, Robert, Bullaire Calixte II 1 S. 237-239 Nr. 163), Innocenz' II. von 1135 Juli 25 (JL 7724, IP VI,1 S. 146 Nr. 10, Migne, PL, 179 Sp. 245-247 Nr. 194), Cölestins II. von 1143 November 23 (JL 8840, IP VI,1 S. 146 Nr. 11, Migne, PL, 179 Sp. 768-769 Nr. 5), Anastasius' IV. (Dep., JL –, IP VI,1 S. 147 Nr. *13) und Alexanders III. von 1169 März 31 (JL 11609, IP VI,1 S. 147 Nr. 15, Migne, PL, 200 Sp. 576 Nr. 612). Eine stark verkleinerte Abbildung der unteren Hälfte der Urk. findet sich bei Longoni, L'archivio capitolare S. 212. Die genannte Urk. des Erzbischofs Robaldus von Mailand von 1135 Dezember ist gedruckt bei Frisi, Memorie Monza 2 S. 51-53 Nr. 50. Nicht nachgewiesen werden konnte die Urk. des Erzbischofs Jordanus von Mailand. Für die merkwürdige zweimalige Einschränkung der Besitzbestätigung auf die Zeit vor den Amtsantritt seines Vorgängers Urbans III., die auch in Reg. 241 gemacht wird, lässt sich kein Grund erkennen.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Orig., Monza, Arch. cap. Nr. 106; Kopie 12. Jh., Monza, Arch. cap.   Drucke: Zucci, Monza S. 79 (so zitiert im Reg. der IP, war nicht zugänglich); Ughelli/Coleti, Italia sacra 4 Sp. 62-64 (ohne die Unterschrift des Kardinaldiakons Iacinthus); Frisi, Memorie della chiesa Monzese 3 S. 50 (nur Unterschriften und Datum unter Verweis auf die VU Alexanders III.); Frisi, Memorie Monza 2 S. 73 Nr. 77 (nur Adresse, Unterschriften und Datum unter Verweis auf die VU Alexanders III.); Migne, PL, 204 Sp. 1342-1344 Nr. 53 (nach Ughelli/Coleti).   Reg.: JL 16230 (J 10075); Marimonti, Memorie Monza S. 390-391 Nr. 28 (mit Unterschriften und Datum in ital. Übersetzung); Giulini, Memorie di Milano ¹7 S. 143; IP VI,1 S. 148 Nr. 20.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

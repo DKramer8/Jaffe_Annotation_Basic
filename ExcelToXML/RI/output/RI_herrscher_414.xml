@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,2,3 n. 2322</idno>
+        <idno type="urn">1177-09-03_1_0_4_2_3_550_2322</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Friedrich I., RI IV,2,3 n. 2322</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>im Dogenpalast zu Venedig</placeName>
+              <date type="issued" notBefore="1177-09-03" notAfter="1177-09-03">1177 September 3</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness">Patriarch Udalrich von Aquileia, Erzbischof Christian von Mainz, Elekt Konrad von Worms, Protonotar Wortwin, die Notare und Kapelläne Rudolf und Burkhard, die Bischöfe Ulrich von Treviso und Garsidonius von Mantua, Sebastianus Ziani, Doge von Venedig, Markgraf Obizo von Este und sein Neffe Bonifaz, Graf Schinella von Treviso und sein Bruder Manfred, Wezel von Camino und sein Sohn Gabriel, Ezzelin von Treviso, der Ferrarese Taurellus, Petrus Traversarius (von Ravenna) und Albertinus von Castellonouo</legalActor>
+          </p>
+          <p>
+            <legalActor>verfaßt und geschrieben von dem in der Zeugenliste erwähnten Burkhard</legalActor>
+          </p>
+          <p>
+            <legalActor>Godefridus canc. vice Philippi Coloniensis archiep. et Ytalici regni archicanc.</legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Friedrich nimmt das seit Kaiser Otto (III.) reichsunmittelbare Kloster Santa Maria zu Pomposa  (... de [Pomposia ecclesiam sancte dei genitric]is Marie sitam in insula Pomposia...) auf Bitten des Abtes Guido und des Priors Vivianus in seinen Schutz, bestätigt ihm die genannten Besitzungen, die Freiheit vor allen Übergriffen, insbesondere solchen der Bewohner von Comacchio, auf die Insel Pomposa, unterstellt es in weltlichen Belangen ausschließlich der Herrschaft des Reiches, in geistlichen Belangen der des Papstes, widerruft alle unrechtmäßigen Vergaben von Klostergut, verleiht ihm besondere Vorrechte hinsichtlich der Rückerwerbung von Gütern, befreit es von der Leistung des Kalumnieneides und überträgt ihm die Gerichts- und Abgabenhoheit. Z.: Patriarch Udalrich von Aquileia, Erzbischof Christian von Mainz, Elekt Konrad von Worms, Protonotar Wortwin, die Notare und Kapelläne Rudolf und Burkhard, die Bischöfe Ulrich von Treviso und Garsidonius von Mantua, Sebastianus Ziani, Doge von Venedig, Markgraf Obizo von Este und sein Neffe Bonifaz, Graf Schinella von Treviso und sein Bruder Manfred, Wezel von Camino und sein Sohn Gabriel, Ezzelin von Treviso, der Ferrarese Taurellus, Petrus Traversarius (von Ravenna) und Albertinus von Castellonouo . — Godefridus canc. vice Philippi Coloniensis archiep. et Ytalici regni archicanc. ; unter Verwendung des DH.V. von 1114 September 13 (Bresslau, Diplom, NA 20, 1895, 225; VU.I) und eines wohl von dem Mönch Romanus (Romanus monachus egit pro privilegio.) konzipierten Empfängerentwurfs, der sich stark an die interpolierte Fassung des DF.I.111 (= Reg. †320; VU.II) anlehnt, verfaßt und geschrieben von dem in der Zeugenliste erwähnten Burkhard; B.D. Ad hoc a rege .</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Ad hoc a rege</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">(IIIo  non. septembris, apud Venecias in palacio ducis)</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Mittels dieses D. stellte Friedrich die 1001 von Otto III. begründete Reichsfreiheit, die 1118 von Papst Gelasius II. durch die Unterstellung unter die cura  des Ravennaler Erzbischofs beendet worden war, wieder her, ohne auf die Maßnahme dieses Papstes ausdrücklich Bezug zu nehmen, vgl. dazu die Vorbemerkung zum D. — Von besonderem Interesse ist die Erwähnung des Mönches Romanus, der wohl als rechtskundiger Vertreter für seine Abtei agiert hatte.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Orig.: Staatsarchiv Modena (A). Kop.: Abschrift des 12. Jh., Staatsarchiv Mailand sez. storica III (B). Drucke: Prutz, Friedrich I. 2, 382 no  13; MG.DF.I.705. Regg.: Samaritani, Reg.Pomposiae 1, 203 no  700; Stumpf 4222.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>Digitalisat der RI-BuchseiteDruck in MGH DDEintrag in AVEKK</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p>B.D.</p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

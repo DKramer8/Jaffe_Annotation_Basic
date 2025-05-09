@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,3 n. 165</idno>
+        <idno type="urn">1186-05-30_1_0_4_4_3_165_165</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Urban III., RI IV,4,4,3 n. 165</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Verona</placeName>
+              <date type="issued" notBefore="1186-05-30" notAfter="1186-05-30">1186 Mai 30</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Urban III. nimmt Abt Ansoldus und die Brüder des Klosters Compiègne (Ansoldo abbati Compendiensis monasterii eiusque fratribus) (D. Soissons) auf deren Bitten wie Eugen (III.), Hadrian (IV.), Alexander III. und Lucius (III.) in den päpstlichen Schutz, bestätigt die Benediktinerregel und den genannten Besitz, besonders den von König Ludwig (VII.) von Frankreich (Ludovicus quondam Francorum rex) übertragenen Ort der Königspfalz, befreit sie vom Zehnten für Neubrüche bei Eigenbau und für Tierfutter, gewährt das Aufnahmerecht, bekräftigt ihre Exemtion unter genannten Bedingungen sowie die freie Wahl des Bischofs für den Empfang von Chrisma, Heiligem Öl, Konsekrationen und Benediktionen, gewährt die Wahl des Abts und setzt die Benediktion des Elekten durch den Papst fest, verfügt, daß die Kanoniker ihre Präbenden nicht vermehren und die Zahl ihrer Kanonikate nicht erhöhen dürfen und erklärt derartige Maßnahmen für ungültig, sofern sie nach der Einführung der Mönche vorgenommen worden seien vorbehaltlich päpstlicher Mandate, verbietet, da schon von seinen Vorgängern festgesetzt worden sei, daß verstorbenen Kanonikern Mönche nachfolgen sollen, daß jemand als Kanoniker aufgenommen wird und eine Präbende erhält, verbietet die Erhöhung der jährlichen Einkünfte der nichtresidierenden Kanoniker und bestätigt die Vereinbarung zwischen Mönchen und Kanonikern über die Aufteilung der Ländereien und der Einkünfte zwischen ihnen.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Religiosam vitam eligentibus apostolicum convenit</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Verone pm. Alberti SRE. presb. card. et cancellarii 3 kal. iunii ind. 4 inc. 1186 pont. a. 1.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zu einer weiteren Überlieferung des 18. Jh. in Paris, Arch. nat., vgl. Ramackers, PUU Frankreich 4, S. 40. Zu St-Corneille in Compiègne vgl. Lohrmann, PUU Frankreich 7 S. 204f., wo diese Urk. S. 209 Nr. *57 zitiert wird, sowie Becquet, Abbayes et Prieurés 18: Beauvais S. 135-141. Bei den erwähnten PUU handelt es sich um die Privilegien Eugens III. von 1150 Dezember 13 (JL 9422, Morel, Cartulaire Compiègne 1 S. 128-131 Nr. 72), Hadrians IV. von 1155 Februar 17  (JL 9996, Morel S. 144-146 Nr. 77), Alexanders III. von 1162 November 5 (JL 10776, Morel S. 157-159 Nr. 88) und Lucius' III. (Böhmer-Baaken-Schmidt, Papstregesten Lucius' III. 1 , Nr. 555). Zur genannten Urk. König Ludwigs VII. von 1150 Ende Oktober-1151 April 7 vgl. Luchaire, Études S. 182 Nr. 258. Vgl. zu diesen Urkk. auch Lohrmann, PUU Frankreich 7 S. 553 Vorbem. zu Nr. 250. NU ist das Privileg Clemens' III. (JL 16671, Morel S. 291-294 Nr. 192, Lohrmann 7 S. 623-625 Nr. 316 [Teildruck]), wo allerdings das Privileg Urbans III. nicht unter den Privilegien der Vorgänger genannt wird. Zur Rolle von Compiègne als eine der bevorzugten Residenzen der franz. Könige vgl. Brühl, Fodrum S. 241 und S. 246.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Kopie 13. Jh., Paris, Arch. nat., LL 1622 fol. 44' (Cart. blanc von St-Corneille de Compiègne, Stein, Bibliographie Nr. 1022); Kopie 13. Jh., Compiègne, Bibl. mun., Ms. 41 fol. 13'-15 Nr. 29 (Cart. rouge von St-Corneille de Compiègne, Stein, Bibliographie Nr. 1023, Le Braz, Cartulaires /13/ S. 102f.).   Drucke: Morel, Cartulaire Compiègne 1 S. 266-268 Nr. 169; Lohrmann, PUU Frankreich 7 S. 590-592 Nr. 285.   Reg.: JL 15616; Marsy, Fragments St-Corneille S. 463 Nr. 29.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

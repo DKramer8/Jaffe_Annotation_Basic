@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,5 n. 271</idno>
+        <idno type="urn">1191-12-20_4_0_4_4_5_271_271</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Cölestin III., RI IV,4,4,5 n. 271</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Rom, Lateran</placeName>
+              <date type="issued" notBefore="1191-12-20" notAfter="1191-12-20">(1191) Dezember 20</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Cölestin III. bestätigt Erzbischof (Job) von Esztergom/Gran (Strigoniensi archiepiscopo) auf dessen Bitten das Recht der Königskrönung, wie dieses im Register seines Vorgängers Clemens (III.) verzeichnet sei (in registro bone memorie Clementis predecessoris nostri habetur inscriptum), sowie das Recht, über die königlichen Hofbeamten das Anathem zu verhängen und die geistliche Jurisdiktion auszuüben, wie dies keinem Prälaten im ungarischen Königreich außer ihm schon von seinem Vorgänger Alexander (III.) gewährt worden sei; der Papst bestätigt weiterhin die Errichtung der freien Propstei (preposituram ... liberam) der Siebenbürger Deutschen (Theutonicorum Ultrasilvanorum), die König B(éla III.) von Ungarn (B. illustris rex Ungarie) und Kardinaldiakon Gregor von S. Maria in Portico (Gregorius sancte Marie in Porticu diaconus cardinalis, tunc apostolice sedis legatus) bekräftigt haben und die durch apostolische Autorität bestätigt worden ist, und befiehlt, dies zur ewigen Erinnerung in das päpstliche Register einzutragen.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Tue devotionis fervorem quam circa</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Lat. 13 kal. ian. pont. a. 1.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Weitere unvollständige Drucke in Lokalpublikationen sind bei Zimmermann/Werner genannt. Die erwähnte Urk. Clemens’ III. ist verloren, vgl. Böhmer-Schmidt, Papstregesten Clemens’ III. Nr. 1288, ebenso wie die Urk. Alexanders III. Erwähnt wird das Krönungsrecht unter Verweis auf Clemens III. und Cölestin III. in der Urk. Innocenz’ III. von 1203 Mai 5 (Potthast 1896, Register Innocenz’ III. 6 S. 79-80 Nr. 55). Zur freien Propstei der Siebenbürger Deutschen vgl. auch die zu 1189–1191 zu setzende Urk. Clemens’ III. (Böhmer-Schmidt, Papstregesten Clemens’ III. Nr. 1314). Die Urk. des Kardinaldiakons Gregor ist gedruckt bei Zimmermann/Werner, Siebenbürgen 1 S. 2-3 Nr. 2 (zu 1192–1196) und als Insert in der Bestätigung Innocenz’ III. von 1198 Juni 15 (Potthast 284, Register Innocenz’ III. 1 S. 375-377 Nr. 272). Zur Sache vgl. Fessler, Geschichte Ungarn 1 S. 290, Grandjean, Hermannstädter Propstei S. 269-276 und Kiss, Exemption S. 32f.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Überl.: Orig., Esztergom, Archivum Capituli Strigoniensis, Archivum Privatum Lad. 44 Fasc. 11 Nr. 2.  Drucke: Katona, Historia critica regum Hungariae 4 S. 386-387 und S. 388 (beide Teildrucke); Schlözer, Siebenbürgen 1 S. 28 Nr. 4 (Teildruck); Fejér, Codex dipl. Hungariae 2 S. 276-277 (Teildruck); Teutsch/Firnhaber, UB Siebenbürgen 1 S. 3-4 (Teildruck); Knauz, Az Esztergomi fökáptalannak Arpádkori okmányai S. 123-124 Nr. 11; Wenzel, Codex diplomaticus Arpadianus continuatus, Diplomataria 11 S. 182-183 Nr. 114 (nach Knauz); Borchgrave, Colonies belges S. 117; Knauz, Monumenta ecclesiae Strigoniensis 1 S. 141-142 Nr. 125; Zimmermann/Werner, Siebenbürgen 1 S. 1-2 Nr. 1; Documente privind istoria României c. Transilvania 1 S. 11 Nr. 18 (rumänische Übersetzung) und S. 360-361 Nr. 18 (nach Zimmermann/Werner); Kiss, Iurisdictionem S. 87 Anm. 10 (Teildruck).   Reg.: JL 16773 (J 10332) und JL 16774 (J 10333) (nach den beiden Teildrucken bei Fejér); Migne, PL 206 Sp. 903 Nr. 35 und Nr. 36 (Reg. nach Fejér); Teutsch/Firnhaber, UB Siebenbürgen 1 S. XV; Documente privind istoria României c. Transilvania 1 S. VIII Nr. 18.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

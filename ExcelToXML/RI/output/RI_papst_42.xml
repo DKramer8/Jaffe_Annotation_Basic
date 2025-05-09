@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,1 n. 141</idno>
+        <idno type="urn">1182-02-16_2_0_4_4_1_141_141</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Lucius III., RI IV,4,4,1 n. 141</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Rom, Lateran</placeName>
+              <date type="issued" notBefore="1182-02-16" notAfter="1182-02-16">1182 Februar 16</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Lucius III. nimmt Abt Guarinus von St-Victor in Paris und dessen Brüder (Guarino abbati ecclesie sancti Victoris Parisiensis) auf deren Bitten wie Eugen (III.) und Alexander (III.) in den päpstlichen Schutz, bestätigt die Augustinerregel sowie den genannten Besitz und die Schenkung König Ludwigs (VI.), befreit sie vom Zehnten für Neubrüche bei Eigenbau und für Tierfutter, gewährt das Aufnahmerecht, verbietet, das Stift nach abgelegter Profeß unerlaubt zu verlassen, gestattet den Rückkauf von Zehnten aus Laienhand, die Revokation des Besitzes auf rechtmäßige Weise und die Annahme verpfändeter Zehnten zu Pfandrecht, bestätigt die Präbenden und die Annaten der Pariser Kirche, die bei der Einführung neuer Consuetudines keine Verminderung erfahren sollen, verbietet, Zehnte aus ihrem Besitz ohne ihre Zustimmung aus Laienhand anzunehmen oder zu behalten, gestattet Priestern und niederen Klerikern, sich ihnen mit ihren Einkünften zu übertragen, setzt fest, daß ihre Kanoniker, die auf Pfarreien präsentiert werden, von ihrer Obödienz und Observanz nicht ausgenommen werden, untersagt die Veräußerung ihrer Güter ohne Zustimmung des Kapitels, die Leistung von Bürgschaften durch ihre Kanoniker ohne Zustimmung von Abt und Kapitel sowie die vom Kapitel ungenehmigte Kreditaufnahme außer bei offensichtlichem Nutzen und entbindet den Konvent von der Haftung, wenn solche Geschäfte ohne ihn getätigt wurden, gewährt ihnen Zeugnisrecht in eigener Sache, gewährt das Präsentationsrecht, verbietet, für Chrisma, Heiliges Öl, Konsekrationen und Ordinationen von ihnen irgendetwas zu fordern, gewährt die freie Sepultur sowie die Wahl des Abtes, gebietet Frieden und untersagt Verbrechen in ihren Klausuren und Grangien.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Religiosam vitam eligentibus apostolicum convenit</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Lat. pm. Alberti SRE. presb. card. et cancellarii 14 kal. mar. ind. 15 inc. 1181 pont. a. 1.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zur Überlieferung vgl. auch Lohrmann, PUU Frankreich 8 S. 67, zum Inhalt vgl. die Vorbem. zum Druck und zur Geschichte von St-Victor den Überblick S. 45 ff.; zu der später erweiterten Bestimmung über die Annaten vgl. Lohrmann S. 60 Nr. 122, S. 61 Nr. 126, Nr. 132 und besonders Nr. 133; diese Urk. wird S. 60 Nr. 111 zitiert. Lohrmann verweist für die Textgestaltung dieses Privilegs auf die Urkk. Eugens III. von 1147 Mai 2 (JL 9034 und JL 9634, Lohrmann S. 186-188 Nr. 25), Alexanders III. von (1172) Oktober 7 (JL 13582, Lohrmann S. 309-310 Nr. 124) und Alexanders III. von 1176 August 10 (JL 12660, Lohrmann S. 336-337 Nr. 143). Zur Schenkung König Ludwigs VI. vgl. dessen Urk. von 1113 (Mai 21-August 2) (Dufour, Recueil 1 S. 173-180 Nr. 80). – Die Liste der Kardinalsunterschriften bei Pfaff, Sieben Jahre S. 185 Nr. 35 ist unvollständig. – Zum Dorsualvermerk vgl. Gasparri, Le 'scribe G' S. 96 Nr. 7. Zu der Besitzliste vgl. Schoebel, St. Viktor S. 239, zur Sache vgl. auch Teske, Briefsammlungen S. 84 und S. 310.    Verbesserungen und Zusätze (2006):  Zur Sache vgl. jetzt auch PETERSEN, Präbendenbesitz von St-Victor S. 118f. und PETERSEN, Annatenerhebung S. 177f.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Überl.: Orig., Paris, Arch. nat., L 232 Nr. 4; Kopie 13. Jh., Paris, Arch. nat., L 232 Nr. 4 (Auszug); Kopie 13. Jh., Paris, Arch. nat., LL 1450 A fol. 21-22 (Cartulaire de Saint-Victor de Paris, Stein, Bibliographie Nr. 2887, ohne Unterschriften und Datum). Druck: Lohrmann, PUU Frankreich 8 S. 349-353 Nr. 154. Reg.: JL 14589.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

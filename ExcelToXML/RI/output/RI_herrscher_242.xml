@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,2,2 n. 1664</idno>
+        <idno type="urn">1167-05-27_1_0_4_2_2_1109_1664</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Friedrich I., RI IV,2,2 n. 1664</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>bei Tusculum (Monte Porzio)</placeName>
+              <date type="issued" notBefore="1167-05-27" notAfter="1167-05-29">1167 Mai 27-29</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Rainald von Köln wird mit seinen Truppen, darunter Bischof Alexander von Lüttich, Kanzler Philipp (von Heinsberg), Deutsche, Lombarden, Tuszier, Brabanzonen und Lucchesen unter Führung ihres Gonfaloniere sowie die Grafen Robert von Bassavilla, Andreas von Rupecaninca und Macharius (von S. Miniato), in Tusculum von einem zahlenmäßig weit überlegenen römischen Heer (angeblich 40.000 Mann) eingeschlossen, doch gelingt es ihm am Montag nach Pfingsten (Mai 29), unter Ausnützung eines Angriffs der Römer auf die soeben eingetroffenen, erschöpften Truppen unter Christian von Mainz (insgesamt etwa 500 Mann sowie Brabanzonen) die Gegner seinerseits zu attackieren, zu überrumpeln und einen großen Sieg zu erringen. Die Römer werden vollends in die Flucht geschlagen, ihr Heer wird weitgehend aufgerieben. Von den ausgerückten römischen Truppen kehren kaum 2000 Mann nach Rom zurück, die Zahl der Gefallenen wird auf über 9000, die der Gefangenen auf 9000 geschätzt, mehr als 3000 davon werden in Viterbo eingekerkert. Unter den Gefallenen sind zwei Kardinäle (Ann. Seldental., Cron. s. Petri Erf. mod.), gefangen wird auch ein Sohn des Otto Frangipani, der trotz hoher Geldangebote nicht freigelassen wird (Ann. Magdeburg.).</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">-</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Garufi nennt in seiner Edition der Chronik des Romuald von Salerno (a. a. O., 255 Anm. 4) unter Berufung auf die Fortsetzung der Morena-Chronik (Cont. Anonymi) und die Ann. Ceccanenses unter den Teilnehmern an der Schlacht die Grafen Robert von Loritello und Richard von Fondi. Bei Robert handelt es sich um Robert von Bassavilla (vgl. zu ihm auch Herkenrath, Reichskanzlei 1167-1174, Archival. Zs. 71, 1975, 72 Anm. 42); Richard von Fondi wird in den genannten Quellen allerdings nicht erwähnt. - Zu Graf Macharius (von S. Miniato) vgl. von der Nahmer, Reichsverwaltung in Toscana, 203. - Zu den Zahlenangaben vgl. zuletzt Heinemeyer, in: AfD Beiheft 1 (1976) 75 f. Anm. 2 (Edition der Chron. Fuldensis) mit Nennung der älteren Literatur. - Zum Ort des Geschehens vgl. auch Petersohn, Pactum, MIÖG 82 (1974) 307.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Chron. reg. Col., ed. Waitz, MG. SS rer. Germ. in us. schol., 117, Cont. Anonymi (Morena), ed. Güterbock, MG. SS rer. Germ. N. S. VII, 196 ff., Schreiben Erzbischof Rainalds an die Kölner Kirche, den Herzog von Limburg und die Stadt Köln sowie an die Kirche von Lüttich: Knipping, Reg. Köln 2, no  895 und 898; vgl. des weiteren Ann. Aquenses, MG. SS XXIV, 38 (10.000 Gefallene), Ann. Camerac., MG. SS XVI, 539 (fast 9000 Gefallene, 3000 Gefangene; zu Mai 30), Ann. Casinenses, MG. SS XIX, 312 (1500 Gefallene, 1700 Gefangene), Ann. Ceccanenses, MG. SS XIX, 285 (6000 Gefallene; zu Mai 30), Ann. Egmund., ed. Oppermann, Werken uitgeg. d. h. hist. genootschap Utrecht 3. Ser. 61 (21933) 176 (irrig: bei Viterbo), Ann. Floreff., MG. SS XVI, 625 (ca. 9000 Gefallene, 5000 Gefangene), Ann. Ianuenses I, ed. Belgrano, Fonti per la storia d'Italia 11, 203 (1700 Gefallene oder Gefangene), Ann. Laubienses, MG. SS IV, 24 (zu Mai 28), Ann. Magdeburg., MG. SS XVI, 192 (40.000 Römer, 8000 Gefallene, 4000 Gefangene), Ann. Palid., MG. SS XVI, 93 f., Ann. Pisani, ed. Gentile, Rer. Ital. SS N. Ed. VI/2, 42 (40.000 Römer, 4000 Gefallene, 5000 Gefangene), Ann. Plac. Gib., MG. SS XVIII, 462 (3000 Gefallene; irrig zu Juni), Ann. Seldental., ed. Böhmer, Fontes rer. Germ. III, 526 (3000 Gefallene, darunter zwei Kardinäle, 7000 Gefangene), Ann. Stad., MG. SS XVI, 345 (Angriff der Römer angeblich von Papst Alexander III. veranlaßt; mehr als 6000 Gefallene, irrig mit der Ortsangabe Rom), Boso, ed. Duchesne, 415 f. (kaiserliche Truppen zur Unterstützung des Raino, Herrn von Tusculum, dorthin entsandt), Tolosani Chron. Favent., ed. Rossini, Rer. Ital. SS N. Ed. XXVIII/1, 58 (15.000 Gefallene, mit Ortsangabe Monte Porzio), Chron. Fuldensis, ed. Heinemyer, AfD Beiheft 1 (1976) 72 ff. (8000 Gefallene), Chron. Magni presb. Reichersperg., MG. SS XVII, 488 f. (ca. 40.000 Römer; irrig zu Juni), Cron. s. Petri Erf. mod., ed. Holder-Egger, MG. SS rer. Germ. in us. schol., 183 (ca. 3000 Gefallene, 7000 Gefangene; zu 1166), Gesta Lucanorum, ed. Schmeidler, MG. SS rer. Germ. N. S. VIII, 289 f. (zu 1164), Gestorum abb. Trudon. Cont. secunda, MG. SS X, 350 f. (40.000 Römer, über 9000 Gefallene, etwa 5000 Gefangene), Helmold von Bosau l. II cap. 106, ed. Schmeidler, MG. SS rer. Germ. in us. schol. (3 1937) 207 f. (etwa 12.000 Gefallene), Ioh. Cod. Ann., ed. Holder-Egger, MG. SS rer. Germ. in us. schol., 7 (mehr als 3000 Gefallene; irrig zu Juni), Otto von St. Blasien cap. 20, ed. Hofmeister, MG. SS rer. Germ. in us. schol., 23 ff. (etwa 15.000 Gefallene), Rahewini Gesta Frid. Appendix, ed. Waitz - Simson, MG. SS rer. Germ. in us. schol., 349, Roberti de Monte Cron., MG. SS VI, 515, Romuald von Salerno, ed. Garufi, Rer. Ital. SS N. Ed. VH/1, 255, Sigeb. Auct. Aquicinense, MG. SS VI, 398 (15.000 Römer; zu 1166), Sigeb. Cont. Aquicinct., MG. SS VI, 412 (15.000 Römer; zu 1166); vgl. insbesondere Knipping, Reg. Köln 2, no  892, 893, 895 und 898.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>Digitalisat der RI-Buchseite</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

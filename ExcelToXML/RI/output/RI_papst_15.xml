@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,1 n. 53</idno>
+        <idno type="urn">1181-12-13_1_0_4_4_1_53_53</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Lucius III., RI IV,4,4,1 n. 53</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Rom, St. Peter</placeName>
+              <date type="issued" notBefore="1181-12-07" notAfter="1181-12-07">(1181) Dezember 7</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Lucius III. schreibt Äbtissin Letizia und den Nonnen des Klosters Meda (Letitie abbatisse et monia-libus monasterii de Medda) (Erzd. Mailand) wegen des Streits zwischen ihnen und den Bürgern (burgenses) um die Wahl des Priesters der Pfarrkirche S. Maria in Meda (ecclesie sancte Marie, que parrochialis est ipsi loci), die ihrem Kloster gehört; der Streit sei vor Alexander III. gebracht und von diesem auf Bitten beider Parteien unter Ausschluß der Appellation an Bischof O(mnebonus) von Verona (O. Veronensi episcopo) zur Anhörung und Entscheidung übertragen worden, der ihn zugunsten des Klosters entschieden habe; die Bürger hätten gegen dieses Urteil Appellation an den Apostolischen Stuhl eingelegt, die Alexander III. jedoch verworfen habe, da der Streit unter Ausschluß der Appellation delegiert worden sei; wie sein Vorgänger bestätigt der Papst die Entscheidung des Bischofs.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Cum inter vos et burgenses</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Rome apud sanctum Petrum 7 id. dec.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zum Archiv von S. Vittore in Meda, das sich jetzt im Besitz der Familie Antona Traversi befindet, vgl. Picasso, Lettera S. 132 Anm. 3 mit weiterer Literatur sowie Albuzzi, Pergamene inedite S. 193f. Das genannte Delegationsmandat Alexanders III. von 1176 Juni 10 (JL – , IP VI,1 S. 138 Nr. *2 [zu 1176–1177]) ist gedruckt bei Orsini, San Vittore di Meda S. 90 Nr. 20 (Digitalisat: http://cdlm.unipv.it/edizioni, Codice diplomatico della Lombardia medievale [secoli VIII–XII], Fondo Meda, S. Vittore Nr. 2).Die Aufforderung Alexanders III. von 1176 Juni 15 (JL – , IP VI,1 – ) an die Äbtissin, sich der Untersuchung durch die Delegaten zu stellen, ist nach Antona Traversi, Per le nozze Ponzani-Antona Traversi gedruckt bei Orsini, S. 91 Nr. 21.  Das Urteil des Bischofs von 1177 März 14 ist nachgewiesen in der IP VI,1 S. 138 Nr. *2 (zu 1176–1177), wie auch dessen Bestätigung durch Alexander III. von 1177 April 28 (JL – , IP VI,1 S. 138 Nr. *3). Zu Bischof Omnebonus vgl. Weigand, Frühe Kanonisten S. 137f.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Überl.: Orig., Desio, Villa Antona Traversi, Privatarchiv der Familie Antona Traversi Nr. 144.  Reg.: Risposta al papele intitolato Estratto delle spese attinenti alle campane della chiesa parrocchiale di Meda (so genannt im Reg. der IP, war nicht zugänglich); IP VI,1 S. 138 Nr. *4 (zu 1181 Dezember).</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

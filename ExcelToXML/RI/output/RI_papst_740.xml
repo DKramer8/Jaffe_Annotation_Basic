@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,3 n. 1402</idno>
+        <idno type="urn">1187-12-08_1_0_4_4_3_1402_1402</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Gregor VIII., RI IV,4,4,3 n. 1402</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Lucca</placeName>
+              <date type="issued" notBefore="1187-12-08" notAfter="1187-12-08">(1187) Dezember 8</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Gregor VIII. bestätigt dem Abt und Konvent des Klosters von Tino (abbati et conventui monasterii de Tiro) (Erzd. Genua) auf deren Bitten das Urteil, das der damalige Bischof G(uido) von Savona (G. quondam episcopo Saonensi) aufgrund des Mandats Alexanders (III.) (in ihrem Streit mit dem Bischof von Ajaccio [inter abbatem et episcopum Aiaciensem]) gefällt hat und das schon von Lucius (III.) bekräftigt worden ist.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Cum de mandato sedis apostolice</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Luce 6 id. dec. ind. 6.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zur Diözesanzugehörigkeit Tinos vgl. IP VI,2 S. 388f. Bischof Guido von Savona fällte 1181 zwei Entscheidungen in Streitfällen zwischen Tino und dem Bischof von Ajaccio. In seiner Urk. von 1181 Januar 10 entschied Guido im Auftrag Alexanders III. einen Streit um zwei Kirchen in Spano auf Korsika (in loco qui vocatur Spanius ... quarum ecclesiarum una vocatur ecclesia sancti Nicolai altera ecclesia sancti Ambrosii) zugunsten Tinos (Falco, Carte Tino 1 S. 73-74 Nr. 67, zu 1182 Januar 10, vgl. IP VI,2 S. 390 Nr. *4). In einem Exekutionsmandat des Bischofs von 1181 August 31 wird ein Streit um den Hof Frasso auf der Insel Korsika (de curte Frassi site in insula Corsice) beigelegt (Falco, Bolla di Gregorio VIII S. 291 Nr. 1). Das Mandat Alexanders III. (IP VI,2 S. 390 Nr. *4) ist nur aus der Sentenz des Bischofs Guido von Savona von 1181 Januar 10 bekannt, vielleicht handelte es sich aber auch um zwei Delegationsmandate Alexanders III. Die erwähnte Bestätigung dieser Entscheidung(en) durch Lucius III. ist verloren, vgl. Böhmer-Baaken-Schmidt, Papstregesten Lucius' III. 2, Nr. 2041. Zur Sache vgl. Balletto, San Venerio del Tino S. 353f., Falco, Bolla di Gregorio VIII S. 288-291 und Scalfati, Ego episcopus firmavi S. 167f. Zum Besitz des Klosters Tino auf Korsika vgl. auch Balletto S. 327-346.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Orig., Turin, Arch. di Stato, Materie ecclesiastiche, Abbazie, Portovenere, San Venerio di Tiro, mazzo 5, n. 48.  Drucke: Falco, Bolla di Gregorio VIII S. 292 Nr. 2; Falco, Carte Tino 2 Appendice S. 346 Nr. 2; Pistarino, Carte Tino S. 14 Nr. 13.  Reg.: – .</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

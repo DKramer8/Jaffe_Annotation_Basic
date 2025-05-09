@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,3 n. 1374</idno>
+        <idno type="urn">1187-11-19_1_0_4_4_3_1374_1374</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Gregor VIII., RI IV,4,4,3 n. 1374</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Bologna</placeName>
+              <date type="issued" notBefore="1187-11-19" notAfter="1187-11-19">1187 November 19</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Gregor VIII. nimmt die Domkanoniker in Ferrara (canonicis Ferrariensis ecclesie) auf deren Bitten wie Alexander (III.) und Lucius (III.) in den päpstlichen Schutz, bestätigt den genannten Besitz, verbietet, die Kleriker ihrer Kapellen mit dem Interdikt oder der Exkommunikation zu belegen oder anderweitig zu belästigen, bestätigt ihnen das Recht zu deren Einsetzung, Weihe und Korrektur, setzt fest, daß niemand gegen ihren Willen gemäß der mit Einwilligung des damaligen Bischofs Landulf (von Ferrara) (Landulfi quondam episcopi) durch Azo, den Kardinal(priester von S. Anastasia) und päpstlichen Legaten (ab Azone olim Romane ecclesie cardinali et tunc apostolice sedis legato), errichteten Satzung in der Stadt und den Vorstädten taufen und salben oder öffentliche Buße gewähren darf, verbietet, ihnen den rechtmäßig zustehenden vierten Teil der Zehnteinkünfte ihrer Pfarrei zu entziehen sowie ihre von ihnen kraft bischöflicher Ermächtigung der Exkommunikation oder dem Interdikt unterworfenen Pfarrangehörigen ohne vorherige Absolution zum Gottesdienst und zur Sepultur zuzulassen, gestattet ihnen, falls der Bischof (von Ferrara) auf ihre Bitte hin nicht innerhalb von dreißig Tagen gegen die Schädiger ihres Besitzes kirchliche Strafen verhängt, ohne daß vernünftige Gründe dafür vorliegen, selbst gegen diese Exkommunikation und Interdikt auszusprechen, und bekräftigt die Konstitution des genannten Kardinals (Azo) und des Bischofs (Landulf) über die Testamente Verstorbener, die auch der damalige Bischof Amatus (von Ferrara) (bone memorie Amatus episcopus) approbiert hat.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Quotiens a nobis petitur quod</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Bononie pm. Moysis Lateranensis canonici vicem agentis cancellarii 13 kal. dec. ind. 6 inc. 1187 pont. a. 1.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zur Überlieferung vgl. Kehr, PUU Padova S. 356 und S. 360f. = Acta Rom. pont. 1 S. 144 und S. 148f., Kehr, PUU Rom 1 S. 118 = Acta Rom. pont. 2 S. 300 und Kehr, PUU Rom 2 S. 375 = Acta Rom. pont. 2 S. 538. – Die erwähnten Urkk. sind die Privilegien Alexanders III. von (1159-1175) (JL 12945, zu 1177, IP V S. 223-224 Nr. 11, Migne, PL, 200 Sp. 1152-1154 Nr. 1324) und Lucius' III. von 1184 Oktober 1 (Böhmer-Baaken-Schmidt, Papstregesten Lucius' III. 2, Nr. 1211), das VU war. Das Statut des Kardinalpriesters Azo ist IP V S. 222 Nr. *5 zu 1135 verzeichnet, vgl. zu ihm und seiner Tätigkeit als Legat Ganzer, Kardinalat S. 83-86 sowie Weiß, Legaten, S. 132. – Zum Besitz des Domkapitels vgl. Benati/ Samaritani, Chiesa Ferrara 1 S. 195 und S. 465 zu den genannten Bischöfen Landulf (1099-1138/39) und Amatus (1158-1173).</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Orig., Ferrara, Arch. Storico Diocesano, Arch. cap., Busta XIII posizione 14.   Drucke: Kehr, PUU Padova S. 385-386 Nr. 13 (Teildruck, nur Adresse und Unterschriften unter Verweis auf die VU Lucius' III.) = Acta Rom. pont. 1 S. 173-174; Kehr, Nachträge IV S. 274-277 Nr. 26 = Acta Rom. pont. 5 S. 272-275.   Reg.: IP V S. 225 Nr. 18; Kleemann, Gregor VIII. S. 55 Nr. 4.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,4 n. 593</idno>
+        <idno type="urn">1189-03-21_1_0_4_4_4_593_593</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Clemens III., RI IV,4,4,4 n. 593</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Rom, Lateran</placeName>
+              <date type="issued" notBefore="1189-03-21" notAfter="1189-03-21">1189 März 21</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Clemens III. nimmt Prior Peter und die Brüder des Stifts S. Leonardo in Lama Volara (S. Leonardo di Siponto) (Petro priori ecclesie sancti Leonardi site in loco qui dicitur Lamavolari eiusque fratribus) auf deren Bitten mit ihrer Kirche, die im besonderen Recht der Römischen Kirche steht, wie Innocenz (II.) und Alexander (III.) in den päpstlichen Schutz, bestätigt die Augustinerregel, den genannten Besitz, gewährt das Aufnahmerecht, erlaubt Gottesdienst bei Interdikt, gewährt die freie Sepultur, setzt den freien Empfang von Chrisma, Heiligem Öl, Konsekrationen und Ordinationen durch den Diözesanbischof, nötigenfalls durch einen Bischof ihrer Wahl fest, verfügt, daß jedem, der bei ihnen Zuflucht sucht, sicherer Aufenthalt gewährt wird, verbietet, sie oder ihre Kirchen ohne besonderes Mandat des Papstes oder seines Legaten mit der Suspension, der Exkommunikation oder dem Interdikt zu belegen, gestattet die Wahl des Priors gemäß der Augustinerregel und setzt einen jährlichen Anerkennungszins in Höhe von einer Unze Gold fest.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Religiosis votis annuere et ea</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Lat. pm. Moysis SRE. subdiaconi vicem agentis cancellarii 12 kal. apr. ind. 7 inc. 1188 pont. a. 2.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Das noch bei Kehr, PUU Salerno S. 210 = Acta Rom. pont. 2 S. 393 verzeichnete Orig. im StArch. Neapel wurde 1943 zerstört, vgl. IP IX S. 262f. Eine Abschrift findet sich aber in der Sammlung der Pius-Stiftung für Papsturkundenforschung in Göttingen. – Lama Volara ist der Name des Klosterbezirks selbst. Die genannten Urkk. sind die Privilegien Innocenz' II. von 1137 Juni 30 (JL 7845, IP IX S. 263 Nr. 1, Pflugk-Harttung, Acta 2 S. 290-291 Nr. 329) und Alexanders III. von 1167 September 10 (JL 11362, IP IX S. 264 Nr. 4, Kehr, PUU Salerno S. 236-237 Nr. 10 [Teildruck] = Acta Rom. pont. 2 S. 419-420).</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Druck: Kehr, PUU Salerno S. 261 (nur Adresse, Unterschriften und Datum unter Verweis auf die VU Alexanders III.) = Acta Rom. pont. 2 S. 444.   Reg.: JL 16394; Camobreco, Regesta S. Leonardo di Siponto S. 63 Nr. 100; IP IX S. 265 Nr. 7.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

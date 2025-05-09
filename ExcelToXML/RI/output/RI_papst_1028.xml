@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,5 n. 264</idno>
+        <idno type="urn">1191-12-18_1_0_4_4_5_264_264</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Cölestin III., RI IV,4,4,5 n. 264</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Rom, Lateran</placeName>
+              <date type="issued" notBefore="1191-12-18" notAfter="1191-12-18">1191 Dezember 18</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Cölestin III. nimmt Bischof Peter von Pamplona (Petro Pampilonensis ecclesie episcopo) wie Urban (II.), Paschal (II.), Calixt (II.), Honorius (II.), Cölestin (II.), Lucius (II.), Eugen (III.), Hadrian (IV.), Alexander (III.) und Clemens (III.) in den päpstlichen Schutz, bestätigt genannte Besitzungen und Zehnte sowie die Augustinerregel des Domkapitels, verbietet, nach abgelegter Profeß über persönlichen Besitz zu verfügen oder das Kapitel unerlaubt zu verlassen, setzt fest, daß ein Viertel der Zehnteinnahmen der Kleriker dem Diözesanbischof zusteht, befreit das Hochstift von weltlicher Gewalt, bestätigt unter Inserierung der Urkunde Clemens’ III. (von 1188 August 2) und des Delegationsmandats Urbans III. (von 1186 November 13) an Bischof (Johannes) von Tarazona, Bischof (Bernhard) von Bayonne und Abt (Peter) von Poblet (Erzd. Tarragona) (Tirasonensi et Baionensi episcopis et ... abbati de Populeto) den Besitz des Klosters San Salvador in Leyre (Legerense monasterium sancti Salvatoris) und bekräftigt den von ihm selbst als Kardinaldiakon Iacinthus von S. Maria in Cosmedin (Iacincto sancte Marie in Cosmidin diacono cardinali) als Legat in Spanien über die Einigung im Streit zwischen den Kirchen von Pamplona und Zaragoza (inter ecclesiam Pampilonensem et Cesaragustanam) herbeigeführten Vergleich.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Effectum iusta postulantibus indulgere et</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Lat. pm. Egidii s. Nicolai in carcere Tulliano diaconi cardinalis 15 kal. ian. ind. 10 inc. 1191 pont. a. 1.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zur Überlieferung vgl. Kehr, PUU Spanien 2 S. 31. – Die genannten Urkk. sind die Privilegien Urbans II. von 1096 Juni 24 (JL 5650, Goñi Gaztambide, Colección Pamplona 1 S. 90-91 Nr. 68 [zu 1097 Juni 24]), Paschals II. von 1100 März 4 (JL – , Goñi Gaztambide 1 S. 102-103 Nr. 84), Calixts II. (Dep., JL – , erw. im Privileg Innocenz’ II.), Honorius’ II. (Dep., JL – , erw. im Privileg Innocenz’ II.), Cölestins II. von 1144 Februar 26 (JL – , Goñi Gaztambide 1 S. 218-220 Nr. 246), Lucius’ II. von 1144 Dezember 31 (JL – , Goñi Gaztambide 1 S. 220-221 Nr. 247 [Teildruck unter Verweis auf die VU Cölestins II.]), Eugens III. von 1146 April 28 (JL – , Goñi Gaztambide 1 S. 225 Nr. 252 [Teildruck unter Verweis auf die VU Lucius’ II.]), Hadrians IV. von 1156 Juni 14 (JL – , Goñi Gaztambide 1 S. 253 Nr. 287 [Teildruck unter Verweis auf die VU Eugens III.]), Alexanders III. von 1165 August 13 (JL – , Goñi Gaztambide 1 S. 262-263 Nr. 299 [Teildruck unter Verweis auf die VU Hadrians IV.]) und Clemens’ III. von 1188 August 12 (Böhmer-Schmidt, Papstregesten Clemens’ III. Nr. 420), das als VU gedient hat. Nicht angeführt ist das Privileg Innocenz’ II. von 1137 Mai 6 (JL – , Goñi Gaztambide 1 S. 186-188 Nr. 203). Zur inserierten Urk. Clemens’ III. von 1188 August 2 vgl. Böhmer-Schmidt, Papstregesten Clemens’ III. Nr. 417 und zum gleichfalls inserierten Delegationsmandat Urbans III. von 1186 November 13 vgl. Böhmer-Schmidt, Papstregesten Urbans III. Nr. 317. Zur durch Kardinaldiakon Iacinthus von S. Maria in Cosmedin vermittelten Vereinbarung zwischen Pamplona und Zaragoza von 1155 Juni 22 ( Goñi Gaztambide 1 S. 249-250 Nr. 282) vgl. Weiß, Legaten S. 181 Nr. 21. Sie wurde auch noch eigens in der Urk. Clemens’ III. von 1188 August 4 (Böhmer-Schmidt, Papstregesten Clemens’ III. Nr. 419) bestätigt. Zur Sache und zur Identifizierung der genannten Besitzungen vgl. Fernández Perez, Historia Pamplona 1 S. 279-281 und Goñi Gaztambide, Historia Pamplona 1 S. 448-454.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Überl.: Kopie 13. Jh., Pamplona, Arch. de la Catedral, Arca I n. 1 fol. 38'-41 (Libro redondo).  Drucke: Sandoval, Catalogo Pamplona fol. 159-162; Kehr, PUU Spanien 2 S. 538-539 Nr. 188 (Teildruck unter Verweis auf die VU Clemens’ III.); Goñi Gaztambide, Colección Pamplona 1 S. 340-341 Nr. 395 (Teildruck unter Verweis auf die VU Clemens’ III.).  Reg.: Goñi Gaztambide, Catálogo Pamplona S. 89 Nr. 371; Fita, Catorce bulas de la Catedral de Pamplona S. 502 Nr. 15.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,5 n. 771</idno>
+        <idno type="urn">1193-04-23_2_0_4_4_5_771_771</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Cölestin III., RI IV,4,4,5 n. 771</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Rom, Lateran</placeName>
+              <date type="issued" notBefore="1193-04-23" notAfter="1193-04-23">1193 April 23</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Cölestin III. nimmt Dompropst Ogerius, Archidiakon Otto und die Kanoniker von Genua (Ogerio preposito, Otoni archidiacono et canonicis Ianuensibus) auf deren Bitten wie Alexander (III.), Urban (III.) und Gregor (VIII.) in den päpstlichen Schutz, bestätigt genannte Besitzungen und die Schenkungen erwähnter Personen, insbesondere die urkundlich festgehaltenen Vergünstigungen, die ihnen der damalige Erzbischof Siro von Genua (bone memorie Syrus Ianuensis archiepiscopi) hinsichtlich der Zehnten und des zehntpflichtigen Landes der Bürger von Genua gewährt hat, bekräftigt ihre alten Gewohnheiten betreffend die Oblationen Lebender und Verstorbener sowie andere Einkünfte ihrer Kirche und ihres Besitzes, erlaubt wie Lucius (III.), die Messe für Verstorbene am Tag nach ihrer Beisetzung in der Begräbniskirche zu feiern, bestätigt die Vereinbarung, die mit Zustimmung und auf Wunsch des damaligen Erzbischofs Hugo von Genua (bone memorie Hugonis Ianuensis archiepiscopi) über die Zahl der Kleriker festgesetzt worden ist, sowie die von ihnen getroffene Regelung über das Strafrecht des Kapitels, bestätigt das Urteil, das die päpstlichen Delegaten zu ihren Gunsten gegen das Kloster S. Bartolomeo (de Fossato in Genua) (ecclesiam sancti Bartholomei) über das Legat des Wilhelm Gata (Willelmi Gate) gefällt haben, sowie die zwischen ihnen und dem Abt von S. Siro (abbatem sancti Syri) wegen Benediktion und Obödienz getroffene Vereinbarung und das Urteil, das der vom Papst delegierte Abt (Ambrosius) von S. Andrea in Sestri Ponente (abbate sancti Andree de Sexto) (Erzd. Genua) in ihrem Streit mit Bruder Justus (fratrem Iustum) gefällt hat, gestattet dem Propst, gegen alle, die ihrer Kirche den Zehnten vorenthalten, mit Zustimmung des Erzbischofs das Anathem auszusprechen, erlaubt Gottesdienst bei Interdikt und verbietet, über sie und ihre Kirche ohne zureichenden Grund Exkommunikation, Suspension und Interdikt zu verhängen.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Effectum iusta postulantibus indulgere et</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Lat. pm. Egidii s. Nicolai in carcere Tulliano diaconi cardinalis 9 kal. maii ind. 11 inc. 1193 pont. a. 3.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zur Überlieferung vgl. Kehr, PUU Ligurien S. 173 und S. 175 = Acta Rom. pont. 3 S. 347 und S. 349. Bei der Unterschrift des Kardinals Johannes von S. Clemente wird als Titel lediglich s. Clementis card. Tuscanensis ... ep. genannt, das zu erwartende et Viterbiensis fehlt. – Die genannten Urkk. Alexanders III., Urbans III. und Gregors VII. sind deren Privilegien von 1181 Januar 13 (JL 14357, IP VI,2 S. 286 Nr. 36, Pflugk-Harttung, Acta 3 S. 286-287 Nr. 315), von 1187 Juli 19 (Böhmer-Schmidt, Papstregesten Urbans III. Nr. 896) und von 1187 Dezember 11 (Böhmer-Schmidt Nr. 1408), die als VUU dienten und hier erweitert wurden. Die Erlaubnis, die Messe für Verstorbene am Tag nach ihrer Beisetzung zu lesen, gewährte Lucius III. in seiner Indulgenz von (1184–1185) September 9 (Böhmer-Baaken-Schmidt, Papstregesten Lucius’ III. 2 Nr. 1766). Die erwähnte Delegation im Streit mit dem Kloster S. Bartolomeo de Fossato erfolgte gleichfalls durch Lucius III. (Böhmer-Baaken-Schmidt 2 Nr. 1765). Der Hinweis auf die Urkk. des Bischofs Siro von Genua bezieht sich wohl auf dessen Urkk. von 1145 November 22 (Ughelli/Coleti, Italia sacra 4 Sp. 860-861) und von 1158 März 18 (Ughelli/Coleti 4 Sp. 861-862). Im Streit mit Justus, dem Priester der Kirche S. Giovanni de Monte Pavarano in Genua, erging die genannte Delegation ebenfalls durch Lucius III. (Böhmer-Baaken-Schmidt 1 Nr. 208). Zu den genannten Besitzungen im Heiligen Land vgl. Röhricht, Regesta regni Hierosolymitani S. 159 Nr. 599, Favreau-Lilie, Italienische Kirchen im Heiligen Land S. 20 und Favreau-Lilie, Italiener S. 226.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Überl.: Kopie 13. Jh., Genua, Arch. cap. di S. Lorenzo, Cod. PA p. 117 bis (Liber privilegiorum Ianuen. ecclesiae); Kopie 14. Jh., Genua, Arch. cap. di S. Lorenzo, Cod. PB fol. 37 (Liber privilegiorum Ianuen. ecclesiae, Kopie des Cod. PA).  Drucke: Ughelli/Coleti, Italia sacra 4 Sp. 879-881; Mansi, Collectio Supplementum 2 Sp. 747-750; Mansi, Collectio 22 Sp. 619-623; Migne, PL 206 Sp. 992-995 Nr. 120 (nach Mansi); Cappelletti, Chiese 13 S. 343-346; La_Farina, Rischiarazioni S. 236-239 Nr. 45; Puncuh, Liber privilegiorum S. 177-181 Nr. 122; Hiestand, PUU für Kirchen im Heiligen Lande S. 345-346 Nr. 167 (nur Druck der Adresse und des Passus über den Besitz im hl. Land).  Reg.: JL 16989 (J 10424); Desimoni, Regesti Liguria S. 83 Nr. 292; Ferretto, Annali Sestri Ponente S. 46-47 Nr. 87 (zu 1193 April 24); IP VI,2 S. 292 Nr. 64.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

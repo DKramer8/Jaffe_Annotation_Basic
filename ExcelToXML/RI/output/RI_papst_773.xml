@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,4 n. 27</idno>
+        <idno type="urn">1188-01-04_1_0_4_4_4_27_27</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Clemens III., RI IV,4,4,4 n. 27</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Pisa</placeName>
+              <date type="issued" notBefore="1188-01-04" notAfter="1188-01-04">(1188) Januar 4</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Clemens III. berichtet Abt (Benedikt) von Peterborough (D. Lincoln) und den Prioren (Philipp) von St Frideswide in Oxford (D. Lincoln) und (Alexander) von Canons Ashby (D. Lincoln) (abbati de Burgo et sancte Fridesvide et de Esseby prioribus), daß der Streit zwischen Abt (Solomon) und dem Konvent von Thorney (D. Ely) einerseits und Ritter Richard, Sohn des R(obert), andererseits (inter ... abbatem et conventum de Thorn. ... et Ricardum filium R. militem) um die Kirche von Tydd St Giles (super ecclesia de Tyd) in der Audientia des Bischofs (Hugo) von Lincoln (Lincolniensis episcopi) verhandelt worden sei; dabei sei von Seiten des Abts und des Konvents vorgebracht worden, daß der damalige Bischof R(obert de Chesney) von Lincoln (R. bone memorie quondam Lincolniensis episcopus) ihrem Kloster die Kirche von Tydd St Giles mit Zustimmung der Gründer, des W. von Ros und des Roger von Mondegum (W. de Ros et Rogeri de Mondegum.), urkundlich übertragen habe und dies durch päpstliche Schreiben bestätigt worden sei; der Ritter, auf den durch seine Ehe mit der Tochter des W. de Ros nach seiner Versicherung das Gründungsrecht übergegangen sei, habe nun begonnen, das Kloster wegen der Kirche zu belästigen, obgleich es die Kirche lange und ohne Widerspruch besessen und das Präsentationsrecht ausgeübt habe; der Ritter behaupte ferner, daß die Gründer dem Kloster nicht die Kirche sondern jährlich 20 Solidi übertragen und vom Abt und den Mönchen das feierliche Versprechen erhalten hätten, das Gründungsrecht künftig nicht zu beanspruchen; als es zum Zeugenbeweis der Parteien kommen sollte, habe der Abt an den Apostolischen Stuhl appelliert; beide Parteien hätten Boten an den Papst geschickt, der aber über die Angelegenheit keine Klarheit habe erlangen können und deshalb nun die Adressaten mit der Untersuchung und Beilegung des Streits unter Ausschluß der Appellation beauftragt; sollte sich herausstellen, daß die durch den Diözesanbischof vorgenommene Vergabe an das Kloster unter Zustimmung der Gründer erfolgt sei, so soll dem Ritter unter Ausschluß der Appellation ewiges Schweigen auferlegt werden; gegebenenfalls soll das Verfahren auch nur durch zwei der Delegaten durchgeführt werden.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Inter dilectos filios nostros abbatem</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Pisis 2 non. ian. ind. 6.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zur Überlieferung vgl. Holtzmann, PUU England 3, S. 57, der im Kopfreg. seines Drucks irrig Esseby mit Easby (Erzd. York) identifiziert. – Die genannte Urk. des Bischofs Robert von Lincoln ist gedruckt bei Smith, EEA 1: Lincoln 1067-1185 S. 166-167 Nr. 266 (zu 1148 Dezember 19-1157). Eine päpstliche Bestätigung der durch Bischof Robert vorgenommenen Übertragung war nicht nachzuweisen. Der Streit konnte hiermit nicht beigelegt werden, zu einer zweiten Instanz dieses Prozesses vgl. das Delegationsmandat Clemens' III. von 1189 März 15 (Reg. 589).</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Kopie 14. Jh., Cambridge, University Lib., Add. 3021 fol. 393-393' (Chart. von Thorney, Davis, Medieval cartularies Nr. 964).  Druck: Holtzmann, PUU England 3, S. 502-503 Nr. 402.  Reg.: – .</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

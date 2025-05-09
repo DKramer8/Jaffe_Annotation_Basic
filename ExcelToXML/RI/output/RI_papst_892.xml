@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,4 n. 620</idno>
+        <idno type="urn">1189-04-24_1_0_4_4_4_620_620</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Clemens III., RI IV,4,4,4 n. 620</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Rom, Lateran</placeName>
+              <date type="issued" notBefore="1189-04-24" notAfter="1189-04-24">1189 April 24</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Clemens III. nimmt Abt Fulko von St-Germain-des-Prés in Paris, dessen Brüder (Fulconi abbati sancti Germani Parisiensis eiusque fratribus) und ihr Kloster, das dem hl. Petrus gehört, auf deren Bitten wie Paschal (II.), Innocenz (II.), Lucius (II.), Eugen (III.), Anastasius (IV.), Hadrian (IV.), Alexander (III.), Lucius (III.) und Urban (III.) in den päpstlichen Schutz, bestätigt die Benediktinerregel, den Besitz sowie die durch den hl. Germanus (Saint Germain), Childebert (I.), Chlotar (I.) und andere fränkische Könige (beati Germani, ... Childeberti, Clotarii atque aliorum regum Francorum) verliehene Freiheit und Würde, bestimmt, daß kein Bischof ihnen Chrisma, Heiliges Öl, Konsekrationen und Ordinationen verweigern darf, verbietet dem Bischof und dem Klerus der Pariser Kirche (episcopo vel clero Parisiensis ecclesie), Messen, Ordinationen oder Stationsgottesdienste in ihrem Kloster ohne ihre Zustimmung zu feiern, in ihre Rechte einzugreifen, über sie Interdikt oder Exkommunikation zu verhängen und den Abt, die Mönche und ihre Geistlichen zu Synoden zu laden, gewährt das Präsentationsrecht für ihre Kirchen außerhalb des Burgbereichs von St-Germain (extra burgum beati Germani) sowie das Recht, ihren Geistlichen bei Pflichtverletzung die Temporalien zu entziehen, und bestimmt für Abt Fulkos Nachfolger die Benediktion durch den Papst oder einen beliebigen Bischof; der Papst gewährt das Recht, daß sie nur einem besonderen päpstlichen Legaten a latere unterworfen sein sollen und kein sonstiger Legat über sie und ihre Kirchen Interdikt oder Exkommunikation verhängen darf und kein Jurisdiktionsrecht über sie und ihre Kirchen ohne besonderes päpstliches Mandat hat, setzt fest, daß sie nicht zur Erfüllung von Forderungen des Erzbischofs von Sens (Senonensis archiepiscopus) nach Prokurationen für mehr als 40 Reiter bei dessen Visitationen verpflichtet sind, daß sie solche überhöhten Ansprüche zurückweisen dürfen und deswegen gegen sie ergangene Sentenzen ungültig sind, untersagt, daß jemand außer dem Papst, einem Legaten a latere mit Spezialmandat oder dem Abt die Mönche exkommunizieren oder dem Interdikt unterwerfen darf, befreit sie vom Zehnten für Neubrüche bei Eigenbau und für Tierfutter, verbietet allen, außer den Templern und Johannitern (Templarii vel Hospitalarii), die eine päpstliche Erlaubnis besitzen, in ihren Pfarreien ohne ihre Zustimmung und die des Diözesanbi- schofs Gotteshäuser zu errichten, bestimmt, daß ihre Ländereien nicht ohne ihre Zustimmung durch Verkauf oder Schenkung einer anderen geistlichen Institutionen für länger als Jahr und Tag zugewendet werden dürfen, sondern daß die Besitzer gemäß der Gewohnheit der französischen Kirche (consuetudinem Gallicanarum ecclesiarum) dafür eine Vergütung zahlen müssen, die ihrem Kloster in voller Höhe zukommen soll.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">In eminenti sedis apostolice specula</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Lat. pm. Moysis SRE. subdiaconi vicem agentis cancellarii 8 kal. maii ind. 7 inc. 1189 pont. a. 2.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Die Urkk. des Bischofs Germanus (Saint Germain) und der Merowinger sind bei Poupardin, Chartes Saint-Germain-des-Prés 1 S. 1-9 nachgewiesen (Childebert I. von 558 Dezember 6 [MGH DD regum Francorum 1 S. 43-46 Nr. † 13], Chlotar I. [MGH DD regum Francorum 2 S. 516 Dep. 40 und Dep. 41 (zu 558-561)], Chilperich I. [MGH DD regum Francorum 2 S. 524 Dep. 58 und Dep. 59 (zu 567-584)], Theuderich IV. [MGH DD regum Francorum 1 S. 449-450 Nr. 181 (zu 721-737)]). Die genannten päpstlichen Urkk. sind die Privilegien Paschals II. von 1107 April 1 (JL 6128, Poupardin 1 S. 117-119 Nr. 73), Innocenz' II. von 1130 November 3 (JL 7427, Poupardin 1 S. 131-132 Nr. 85), Lucius' II. von 1144 März 28 (JL 8549, Poupardin 1 S. 147-149 Nr. 95), Eugens III. von 1146 Januar 8 (JL 8839, Poupardin 1 S. 159-160 Nr. 104), Anastasius' IV. von 1154 Januar 31 (JL 9825, Poupardin 1 S. 171-174 Nr. 115), Hadrians IV. von 1159 März 7 (JL 10554, Poupardin 1 S. 180-182 Nr. 121), Alexanders III. von 1180 März 28 (JL 13636, Poupardin 1 S. 263-266 Nr. 187), Lucius' III. von 1182 Januar 13 (Böhmer-Baaken-Schmidt, Papstregesten Lucius' III. 1, Nr. 98), Urbans III. von 1187 Februar 17 (Böhmer-Schmidt, Papstregesten Urban III., Nr. 549) und Clemens' III. von 1188 Dezember (6-13) (Reg. 508), das als VU diente. Ein Grund für die erneute Ausstellung des Privilegs nach nur vier Monaten ist nicht zu erkennen. Zu den Prokurationen für den Erzbischof von Sens vgl. die Urk. Alexanders III. von 1180 Februar 15 (JL 13614, Poupardin 1 S. 261 Nr. 184), dessen ohne Datum überlieferte Urk. (JL 13615, Poupardin 1 S. 262 Nr. 185) sowie can. 4 des 3. Laterankonzils (Tanner, Decrees 1 S. 213f.). – Zur Frühgeschichte von St-Germain-des-Prés vgl. die Zusammenfassung bei Lehoux, Le bourg Saint-Germain S. XIIf. Zum frühen Besitz vgl. die Karte bei La Motte-Collas, Possessions de Saint-Germain nach S. 50, zu den Bestimmungen über die Weiterverleihung der Güter vgl. Lehoux S. 206f. Nach Martin, Histoire de la coutume 1 S. 25-36 wird im 13. Jh. vielfach der Ausdruck consuetudines Franciae synonym für die consuetudines von Paris verwendet; zur Gewohnheit der Pariser Kirchen vgl. Boussard, St-Germain-l'Auxerrois S. 33-37 und die Urk. Lucius' III. von 1184 Oktober 25 (Böhmer-Baaken-Schmidt, Papstregesten Lucius' III. 2, Nr. 1234) sowie dessen ohne Datum überlieferte Urk. (Böhmer-Baaken-Schmidt, Papstregesten Lucius' III. 2, Nr. 2195).</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Orig., Paris, Arch. nat., L 234 Nr. 8.   Druck: Poupardin, Chartes Saint-Germain-des-Prés 2 S. 28-30 Nr. 248 (Teildruck unter Verweis auf die VU Urbans III.)   Reg.: JL 16407 (nach dem Orig. in Paris mit der Signatur L 234 Nr. 7).</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

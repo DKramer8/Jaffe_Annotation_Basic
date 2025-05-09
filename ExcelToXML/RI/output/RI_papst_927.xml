@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,4 n. 904</idno>
+        <idno type="urn">1190-07-06_1_0_4_4_4_904_904</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Clemens III., RI IV,4,4,4 n. 904</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Rom, Lateran</placeName>
+              <date type="issued" notBefore="1190-07-06" notAfter="1190-07-06">1190 Juli 6</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Clemens III. nimmt Abt Stephan von Ste-Geneviève (in Paris) und dessen Brüder (Stephano abbati sancte Genovefe eiusque fratribus) sowie deren Kirche (ecclesiam sancte Genouefe), die dem hl. Petrus gehört, auf deren Bitten wie Alexander (III.) und Lucius (III.) in den päpstlichen Schutz, bestätigt die Augustinerregel und ihren Besitz, setzt fest, daß kein Erzbischof, Bischof oder andere Person die Jurisdiktion über ihre Kirche und die Kanoniker ausübt, daß sie nur einer a latere entsandten Legation unterworfen sind und daß nur ein a latere dazu besonders beauftragter Legat über sie und ihre Vorstadt (burgum vestrum) Interdikt und Exkommunikation verhängen darf, verbietet Bischöfen und anderen kirchlichen Personen, von ihnen ungeschuldete oder neue Abgaben entgegen ihrer hergebrachten Gewohnheit zu fordern, erlaubt ihnen Rückkauf und rechtmäßigen Rückerwerb von Zehnten aus Laienhand, untersagt, in ihren Pfarreien ohne ihre Zustimmung und die des Diözesanbischofs vorbehaltlich päpstlicher Privilegien Gotteshäuser zu errichten, befreit sie vom Zehnten für Neubrüche bei Eigenbau und für Tierfutter sowie für Weinberge bei Eigenbau auf eigenem Grund, verbietet, nach abgelegter Profeß das Stift unerlaubt zu verlassen, und gestattet dem Abt, nach dreimaliger Mahnung ein kanonisches Urteil über jene zu fällen, die nicht zurückkehren, legt fest, daß ihre Kapellen von St-Jean-du-Mont, St-Médard und Ste-Geneviève-de-la-Cité (in Paris) (capella de Monte, sancti Medardi, sancte Genovefe de Civitate) ihre frühere Freiheit behalten, erlaubt Gottesdienst bei Interdikt, bestimmt, daß niemand ihre an andere Kirchen weiterverliehenen Zinsgüter oder abhängigen Leute gegen die Gewohnheit der Pariser Kirchen (contra consuetudinem ecclesiarum Parisiensium) länger als Jahr und Tag behalten und daß der Abt Stiftsgüter nicht ohne Zustimmung aller Brüder entfremden darf, untersagt die Leistung von Bürgschaften durch Kanoniker oder Konversen ohne Zustimmung des Abts und durch den Abt selbst und schließt, wenn es dennoch geschieht, die Haftung aus, gewährt das Recht, bis zu drei oder vier Kanoniker in ihre Kirchen einzusetzen und einem von ihnen die Seelsorge zu übertragen und dem Diözesanbischof zu präsentieren, erlaubt, die Kanoniker nötigenfalls durch andere zu ersetzen, bestätigt das durch den damaligen König Ludwig (VII.) von Frankreich (a bone memorie Ludovico Francorum rege) mit Rat der Barone über den Stand ihrer Leute von Rosny(-sous-Bois) (homines de Rodoniaco) ergangene Urteil, wie es in der königlichen Urkunde enthalten ist, erlaubt, Chrisma, Heiliges Öl, Konsekrationen und Ordinationen von einem Bischof ihrer Wahl an einem beliebigen Ort zu empfangen, und gewährt die Wahl des Abts.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Licet ex suscepte ministerio servitutis</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Lat. pm. Moysis SRE. subdiaconi vicem agentis cancellarii 2 non. iul. ind. 8 inc. 1190 pont. a. 3.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zur Überlieferung vgl. Kohler, St-Geneviève 1 S. 217. Die genannten Urkk. sind die Privilegien Alexanders III. von 1178 Juli 10 (JL 13081, Lohrmann, PUU Frankreich 8 S. 340-343 Nr. 146) und Lucius' III. von 1184 Oktober 25 (Böhmer-Baaken-Schmidt, Papstregesten Lucius' III. 2, Nr. 1234), das als VU gedient hat. Der Passus über die Einsetzung der Kanoniker in ihre Kirchen ist aus der Urk. Alexanders III. von (1167-1169) November 9 (JL –, Lohrmann 8 S. 289-290 Nr. 109) entnommen. NU ist das Privileg Cölestins III. von 1196 März 22 (JL 17344, Lohrmann 8 S. 394-395 Nr. 189). Zu einem verlorenen Privileg Gregors VIII. für Ste-Geneviève vgl. Böhmer-Schmidt, Papstregesten Urban III., Nr. 1459.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Kopie 13. Jh., Paris, Bibl. Ste-Geneviève, Ms. 356 p. 7-10 (Cart. de l'abbaye de Ste-Geneviève, Stein, Bibliographie Nr. 2869, Répertoire des microfilms S. 173 Nr. 42072).   Druck: Lohrmann, PUU Frankreich 8 S. 375-377 Nr. 173 (gekürzt unter Hinweis auf die VUU Alexanders III. und Lucius' III., wo die Varianten dieses Privilegs im Apparat verzeichnet sind).   Reg.: JL 16515.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

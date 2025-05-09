@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,6 n. 2187</idno>
+        <idno type="urn">1196-04-27_3_0_4_4_6_800_2187</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Cölestin III., RI IV,4,4,6 n. 2187</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>[Ausstellungsort]</placeName>
+              <date type="issued" notBefore="1196-04-22" notAfter="1197-05-27">(1196 April 22 – 1197 Mai 27)</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Cölestin III. lädt Dompropst (Guido) (preposito) von Maguelone (Magalonensis ecclesie) und den von Bischof (Wilhelm de Fleix) von Maguelone (Magalonensis episcopus) zum Archidiakon nominierten P(eter) von Castelnau (P. de Castronovo) an den Apostolischen Stuhl wegen des Streits um die Besetzung des vakanten Archidiakonats.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">-</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Aus dem Mandat Innocenz’ III. ergibt sich folgender Sachverhalt: Cölestin III. hatte Bischof Wilhelm de Fleix von Maguelone auf dessen Bitte erlaubt, Archidiakone zu ordinieren, auch wenn jene, deren Zustimmung er zur Neubesetzung bedürfe, die von ihm, dem Bischof, nominierten grundlos ablehnten, vgl. Reg. 1765 von 1196 April 22. Von diesem Recht machte der Bischof Gebrauch und nominierte Peter von Castelnau als Archidiakon der Kirche von Maguelone. Dompropst Guido widersprach dessen Einsetzung mit der Behauptung, ihm stehe das Recht der Zustimmung zu, und legte Appellation ein. Bischof Wilhelm ließ im Domkapitel die Indulgenz Cölestins III. verlesen, bestand auf seiner Rechtsposition und investierte Peter mit einem Ring. Der Dompropst beharrte jedoch auf seinem Anspruch und nominierte einen anderen als Archidiakon. Aufgrund einer päpstlichen Vorladung präsentierten sich Dompropst Guido und der von Bischof Wilhelm investierte Peter am Apostolischen Stuhl, wo Cölestin III. Kardinaldiakon Lothar von SS. Sergio e Bacco, den späteren Papst Innocenz III., Kardinalpriester Bernhard von S. Pietro in Vincoli und Kardinalpriester Melior von SS. Giovanni e Paolo zu Auditoren bestellte (vgl. Reg. 2188). Im Verlauf des Verfahrens, der von Innocenz III. detailliert dargelegt wird, widersprach der Propst der Einsetzung des Archidiakons nach eingelegter Appellation und behauptete, sie stehe im Widerspruch zu den Bestimmungen, die Alexander III. im Streit zwischen dem damaligen Bischof Johannes und Dompropst Fulchrad getroffen habe (vgl. JL 11462 und JL 11463 von [1167–1169] Dezember 7, Rouquette/Villemagne, Bullaire de Maguelonne 1 S. 121-128 Nr. 83 und S. 128-131 Nr. 84). Das Verfahren endete vorläufig damit, daß Cölestin III. die Maßnahmen beider Seiten kassierte, seine Erlaubnis von 1196 April 22 (vgl. Reg. 1765) zurücknahm, da sie unter falschen Angaben und Verschweigen der Wahrheit erschlichen worden sei, und dem Propst und dem Domkapitel die Festsetzung Alexanders III. über die Ordination der Archidiakone und ihr Recht, den Sakristan unter Ausschluß der Appellation frei zu bestimmen, bestätigte (vgl. Reg. 2189 von 1197 Mai 27 und Reg. 2199 von 1197 Mai 30). Zudem beauftragte er unbekannte Adressaten in der Provence, den Bischof und das Kapitel zur einmütigen Ordination eines Archidiakons zu bewegen (vgl. Reg. 2197), übertrug aber selbst das Archidiakonat an einen gewissen Geraldus Johanninus (vgl. Reg. 2198), obwohl dieser noch nicht zum Diakon geweiht war, und ohne dem am Apostolischen Stuhl als Prokurator des Bischofs anwesenden Archidiakon Peter davon Mitteilung zu machen. Diese Einsetzung wurde von Innocenz III. deshalb als unkanonisch revoziert, der den Adressaten seines Mandats befahl, dafür zu sorgen, daß innerhalb eines Monats einmütig eine geeignete Person als Archidiakon eingesetzt werde. Weiterhin teilte er ihnen mit, daß er Erzbischof Imbert von Arles und Domdekan Gaufried von Arles befohlen habe, dieses Mandat gegebenenfalls unter Ausschluß der Appellation auszuführen (Dep., Potthast –). Sollten deren Ermahnungen nichts fruchten, werde er selbst einen Archidiakon einsetzen. In seiner Urk. von 1199 Januar 27 (Potthast 579, Register Innocenz’ III. 1 S. 778-779 Nr. 538) bestätigte Innocenz III. die von Erzbischof Imbert vorgenommene Einsetzung des Peter von Castelnau als Archidiakon. – Die Datierung ergibt sich aus Reg. 1765 von 1196 April 22 (Erlaubnis für Bischof Wilhelm, einen Archidiakon zu nominieren) und Reg. 2189 von 1197 Mai 27 (Rücknahme dieser Erlaubnis). Zur Sache vgl. auch Pfaff, Vorgänger S. 138f.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Überl.: Dep., erwähnt im Mandat Innocenz’ III. von 1198 Juni 8 an Bischof Wilhelm de Fleix, die Archidiakone und den Sakristan von Maguelone (Potthast 267, Register Innocenz’ III. 1 S. 367-371 Nr. 267).  Reg.:– .</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

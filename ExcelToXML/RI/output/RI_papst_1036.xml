@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,5 n. 299</idno>
+        <idno type="urn">1192-01-03_1_0_4_4_5_299_299</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Cölestin III., RI IV,4,4,5 n. 299</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Rom, Lateran</placeName>
+              <date type="issued" notBefore="1192-01-03" notAfter="1192-01-03">(1192) Januar 3</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Cölestin III. nimmt Abt Johannes und die Brüder des Klosters St-Vaast in Arras (Iohanni abbati monasterii sancti Vedasti Atrebatensis eiusque fratribus) auf deren Bitten wie Stephan (II.), Paschal II., Innocenz (II.), Eugen (III.) und Alexander (III.) in den päpstlichen Schutz, bestätigt den genannten Besitz, befreit vom Zehnten bei Eigenbau und für Tierfutter, bestätigt ihre Zehnten, die sie seit vierzig Jahren unangefochten in ihrem Besitz haben, gewährt das Präsentationsrecht, untersagt ihren Lehensträgern, Land und Besitz ohne ihre Zustimmung anderen zu übertragen, verbietet dem Bischof von Arras, das Kloster gegen den Willen des Abts zu betreten, gewährt die Wahl des Abts gemäß der Benediktinerregel und setzt dessen Weihe durch den Diözesanbischof oder nötigenfalls durch einen Bischof seiner Wahl fest.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Sicut irrationabilia predecessorum statuta successoribus</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Lat. pm. Egidii s. Nicolai in carcere Tulliano diaconi cardinalis 3 non. ian. ind. 10 inc. 1191 pont. a. 1.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zur Überlieferung vgl. Ramackers, PUU Frankreich 3 S. 9 sowie Besnier, Cartulaire de Guiman d’Arras S. 453 und S. 472. – Die genannten Urkk. sind die Privilegien Stephans II. von (752–757) April 4 (JE † 2328, J3 † 4076, van Drival, Cartulaire de St-Vaast d’Arras S. 22-25), Paschals II. von 1102 März 7 (JL 5896, van Drival S. 70-73) und von 1107 Mai 13 (JL 6134, van Drival S. 73-74), Innocenz’ II. von 1135 Juni 2 (JL 7699, van Drival S. 75-78) und von 1142 März 5 (JL 8204, van Drival S. 78-80), Eugens III. von 1153 Februar 10 (JL 9698, van Drival S. 81-82) sowie Alexanders III. von 1164 November 14 (JL - , Ramackers S. 116-119 Nr. 58) und von 1170 Januar 10 (JL 11709, van Drival S. 91-98), das als VU gedient hat. NU ist das Privileg Innocenz’ III. von 1206 Juni 26 (Potthast 2828, Register Innocenz’ III. 9 S. 210-218 Nr. 115).</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Überl.: Kopie 16. Jh., Arras, Arch. dép. Pas-de-Calais, 1 H 1 fol. 134 (Stein, Bibliographie Nr. 208).  Druck: Ramackers, PUU Frankreich 3 S. 241 Nr. 183 (nur Druck der Adresse, des Incipits und des Datums unter Verweis auf die VU Alexanders III.).  Reg.: – .</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

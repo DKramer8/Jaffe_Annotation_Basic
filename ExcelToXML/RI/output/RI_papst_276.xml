@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,2 n. 1346</idno>
+        <idno type="urn">1184-12-21_4_0_4_4_2_180_1346</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Lucius III., RI IV,4,4,2 n. 1346</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Verona</placeName>
+              <date type="issued" notBefore="1184-12-21" notAfter="1184-12-21">1184 Dezember 21</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Lucius III. nimmt Prior (Jocelin) von La Grande-Chartreuse und dessen Brüder (priori Cartusiensi eiusque fratribus) (D. Grenoble) sowie ihr Haus und alle anderen Häuser ihres Ordens (tam domum vestram quam alias domos ordinis vestri) mit allen Gütern auf deren Bitten wie Alexander (III.) in den päpstlichen Schutz, bestätigt deren festgelegte Grenzen, untersagt unter Androhung des Anathems Verbrechen in ihrem Besitz und gebietet Frieden, gewährt das Aufnahmerecht, verbietet, die Kartause nach abgelegter Profeß unerlaubt zu verlassen, befreit sie vom Zehnten bei Eigenbau und für Tierfutter, untersagt Religiosen, innerhalb einer halben Meile von den Grenzen ihres Besitzes Bauten zu errichten oder Güter zu erwerben, und setzt den freien Empfang von Konsekrationen und Ordinationen durch den Diözesanbischof oder andernfalls durch einen Bischof ihrer Wahl fest.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Cum vos per Dei gratiam</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Verone pm. Alberti SRE. presb. card. et cancellarii 12 kal. ian. ind. 3 inc. 1184 pont. a. 4.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Ein weiteres Original dieses Privilegs soll sich nach CHARROU, Mémoire S. 171 Nr. 19 im Archiv in La Grande-Chartreuse befunden haben. Die genannte Urk. Alexanders III. ist dessen Privileg von 1176 September 2 (JL 12733, BLIGNY, Actes Grande-Chartreuse S. 88-92 Nr. 31), die auch VU war. Wegen der umfangreichen Überlieferung sind hier nur die Handschriften bis 1400 aufgeführt. Sie weisen sämtlich keine Unterschriften auf, die nur das Orig. überliefert. KOGLER, Mémoire gibt S. 142ff. eine Übersicht über die Sammlungen des 15. Jh., ausgenommen dessen Nr. 2 (Hs. 13. Jh. aus Tours, Bibl. mun. Ms. 1356, die nach freundlicher Auskunft der Bibliothek verbrannt ist) und Nr. 7a (Hs. 14. Jh. aus Wien, Österreichische Nationalbibl., Ms. 548, vgl. oben). Vgl. außerdem zur Überlieferung WIEDERHOLD, PUU Frankreich 2 S. 12 = Acta Rom. pont. 7 S. 158, WIEDERHOLD, PUU Frankreich 3 S. 10 und S. 15 = Acta Rom. pont. 7 S. 254 und S. 259, WIEDERHOLD, PUU Frankreich 4 S. 40 und S. 44 = Acta Rom. pont. 7 S. 286 und S. 290, KEHR, PUU Padova S. 359 = Acta Rom. pont. 1 S. 147, KEHR, PUU röm. Bibl. II S. 75 = Acta Rom. pont. 4 S. 75 sowie RAMACKERS, PUU Frankreich 3 S. 28. Die bei Kogler S. 30f. und S. 40f. sowie bei Charrou S. 155f. und S. 185 besprochene Privilegiensammlung in Graz, Ms. 1555, in der sich fol. 11' Nr. 19 eine Kopie 14. Jh. befindet (Abschrift der 1308 durch Bischof Wilhelm IV. von Grenoble beglaubigten Privilegien-Sammlung des Jacques d'Ayma, vgl. dazu S. 156, Ausfertigung für die Kartause Žiče/Seitz), ist nach freundlicher Auskunft der Bibliothek seit 1930 verschollen. – Das Stück ist im Druck der Sammlung Reischs (Privilegia ordinis Cartusiensis, vgl. dazu Kogler S. 36 Anm. 3 und Reg. 1311) nicht enthalten, vgl. BLIGNY, Actes Grande-Chartreuse S. 109 Anm. I. Das Privileg wird auch bei LE COUTEULX, Annales ordinis Cartusiensis 3 S. 4 und S. 22 erwähnt. Zu den Statuten der Kartäuser vgl. die Übersicht bei BLÜM, Ursprung S. 38f. Vgl. hierzu auch Reg. 1391.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Überl.: Orig., Paris, Arch. nat., L 232 Nr. 21; Kopie 13. Jh., Gap, Arch. dép. Hautes-Alpes, 1 H 1 fol. 79-80' Nr. 182 (ohne Datum) (Cart. vert de Durbon, STEIN Nr. 1236, Répertoire des microfilms S. 90 Nr. 13540); Kopie 13. Jh., Metz, Arch. mun., II 236 pièce 1 (Vidimus ohne Jahresangabe); Kopie 13. Jh., Privas, Arch. dép. Ardèche, 4 H 11 fol. 9-9'b (ohne Datum) (Cart. de la chartreuse de Bonnefoy, Répertoire des microfilms S. 177 Nr. 41011); Kopie 14. Jh., Paris, Arch. nat., L 232 Nr. 21bis; 2 Kopien 14. Jh., Rom, Arch. Seg. Vat., Reg. Avin. 43 fol. 68-68' und fol. 548-548' (inseriert in die Urk. Johannes' XXII. von 1332 Oktober 6, MOLLAT, Reg. Jean XXII Lettres communes 12 Nr. 58539); 2 Kopien 14. Jh., Rom, Arch. Seg. Vat., Reg. Vat. 104 fol. 91-91' und fol. 457-457' (inseriert in die Urk. Johannes' XXII. von 1332 Oktober 6, MOLLAT, Reg. Jean XXII Lettres communes 12 Nr. 58539); Kopie 14. Jh., Wien, Österreichisches StArch., Haus-, Hof- und StArch., Allgemeine Urkundenreihe 1333 Februar 28 (inseriert in das Original der Urk. Johannes' XXII. von 1333 Februar 28, KOGLER, Mémoire S. 34 Nr. 2b); Kopie 14. Jh., Rom, Arch. Seg. Vat., Reg. Avin. 44 fol. 630' (inseriert in die Urk. Johannes' XXII. von 1333 Februar 28, MOLLAT, Reg. Jean XXII Lettres communes 12 Nr. 59654); Kopie 14. Jh., Rom, Arch. Seg. Vat., Reg. Vat. 105 fol. 378-378' (inseriert in die Urk. Johannes' XXII. von 1333 Februar 28, MOLLAT, Reg. Jean XXII Lettres communes 12 Nr. 59654); Kopie 14. Jh., Ljubljana, Arhiv Republike Slovenije, AS, zbirka listin, SAM/24 fol. 7'-8' Nr. 19 (Orig. der 1308 durch den Bischof Wilhelm IV. von Grenoble beglaubigten Privilegien-Sammlung des Jacques d'Ayma, Ausfertigung für die Kartause Jurklošter/Geirach, vgl. CHARROU, Mémoire S. 156 Anm. 4 und S. 158ff., war bis 1976 in Wien, Österreichisches StArch., Haus- Hof und StArch., Allgemeine Urkundenreihe 1308 Mai 8); Kopie 14. Jh., Ljubljana, Arhiv Republike Slovenije, AS, zbirka rokopisov fol. 6-6' Nr. 19 (Kopie der 1308 durch den Bischof Wilhelm IV. von Grenoble beglaubigten Privilegien-Sammlung des Jacques d'Ayma, Ausfertigung für die Kartause Bistra/Freudenthal, vgl. Kogler S. 41, war bis 1976 in Wien, Österreichische Nationalbibl., Ms. 548); Kopie 14. Jh., Annecy, Bibl. publ., Ms. 43 fol. 2'-3 Nr. 1 (Privilegia Romanorum pontificum, Schlußformeln nur angedeutet).</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl> CHARROU, Mémoire S. 171 Nr. 19 (Druck der Unterschriften aus dem Orig.); GUILLAUME, Chartes Durbon S. 140-142 Nr. 187 (ohne Unterschriften und Datum, zu 1185 Januar 9); FAYEN, Lettres Jean XXII 2 S. 611-614 Nr. 3295 (ohne Unterschriften); BLIGNY, Actes Grande-Chartreuse S. 109-114 Nr. 39; LEMAÎTRE, Cart. Bonnefoy S. 12-14 Nr. 2 (ohne Unterschriften und Datum, die von ihm angegebene Devise der Bulle Timebunt gentes nomen tuum Domine ist nicht diejenige Lucius' III.). JL 15141; DESCHAMPS DE PAS, Cart. Val-de-Ste-Aldegonde S. 1-2 Nr. 1; CHEVALIER, Reg. Dauph. 1 Sp. 821 Nr. 4932 und Sp. 822 Nr. 4940 (zu 1185 Januar 9, nach dem Druck bei Guillaume); BOYER, Montrieux 2 S. 631 Nr. 254 (zu 1184).</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

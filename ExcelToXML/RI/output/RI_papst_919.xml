@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,4 n. 815</idno>
+        <idno type="urn">1190-04-04_2_0_4_4_4_815_815</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Clemens III., RI IV,4,4,4 n. 815</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Rom, Lateran</placeName>
+              <date type="issued" notBefore="1190-04-04" notAfter="1190-04-04">(1190) April 4</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Clemens III. schreibt Abt Albert und den Mönchen von S. Benedetto in Polirone (Alberto abbati et monachis sancti Benedicti super Padum) (D. Mantua) wegen des Streits zwischen ihnen und dem damaligen Bischof P(resbyterinus) von Ferrara (inter vos et P. bone memorie quondam Ferrariensem episcopum) um die villa Trecenta (super villa Tresenta) und anderes, der von Alexander (III.) an Patriarch Heinrich von Grado (Henrico Gradensi patriarche) und Bischof (Leonhard) von Torcello (episcopo Torcellano) zur Entscheidung übertragen worden war; da der Bischof von Ferrara sich kontumazial dem Verfahren entzogen habe, hätten die Richter den Besitz ihnen zugesprochen unter Wahrung des Rechtswegs für den Bischof; da sich der Bischof jedoch nach anderthalb Jahren immer noch geweigert hatte, das Urteil anzuerkennen, habe Lucius (III.) das im folgenden inserierte Urteil der Richter (von 1181 Januar 24) vorbehaltlich der Eigentumsfrage bestätigt; nach der Urteilsverkündung hätten die Richter in Anwesenheit genannter Zeugen den Besitz zugunsten Polirones in die Hände eines gewissen Deolfus (quendam virum nomine Deolfe) zur Besitzeinweisung übergeben; der Papst bestätigt dem Abt und dem Konvent von S. Benedetto wie Lucius (III.), Urban (III.) und Gregor (VIII.) den Besitz unter Vorbehalt der Entscheidung über die Eigentumsfrage.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Cum causam que inter vos</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Lat. 2 non. apr. pont. a. 3.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Clemens III. wiederholt hier die Urkk. Urbans III. von (1186-1187) Januar 23 (Böhmer-Schmidt, Papstregesten Urban III., Nr. 489) und Gregors VIII. von 1187 November 13 (Böhmer-Schmidt Nr. 1363). Das erwähnte Delegationsmandat Alexanders III. ist verloren, vgl. IP VII,1 S. 347-348 Nr. *77. Die Bestätigung des Urteils der delegierten Richter von 1181 Januar 24 (Rinaldi/Golinelli, Codice diplomatico polironiano 2 S. 229-230 Nr. 122, zu 1180 Januar 23) erfolgte durch Lucius III. (1182-1183) März 24 (Böhmer-Baaken-Schmidt, Papstregesten Lucius' III. 1, Nr. 553), das, da diese Bestätigung laut der Urk. Urbans III. anderthalb Jahre nach dem Urteil vorgenommen wurde, wohl eher zu 1182 zu setzen ist. Zur Sache vgl. Franceschini, Giurisdizione episcopale S. 34.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Orig., Mailand, Arch. di stato, Arch. Diplomatico, Pergamene per fondi, S. Benedetto Polirone cart. 207 n. 25; Kopie 15. Jh., Verona, Bibl. civica, Cod. 736 fol. 49 (Chart. von Polirone); Kopie 15. Jh., Mantua, Bibl. com. Teresiana, Cod. 244 fol. 33'-34 (alt: Cod. B IV 18 p. 65-66); Kopie 15. Jh., Rom, Bibl. Vat., Ms. Patetta 1628 n. 68.  Drucke: Kehr, PUU Mailand, S. 118 Nr. 34 (Teildruck, nur Adresse, Incipit und Datum unter Verweis auf die VU Gregors VIII.) = Acta Rom. pont. 3 S. 286-287; Rinaldi/Golinelli, Codice diplomatico polironiano 2 S. 307-309 Nr. 149 und S. 311-312 Nr. 150 bis.  Reg.: JL 16484; Torelli, Regesto Mantovano 1 S. 301 Nr. 465; IP VII,1 S. 351 Nr. 93. 4</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

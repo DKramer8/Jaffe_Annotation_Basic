@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,2,3 n. 2206</idno>
+        <idno type="urn">1176-11-00_1_0_4_2_3_434_2206</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Friedrich I., RI IV,2,3 n. 2206</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>(Pavia)</placeName>
+              <date type="issued" notBefore="1176-11-01" notAfter="1176-11-30">1176 November</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Friedrich setzt Patriarch U(dalrich) von Aquileia  davon in Kenntnis, daß er nach der durch Eide und besiegelte Schreiben vereinbarten Beendigung des Schismas für Pauli Bekehrung (= 25. Januar) ein Konzil nach Ravenna einberufen habe, wo der Friede mit der Kirche verkündet werden solle, und befiehlt ihm, spätestens zu diesem Termin in Ravenna zu erscheinen. — Sicut liquido universis .</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Sicut liquido universis</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">-</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Die annähernde Datierung ergibt sich aus dem Konzilstermin. Interesse verdient der dezidierte Hinweis auf die Beurkundung des Vorfriedens von Anagni, vgl. dazu Reg. 2202. — Der Patriarch von Aquileia wurde etwas früher auch seitens des ehemaligen Mainzer Erzbischofs und damaligen Kardinals von Sabina, Konrad von Wittelsbach, über das geplante Konzil in Ravenna informiert vgl. MG. Const. 1, 359 no  256 (nennt als Aussteller irrig: Erzbischof Christian von Mainz) und Plechl, a.a.O., 91 no  79 mit den dort (91 ff.) gebotenen Erläuterungen sowie Acht, Mainzer UB. II/2, 635 no  387. — Die historiographische Überlieferung (Ann. Palid., MG. SS XVI, 94; Ann. Pegav., MG. SS XVI, 261; Ann. s. Georgii, Cont. A, MG. SS XVII, 296) weiß zu berichten, daß der Kaiser im November 1176 aus Pavia (so Ann. Palid.) Boten und Schreiben ins ganze Reichsgebiet entsandte, in denen Bischöfe, Prälaten und Fürsten nach Italien berufen wurden und ein Konzil zur Beendigung des Schismas angesagt wurde; vgl. des weiteren auch Gottfried von Viterbo, Gesta Frid., MG. SS XXIII, 330 V. 1024 ff. sowie oben Reg. 2201. — Vgl. auch das Schreiben Herzog Welfs VI. an Kardinal Hyacinth von (1176 Oktober/November), in dem er mitteilt, es sei in seinen Landstrichen bekannt geworden, daß ein Konzil in des Kaisers Gegenwart stattfinden werde, an welchem, wie die kaiserlichen Schreiben besagen, beide Päpste teilnehmen würden, Feldmann, Welf VI., Reg. no  142 (a.a.O., 117 f. zur Datierung dieses Schreibens) und Plechl, Tegernseer Briefsammlung, DA 12 (1956) 418 no  64; des weiteren auch Feldmann, a.a.O., no  144, 146, 149 und 150.    Verbesserungen und Zusätze (2011):  DF.I.659 ist nun ediert bei: Plechl – Bergmann, Tegernseer Briefsammlung, MG. Briefe VIII, 89 no 66; die Datierung zu einem angeblichen Aufenthalt des Kaisers in Piemont (unter irrigem Verweis auf Opll, Itinerar, 55), stimmt allerdings keinesfalls (der Kaiser weilte damals in Pavia). – Das Konzil in Ravenna wird auch in einem Schreiben Propst Ottos von Raitenbuch an Herzog Welf VI., einem weiteren Schreiben des Propstes an die Brüder seiner Kirche und einem Schreiben des Propstes an seinen Bruder, Abt Rupert von Tegernsee, erwähnt, vgl. dazu Plechl – Bergmann, a.a.O., 52 no 35 (Aquileia, 1176 Ende November – Anfang Dezember), 103 no 77 (in Venetien, erstes Drittel des Dezember) und 311 no 281 (1176 Mitte Dezember – 1177 Mitte Januar). – Das im Kommentar zu diesem Regest erwähnte Schreiben Welfs VI. an Kardinal Hyacinth findet sich nun gleichfalls ediert bei Plechl – Bergmann, a.a.O., 43 no 29.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Kop.: Tegernseer Briefsammlung des 12. Jh. Clm. 19.411 f. 84' (p. 170), Staatsbibliothek München (B). Drucke: MG.Const.1, 357 no  253; MG.DF.I.659. Regg.: Plechl, Tegernseer Briefsammlung, DA 12 (1956) 85 no  101; Stumpf 4184.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>Digitalisat der RI-BuchseiteDruck in MGH DDDruck in MGH Const.</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

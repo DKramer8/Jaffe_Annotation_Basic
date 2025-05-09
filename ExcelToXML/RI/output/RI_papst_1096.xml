@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,5 n. 589</idno>
+        <idno type="urn">1192-10-04_1_0_4_4_5_589_589</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Cölestin III., RI IV,4,4,5 n. 589</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Rom, Lateran</placeName>
+              <date type="issued" notBefore="1192-10-04" notAfter="1192-10-04">1192 Oktober 4</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Cölestin III. nimmt den Primicerius und Rektor der Kirchen S. Maria dominae Rosae und S. Lorenzo (in Castello aureo in Rom) mit allen Klerikern (Iohanni primicerio nostro rectori ecclesie sancte Marie domine Rose et beati Laurentii que posite sunt in castello Aureo et universis clericis ipsarum ecclesiarum) auf deren Bitten wie Alexander (III.), Lucius (III.) und Clemens (III.) in den päpstlichen Schutz, bestätigt den genannten Besitz, darunter die Übertragungen Papst Johannes’ XIX., und setzt fest, daß die Kirchen nur dem römischen Bischof unterstellt sein und ihre alte Freiheit beibehalten sollen.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Monet nos apostolice sedis cui</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Lat. pm. Egidii s. Nicolai in carcere Tulliano diaconi cardinalis 4 non. oct. ind. 10 (sic) inc. 1192 pont. a. 2.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zur Überlieferung vgl. Kehr, PUU Rom 1 S. 126f. = Acta Rom. pont. 2 S. 308f., Kehr, PUU römische Bibliotheken II S. 88 = Acta Rom. pont. 4 S. 88, Kehr, PUU römische Bibliotheken III S. 133 = Acta Rom. pont. 4 S. 133. Die Indiktion ist um eine Einheit zu niedrig angegeben. – Die genannten Privilegien Alexanders III. (JL – , IP I S. 109 Nr. *2), Lucius’ III. (Böhmer-Baaken-Schmidt, Papstregesten Lucius’ III. 2 Nr. 1964) und Clemens’ III. (Böhmer-Schmidt, Papstregesten Clemens’ III. Nr. 1052) sind verloren. Die Schenkung Johannes’ XIX. (JL –) ist verzeichnet IP I S. 109 Nr. *1 (zu 1024–1033). Zur Kirche S. Maria dominae Rosae (jetzt S. Caterina dei Funari) vgl. Hülsen, Le chiese di Roma S. 331 Nr. 39, Buchowiecki, Hb. der Kirchen Roms 1 S. 502-508, Gnoli, Topografia di Roma S. 117 sowie Caraffa, Monasticon Italiae 1 S. 63 Nr. 110. Zur Kirche S. Lorenzo dominae Rosae bzw. in Castello Aureo vgl. Hülsen S. 284 Nr. 11 und zur Besitzliste Gauvin, Capitolo di San Pietro 2 S. 268. Zur Sache vgl. Doran, Lifetime S. 74.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Überl.: Orig., Rom, Bibl. Vat., Arch. cap. di S. Pietro, Caps. LXXIII fasc. 140 doc 1.  Drucke: Collectio bullarium basilicae vaticanae 1 S. 74-76; Migne, PL 206 Sp. 962-965 Nr. 93 (nach Collectio); Schiaparelli, Carte S. Pietro /2/ S. 345-349 Nr. 79.  Reg.: JL 16923 (J 10394); IP I S. 109 Nr. 5.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

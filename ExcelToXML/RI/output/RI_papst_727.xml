@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,3 n. 1352</idno>
+        <idno type="urn">1187-11-11_1_0_4_4_3_1352_1352</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Gregor VIII., RI IV,4,4,3 n. 1352</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Ferrara</placeName>
+              <date type="issued" notBefore="1187-11-11" notAfter="1187-11-11">1187 November 11</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Gregor VIII. nimmt Bischof Stephan von Ferrara (Stephano Ferrariensi episcopo) auf dessen Bitten wie Innocenz (II.), Cölestin (II.), Lucius (II.) und Alexander (III.) mit der Kirche von Ferrara in den päpstlichen Schutz, bestätigt genannten Besitz und die alten Gewohnheiten, verbietet, daß jemand in das Domkapitel aufgenommen wird oder eine Prälatur erhält ohne Erlaubnis des Bischofs oder daß ohne seine Zustimmung Kapläne in den Kirchen ein- oder abgesetzt werden, bestätigt das Recht zur Korrektur der Domkanoniker, der Kleriker und der Mönche seiner Diözese, erlaubt deren Ordination, setzt fest, daß die Kirche von Ferrara im Recht des hl. Petrus und der Römischen Kirche steht und Wahl, Ordination und Weihe des dortigen Bischofs dem römischen Bischof zusteht.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">In eminenti sedis apostolice specula</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Ferrarie pm. Moysis Lateranensis canonici vicem gerentis cancellarii 3 id. nov. ind. 6 inc. 1187 pont. a. 1.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zur Überlieferung vgl. Klinkenborg, PUU Nonantola S. 242 und S. 245 = Acta Rom. pont. 1 S. 95 und S. 98 sowie Kehr, PUU Padova S. 357, S. 361 und S. 364f. = Acta Rom. pont. 1 S. 145, S. 149 und S. 152f., zur Kopie des 16. Jh. in Ferrara, Arch. di Stato, die Kehr unbekannt war, vgl. Franceschini, Curie episcopali ferraresi S. 306 Anm. 16. – Kardinalpriester Petrus unterschreibt hier letztmals und stirbt am 20. November, vgl. Kartusch, Kardinalskollegium, S. 326. Die genannten Urkk. sind die Privilegien Innocenz' II. von 1139 April 22 (JL 8013, IP V S. 213 Nr. 22, Migne, PL, 179 Sp. 454-457 Nr. 396), Cölestins II. von 1144 März 6 (JL 8515, IP V S. 213-214 Nr. 24, Migne, PL, 179 Sp. 816-820 Nr. 50), Lucius' II. von 1144 März 15 (JL 8520, IP V S. 214 Nr. 25, Migne, PL, 179 Sp. 825-828 Nr. 2) und Alexanders III. (Dep., JL – , IP V S. 217 Nr. *42). Zur Besitzliste vgl. Franceschini, Curie episcopali ferraresi S. 299-314 und Balboni, Pievi e masse ferraresi S. 438-455.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>2 Kopien 15. Jh., Modena, Arch. di Stato, Manoscritti della Biblioteca Nr. 137, Pellegrino Prisciani, 'Collectanea' vol. III fol. 68-69' und vol. IV fol. 33'-34; Kopie 15. Jh., Ferrara, Arch. Storico Diocesano, Arch. cap., Busta XIII posizione 17 fol. 8'-9 (Privileggi antichi diversi conceduti dai sommi pontefici ai vescovi di Ferrara e confini della diocesi).   Druck: Pflugk-Harrtung, Acta, 3 S. 348-349 Nr. 396.   Reg.: JL 16048; Nadig, Gregors Pontifikat S. 61; IP V S. 218 Nr. 50.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

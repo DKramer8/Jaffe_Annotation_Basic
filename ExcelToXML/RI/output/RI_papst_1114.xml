@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,5 n. 720</idno>
+        <idno type="urn">1193-01-21_13_0_4_4_5_720_720</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Cölestin III., RI IV,4,4,5 n. 720</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Rom, Lateran</placeName>
+              <date type="issued" notBefore="1193-01-21" notAfter="1193-03-12">(1193 Januar 21 – März 12)</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Cölestin III. schreibt Bischof (Theobald) von Akkon (Acon. episcopo) und beantwortet folgende an ihn gerichtete Fragen: (Teil a, Laudabilem pontificalis officii prosequens actionem) die erste betrifft eine Ehe, bei der der Ehemann Täufling seines Schwiegervaters war; gegen die Ehe, die seit 30 Jahren bestehe und aus der auch Kinder hervorgegangen seien, sei nun Klage erhoben worden; der Papst befiehlt unter Verweis auf die Päpste Zacharias und Deusdedit, die Ehe zu trennen, da eine geistliche Verwandtschaft bestehe und die Länge der Ehe die Schuld nicht vermindere, sondern verschärfe; Mann und Frau sollen jedoch auch weiterhin füreinander sorgen und die Kinder sollen als legitim gelten; (Teil b, Quaeris iterum quando matrimonium accusare) auf die weitere Frage, ob der eheliche Verkehr sofort abzubrechen sei, wenn Klage gegen die Ehe erhoben wird, antwortet der Papst unter Verweis auf Alexander II., daß die Ehegatten während der Untersuchung des Falls nicht getrennt werden dürften; wie Papst Symmachus festgelegt habe, daß beklagte Prälaten vor dem Beweis der Rechtmäßigkeit der Anklage nicht von ihren Untergebenen verlassen werden dürfen, so dürfen in diesem Fall den Eheleuten vor dem Nachweis der Schuld nicht die ehelichen Rechte verwehrt werden; (Teil c, Ceterum quod interrogasti de Sarracenis) die Frage, ob Sarazenen, die in Gefangenschaft von christlichen Frauen dazu angestiftet wurden, deren Ehemänner zu ermorden, später, wenn sie zum christlichen Glauben übergetreten sind, diese Frauen heiraten dürfen und ob solcherart zustandegekommene Ehen gültig seien, beantwortet der Papst unter Verweis auf das Konzil von Tribur (Triburiensis concilii regula), daß dies nicht erlaubt sei; im Gegensatz dazu dürfen aber Sarazenen, die im Krieg Christen getötet haben, nach ihrer Konversion deren Witwen heiraten, wie auch im umgekehrten Fall Christen die Ehe mit den zum christlichen Glauben übergetretenen Witwen getöteter Sarazenen eingehen dürfen; die Frauen können jedoch nicht die Trennung der Ehe verlangen unter dem Hinweis, daß der zweite Ehemann den ersten getötet habe; in dem Fall, wo ein Christ aus Haß auf seine Frau dem Glauben abschwört, eine Heidin zur Frau nimmt und mit ihr Söhne hat und die verlassene Frau mit Zustimmung des Archidiakons eine neue Ehe eingeht, aus der auch Kinder hervorgehen, ergibt sich die Frage, ob es, wenn der Mann nach dem Tod seiner (ersten) Frau wieder zum christlichen Glauben zurückgekehrt ist, zulässig sei, die inzwischen mit ihren Kindern zum Christentum konvertierte Heidin zu heiraten; unter Verweis auf Gregor (I.) und Alexander III. erlaubt der Papst dies und bestätigt die Legitimität der aus der Ehe hervorgegangenen Kinder; (Teil d, Insuper adiecisti quod aliquis cum) die Frage, ob etwas gegen eine Ehe vorgebracht werden kann, wenn der Mann ein Mädchen zur Frau genommen und mit ihr sexuell verkehrt hat, und das Mädchen nach vier oder fünf Jahren als Volljährige gegen die Ehe vorbringe, sie habe von Anfang an diese Ehe nicht gewollt und dies durch Zeugen bestätigt, entscheidet der Papst dahingehend, daß diese Ehe nicht angefochten worden könne, weil die Frau auch nach ihrer mit zwölf Jahren erreichten Volljährigkeit durch einmaligen Verkehr der Ehe zugestimmt habe und diese fortbestehe; (Teil e, Rursus quidam ut dicis votum) in dem Fall, wenn jemand ein Keuschheitsgelübde abgelegt, dann aber ein Eheversprechen geleistet habe, ergebe sich die Frage, ob ein einfacher Eid vor Gott weniger zähle als ein feierlicher (vor den Menschen) und durch Pönitenz gelöst werden könne; der Papst erklärt dies für unzulässig, da ein Gelübde, das Gott gegenüber geleistet wird, Gültigkeit habe und in diesem Fall ein Ehehindernis darstelle; (Teil f, Praeterea cum quis accusatur aliquam) auf die Frage, ob bei einer Anklage wegen Ehebruchs Aussagen von Zeugen zuzulassen sind, die nicht Augenzeugen des Ehebruchs waren, sondern davon nur gehört haben, antwortet der Papst, daß solche Aussagen, die auf Hörensagen beruhen, durchaus zu beachten sind; (Teil g, Sollicite quoque ad ultimum requisiti) auf die Frage, wie lange eine Ehe bei Frigidität fortgeführt werden muß, antwortet der Papst, daß gemäß dem Zivilrecht die Frist drei Jahre betrage, wenn die Frigidität vor der Eheschließung nicht bekannt war; nach dieser Zeit darf die Frau, wenn sie gemäß dem Dekret Gregors (I.) die Aussage des Mannes beibringt, daß er nicht mit ihr verkehren könne, einen anderen Mann heiraten; wenn der Mann eine andere Frau nimmt, ist diese Verbindung jedoch zu trennen; wenn beide zustimmen, können sie wie Bruder und Schwester weiterhin zusammenleben; bekennen beide, daß sie keinen Verkehr miteinander hatten und können dies durch sieben Eidhelfer bezeugen, dann darf die Frau die Ehe mit einem anderen Mann eingehen; heiratet aber der Mann erneut, dann gelten die Eidhelfer als meineidig, und der Mann muß nach Bußleistung wieder die erste Ehe aufnehmen; (Teil h, Denique quod in dicta et) auf die Frage, ob im Prozeß Einreden gegen Aussagen und Zeugen nach den Zeugenaussagen erlaubt sind, antwortet der Papst, daß nach der Gewohnheit der Römischen Kirche solche Einwendungen möglich sind; wenn während des Verfahrens gegen Zeugen Beschuldigungen erhoben werden, muß über diese Klarheit herbeigeführt werden, bevor ein Urteil im Prozeß gefällt wird, da das kanonische Recht unverdächtige Zeugen ohne Infamie oder sonstigen Makel erfordert.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Laudabilem pontificalis officii prosequens actionem / Queris iterum quando matrimonium accusare / Ceterum quod interrogasti de Sarracenis / Insuper adiecisti quod aliquis cum / Rursus quidam ut dicis votum / Praeterea cum quis accusatur aliquam / Sollicite quoque ad ultimum requisiti / Denique quod in dicta et</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Lat. eodem anno ( = 2).</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zur weiteren Überlieferung dieser Dekretale vgl. Heckel, Dekretalensammlungen S. 192f., S. 202, S. 206-208 und S. 283, Holtzmann, Collectio Seguntina S. 443-444 Nr. 91, Vetulani, Collectio Cracoviensis S. 67-68 Nr. 76, Cheney, Annotator S. 57 sowie Cheney/Cheney, Studies S. 166, S. 173, S. 175 (Teil e in der Coll. Rotomagensis prima mit Cantuariensi archiepiscopo als Adressat), S. 195, S. 229, S. 265, S. 274, S. 288, S. 294 und S. 316 (Teil d in der Coll. Dunelmensis secunda mit episcopo et capitulo Vendensi als Adressaten). Sie ist in der Sammlung Walther Holtzmanns als WH 609 (KI 686) verzeichnet. – Das Datum ergibt sich aus der Nennung des Ausstellungsorts Lateran und des zweiten Pontifikatsjahrs in der chronologisch angeordneten Collectio Seguntina, wo dieses Stück zwischen Reg. 712 und Reg. 716 steht, vgl. Holtzmann S. 415f. Zur Sache vgl. Gillmann, Ehehindernis S. 699 (zu Teil a), Dauvillier, Mariage S. 177 (zu Teil e), Weigand, Unauflöslichkeit S. 48f. und S. 58f. (zu Teil c), Pfaff, Eherecht S. 87 (zu Teil d), S. 96f. (zu Teil a), S. 109-111 (zu den Teilen c und g), S. 111 (zu den Teilen b und h), Kedar, Crusade and Mission S. 80f. (zu Teil c), Kedar, Muslim Conversion S. 324-326 (zu Teil c), Brundage, Law S. 340 (zu Teil c, der hier aber die Dekretale falsch zu verstehen scheint) und S. 410 (zu Teil b), Powell, Muslim Frontier S. 200, Brundage, Intermarriage S. 29, Duggan, Manu sollicitudinis S. 191-199 (zu den Teilen a-h) und Rousseau, Prudent Sheperd S. 296 (zu Teil a), S. 297 (zu Teil b) und S. 297f. (zu Teil g). Der Verweis in Teil a auf die Päpste Zacharias und Deusdedit bezieht sich auf die Dekretale bei Gratian, Decretum C. 30 qu. 3 c. 3, JE † 2303, J3 † 4025, ed. Friedberg Sp. 1101. In Teil b wird Alexander II. (JL 4524, Gratian, Decretum C. 35 qu. 6 c. 10, ed. Friedberg Sp. 1280) und Symmachus (Gratian, Decretum C. 8 qu. 4 c. un., JL 1 S. 98, J3 *1440, ed. Friedberg Sp. 599-600) zitiert. Der Verweis auf das Konzil von Tribur von 895 (Gratian, Decretum C. 31 qu. 1 c. 5, ed. Friedberg Sp. 1109) in Teil c betrifft in Wirklichkeit das Konzil von Meaux von 845 (Konzilien der karolingischen Teilreiche 843-859, ed. Hartmann c. 69 S. 117), die Verweise auf Gregor I. und Alexander III. beziehen sich auf deren Dekretalen bei Gratian, Decretum C. 28 qu. 2 c. 2, JE † 1955, J3 † 3114, ed. Friedberg Sp. 1089 und C. 27 qu. 2 c. 29, ed. Friedberg Sp. 1071 sowie die Dekretale Alexanders III. (JL 13906, Decr. Greg. lib. 4 tit. 17 c. 6, ed. Friedberg Sp. 712). In Teil g wird aus Justinians Novellen und der Dekretale Gregors I. (Gratian, Decretum C. 33 qu. 1 c. 1, JE † 1938, J3 † 3097, ed. Friedberg Sp. 1149) zitiert. In Teil h werden die den Päpsten Damasus (JK † 243, J3 † 573, Gratian, Decretum C. 2 qu. 7 c. 39, ed. Friedberg Sp. 495-496) und Stephan I. (JK † 131, J3 † 256, Gratian, Decretum C. 3 qu. 11 c. 1 und c. 3, ed. Friedberg Sp. 535) zugeschriebenen Dekretalen zitiert. Zu den angeführten kanonistischen Zitaten vgl. Holtzmann, Gratian S. 339-341 (S. 188-189) Nr. 11 und Murauer, Gerichtsbarkeit S. 111 Anm. 80.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Drucke: Comp. 2 lib. 2 tit. 9 c. 2 (ed. Friedberg S. 73, Teil b); Comp. 2 lib. 2 tit. 11 c. 1 (ed. Friedberg S. 73, Teil h); Comp. 2 lib. 2 tit. 12 c. 4 (ed. Friedberg S. 74, Teil f); Comp. 2 lib. 3 tit. 20 c. 2 (ed. Friedberg S. 87, Teil c); Comp. 2 lib. 4 tit. 4 c. 2 (ed. Friedberg S. 93, Teil e); Comp. 2 lib. 4 tit. 6 c. 3 (ed. Friedberg S. 93, Teil a); Comp. 2 lib. 4 tit. 9 c. 3 (ed. Friedberg S. 94, Teil g); Comp. 2 lib. 4 tit. 12 c. 3 (ed. Friedberg S. 95, Teil d); Decr. Greg. lib. 2 tit. 16 c. 2 (ed. Friedberg Sp. 301, Teil b); Decr. Greg. lib. 2 tit. 20 c. 27 (ed. Friedberg Sp. 324, Teil f); Decr. Greg. lib. 2 tit. 25 c. 1 (ed. Friedberg Sp. 374, Teil h); Decr. Greg. lib. 3 tit. 33 c. 1 (ed. Friedberg Sp. 587, Teil c); Decr. Greg. lib. 4 tit. 6 c. 6 (ed. Friedberg Sp. 686, Teil e); Decr. Greg. lib. 4 tit. 15 c. 5 (ed. Friedberg Sp. 705-706, Teil g); Decr. Greg. lib. 4 tit. 18 c. 4 (ed. Friedberg Sp. 719, Teil d); Migne, PL 206 Sp. 1255-1258 (Teile a-h) und Sp. 1260 (Teil f); Duggan, Manu sollicitudinis S. 223-231 Appendix 2 (Teile a-h mit engl. Übersetzung).  Reg.: JL 17649 (J 10739, J 10735, J 10744) (zu 1191–1198).</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

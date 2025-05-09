@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,1 n. 1030</idno>
+        <idno type="urn">1184-03-27_2_0_4_4_1_1030_1030</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Lucius III., RI IV,4,4,1 n. 1030</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Veroli</placeName>
+              <date type="issued" notBefore="1184-03-27" notAfter="1184-03-27">1184 März 27</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Lucius III. nimmt Abt Lantelm von La Chaise-Dieu und dessen Brüder (Lantelmo abbati monasterii Case Dei eiusque fratribus) auf deren Bitten wie Leo IX., Alexander (II.), Urban (II.), Paschal (II.), Calixt (II.), Eugen (III.), Hadrian (IV.) und Alexander (III.) in den päpstlichen Schutz, bestätigt den genannten Besitz sowie die Schenkungen erwähnter Personen, untersagt allen Erzbischöfen und Bischöfen, über sie das Interdikt zu verhängen, sie zu exkommunizieren oder zu suspendieren, gewährt das Asyl- und Aufnahmerecht, erlaubt Gottesdienst bei Interdikt, bestimmt, daß niemand, der nicht vom Papst delegiert ist, sie zu Synoden berufen darf, verbietet, in ihren Pfarreien ohne die bischöfliche und ihre eigene Zustimmung Gotteshäuser zu errichten, bestätigt ihr Wahl- und Disziplinarrecht in den unterworfenen Klöstern über Äbte und Mönche und gegenüber den Bischöfen, setzt den freien Empfang von Chrisma, Heiligem Öl, Konsekrationen und Ordinationen durch den Diözesanbischof, andernfalls durch einen Bischof ihrer Wahl fest, gewährt die freie Sepultur und das Präsentationsrecht, bekräftigt den Gehorsam gegenüber dem Abt, gewährt die Wahl des Abtes und legt einen Byzantius als jährlichen Anerkennungszins fest.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">(Pie postulatio voluntatis effectu debet)</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Verulis pm. Alberti SRE. presb. card. et cancellarii 6 kal. apr. ind. 2 inc. 1184 pont. a. 3.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Die weitere von Chaix de Lavarène, Bullaire S. 328 und Chaix de Lavarène, Monumenta pontificia Arverniae S. 335 sowie Wiederhold, PUU Frankreich 6 S. 6 = S. 604 genannte Überlieferung ist nach freundlicher Auskunft der Arch. dép. in Clermont-Ferrand jetzt verloren; die bei JL und Martin, Conciles Lyon S. 175 Nr. 659 angegebene Kopie in Ms. lat. 12751 p. 582-583 betrifft Reg. 1031. – In der Liste der Kardinalsunterschriften bei Pfaff, Sieben Jahre S. 194 Nr. 209 wird diese Urk. irrig mit Reg. 1031 gleichgesetzt und es fehlt die Unterschrift des Kardinaldiakons Albinus. – Die genannten Urkk. sind vermutlich auf die Privilegien Leos IX. von 1052 Mai 2 (JL 4270), Alexanders II. von 1061-1073 (JL 4720), Urbans II. von 1095 September 6 (JL 5575), Paschals II. von 1107 Februar 4 (JL 6114), Calixts II. von 1119 April 28 (JL 6690), Eugens III. von 1146 Februar 1 (JL 8853), Hadrians IV. von 1157 Dezember 13 (JL 10315) sowie Alexanders III. von 1178 Dezember (?) 2 (JL 13119) oder (vielleicht) Alexanders III. von 1162 Juni 9 (JL 10730) bzw. Alexanders III. von 1179 Januar 2 (JL 13273) zu beziehen. Zu Merkmalen der Exemtion vgl. Schreiber, Kurie 1 S. 64 ff. sowie Falkenstein, La papauté et les abbayes françaises S. 106 ff. und S. 155 ff.; zum Zins vgl. Pfaff, Einnahmen S. 98 und S. 108 ff.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Überl.: Kopie 17. Jh., Paris, Bibl. nat., Ms. lat. 12777 p. 426-430 (franz. Übersetzung, woraus schon Wiederhold das oben genannte Incipit rekonstruiert hat). Drucke: Chaix de Lavarène, Bullaire S. 319-327 Nr. 204; Chaix de Lavarène, Monumenta pontificia Arverniae S. 327-335 Nr. 204 (beide Drucke mit dem auch in dem Privileg Eugens III. für La Chaise-Dieu von 1150 März 12, JL 9372, vgl. Wiederhold, PUU Frankreich 6 S. 47 Nr. 18 = Acta Rom. pont. 8 S. 645, vorkommenden, sonst aber bei Lucius III. nicht belegten Incipit Cum omnibus catholice ecclesie filiis). Reg.: JL 15011; Martin, Conciles Lyon S. 175 Nr. 659.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

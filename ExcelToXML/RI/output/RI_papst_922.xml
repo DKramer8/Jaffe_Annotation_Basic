@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,4 n. 852</idno>
+        <idno type="urn">1190-05-20_1_0_4_4_4_852_852</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Clemens III., RI IV,4,4,4 n. 852</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Rom, Lateran</placeName>
+              <date type="issued" notBefore="1190-05-20" notAfter="1190-05-20">1190 Mai 20</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Clemens III. nimmt Patriarch Johannes von Grado (Iohanni Gradensi patriarche) auf dessen Bitten in den päpstlichen Schutz und bestätigt wie Pelagius (II.), Alexander (II.), Urban II., Hadrian (IV.), Alexander III., Lucius (III.) und Urban III. den Patriarchat und insbesondere die durch Leo IX. sanktionierten Konstitutionen sowie die Ausübung des Amts in den festgelegten Grenzen, erlaubt, daß ihm außer in Rom oder in Anwesenheit des Papstes ein Kreuz vorangetragen wird und er das Pallium an genannten Tagen anlegen darf, ermahnt ihn, sich dessen in seinem Handeln würdig zu erweisen, unterstellt ihm als Primas das Erzbistum Zadar (Zara) mit dessen Suffraganbistümern (Jadertinum archiepiscopatum et episcopatus ipsius) vorbehaltlich der Palliumverleihung durch den Papst, bestätigt den Besitz und verbietet Bischöfen und Priestern, in den Grado übertragenen Kirchen Konsekrationen vorzunehmen und Gottesdienste zu feiern, solange der Patriarch am Ort weilt.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Apostolice officium dignitatis et credite</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Lat. pm. Moysis SRE. subdiaconi vicem agentis cancellarii 13 kal. iun. ind. 8 inc. 1190 pont. a. 3.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zur Überlieferung vgl. Kehr, Nachträge zu den römischen Berichten S. 531 = Acta Rom. pont. 4 S. 189. – Die genannten Urkk. sind die Privilegien Pelagius' II. von 579 April 20 (JK † 1047 zu Februar 18, IP VII,2 S. 32 Nr. † 2, Cappelletti, Chiese 8 S. 59-60), Leos IX. von 1053 (April) (Dep., JL –, IP VII,2 S. 55 Nr. *89, Böhmer-Frech, Papstregesten 1046-1058 Nr. 1057 [zu nach 1053 April 11]) sowie zum gleichen Datum (JL 4295, IP VII,2 S. 55-56 Nr. 90, Böhmer-Frech Nr. 1058, Migne, PL, 143 Sp. 727 Nr. 82), Alexanders II. von (1064 Juni) (Dep., JL 4739 zu 1061-1073, IP VII,2 S. 57 Nr. *94), Urbans II. von (1095 März-April) (Dep., JL 5752, IP VII,2 S. 59 Nr. *106), Hadrians IV. von 1157 Juni 13 (JL 10295, IP VII,2 S. 63 Nr. 120, Migne, PL, 188 Sp. 1516-1518 Nr. 137), Alexanders III. von 1161 Juni 13 (JL 10665, IP VII,2 S. 64 Nr. 123, Migne, PL, 200 Sp. 118-120 Nr. 45), Lucius' III. von 1182 April 14 (Böhmer-Baaken-Schmidt, Papstregesten Lucius' III. 1, Nr. 206) und Urbans III. von 1186 Mai 31 (Böhmer-Schmidt, Papstregesten Urban III., Nr. 167), das auch VU war. – Zum Pallium und zur Gestaltung der Admonitiones nach dem Liber diurnus vgl. Zotz, Pallium S. 156f. Zur Geschichte der Diözese Grado vgl. Groner, Diözesen Italiens S. 14-18, zum Patriarchentitel und zu den Hintergründen der Unterstellung Zadars (Zaras) durch Hadrian IV. vgl. Fuhrmann, Patriarchate II S. 55-60.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Kopie 15. Jh., Rom, Arch. Seg. Vat., Arm. XXXI tom. 47 fol. 466 (inseriert in die Urk. Eugens IV. von 1433 Oktober 1); Kopie 15. Jh., Rom, Arch. Seg. Vat., Arm. XXXI tom. 54 fol. 266 (inseriert in die Urk. Eugens IV. von 1433 Oktober 1).  Druck: Cornelius, Ecclesiae Venetae 3 S. 133-135.  Reg.: IP VII,2 S. 70 Nr. 142; Gioppo, Repertorio S. 280-281 Nr. 399.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

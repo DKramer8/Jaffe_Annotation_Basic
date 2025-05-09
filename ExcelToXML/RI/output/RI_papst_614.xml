@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,3 n. 593</idno>
+        <idno type="urn">1187-03-04_4_0_4_4_3_593_593</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Urban III., RI IV,4,4,3 n. 593</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Verona</placeName>
+              <date type="issued" notBefore="1187-03-04" notAfter="1187-03-04">1187 März 4</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Urban III. nimmt Bischof Johannes, Dompropst Peter und die Domkanoniker von Maguelone (Iohanni episcopo et ... Petro preposito et canonicis Magalonensibus) auf deren Bitten wie Alexander (II.), Urban (II.), Paschal (II.), Calixt (II.) und Hadrian (IV.) in den päpstlichen Schutz, bestätigt die Augustinerregel, die Verfügung des damaligen Grafen Peter (von Melgueil) (Petri comitis) und die Privilegien des Apostolischen Stuhls, wonach die Kirche von Maguelone im besonderen Schutz des hl. Petrus stehe, von allen weltlichen Diensten und Abgaben befreit sei und ihre Kirchen in der Immunität stehen und nur dem Papst unterworfen seien; der Papst bestätigt genannte Besitzungen sowie die alten Gewohnheiten und Freiheiten, die ihnen von seinen Vorgängern gewährt worden sind, bekräftigt die Unterwerfung des Klosters Aniane (Anianense monasterium) (D. Maguelone) unter die Kirche von Maguelone, wie dies in den Urkunden Alexanders (II.) und Urbans II. enthalten sei, gewährt ihnen die kanonische Portio ihrer Parochianen, die anderswo die Sepultur wählen, legt die Wahl des Bischofs und des Propsts durch die Kanoniker fest, bestimmt, daß über die Verfügung bezüglich der Grafschaft (Substantion-) Melgueil (de Melgoriensi ... comitatu), die der damalige Graf Peter getroffen hat, falls keine Erben vorhanden sein sollten, mit Zustimmung der Römischen Kirche entschieden werden soll, und setzt einen jährlichen Anerkennungszins von einem Aureus fest.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Quotiens a nobis petitur quod</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Verone pm. Alberti SRE. presb. card. et cancellarii 4 non. mar. ind. 5 inc. 1186 pont. a. 2.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zur Überlieferung vgl. Kehr, PUU Rom 1 S. 121 = Acta Rom. pont. 2 S. 303 und Kehr, PUU Rom 2 S. 393 = Acta Rom. pont. 2 S. 546 sowie Wiederhold, PUU Frankreich 7, S. 6 = Acta Rom. pont. 8 S. 716. – Ein Privileg Alexanders II. für den Bischof von Maguelone ist nicht bekannt. Nicht auszuschließen ist aber, daß hiermit JL 4713 (vgl. unten) gemeint ist. Die anderen genannten Urkk. sind die Privilegien Urbans II. von 1087 Dezember 14 (JL 5375, Rouquette/Villemagne, Bullaire de Maguelonne 1 S. 6-15 Nr. 4), Paschals II. von 1116 März 3 (JL 6507, Rouquette/Villemagne S. 28-31 Nr. 14), Calixts II. von 1119 Juni (JL 7093 [zu 1119-1124], Rouquette/Villemagne S. 32-35 Nr. 16 (zu 1119 Juni [20-30]) und Hadrians IV. von 1155 April 15 (JL 10027, Rouquette/Villemagne S. 80-85 Nr. 16). Die genannte Urk. Alexanders II. betreffend die Unterwerfung des Klosters Aniane (JL 4713 ohne Datum, zu [1061-1073]) ist gedruckt bei Rouquette/Villemagne S. 4-5 Nr. 2, und wurde von Urban II. 1095 November 29 bestätigt (JL 5588, zu 1095 November 19, Rouquette/Villemagne S. 22-23). Zur Grafschaft Substantion-Melgueil vgl. auch das Mandat Urbans III. von (1185-1186) Dezember 9 (Reg. 349). Zur Sache vgl. Fabrège, Histoire Maguelone 1 S. 290.      Verbesserungen und Zusätze (2018):  Zur Sache vgl. DELIVRÉ, Le domaine de l’apôtre S. 459.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Kopie 14. Jh., Montpellier, Arch. dép. Hérault, G 1137 fol. 23'-24' (Transcripta privilegiorum, Stein, Bibliographie Nr. 2301); Kopie 14. Jh., Rom, Arch. Seg. Vat., Instrumenta miscellanea, Cassette I (Kopie von 1359 September 17).   Drucke: Germain, Maguelonne S. 191-194 Nr. 22 (S. 543-546) (mit irriger Korrektur des Inkarnationsjahrs auf 1187); Rouquette/Villemagne, Bullaire de Maguelonne 1 S. 177-182 Nr. 110 (mit irriger Korrektur des Inkarnationsjahrs auf 1187).   Reg.: JL 15947.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

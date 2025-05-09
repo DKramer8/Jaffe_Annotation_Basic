@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,3 n. 55</idno>
+        <idno type="urn">1186-02-05_1_0_4_4_3_55_55</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Urban III., RI IV,4,4,3 n. 55</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Verona</placeName>
+              <date type="issued" notBefore="1186-02-05" notAfter="1186-02-05">1186 Februar 5</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Urban III. nimmt Prior Gregor von S. Salvatore in Rialto (in Venedig) und dessen Brüder (Gregorio priori ecclesie sancti Salvatoris de Rivo alto eiusque fratribus) (D. Castello) auf deren Bitten wie Innocenz (II.), Eugen (III.), Anastasius (IV.), Alexander (III.) und Lucius (III.) in den päpstlichen Schutz, bestätigt die Augustinerregel, den genannten Besitz, die Hälfte des Zehnten der Pfarrei gemäß der von Eugen (III.) bekräftigten Schenkung des damaligen Bischofs Johannes Polanus (von Castello) (Johannes Polanus quondam diocesanus episcopus) für Kleriker und Dachdeckerarbeiten sowie die ihnen gegebene Erlaubnis Hadrians (IV.), Alexanders (III.) und Lucius' (III.), Pfarrangehörige, die bei dieser Zehnthälfte betrügen, durch den Prior zu exkommunizieren; der Papst erlaubt, diesen Zehnten nach Gewohnheitsrecht als Sicherheit zu stellen, gewährt das Aufnahmerecht, verbietet, das Stift nach abgelegter Profeß unerlaubt zu verlassen, bekräftigt gemäß der vorgelegten Urkunde das Urteil, das Patriarch Heinrich von Grado und Kardinalpriester Hildebrand der Basilika der SS. XII Apostoli, damals Legat des Hl. Stuhls (Henricus Gradensis patriarcha et bone memorie Ildeprandus basilice XII Apostolorum presb. card. tunc apostolice sedis legatus), in ihrem Streit mit Dominicus, dem Pleban von S. Bartolomeo (in Venedig) (Dominicum plebanum sancti Bartholomei) (D. Castello), um die Zugehörigkeit der Häuser genannter Pfarrangehöriger gefällt haben, gewährt die freie Sepultur, verbietet allen, ohne ihre Zustimmung ihren Pfarrangehörigen im Krankheitsfall Buße zu spenden oder sie zur Sepultur anzunehmen, und erlaubt die Wahl des Priors.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Religiosam vitam eligentibus apostolicum convenit</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Verone pm. Transmundi SRE. notarii non. feb. ind. 4 inc. 1185 pont. a. 1.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zur Überlieferung vgl. Kehr, PUU Venedig, S. 288 = Acta Rom. pont. 1 S. 12, Kehr, PUU Padova S. 370 = Acta Rom. pont. 1 S. 158 und Kehr, PUU röm. Bibl. I S. 14 = Acta Rom. pont. 4 S. 14. – Die genannten Urkk. sind die Privilegien Innocenz' II. von 1141 Mai 13 (JL 8142, IP VII,2 S. 145 Nr. 1, Migne, PL, 179 Sp. 544-545 Nr. 474), Eugens III. von 1148 August 20 (JL 9290, IP VII,2 S. 145 Nr. 2, Migne, PL, 180 Sp. 1361-1363 Nr. 315), Anastasius' IV. von 1154 Mai 27 (JL 9909, IP VII,2 S. 146 Nr. 4, Migne, PL, 188 Sp. 1074-1076 Nr. 79), Alexanders III. von 1167 Januar 5 (JL 11340, IP VII,2 S. 147 Nr. 9, Migne, PL, 200 Sp. 449-451 Nr. 448) und von 1169 Januar 4 (JL 11585, IP VII,2 S. 147 Nr. 10, Migne, PL, 200 Sp. 563-565 Nr. 603) und Lucius' III. von 1182 Januar 8 (Böhmer-Baaken-Schmidt, Papstregesten Lucius' III. 1 , Nr. 89) sowie die Bestätigungen Eugens III. von 1153 März 19 (JL 9377 [zu 1150], IP VII,2 S. 145-146 Nr. 3, Migne, PL, 180 Sp. 1411 Nr. 378, wo auch die Schenkung Bischof Johannes' von 1153 April nachgewiesen ist) und Hadrians IV. von 1157 März 4 (JL 10488 [zu 1157-1159], IP VII,2 S. 146 Nr. 5, Pflugk-Harrtung, Acta, 3 S. 189 Nr. 176 [zu (1157-1158) März 4]). – Zum Zusammenhang vgl. Rando, Aspetti S. 61f. NU ist das Privileg Gregors VIII. von 1187 November 22 (Reg. 1377). Zur Legation und zur hier erwähnten Entscheidung des Kardinalpriesters Hildebrand vgl. Weiß, Legaten, S. 208.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Orig., Venedig, Arch. di Stato, Corporazioni Religiose soppresse S. Salvador, busta 6 Nr. 8; 2 Kopien 13. Jh., Venedig, Arch. di Stato, Corporazioni Religiose soppresse, S. Salvador, busta 31, registro B fol. 7'-8 und fol. 96'-97 (Acta processuum habitorum inter ecclesias s. Salvatoris et s. Bartholomaei); 2 Kopien 14. Jh., Venedig, Arch. di Stato, Corporazioni Religiose soppresse, S. Salvador, busta 41 fol. 15-15' und fol. 18-18' (Liber privilegiorum ecclesie s. Salvatoris); Kopie 14. Jh., Venedig, Arch. di Stato, Corporazioni Religiose soppresse, S. Salvador, busta 3, registro 1 p. XXVII-XXXI (fol. 24-26) (Francisci de Gratia Cronica gestorum et priorum monasterii et ecclesiae s. Salvatoris de Venetiis a. 1377).   Drucke: (Duse), Chronicon s. Salvatoris S. 36-39; Cornelius, Ecclesiae Venetae 14 (Suppl.) S. 112-113 (mit 1186 als Inkarnationsjahr zu 1181 und mit falscher Reihenfolge innerhalb der Unterschriften); Migne, PL, 202 Sp. 1357-1360 Nr. 17 (mit 1186 als Inkarnationsjahr nach Cornelius).   Reg.: JL 15530 (J 9796); IP VII,2 S. 152 Nr. 28.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,5 n. 89</idno>
+        <idno type="urn">1191-06-08_2_0_4_4_5_89_89</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Cölestin III., RI IV,4,4,5 n. 89</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Rom, St. Peter</placeName>
+              <date type="issued" notBefore="1191-06-08" notAfter="1191-06-08">1191 Juni 8</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Cölestin III. nimmt Abt Bonifaz und die Brüder des Klosters S. Silvestro in Nonantola (Bonifacio abbati monasterii s. Silvestri de Nonantula eiusque fratribus) (D. Modena) auf ihre Bitten wie Leo (IX.), Alexander (II.), Paschal (II.), Calixt (II.), Innocenz (II.), Eugen (III.), Anastasius (IV.), Hadrian (IV.) und Alexander (III.) mit ihrem Kloster, das von seinem Gründer, dem langobardischen König Aistulf (ab Astulpho Longobardorum rege), dem hl. Petrus übertragen wurde, in den päpstlichen Schutz, bestätigt die Benediktinerregel und den genannten Besitz, verbietet dem Bischof von Modena (Mutinensi [episcopo]) und allen anderen Bischöfen und geistlichen sowie weltlichen Großen, das Kloster, seine Zellen, Kirchen und andere Besitzungen zu belästigen, von ihnen Abgaben zu fordern oder über sie gegen den Willen des Abts und der Brüder Gerichtsbarkeit auszuüben, gewährt die freie Sepultur und die Wahl des Abts gemäß der Benediktinerregel, erlaubt, für den Empfang von Chrisma, Heiligem Öl, Konsekrationen und Ordinationen den Bischof frei zu wählen, verbietet den Bischöfen, Weihen vorzunehmen, öffentliche Messen im Kloster zu feiern oder sich Zehnte zuzuwenden, untersagt den Bischöfen, ihre Kleriker mit dem Interdikt oder der Exkommunikation zu belegen ohne Zustimmung des Abts, und gestattet dem Abt für dessen Person wie seine Vorgänger den Gebrauch von Dalmatica, Mitra, Handschuhen und Sandalen an Feiertagen und zur Meßfeier.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Apostolice sedis auctoritate debitoque compellimur</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Rome apud sanctum Petrum pm. Egidii s. Nicolai in carcere Tulliano diaconi cardinalis 6 id. iun. ind. 9 inc. 1191 pont. a. 1.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zur Überlieferung vgl. Klinkenborg, PUU Nonantola S. 236f., S. 244f., S. 251 = Acta Rom. pont. 1 S. 89f., S. 97f., S. 104, Kehr, PUU Padova S. 367 = Acta Rom. pont. 1 S. 155 und Kehr, Nachträge zu den römischen Berichten S. 550 = Acta Rom. pont. 4 S. 208. – Die genannten Urkk. sind die Privilegien Leos IX. von 1049 Mai (JL 4168, IP V S. 340 Nr. 18, Böhmer-Frech, Papstregesten 1046–1058 Nr. 557, Pflugk-Harttung, Acta 2 S. 76-78 Nr. 111), Alexanders II. von 1067 Juli 9 (JL 4634, IP V S. 340 Nr. 19, Migne, PL 146 Sp. 1333-1335 Nr. 53), Paschals II. von 1112 November 10 (JL 6332, IP V S. 340-341 Nr. 21, Migne, PL 163 Sp. 306-308 Nr. 350) und von 1113 Juni 11 (JL 6354, IP V S. 341 Nr. 23, Pflugk-Harttung, Acta 2 S. 205-207 Nr. 248), Calixts II. von 1124 April 13 (JL 7151, IP V S. 341-342 Nr. 25, Robert, Bullaire Calixte II 2 S. 313-315 Nr. 493), Innocenz’ II. von 1132 Oktober 12 (JL 7599, IP V S. 342 Nr. 26, Migne, PL 179 Sp. 161-164 Nr. 120), Eugens III. (Dep., JL – , IP V S. 345 Nr. *43), Anastasius’ IV. von 1154 Mai 31 (JL 9913, IP V S. 346 Nr. 47, Kehr, Nachträge V S. 292-295 Nr. 12 = Acta Rom. pont. 5 S. 312-315), Hadrians IV. von 1156 Dezember 10 (JL 10222, IP V S. 347 Nr. 48, Gloria, Codice dipl. Padovano 2 S. 16 Nr. 671 [der in der IP angekündigte Teildruck bei Kehr, Nachträge V ist unterblieben]), Alexanders III. von 1168 Juni 9 (JL 11411, IP V S. 348 Nr. 56, Migne, PL 200 Sp. 491-493 Nr. 492) und von 1170 April 26 (JL 11776, IP V S. 350-351 Nr. 70, Kehr, Nachträge V S. 297-298 Nr. 15 [Teildruck] = Acta Rom. pont. 5 S. 317-318) und Clemens’ III. (Dep., Böhmer-Schmidt, Papstregesten Clemens’ III. Nr. 1093).</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Überl.: Orig., Verona, Arch. di Stato, S. Silvestro, Dipl. 1 app. b. XXVIII; Kopie 13. Jh., Modena, Arch. di Stato, Cancellaria, Magistrato poi Giunta suprema di giurisdizione sovrana, b. 300 (Kopie von 1280 August 21); Kopie 15. Jh., Modena, Arch. di Stato, Cancellaria, Magistrato poi Giunta suprema di giurisdizione sovrana, b. 300 (Kopie von 1448 März 11).  Drucke: Pitton, Istoria di S. Silvestro di Verona 2 S. 12-18 Nr. 6 (mit 6 die iun. zu 1191 Juni 6); Tiraboschi, Nonantola 2 S. 284-287 Nr. 323 (Druck des Privilegs Alexanders III. mit den Varianten in den Anmerkungen und fehlerhaften Unterschriften).  Reg.: JL 16717 (J 10302); Migne, PL 206 Sp. 878 Nr. 11 (Reg. nach Tiraboschi); IP V S. 357 Nr. 103.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

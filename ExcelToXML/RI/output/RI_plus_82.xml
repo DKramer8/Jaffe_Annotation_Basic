@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RIplus Regg. EB Mainz 2 [n. 128]</idno>
+        <idno type="urn"></idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Christian I., RIplus Regg. EB Mainz 2 [n. 128]</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Tusculum</placeName>
+              <date type="issued" notBefore="1167-05-01" notAfter="1167-05-31">1167 Mai 29 (30?)</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>kommt dem Erzbischof Reinald von Cöln zu hilfe und nimmt hervorragenden antheil an der schlacht, in welcher die Römer vollkommen besiegt und in die stadt zurückgeworfen werden. ‒ Der schlachttag fällt nach dem bericht mehrerer quellen auf „secunda feria pentecostes'. Ohne die zahlreichen nachrichten hier dem wortlaut nach aufführen zu wollen, können wir uns mit einer zusammenstellung derselben um so mehr begnügen, als Varrentrapp die schlacht bei Tusculum in erschöpfender weise behandelt hat: Ann. Laub. (.. praemissisque aeis Maguntino et Col.) in: M. G. SS. IV, 24; Hist. Farf. (a. d. 1169 feria secunda post pentecosten grande bellum commissum est aput Tusculanum inter Romanos et cancellarium imperatoris Frederici, scilicet Rainaldum Col. aeum et Christianum Maguntinum.) in: M. G. SS. XI, 590; Sigeberti auctor. Aquic. (Ducatu Rainaldi Col. aei et Christiani Mag. etc.) in: M. G. SS. VI, 398; Ann. S. Petri Erfurt. in: M. G. SS. XVI, 23; Ann. Magdeb. (Hoc comperto Christianus Magontinus electus cum Flandrensibus et Brabantinis accessit etc.) in: M. G. SS. XVI, 192; Ann. Stad. (Reinoldus Col. et Christianus Mog. electus proelium instaurant etc.) in: M. G. SS. XVI, 345; Ann. Camerac. (Huic domnus Mog. urbis aeus occurrens etc.) in: M. G. SS. XVI. 539; Ann. Floref. (Hoc anno feria 2 in pentecoste aei Col. et Magunc. obsessi a Romanis etc.) in: M. G. SS. XVI, 625; Ann. S. Jacobi Leod. (Aei. Moguntinus et Col. primo impetu magnam eorum multitudinem prosternunt.) in: M. G. SS. XVI, 642; Chron. Magni presbit. (Erat autem dux eorum cancellarius imperatoris nomine Christan.) in: M. G. SS. XVII, 488; Ann. Col. max. (Secunda feria Pentecostes Christianus Mog. episcopus et Philippus cancellarius ... ad auxilium Reinoldo venerunt etc.) in: M. G. SS. XVII, 780 u. Böhmer, Font. III, 440; Oberti Ann. (Rainaldus Col. aeus et Christianus Mog. aeus ... insidias Romanis posuerunt etc.) in: M. G. SS. XVIII, 74; Anon. Laud. contin. (.. ipsemet aeus et cancellarius vexillum in manu accipiens .. acriter super Romanos irruerunt.) in: M. G. SS. XVIII, 652; Ann. Pisani (cui [Rainaldo] in bello Cristianus cancellarius in auxilium venit etc.) in: M. G. SS. XIX, 256; Ottonis Frising. contin. Sanblas. (Hac dissuasione principum egregius aeus Mog. Christianus accensus .. ad liberandum aeum [Rainaldum] iter flectit.) in: M. G. SS. XX, 312 u. Böhmer, Font. III, 597; ‒Arma, decus, spolium perdit ubique suum. Urget Agrippinus Rainaldus prelia presul, Atque Maguntinus Romana trofea meretur,   Victaque Roma vetus perdidit omne decus. Hii duo presbiteri, quos pretulit ordine cesar, Tam male cantabant requiem super agmina cesa.‒ Gotifredi Viterb. gesta Friderici I. ed. Ficker, 22. u. M. G. SS. XXII, 321; Anno Domini 1166 fuit magna occisio de Romanis in territorio Tusculanensi apud montem Porcum ab exercitu Raynaldi Coloniensis et Christiani Maguntini archiepiscoporum, quorum alii mortui, alii capti sunt ex magna parte. Johannes de Piscina de transferatione Friderici I in: M. G. SS. XXII. 341; Hic expugnati sunt Romani apud montem Porcum etc. 3 Kal. Junii. Catalogus Pont. et Imp. Rom. Tiburtinus. in: M. G. SS. XXII, 357; Sicardi Chronicon (Tempore procedente Romanis Tusculanum impugnantibus et cancellariis in fortitudinis brachio eam defendentibus etc.) in: Muratori, SS. rer. Ital. VII, 600; Bosonis Vita Alex. III. in: Watterich, Vitae pontif. Rom. II, 404; Schreiben k. Friedrich I an Vogt Gerhard v. Cöln u. a.) Post gloriosam victoriam, quam per manus illustrissimorum principum nostrorum, Reinoldi Coloniensis, Christiani Maguntini et Philippi cancellarii perhenni memoriae commendanda in sede Romanorum accepimus etc.) Stumpf, RK. nr. 4089; Schreiben des Erzbischofs Reinold an den cölner clerus. (Statim vero die sequente, hoc est secunda feria Pentecostes, aeus Moguntinus et milites eius ac Brabantini advenerunt circa horam nonam, fessi nimis ex itinere. Dann folgt eine ausführliche beschreibung der schlacht und des sieges.) Sudendorf, Registrum II, 147. ‒ Vergl. Ficker, Rainald v. Dassel. 110; Gregorovius, G. d. Stadt Rom. IV, 541; Reuter, Papst Alexander III. Bd. II, 249 flgde. Varrentrapp, Commentationis de Christiano aeo Mog. specimen prius. 16 flgde. und dessen Christian I von Mainz. 29 flgde. Prutz, K. Friedrich I. Bd. II, 70 flgde. und 347; Adler, Herzog Welf VI. S. 74; Langer, Polit. G. Genuas u. Pisas im XII Jhrhdt. 133. [Nummer im Druck: 37]</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">-</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>[Inhalt des Sachkommentars. Bibliographische Referenzen werden als &lt;bibl&gt;Bibliographische Angabe&lt;/bibl&gt; getagged.]</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>[Weitere Referenzen als listBibl]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

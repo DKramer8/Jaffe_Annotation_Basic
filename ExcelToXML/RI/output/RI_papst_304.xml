@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,2 n. 1522</idno>
+        <idno type="urn">1185-03-09_1_0_4_4_2_356_1522</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Lucius III., RI IV,4,4,2 n. 1522</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Verona</placeName>
+              <date type="issued" notBefore="1185-03-09" notAfter="1185-03-09">1185 März 9</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Lucius III. nimmt den Abt und die Brüder des Klosters St. Maria in Waldsassen (abbati monasterii sancte Marie Waltsassen eiusque fratribus) (D. Regensburg) auf deren Bitten in den päpstlichen Schutz, bestätigt die Benediktinerregel und die Institution der Zisterzienser sowie genannten Besitz und die Schenkungen erwähnter Personen, befreit sie vom Zehnten für Neubrüche bei Eigenbau und für Tierfutter, gewährt das Aufnahmerecht und verbietet, nach abgelegter Profeß das Kloster unerlaubt zu verlassen, gestattet Gottesdienst bei Interdikt, verbietet unter Androhung des Anathems, daß sich jemand die Vogtei über ihr Kloster oder ihre Grangien ohne ihre Zustimmung anmaßt oder dort Gewalt anwendet, setzt wie Innocenz (II.), Eugen (III.) und Alexander (III.) fest, daß sie nicht zum Erscheinen auf Synoden oder vor Gericht gezwungen werden dürfen, verbietet Aufenthalt und Meßfeier des Bischofs im Kloster ohne ihre Zustimmung, berechtigt den Abt, falls der Bischof sich nach dreimaligem angemessenem Ersuchen weigert, selbst die Benediktion der eigenen Novizen und zugehörige Amtshandlungen zu vollziehen, bis der Bischof einlenkt, gestattet die Wahl des Abts ohne Einmischung des Bischofs, erlaubt, Forderungen des Bischofs und weltlicher Herren, die die Freiheit des Ordens verletzen, zurückzuweisen, und bestimmt, daß gegen sie gerichtete bischöfliche Sentenzen ungültig sein sollen.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Religiosam vitam eligentibus apostolicum convenit</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Verone pm. Alberti SRE. presb. card. et cancellarii 7 id. mar. ind. 3 inc. 1184 pont. a. 4.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zur Überlieferung vgl. auch BISCHOFF, Urkundenformate S. 143. – Zur Sache vgl. JANNER, Bischöfe Regensburg 2 S. 190f. Vgl. hierzu auch die Urk. Lucius' III. von 1185 März 7 (Reg. 1519). Der Hinweis auf die Urkk. Innocenz' II., Eugens III. und Alexanders III. bezieht sich auf deren allgemeine Privilegien zugunsten des Zisterzienserordens.    Verbesserungen und Zusätze (2012):  Ein weiterer Druck findet sich bei Langhammer, Waldsassen 1 S. 283-287 (ohne Unterschriften), eine Abbildung des Orig. S. 285 und eine deutsche Übersetzung S. 288-289. Die Besitzliste ist gedruckt bei Gradl, Waldsassener Gebiet in Böhmen S. 262, die Orte werden S. 263f. identifiziert. Die im Lichtbildarchiv älterer Originalurkunden, Marburg, aufbewahrte Photographie des Orig. ist inzwischen im Internet verfügbar.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Überl.: Orig., Amberg, StArch., Kloster Waldsassen Urk. 13; Kopie 13. Jh., Amberg, StArch., Kloster Waldsassen 349 (alt: Kloster Waldsassen Lit. 17) fol. 1-2' (Copiarum monasterii Waldsassensis); Kopie 15. Jh., Amberg, StArch., Oberpfälzer Registraturbücher 35 (alt: Kloster Waldsassen Lit. 19) fol. 16' (Registrum libri privilegiorum monasterii ... Waldsassenn) (Auszug).</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl> GRADL, Monumenta Egrana 1 S. 33-34 Nr. 98 (zu 1185 März 7); PFLUGK-HARTTUNG, Acta 1 S. 324-326 Nr. 372. JL 15380 (J 9739); LANG, Regesta Boicarum 1 S. 328; EMLER, Reg. Bohemiae 4 S. 710 Nr. 1768; FRIEDRICH, Codex dipl. Bohemiae S. 276 Nr. 306; GP I S. 308-309 Nr. 2.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>Abb. des LBA Marburg</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

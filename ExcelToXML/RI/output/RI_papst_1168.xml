@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,5 n. 1093</idno>
+        <idno type="urn">1191-05-17_4_0_4_4_5_1093_1093</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Cölestin III., RI IV,4,4,5 n. 1093</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Rom, St. Peter</placeName>
+              <date type="issued" notBefore="1191-05-17" notAfter="1191-05-17">(1191/1192/1194) Mai 17</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Cölestin III. nimmt Abt Philipp und die Brüder des Klosters Bergues-St-Winoc (Philippo abbati monasterii sancti Winnoci quod Bergense dicitur eiusque fratribus) (D. Thérouanne) auf deren Bitten wie Honorius (II.), Alexander (III.) und Lucius (III.) in den päpstlichen Schutz, bestätigt genannte Besitzungen, die Befreiung von allen Abgaben gemäß den Urkunden der Grafen Dietrich und Philipp (von Flandern) (comitum Theoderici et Philippi), insbesondere die Freiheit von Abgaben für den Fischfang im Meer, die ihnen Graf Philipp zugestanden hat, sowie ihre von Graf Philipp von Flandern (Philippo comite Flandrensi) und anderen Grafen bestätigten Freiheiten und Immunitäten, befreit sie von weltlicher Gewalt, verbietet, sie zur Aufnahme einer Person zu zwingen, erlaubt die Annahme von Schenkungen, bestätigt den Besitz ihrer Salinen, verbietet Aufenthalt und Meßfeiern des Bischofs im Kloster ohne ihre Zustimmung, gewährt die Sepultur und die Wahl des Abtes.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Religiosam vitam eligentibus apostolicum debet</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Rome apud sanctum Petrum 16 kal. iun. (sic).</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zur Überlieferung vgl. Ramackers, PUU Niederlande S. 17. – Da die Angabe des Pontifikatsjahrs in der Kopie fehlt, lassen Ausstellungsort und Tagesdatum als Ausstellungsjahr 1191, 1192 und 1194 (1197 dürfte wegen des unten erwähnten Privilegs von 1196 April 5 wohl ausscheiden) zu. Die genannten Urkk. sind die Privilegien Honorius’ II. von 1127 Dezember 20 (JL 7296, Pruvost, Chronique Bergues-Saint-Winoc 1 S. 100-102), Alexanders III. von 1165 Februar 13 (JL 11160, Pruvost 1 S. 125-126) und Lucius’ III. von 1184 Januar 3 (Böhmer-Baaken-Schmidt, Papstregesten Lucius’ III. 1 Nr. 933). Ohne erkennbaren Grund wiederholte Cölestin III. dieses Privileg 1196 April 5 (JL 17351, Pruvost 1 S. 158-159). Zu den genannten Urkk. der Grafen Dietrich und Philipp von Flandern vgl. Hemptinne/Verhulst, Oorkonden der Graven van Vlaanderen 2,1 S. 229-230 Nr. 143, S. 291 Nr. 186, S. 441 Nr. 280 und S. 387-388 Nr. 243.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Überl.: Kopie 13. Jh., Paris, Bibl. nat., Collection de Flandre et d’Artois 184, S. Winnoc de Berghes Nr. 5 (Transsumpt von 1370 September 24).  Druck: Pruvost, Chronique Bergues-Saint-Winoc 1 S. 158 (nur Druck der Adresse und des Datums unter Verweis auf die Urk. Cölestins III. von 1196 April 5 [vgl. den Kommentar], zu 1194 Mai 17).  Reg.: JL 17103 (zu 1194 Mai 17).</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

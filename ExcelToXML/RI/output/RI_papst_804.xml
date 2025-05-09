@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,4 n. 149</idno>
+        <idno type="urn">1188-03-20_2_0_4_4_4_149_149</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Clemens III., RI IV,4,4,4 n. 149</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Rom, Lateran</placeName>
+              <date type="issued" notBefore="1188-03-20" notAfter="1188-03-20">1188 März 20</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Clemens III. nimmt Abt Hugo von Prémontré (D. Laon) und die übrigen Äbte und Kanoniker des Prämonstratenserordens (Hugoni abbati Premonstratensi et ceteris abbatibus et canonicis Premonstratensis ordinis) auf deren Bitten in den päpstlichen Schutz, bestätigt wie Alexander (III.), Lucius (III.) und Urban (III.) die von ihnen beschlossenen und unten angeführten Statuten, wonach der ordo canonicus gemäß der Augustinerregel, wie sie von Norbert, dem Gründer des Prämonstratenserordens (Norberti quondam Premonstratensis ordinis institutoris), und dessen Nachfolgern im weißen Gewand eingeführt wurde, zu bewahren ist und überall die gleichen liturgischen Bücher zu benutzen sind und keinesfalls dagegen irgendein Privileg vorgelegt werden darf; der Papst bekräftigt die Bestimmungen über die Vorrangstellung und das Korrekturrecht des Vater-Abts (pater-abbas) in dessen Gründungen, den Vorrang des Abts von Prémontré und den ihm geschuldeten Gehorsam, die Festsetzung über den Besuch und die Kompetenzen des Generalkapitels, das Verbot, von ihnen für Konsekrationen, Ordinationen, die Sepultur, die Benediktion und Amtseinsetzung des Abts irgendetwas zu fordern, die Regelungen bei strittigen Absetzungen und Wahlen der Äbte und bei der Visitation von Prémontré durch die Äbte von Laon, Floreffe (D. Liège/Lüttich) und Cuissy (D. Laon) (abbates de Lauduno, de Floreffia et de Cuissiaco) sowie über die Postulation der Äbte, das Verbot, in einen anderen Orden einzutreten, und das Verfahren bei Güter- und anderen Streitigkeiten; der Papst gebietet Frieden, untersagt Verbrechen in ihren Grangien und erlaubt, in ihnen Oratorien zu errichten vorbehaltlich der Rechte der Diözesanbischöfe, verbietet, sie vor ein weltliches Gericht zu ziehen, befreit sie vom Zehnten für Neubrüche bei Eigenbau und für Tierfutter und verbietet gemäß den Bestimmungen des (3.) Laterankonzils, gegen die Ordensdisziplin zu appellieren.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">In eminenti apostolice sedis specula</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Lat. pm. Moysis SRE. subdiaconi vicem agentis cancellarii 13 kal. apr. ind. 6 inc. 1187 pont. a. 1.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zur Überlieferung dieses ungedruckten Privilegs vgl. GP II,2 S. 182. Das im Lichtbildarchiv älterer Originalurkunden, Marburg, aufbewahrte Photo der Kopie ist im Internet verfügbar (http://lba.hist.uni-marburg.de/lba, Zugangsnummer 13589). Im StArch. Fribourg befindet sich unter der Signatur Humilimont A 4 das Orig. einer Urk. Felix' V. von 1442 Februar 10, die als Transsumpte die Privilegien Eugens III. von 1148 April 9 (JL 9233, Mémorial de Fribourg 2 S. 241-243 Nr. 3), Gregors IX. von 1232 März 14 (Potthast –), Alexanders III. von 1179 Oktober 17 (JL 13476, Pflugk-Harttung, Acta 1 S. 269-270 Nr. 301), Innocenz' IV. von 1246 und 1248 (Potthast –) und Gregors XI, von 1377 Mai 5 enthält. Das laut Brackmann, PUU Schweiz S. 433 = Acta Rom. pont. 9 S. 123 ebenfalls transsumierte Privileg Clemens' III. fehlt aber nach freundlicher Auskunft von Frau Dr. Kathrin Utz Tremp vom StArch. – Die genannten Urkk. sind die Privilegien Alexanders III. von 1177 April 27 (JL 12813, Migne, PL, 200 Sp. 1105-1108 Nr. 1278), Lucius' III. von 1184 März 10 (Böhmer-Baaken-Schmidt, Papstregesten Lucius' III. 1, Nr. 986) und Urbans III. von 1187 Juni 30 (Böhmer-Schmidt, Papstregesten Urban III., Nr. 864), das als VU diente. Zu einer weiteren Ausfertigung durch Clemens III. von 1188 Oktober 15 vgl. Reg. 445. Zu den angeführten Bestimmungen des 3. Laterankonzils vgl. dessen can. 6 (Tanner, Decrees 1 S. 214f.).</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Kopie 13. Jh., Fribourg, Arch. de l'État, Humilimont A 6.   Reg.: – .</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>Abb. des LBA Marburg</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

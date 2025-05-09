@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,5 n. 866</idno>
+        <idno type="urn">1193-06-29_1_0_4_4_5_866_866</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Cölestin III., RI IV,4,4,5 n. 866</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Rom, Lateran</placeName>
+              <date type="issued" notBefore="1193-06-29" notAfter="1193-06-29">1193 Juni 29</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Cölestin III. nimmt Bischof Wilhelm von Melfi (Guillelmo Melfiensi episcopo) auf dessen Bitten mit seiner Kirche in den päpstlichen Schutz, bestätigt den Besitz, setzt wie Paschal (II.) und Alexander (III.) fest, daß in der bei Melfi gelegenen Stadt Lavello (in Lavellano oppido, quod Melfie proximum est) kein Bischofssitz errichtet wird, sondern die Stadt mit ihren Pertinenzen dem Bischof von Melfi unterstellt sein soll, bestätigt den Besitz der Siedlung Salsola (Posta di Gaudiano) und die Besitzungen (des Klosters) S. Giovanni d’Iliceto (in Melfi) (villam Salsule Gaudianum et possessiones sancti Iohannis de Illiceto) gleichermaßen als Besitz der Kirche von Melfi, wie dies von Herzog Roger (I. von Sizilien) (duce Rogerio) urkundlich bekräftigt worden ist, sowie die Einkünfte innerhalb und außerhalb der Stadt, die der Herzog der Kirche übertragen hat, und setzt die Weihe des Bischofs von Melfi durch den Papst fest.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">In apostolice sedis specula disponente</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Lat. pm. Egidii s. Nicolai in carcere Tulliano diaconi cardinalis 3 kal. iul. ind. 11 inc. 1193 pont. a. 3.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zur Überlieferung vgl. Mercati, Pergamene Melfi S. 313f. und zu einer Abschrift aus Ughelli in Neapel, Arch. di Stato, vgl. Kehr, PUU Salerno S. 212 = Acta Rom. pont. 2 S. 395. – Die genannten Urkk. sind die Urkk. Paschals II. von 1101 September 29 (JL 5872, IP IX S. 498 Nr. 2, Migne, PL 163 Sp. 73 Nr. 52) und Alexanders III. (Dep., JL – , IP IX S. 498 Nr. *3). Zur genannten Urk. Herzog Rogers I. von Sizilien von November 1093 vgl. Mercati, Pergamene Melfi S. 303-311. Zur Sache vgl. Araneo, Notizie S. 118 und Kamp, Kirche 1,2 S. 487.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Überl.: Kopie 14. Jh., Rom, Arch. Seg. Vat., Instrumenta miscellanea, 4291 vol. I n. 7 (Kopie von 1342 Dezember 29).  Drucke: Scalia, Iura Mephiensis App. S. 53 (so zitiert im Reg. der IP, war bibliographisch nicht nachweisbar); Ughelli/Coleti, Italia sacra 1 Sp. 925-926; Migne, PL 206 Sp. 1011-1012 Nr. 130 (nach Ughelli/Coleti).  Reg.: JL 17024 (J 10435); IP IX S. 499 Nr. 6; Fortunato, Badie 3 S. 207.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

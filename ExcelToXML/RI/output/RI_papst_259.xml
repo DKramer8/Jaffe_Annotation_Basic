@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,2 n. 1256</idno>
+        <idno type="urn">1184-11-05_3_0_4_4_2_90_1256</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Lucius III., RI IV,4,4,2 n. 1256</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Verona</placeName>
+              <date type="issued" notBefore="1184-11-05" notAfter="1184-11-05">1184 November 5</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Lucius III. nimmt Abt Guarerius und die Brüder des Klosters St-Benoît-sur-Loire/Fleury (Guarerio abbati monasterii sancti Benedicti Floriacensis quod supra Ligerim situm est eiusque fratribus) (D. Orléans), in deren Kloster der hl. Benedikt, wie man glaubt, ruht und das dem hl. Petrus gehört, auf deren Bitten wie Eugen (III.), Hadrian (IV.), Alexander (III.) und andere seiner Vorgänger in den päpstlichen Schutz, bestätigt die Benediktinerregel, den genannten Besitz, die Schenkungen erwähnter Personen, das von Eugen (III.) mit Rat seiner Brüder gefällte und durch Eugen (III.) selbst, Hadrian (IV.) und Alexander (III.) bekräftigte Urteil in ihrem Streit mit dem Adligen Iterius von Toucy (nobilem virum Iterium de Tuciaco) um Villiers-St-Benoît (Villare), die beurkundete Schenkung der Burg Molinet (castro Molineti) durch König Ludwig (VII.) von Frankreich (Lodovicus Francorum rex), die genannten Güter, die Robert von Molinet (Roberto de Molineto) ihnen mit urkundlicher Zustimmung dieses Königs verkaufte, sowie das Urteil Urbans (II.) über ihre Präsentationsrechte, verbietet, in ihren Pfarreien ohne ihre Zustimmung Gotteshäuser zu errichten, gestattet die Revokation ihrer Güter, verbietet allen Erzbischöfen, Bischöfen und Priestern den Zutritt sowie Ordinationen und öffentliche Meßfeier im Kloster, untersagt allen, Klosterbesitz und Angehörige des Klosters zu schädigen oder ohne Zustimmung des Abts (vor ein Gericht) zu zwingen, erlaubt Gottesdienst bei Interdikt und die Aufnahme anderer Brüder unter genannten Bedingungen, untersagt Abt und Mönchen, bei der Promotion zu einer anderen kirchlichen Würde im Kloster zu bleiben oder dort etwas anzuordnen, verbietet gemäß dem Privileg Leos (VII.) die Weiterveräußerung ihrer Lehen, bekräftigt die Binde- und Lösegewalt des Abts gegenüber den unterworfenen Klöstern, untersagt anderen, Mönche der Kongregation bei sich aufzunehmen, und bekräftigt die ihnen von Päpsten und Königen gewährten Immunitäten und Freiheiten sowie die Wahl des Abts, der vom Papst benediziert werden soll.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Pie postulatio voluntatis effectu debet</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Verone pm. Hugonis SRE. notarii non. nov. ind. 3 inc. 1184 pont. a. 4.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zur Überlieferung vgl. auch RAMACKERS, PUU Frankreich 5 S. 55 sowie RAMACKERS, PUU Frankreich 6 S. 11 und S. 23; das S. 11 sowie in der Vorbem. zu seinem Druck erwähnte Orig. wurde 1940 bei dem Bombardement vernichtet. – Die genannte Urk. Eugens III. ist dessen verfälschtes Privileg von 1146 April 15 (JL 8902, RAMACKERS, PUU Frankreich 6 S. 116-121 Nr. 57 mit Angaben zu den benutzten Urkk. und zum Zeitpunkt der Verfälschung); der interpolierte Text wurde zuerst von Hadrian IV. 1157 Dezember 1 (JL – , Ramackers S. 150-152 Nr. 78) und dann auch von Alexander III. 1163 August 7 (JL 10923, Ramackers S. 169 Nr. 98, Teildruck) benutzt, dessen Privileg VU für dasjenige Lucius' III. war. Das Urteil Eugens III. im Streit des Klosters mit den Herren von Toucy erging 1147 September 9 (JL – , Ramackers S. 127-130 Nr. 61) und ist nur in verfälschter Form überliefert; ob mit der Urteilsbestätigung durch Eugen III. dessen Littera von 1145 Mai 2 (JL – , Ramackers S. 115-116 Nr. 56) gemeint ist, läßt sich nicht ganz sicher klären. Die von Lucius III. erwähnten Bestätigungen dieses Urteils durch Hadrian (IV.) und Alexander (III.) scheinen verloren zu sein. Zur Urk. Urbans II. vgl. Ramackers S. 119 Anm. 2 und zu derjenigen Leos VII. von (September 938-Juni 939) (JL 3610, BÖHMER-ZIMMERMANN, RI II,5: Papstregesten 911-1024 Nr. †147, ZIMMERMANN, PUU 1 S. 157-160 Nr. †90) vgl. Ramackers S. 12 Anm. 4. Zu den Urkk. König Ludwigs VII. von Frankreich, die den Besitz in Molinet betreffen, vgl. LUCHAIRE, Études S. 205-206 Nr. 330, S. 223 Nr. 384, S. 236 Nr. 424 und S. 301-302 Nr. 640. – Die Gebeine des hl. Benedikt sind in ihrer Echtheit umstritten, vgl. DHGE 17 Sp. 444f. sowie LexMA 4 Sp. 547. Zur Rechtsstellung des Klosters vgl. PFAFF, Sankt Peters Abteien S. 177f., zu Merkmalen der Exemtion SCHREIBER, Kurie 1 S. 64ff. sowie FALKENSTEIN, Papauté S. 106ff. und S. 155ff. Zum Kardinalat Wilhelms von Reims vgl. GANZER, Kardinalat S. 125ff. und FALKENSTEIN, Wilhelm von Champagne S. 197ff. sowie S. 210ff. zu seinem Legatenamt.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Überl.: Kopie 17. Jh., Orléans, Bibl. mun., Ms. 492 fol. 188-191 (notariell beglaubigte Kopie von 1656 November 16 aus dem Orig.).</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl> GRELLET-BALGUERIE, Histoire Clovis III, Faksimile nach S. 6; PROU/VIDIER, Recueil Saint-Benoît-sur-Loire 2 S. 128-134 Nr. 250; RAMACKERS, PUU Frankreich 6 S. 249-250 Nr. 188 (Teildruck unter Verweis auf die VU Alexanders III.); VERDIER, Chartes St-Benoît S. 29-32 Nr. 250 (franz. Übersetzung). JL 15112.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

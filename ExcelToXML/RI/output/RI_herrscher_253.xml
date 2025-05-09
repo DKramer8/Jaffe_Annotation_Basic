@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,2,2 n. 1691</idno>
+        <idno type="urn">1167-08-01_2_0_4_2_2_1136_1691</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Friedrich I., RI IV,2,2 n. 1691</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Rom zu St. Peter</placeName>
+              <date type="issued" notBefore="1167-08-01" notAfter="1167-08-01">1167 August 1</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">Rainald Köln</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness">die Erzbischöfe Christian von Mainz und Heribert von Besançon, die Bischöfe Alexander von Lüttich, Daniel von Prag, Rudolf von Straßburg, Gero von Halberstadt, Tracius von Pistoia, Elekt Guido von Massa Marittima, die Äbte Hermann von Fulda, Adolf von Werden und Gottfried von Farfa, die Herzoge Friedrich (von Schwaben), der Sohn König Konrads (III.), Berthold von Zähringen und Welf (VII.), Markgraf Dietrich von Wettin, Burggraf Burchard von Magdeburg, Präfekt Johannes von Rom, Graf Guido Guerra von Tuszien, die Markgrafen Wilhelm von Montferrat und Manfred (von Vasto), Graf Reino von Anguillara Sabazia, Arnold, Sohn des Grafen Eberhard von Altena, Reino von Tusculum, Gottfried von Montecelio, Oddo von Colonna, Constantin von Berg, Otto von Vespertha, Otto von Oyen, Vogt Gerard von Köln, dessen Bruder Hermann, Richwin von Zündorf (Zudenthorp)</legalActor>
+          </p>
+          <p>
+            <legalActor>verfaßt und geschrieben von RH</legalActor>
+          </p>
+          <p>
+            <legalActor>Philippus imperialis aulę canc. vice domni Rainaldi Coloniensis archiep. et Italię archicanc. recognovi et subscripsi</legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Friedrich schenkt dem Erzbischof Rainald   von Köln   und dessen Nachfolgern als Dank für den im Kampf gegen die Römer durch die Kölner Streitmacht errungenen Sieg (vgl. Reg. 1664) den Reichshof in Andernach mit allen dazugehörigen Herrschaftsrechten, wie Münze, Zoll und Gerichtsbarkeit, und darüber hinaus den Reichshof in Eckenhagen mit den Silbergruben. Z.: die Erzbischöfe Christian von Mainz und Heribert von Besançon, die Bischöfe Alexander von Lüttich, Daniel von Prag, Rudolf von Straßburg, Gero von Halberstadt, Tracius von Pistoia, Elekt Guido von Massa Marittima, die Äbte Hermann von Fulda, Adolf von Werden und Gottfried von Farfa, die Herzoge Friedrich (von Schwaben), der Sohn König Konrads (III.), Berthold von Zähringen und Welf (VII.), Markgraf Dietrich von Wettin, Burggraf Burchard von Magdeburg, Präfekt Johannes von Rom, Graf Guido Guerra von Tuszien, die Markgrafen Wilhelm von Montferrat und Manfred (von Vasto), Graf Reino von Anguillara Sabazia, Arnold, Sohn des Grafen Eberhard von Altena, Reino von Tusculum, Gottfried von Montecelio, Oddo von Colonna, Constantin von Berg, Otto von Vespertha, Otto von Oyen, Vogt Gerard von Köln, dessen Bruder Hermann, Richwin von Zündorf (Zudenthorp). - Philippus imperialis aulę canc. vice domni Rainaldi Coloniensis archiep. et Italię archicanc. recognovi et subscripsi ; verfaßt und geschrieben von RH; SI. 2. Dignum est ad posterorum .</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Dignum est ad posterorum</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">(in kalendis augusti, Romę apud sanctum Petrum)</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Die beiden Reichshöfe wurden später Erzbischof Philipp von Köln wieder entzogen, wie aus dem DO. IV. von 1198 für Erzbischof Adolf (Knipping, Reg. Köln 2, no  1550; B.-Ficker Reg. 200) hervorgeht. Wahrscheinlich erfolgte diese Bestrafung im Jahre 1188, vgl. Oediger, Das Bistum Köln (Gesch. des Erzbistums Köln I,2  1972) 166 Anm. 43.    Verbesserungen und Zusätze (2001):  Der unter den Zeugen genannte Konstantin von Berg gehörte nicht dem rheinischen Grafenhaus Berg an, sondern nannte sich nach ('s-Heeren-)Berg unweit Emmerich in den Niederlanden, vgl. dazu Schieffer, Rheinische Zeugen, in: Geschichtliche Landeskunde der Rheinlande. Regionale Befunde und raumübergreifende Perspektiven. Georg Droege zum Gedenken (1994), 108.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Orig.: Historisches Archiv der Stadt Köln (A). Kop.: Abschrift aus der Mitte des 14. Jh. im Kölner Kopialbuch A f. 30' ebenda (B). Drucke: Lacomblet, Niederrhein. UB. 1, 296 no  426; MG. DF. I. 532. Reg.: Goerz, Mittelrhein. Reg. 2, 74 no  260; Knipping, Reg. Köln 2, no  900; Stumpf 4086 zu Juni 30, vgl. jedoch S. 548.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>Digitalisat der RI-BuchseiteAbb. des LBA MarburgEintrag in AVEKK</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p>SI. 2.</p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

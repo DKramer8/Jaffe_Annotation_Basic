@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,4 n. 705</idno>
+        <idno type="urn">1189-09-30_1_0_4_4_4_705_705</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Clemens III., RI IV,4,4,4 n. 705</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Rom, Lateran</placeName>
+              <date type="issued" notBefore="1189-09-30" notAfter="1189-09-30">1189 September 30</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Clemens III. lobt Bischof Berno von Schwerin (Bernoni Magnopolitane ecclesie episcopo) für die Ausbreitung des Glaubens unter den Heiden und bestätigt ihm auf dessen Bitten wie Alexander (III.) und Urban (III.) den Bischofssitz von Schwerin (locum, qui dicitur Zuerin) mit dessen genanntem Besitz innerhalb der beschriebenen Grenzen.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Benedicta gloria domini de loco</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Lat. pm. Moysis SRE. subdiaconi vicem agentis cancellarii 2 kal. oct. ind. 8 inc. 1189 pont. a. 2.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Die genannten Urkk. sind die Privilegien Alexanders III. von 1178 (März 13-25) (JL 13061, GP VI S. 172 Nr. 6, Conrad, Pommersches UB 1 S. 97-99 Nr. 75) und Urbans III. von 1186 Februar 23 (Böhmer-Schmidt, Papstregesten Urban III., Nr. 62), das als VU diente. – Salis, Schweriner Fälschungen S. 273-302, besonders S. 295-302 glaubte, wie auch Niessen, Pommern S. 243, diese Urk. als eine um 1225 in der päpstlichen Kanzlei entstandene Fälschung erweisen zu können, was jedoch Jordan, Bistumsgründungen S. 47-55 eindeutig widerlegt hat. – NU ist das Privileg Cölestins III. von 1191 Oktober 24 (JL 17573, GP VI S. 174 Nr. 13, Conrad 1 S. 172-175 Nr. 132).</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Kopie 16. Jh., Schwerin, Landeshauptarch., Diplomatarium ecclesiae Sverinensis B fol. 3-5'; Kopie 16. Jh., Schwerin, Landeshauptarch., 1.5-2/2 Urkunden Bistum Schwerin Nr. L fol. 377'-379' (Diplomatarium ecclesiae Sverinensis) (beide Kopien ohne Unterschriften).  Drucke: Schröder, Papistisches Mecklenburg 1 S. 2899 (sic) (war nicht zugänglich, so zitiert bei Klempin); Historische Nachricht von der Verfassung des Fürstenthums Schwerin Beylagen S. 3 Nr. B (war nicht zugänglich); Westphalen, Monumenta inedita 4 Sp. 896-899 Nr. 2; Riedel, Codex diplomaticus Brandenburgensis 1,3 S. 338-339 Nr. 2; Fabricius, Urkunden Rügen 1 S. 139 Nr. 36 (nur Auszug aus der Besitzliste); Lisch, Meklenburgische Urkunden 3 S. 42-46 Nr. 6; Hasselbach/Kosegarten, Codex Pomeraniae diplomaticus 1 S. 165-167 Nr. 69; Meklenburgisches UB 1 S. 144-147 Nr. 149; Klempin, Pommersches UB 1,1 S. 90-91 Nr. 117 (nur Auszug aus der Besitzliste); Conrad, Pommersches UB 1 S. 153-156 Nr. 117.  Reg.: JL 16443 (J 10162); Hempel, Inventarium diplomaticum Saxoniae Sp. 123 Nr. 6; Raumer, Regesta Historiae Brandenburgensis S. 257 Nr. 1565; GP VI S. 173 Nr. 10.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

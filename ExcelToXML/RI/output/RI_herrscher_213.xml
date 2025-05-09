@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,2,2 n. 1530</idno>
+        <idno type="urn">1165-12-29_2_0_4_2_2_972_1530</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Friedrich I., RI IV,2,2 n. 1530</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Aachen</placeName>
+              <date type="issued" notBefore="1165-12-29" notAfter="1165-12-29">1165 Dezember 29</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">Heiligsprechung Karls des Großen</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Friedrich erhebt in Gegenwart zahlreicher Bischöfe und Fürsten und unter dem Jubel von Klerus und Volk auf dem Aachener Hoftag (vgl. Reg. 1526) die Gebeine Karls des Großen aus dem durch göttliche Erleuchtung wiederentdeckten Sarkophag zur Ehre der Altäre und birgt sie in einem edelsteinbestzten Schrein (Heiligsprechung Karls des Großen ). In der Folge ordnet der (für den Aachener Bereich zuständige) Kölner Metropolit, Rainald von Dassel, die Verehrung dieses Herrschers als Heiligen an. Friedrich und seine Gemahlin Beatrix schenken der (Aachener) Kirche aus diesem Anlaß königliche Gaben in der Form von goldenen Vasen und seidenen Tüchern und fügen eine Geldgabe von jährlich 10 Mark hinzu.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">-</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Die Ann. Stadenses berichten hier irrig von einer angeblichen Krönung Heinrichs VI. - Zur Heiligsprechung vgl. Petersohn, Saint Denis - Westminster - Aachen, DA 31 (1975) 420 ff. (mit ausführlicher Quellenkritik und Nennung der älteren Literatur). In DF. I. 502 (Reg. 1539) heißt es, die Kanonisation sei ad laudem et gloriam nominis Christi et ad corroborationem Romani imperii et salutem dilecte consortis nostre Beatricis imperatricis et filiorum nostrorum Frederici et Heinrici  erfolgt. - Zu den Schenkungen des kaiserlichen Paares vgl. Die Zeit der Staufer Bd. 1 (Katalog der Ausstellung, Stuttgart 1977) 396 Nr. 537, Opll, Amator ecclesiarum, MIÖG 88 (1980) 78 mit Anmm. 40-41 sowie Minkenberg, Barbarossaleuchter, ZAGV 96 (1989) 69 ff.    Verbesserungen und Zusätze (2011):  Zu den Stiftungen, die Friedrich I. und seine Gemahlin Beatrix aus Anlass der Heiligsprechung Karls des Großen für Aachen durchführen ließen, vgl. zuletzt Saurma-Jeltsch, Rom und Aachen, in: Die Verwandlungen des Stauferreichs, hg. von Schneidmüller – Weinfurter – Wieczorek (2010) 281–306.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Vgl. Regg. 1529 und 1539 sowie Chron. reg. Col., ed. Waitz, MG. SS rer. Germ. in us. schol., 116 und Ex Gaufredi de Bruil prioris Vosiensis Chronica, MG. SS XXVI, 202 (dazu auch Knipping, Reg. Köln 2, no  829); des weiteren Ann. Aquenses, MG. SS XXIV, 38, Ann. Camerac., MG. SS XVI, 538, Ann. Parchenses, MG. SS XVI, 606, Ann. Remenses et Colonienses, MG. SS XVI, 733, Ann. Stadenses, MG. SS XVI, 345, Ex Chronico universali anonymi Laudunensis, MG. SS XXVI, 445, Ex aliis miraculis s. Heinrici, MG. SS IV, 815, Hermanni Altah. Ann., MG. SS XVII, 384, Sigeb. Cont. Aquicinct., MG. SS VI, 411.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>Digitalisat der RI-Buchseite</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

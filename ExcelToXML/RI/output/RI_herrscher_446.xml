@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,2,3 n. 2470</idno>
+        <idno type="urn">1178-00-00_3_0_4_2_3_698_2470</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Friedrich I., RI IV,2,3 n. 2470</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>[Ausstellungsort]</placeName>
+              <date type="issued" notBefore="1178-01-01" notAfter="1178-12-31">1178 Ende</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Papst Alexander (III.) kündigt Kaiser Friedrich das Eintreffen des sowohl ihm ergebenen als auch dem Kaiser überaus getreuen päpstlichen und kaiserlichen Leibarztes T. an, der ihm mündlich Mitteilungen machen wird, die er dem Schreiben nicht anvertrauen will. Die aufgekommenen Verdächtigungen, er würde mit den Lombarden und den Griechen gemeinsame Sache gegen den Kaiser machen, weist er zurück. Obwohl er die ihm stets treu ergebenen Lombarden liebe, unterstütze er sie nicht gegen den Kaiser, habe sie vielmehr durch Boten und Schreiben aufgefordert, den mit dem Kaiser geschlossenen Waffenstillstand zu wahren. Die Griechen, die die Grenzen des Reiches überschritten haben und in das patrimonium beati Petri  eingefallen sind, haben dies keinesfalls mit seiner Zustimmung getan. Er habe vielmehr bereits entsprechende Schreiben an den Grafen R(oger) von Andria, an Graf Tancred, den Verwandten König (Wilhelms von Sizilien), sowie die magistri iusticiarii und magni comestabuli  von Apulien und der Terra di Lavoro gerichtet, und diese haben ihm darauf mitgeteilt, daß sie jegliche Unterstützung der Griechen von seiten der Bewohner des sizilischen Herrschaftsgebietes bei strenger Strafe untersagt hätten. Des weiteren gibt er seinem Befremden darüber Ausdruck, daß der Kaiser während des gemeinsamen Aufenthalts in Venedig (vgl. Reg. 2331) das Gebiet der Marken, das zum Teil dem Reich, zum Großteil aber der Kirche unterstehe, einem unwürdigen Menschen (= Konrad von Lützelhardt) übertragen habe, der exkommuniziert worden ist, weil er nicht nur gegen Kleriker mit Gewalt vorgegangen ist, sondern sogar bedeutende Bischöfe und Äbte eingekerkert hat, von denen einer sogar in der Gefangenschaft gestorben ist. Er ermahnt daher den Kaiser, den umlaufenden Verdächtigungen keinen Glauben zu schenken und — so wie auch er — unverbrüchlich am Frieden festzuhalten.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">-</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Vgl. dazu Reg. 2471  sowie Güterbock, Kaiser, Papst und Lombardenbund, QFIAB 25 (1933/34) 163 mit Anm. 4 und 179 f., der das Schreiben nach Giesebrecht — Simson, Kaiserzeit VI, 557 zu Ende 1178 datiert, und des weiteren Ambrosioni, Le città italiane, in: La pace di Costanza (Studi e testi di storia medioevale 8, 1984) 39. — Als kaiserliche Leibärzte werden am 10. Oktober 1177 ein Magister Guido (D. 715 = Reg. 2343) und am 10. Mai 1186 ein Magister Kuno, zugleich kaiserlicher Kapellan (D. 938), erwähnt.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>MG. Const. 1, 584 no  409 (zu 1178 Anfang); Jaffé-L. 13.019.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>Digitalisat der RI-Buchseite</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

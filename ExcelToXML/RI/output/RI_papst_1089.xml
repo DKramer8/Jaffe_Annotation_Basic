@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,5 n. 554</idno>
+        <idno type="urn">1192-07-09_3_0_4_4_5_554_554</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Cölestin III., RI IV,4,4,5 n. 554</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Rom, Lateran</placeName>
+              <date type="issued" notBefore="1192-07-09" notAfter="1192-07-09">1192 Juli 9</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Cölestin III. nimmt den Prior und die Brüder von La Grande-Chartreuse (priori et fratribus Cartusiensibus) (D. Grenoble) auf ihre Bitten mit ihrem Haus in den päpstlichen Schutz, bestätigt die Eremitenregel (ordo heremitice vite) und ihre genannten Besitzungen in den beschriebenen Grenzen, untersagt unter Androhung des Anathems Gewaltverbrechen innerhalb der Grenzen ihrer Besitzungen und gebietet Frieden, gewährt das Aufnahmerecht, verbietet, die Kartause nach abgelegter Profeß unerlaubt zu verlassen, befreit sie vom Zehnten bei Eigenbau und für Tierfutter, untersagt Religiosen, innerhalb einer halben Meile von den Grenzen ihres Besitzes Bauten zu errichten oder Güter zu erwerben, setzt den freien Empfang von Weihen und Ordinationen durch den Diözesanbischof fest und erlaubt, dies nötigenfalls von einem Bischof ihrer Wahl zu erbitten, bestimmt, daß kein Bischof oder sonstwer sie zu Synoden laden, vor ein weltliches Gericht ziehen oder ihre Klöster zu Ordinationen, Gerichtsverfahren und anderen öffentlichen Versammlungen gegen ihren Willen betreten, die Wahl des Priors behindern oder sich entgegen den Statuten der Kartäuser in die Ein- und Absetzung des Priors einmischen darf, verbietet den Bischöfen und anderen kirchlichen Prälaten, über ihr Kloster oder ihre Leute Suspension, Exkommunikation und Interdikt zu verhängen oder mit Strafen gegen Händler des Klosters vorzugehen wegen der Nichtleistung von Zehnten oder anderem, was dem Orden vom Apostolischen Stuhl gewährt wurde, untersagt, über Wohltäter des Klosters wegen ihrer Leistungen für das Kloster Interdikt oder Anathem zu verhängen, und erklärt derartige Strafen für ungültig wie auch vom Apostolischen Stuhl impetrierte Schreiben, die ihre Zugehörigkeit zum Kartäuserorden nicht erwähnen, erlaubt Gottesdienst bei Interdikt und gewährt die Wahl des Priors gemäß ihrer Regel.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Religiosam vitam eligentibus apostolicum convenit</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Lat. pm. Egidii s. Nicolai in carcere Tulliano diaconus cardinalis 7 id. iul. ind. 10 inc. 1192 pont. a. 2.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zur Überlieferung vgl. Kehr, PUU Padova S. 360 = Acta Rom. pont. 1 S. 148, Kehr, PUU Lombardei S. 136 = Acta Rom. pont. 3 S. 311, Brackmann, PUU Schweiz S. 433 Anm. 1, Wiederhold, PUU Frankreich 3 S. 4 und S. 10 = Acta Rom. pont. 7 S. 248 und S. 254, Vehse, PUU der Großen Karthause S. 428 und Holtzmann, PUU England 3 S. 101. Die von Kogler, Mémoire S. 30f. und S. 40f. sowie von Charrou, Mémoire S. 155f. und S. 185 besprochene Privilegiensammlung in Graz, Universitätsbibl. Ms. 1555, in der sich fol. 16 Nr. 26 eine Kopie des 14. Jh. befindet (Abschrift der 1308 durch Bischof Wilhelm IV. von Grenoble beglaubigten Privilegien-Sammlung des Jacques d’Ayma Ausfertigung für die Kartause Žiče/Seitz), ist nach freundlicher Auskunft der Bibliothek seit 1930 verschollen. – Der Text ist nahezu identisch mit der Ausfertigung an die gleichen Empfänger vom gleichen Tag (Reg. 553), hat aber eine andere Arenga und nennt nicht Alexander III. und Lucius III. als Aussteller von VUU. Weiterhin erging eine gleiche Ausfertigung am gleichen Tag an den Prior und die Brüder der Kartause von Meyriat (Reg. 552).</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Überl.: Kopie 13. Jh., Marseille, Arch. dép. Bouches-du-Rhône, H 3 (Transumpt von 1285 Juni 30); Kopie 14. Jh., Ljubljana, Arhiv Republike Slovenije, AS, zbirka listin, SAM/24 fol. 10’ Nr. 26 (Orig. der 1308 durch den Bischof Wilhelm IV. von Grenoble beglaubigten Privilegien-Sammlung des Jacques d’Ayma, Ausfertigung für die Kartause Jurklošter/Geirach, vgl. Charrou, Mémoire S. 156 Anm. 4 und S. 158-184, war bis 1976 in Wien, Österreichisches StArch., Haus- Hof und StArch., Allgemeine Urkundenreihe 1308 Mai 8); Kopie 14. Jh., Ljubljana, Arhiv Republike Slovenije, AS, zbirka rokopisov fol. 7' Nr. 26 (Kopie der 1308 durch den Bischof Wilhelm IV. von Grenoble beglaubigten Privilegien-Sammlung des Jacques d’Ayma, Ausfertigung für die Kartause Bistra/Freudenthal, vgl. Kogler, Mémoire S. 41, war bis 1976 in Wien, Österreichische Nationalbibl., Ms. 548); Kopie 14. Jh., Annecy, Bibl. publ., Ms. 43 fol. 5'-6 Nr. 14 (Privilegia Romanorum pontificum); Kopie 14. Jh., Cava dei Tirreni, Arch. della Badia della santissima Trinità, Arca super armarium n. 23 (Kopie von 1321 Juni 15); Kopie 14. Jh., Valsainte, Klosterarchiv Nr. 2; Kopie 14. Jh., Avignon, Bibl. mun., Ms. 302 fol. 113 (Privilegia ordinis Cartusiensis); Kopie 15. Jh., Pavia, Biblioteca Universitaria, Ms. Aldini Nr. 38 fol. 40 (Privilegia ordinis Cartusiensis); Kopie 15. Jh., Ferrara, Bibl. com. Ariostea, Classe II 68 fol. 10 Nr. 26 (Abschrift der 1308 durch den Bischof Wilhelm IV. von Grenoble beglaubigten Privilegien-Sammlung des Jacques d’Ayma, Ausfertigung für die Kartause S. Cristoforo bei Ferrara, vgl. Kogler, Mémoire S. 44-46); Kopie 15. Jh., London, Brit. Lib., Add. 6060 fol. 78-79 (Cart. von Beauvale, Davis, Medieval cartularies Nr. 42).  Drucke: Kehr, PUU Padova S. 387 Nr. 16 (nur Druck des Incipits, der Unterschriften und des Datums) = Acta Rom. pont. 1 S. 175; Brackmann, PUU Schweiz S. 516 Nr. 2 (nur Druck der Adresse, der Unterschriften und des Datums); Kehr, Nachträge VI S. 379-380 Nr. 32 (Teildruck mit 6 id. iul. zu 1192 Juli 10 aus einer Abschrift der Privilegien-Sammlung des Jacques d’Ayma in Mailand, Arch. di stato unter Verweis auf Reg. 553) = Acta Rom. pont. 5 S. 415-416; Charrou, Mémoire S. 174-175 Nr. 26 (nur Druck des Incipits, der Unterschriften und des Datums); Vehse, PUU der Großen Karthause S. 431-432 Nr. 4 (nach der Kopie 16. Jh., Farneta, Cod. n. 512 fol. 7); Bligny, Actes Grande-Chartreuse S. 160-162 Nr. 57.  Reg.: Carlone, Regesti Padula S. 15 Nr. 17 (zu 1192 Juli 10).</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

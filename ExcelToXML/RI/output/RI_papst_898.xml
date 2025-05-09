@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,4 n. 654</idno>
+        <idno type="urn">1189-06-06_2_0_4_4_4_654_654</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Clemens III., RI IV,4,4,4 n. 654</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Rom, Lateran</placeName>
+              <date type="issued" notBefore="1189-06-06" notAfter="1189-06-06">1189 Juni 6</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Clemens III. nimmt den Abt und die Brüder von St-Maurice d'Agaune (abbati ecclesie sancti Mauricii Agaunensis eiusque fratribus) (D. Sitten/Sion) mit ihrem Stift, das im Recht und Eigentum des hl. Petrus steht und in dem sie gemäß der Augustinerregel leben, auf deren Bitten wie Alexander (III.) in den päpstlichen Schutz, bestätigt ihre genannten Besitzungen und die von seinen Vorgängern gewährte Freiheit, verbietet, da ihre Kirche nur dem Papst unterworfen ist, von ihnen Abgaben zu erheben, und setzt fest, daß nur regulierte Kanoniker aufgenommen werden dürfen.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Cum simus ad curam et</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Lat. pm. Moysis SRE. subdiaconi vicem agentis cancellarii 8 id. iun. ind. 7 inc. 1189 pont. a. 2.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zur Überlieferung vgl. Ramackers, PUU Niederlande S. 16. Die da genannte Kopie 18. Jh., Brüssel, Arch. gén. du royaume, Ms. 3728 (7687-88) fol. 149' wurde nach freundlicher Auskunft des Archivs 1943 als Teil eines größeren Bestandes nach Deutschland verschleppt und muß immer noch als verschollen gelten. Die Hss. des Stiftsarchivs sind im Internet online zugänglich. Die Überlieferung in Turin konnte nicht überprüft werden. – VU ist das genannte Privileg Alexanders III. von 1179 März 14 (JL 13324, GP II,2 S. 145 Nr. 17, Migne, PL, 200 Sp. 1212-1213 Nr. 1400). Zur Sache vgl. Zufferey, St-Maurice d'Agaune S. 227.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>2 Kopien 17. Jh., St-Maurice d'Agaune, Arch. de l'abbaye, Registré appelé communément d'Henri de Macognin de la Pierre fasc. I fol. 77-78 und fasc. II fol. 22-23; Kopie 17. Jh., St-Maurice d'Agaune, Arch. de l'abbaye, Jean Jodoc Quartéry, Nomenclatura abbatum coenobii s. Mauricii Agaunensis p. 193-197; Kopie 18. Jh., St-Maurice d'Agaune, Arch. de l'abbaye, Liber I actorum monasterii Agaunensis p. 127-129; Kopie 18. Jh., Turin, Bibl. reale, De Levis, Abbates s. Mauricii Agaunensis; Kopie 18. Jh., St-Maurice d'Agaune, Arch. de l'abbaye, Joseph Hilaire Charles, Répertoire analytique des archives de l'abbaye de St. Maurice p. 14 (alt: p. 16) (Reg.).   Drucke: Wiederhold, PUU Frankreich 1, S. 135-136 Nr. 79 (Teildruck mit Unterschriften unter Verweis auf die VU Alexanders III.) = Acta Rom. pont. 7 S. 135-136; Becci, Chartrier Agaune S. 87-90 Nr. 38.   Reg.: GP II,2 S. 146 Nr. 20; Geyer, Klemens III., S. 53 Nr. 70.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

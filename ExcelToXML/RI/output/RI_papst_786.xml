@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,4 n. 79</idno>
+        <idno type="urn">1188-01-28_1_0_4_4_4_79_79</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Clemens III., RI IV,4,4,4 n. 79</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>San Quírico d'Órcia</placeName>
+              <date type="issued" notBefore="1188-01-28" notAfter="1188-01-28">1188 Januar 28</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Clemens III. bestätigt Bischof Gonteramus von Siena (Gonteramo Senensi episcopo) auf dessen Bitten und mit Zustimmung seiner Brüder, der Kardinäle, die Kirche (S. Agnese) auf dem Berg Bonizi (in Poggibonsi) (ecclesiam in monte Bonizi), die von dessen Vorgänger Bischof Rainer (a bone memorie Rainerio predecessore tuo) auf dem Grund, den der damalige Graf Guido (bone memorie quondam comes Guido) dem hl. Petrus übertragen hatte, mit Zustimmung seines Vorgängers Hadrian (IV.) errichtet wurde, und gewährt wie Alexander (III.) das Recht, die Kirche zu konsekrieren und Kleriker frei einzusetzen sowie zu ordinieren ungeachtet der irrigen Festsetzung Hadrians (IV.), da der Ort in der Diözese Florenz (in episcopatu Florentino) liege; der Papst verfügt wie seine Vorgänger, daß jeder, der aus der Diözese Siena zu jenem Ort überwechselt, in geistlichem Belang dem Bischof unterworfen bleibt, und setzt als Anerkennungszins die jährliche Zahlung von einem Byzantius an den Papst fest.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Communi et speciali debito tuis</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. apud sanctum Quiricum pm. Moysis Lateranensis canonici vicem agentis cancellarii 5 kal. feb. ind. 6 inc. 1187 pont. a. 1.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zur Überlieferung vgl. Kehr, Bolle Senesi S. 15 = Acta Rom. pont. 1 S. 465 und Kehr, PUU römische Bibliotheken II, S. 68 = Acta Rom. pont. 4 S. 68. – Die Kurie war von Siena (letzte dort ausgestellte Urk. ist Reg. 78 von 1188 Januar 27) nach San Quírico d'Órcia (Prov. Siena) gezogen, von wo sie bereits am nächsten Tag nach Bolsena (Prov. Viterbo) weiterzog, vgl. dazu aber den Kommentar zu Reg. 80. – Wiederholt wird hier das Privileg Alexanders III. von 1176 Juni 22 (JL 12718, IP III S. 205 Nr. 41, Migne, PL, 200 Sp. 1075-1077 Nr. 1244). Die genannte Erlaubnis Hadrians IV. erteilte dieser in seinem Privileg von 1155 Juli 21 (JL 10090, IP III S. 204 Nr. 35, Migne, PL, 188 Sp. 1435-1436 Nr. 68), widerrief sie aber 1156 Dezember 3 (JL –, IP III S. 10 Nr. *19, Davidsohn, Forschungen Florenz 1 S. 180 Nr. 49). Diese Revokation wurde von Lucius III. 1182 Dezember 29 bestätigt (Böhmer-Baaken-Schmidt, Papstregesten Lucius' III. 1, Nr. 421), da die Übertragungen zum Schaden der Florentiner Kirche erfolgt seien. Im Druck von Ughelli/Coleti erscheint irrig bereits Bobo statt Radulf als Kardinaldiakon von S. Giorgio in Velabro. Zur Sache vgl. Dameron, Episcopal Power S. 74.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Kopie 13./14. Jh., Siena, Arch. di stato, Caleffo vecchio fol. 79-79'.   Drucke: Ughelli/Coleti, Italia sacra 3 Sp. 548-549; Migne, PL, 204 Sp. 1296-1297 Nr. 18 (nach Ughelli/ Coleti); Pecci, Storia Siena S. 181-183; Lami, Ecclesiae Florentinae Monumenta 4 S. 15; Cappelletti, Chiese 17 S. 453-454; Lusini, Confini Siena S. 230-231; Cecchini, Caleffo vecchio 1 S. 168-170.   Reg.: JL 16143 (J 10038); Lisini, Siena. Inventario Capitoli S. 113; IP III S. 206 Nr. 44; Schneider, Regestum Senense 1 S. 130 Nr. 335.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

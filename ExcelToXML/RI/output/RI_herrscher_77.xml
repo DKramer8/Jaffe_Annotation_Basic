@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,2,2 n. 836</idno>
+        <idno type="urn">1160-02-15_1_0_4_2_2_278_836</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Friedrich I., RI IV,2,2 n. 836</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Pavia</placeName>
+              <date type="issued" notBefore="1160-02-15" notAfter="1160-02-15">(1160) Februar 15</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">Eberhard von Salzburg und dessen Suffraganen, Albert von Freising, Hartman von Brixen und Roman von Gurk,  sowie der ganzen Salzburger Kirche</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Friedrich berichtet dem Erzbischof Eberhard   von Salzburg   und dessen Suffraganen, den Bischöfen Albert   von Freising, Hartman  von Brixen   und Roman   von Gurk , sowie der ganzen Salzburger Kirche eingehend über die Vorgänge, die zur strittigen Papstwahl geführt haben: Schon unter Papst Hadrian IV. sei im Kardinalskollegium eine Partei entstanden, die in Konspiration mit (König) Wilhelm von Sizilien und den übrigen Reichsfeinden, den Mailändern, Brescianern und Piacentinern, gestanden sei und diese Verbindungen auch weiterhin aufrechterhalten habe. Bei dem Versuch des Erzbischofs (Peter II.) von Tarentaise, der Äbte (Fastradus) von Clairvaux und (Odo) von Morimond sowie weiterer zehn Äbte, einen Frieden mit den Mailändern zu vermitteln, seien diese Verschwörungen ebenso deutlich geworden wie auch aus abgefangenen Briefen. Diese Kardinäle hätten nun am zwölften Tag nach der Wahl Papst Viktors IV. (diese Wahl = 7. September 1159) in Cisterna di Latina außerhalb Roms den Kanzler Roland zum Papst erwählt. Bei dem zur Entscheidung dieser zwiespältigen Wahl nach Pavia einberufenen Konzil sei nun Viktor erschienen, während sich Roland geweigert hätte, vor dieses Schiedsgericht zu treten. Nach achttägigen Verhandlungen sei von Patriarch (Pilgrim) von Aquileia und den vielen anderen Erzbischöfen und Bischöfen Viktor als universaler Papst bestätigt worden, da seiner Wahl nur der Mangel einer zu geringen Wählerschaft anhafte. Dieser Entscheidung des Konzils beizutreten, ersucht der Kaiser die Adressaten des Schreibens. - Diktat der Kanzlei. Si sacro concilio .</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Si sacro concilio</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">(XV kal. martii, Papię)</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Vgl. dazu Regg. 806  und 822.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Kop.: Gleichzeitige Abschrift im Cod. pal. Vind. 629 (Admonter Briefsammlung) f. 39', Nationalbibliothek Wien (V); Rahewini Gesta Friderici IV, cap. 79. Drucke: MG. Const. 1, 263 no  189; Hödl - Classen, Admonter Briefsammlung, MG. Briefe VI, 96 no  49; MG. DF. I. 307. Reg.: Stumpf 3891.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>Digitalisat der RI-BuchseiteDruck in MGH DD</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

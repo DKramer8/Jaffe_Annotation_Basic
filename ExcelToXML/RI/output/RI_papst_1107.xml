@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,5 n. 671</idno>
+        <idno type="urn">1192-05-15_6_0_4_4_5_671_671</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Cölestin III., RI IV,4,4,5 n. 671</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Rom, St. Peter</placeName>
+              <date type="issued" notBefore="1192-05-15" notAfter="1193-01-12">1192 (Mai 15 – Juni 27) / 1192 (November 22 – 24) / 1193 (Januar 8 – 12)</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Cölestin III. nimmt Bischof (Hugo), den Archidiakon und die Domkanoniker der Domkirche SS. Lorenzo e Martiani in Tortona (episcopo, archidiacono et canonicis Terdonensis ecclesie in honorem sanctorum Laurentii et Martiani (Innocentii) dedicate) auf deren Bitten wie Innocenz (II.) und Alexander (III.) in den päpstlichen Schutz und bestätigt genannte Besitzungen.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Ad hoc universalis ecclesie cura</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Rome apud sanctum Petrum pm. Egidii s. Nicolai in carcere Tulliano diaconi cardinalis ... ind. 10 inc. 1192 pont. a. 3 (sic).</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Beide Abschriften, die auf die gleiche Vorlage zurückzugehen scheinen, sind sehr fehlerhaft und weisen kein Tagesdatum auf, vgl. die Vorbem. Kehrs zu seinem Druck. Das dritte Pontifikatsjahr läßt sich mit 1192 nicht in Übereinstimmung bringen, weshalb Kehr das Privileg nach Inkarnationsjahr und Indiktion zu 1192 (Mai) setzte, auch wegen der beiden Urkk. für Tortona von 1192 Mai 21 (Reg. 488) und von 1192 Mai 25 (Reg. 495). Ausstellungsort St. Peter und Inkarnationsjahr 1192 lassen als möglichen Ausstellungszeitraum 1192 Mai 15–Juni 27, 1192 November 22–24 und 1193 Januar 8–12 zu. Will man die zehnte Indiktion als maßgeblich betrachten, so käme nur der Zeitraum 1192 Mai 15–Juni 27 in Frage. Legt man der Tatsache, daß Kardinalpriester Johannes von S. Clemente lediglich als Bischof von Tuscania unterschreibt, Beweiskraft zu, würde das ebenfalls auf diesen Zeitraum deuten, denn ab 1192 Oktober 4 (Reg. 589) unterschreibt er als Bischof von Viterbo und Tuscania. Auch die fehlende Unterschrift des Kardinalbischofs Albinus von Albano, der sich zwischen dem 23. Mai 1192 und dem 3. August 1192 auf einer Legationsreise befand, weist auf den Frühsommer als Ausstellungsdatum. – Die genannten Urkk. sind die Privilegien Innocenz’ II. von 1135 März 5 (JL 7676 [zu 1135 März 4], IP VI,1 S. 219 Nr. 2, Gabotto/Legé, Carte Tortona S. 57-58 Nr. 41) und Alexanders III. von 1176 Mai 23 (JL – , IP VI,1 S. 220 Nr. 5, Gabotto/Legé S. 93-95 Nr. 74). Zu den Besitzungen vgl. De Angelis, Note sulla proprietà tortonese S. 7 mit Anm. 22.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Überl.: Kopie 17. Jh., Tortona, Arch. della Curia vescovile (Cattedrale II); Kopie 18. Jh., Tortona, Arch. cap., mazzo XXXI (Privilegi, Statuti).  Drucke: Gabotto/Legé, Carte Tortona S. 152-154 Nr. 125; Kehr, PUU Piemont S. 163-164 Nr. 21 (Teildruck zu 1192 unter Verweis auf die VUU) = Acta Rom. pont. 3 S. 133-134.  Reg.: IP VI,2 S. 222 Nr. 16 (zu 1192 Mai).</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

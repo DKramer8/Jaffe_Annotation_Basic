@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,1 n. 682</idno>
+        <idno type="urn">1183-05-18_7_0_4_4_1_682_682</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Lucius III., RI IV,4,4,1 n. 682</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Velletri</placeName>
+              <date type="issued" notBefore="1183-05-18" notAfter="1183-05-18">1183 Mai 18</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Lucius III. nimmt Abt Bernard von St-Eusèbe und dessen Brüder (Bernardo abbati monasterii sancti Eusebii et eius fratribus), deren Kloster dem Kloster St-Gilles (monasterii beati Egidii) gehört, auf deren Bitten in den päpstlichen Schutz, bestätigt die Benediktinerregel, den genannten Besitz sowie den Vertrag, den der frühere Bischof Leodegarius, Propst Rodulf und die Kanoniker von Apt (Laugerium quondam episcopum, Rodulfum prepositum et canonicos Aptenses) mit dem einstmaligen Abt Rainald und den Brüdern von St-Eusèbe (Rainaldum quondam abbatem et fratres sancti Eusebii) über genannte Güter geschlossen haben, verbietet Erzbischöfen und Bischöfen, über das Kloster Exkommunikation oder Interdikt zu verhängen, gewährt freie Wahl des Bischofs für Chrisma, Heiliges Öl, Konsekrationen und Benediktionen, verbietet, das Kloster nach abgelegter Profeß unerlaubt zu verlassen außer beim Wechsel zu einem strengeren Orden, verbietet Genannten Eingriffe bei der freien Wahl des Abtes, untersagt unter Androhung von Strafen, Klostergut zu verschleudern und zu veräußern, außer in den aufgezählten Notfällen, und gewährt die freie Sepultur.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Pie postulatio voluntatis effectu debet</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Velletri pm. Alberti SRE. presb. card. et cancellarii 15 kal. iun. ind. 1 inc. 1183 pont. a. 2.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zur Überlieferung vgl. auch Wiederhold, PUU Frankreich 4 S. 42 = Acta Rom. pont. 7 S. 288. Als VU diente die Urk. Alexanders III. von 1174 Juli 23 (JL –, Wiederhold, PUU Frankreich 4 S. 131-132 Nr. 51, Teildruck = Acta Rom. pont. 7 S. 377-378). Die Besitzliste der Urk. Lucius' III. ist gegenüber derjenigen Alexanders III. leicht erweitert und präzisiert; in den Kopien in Avignon und Carpentras (die bei Wiederhold S. 41 f. und in der Vorbem. zum Druck genannte Kopie in Apt war nicht zugänglich) scheint der Text an mehreren Stellen, vor allem bei dem Absatz über die Veräußerung von Klostergut, interpoliert worden zu sein. Bischof Leodegarius und Propst Rudolf von Apt werden 1113-1124 genannt, vgl. Gallia christiana 1 Sp. 357 und Sp. 374; zu Abt Rainald vgl. Sp. 372.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Überl.: Kopie 17. Jh., Avignon, Bibl. mun., Ms. 2813 fol. 157-158 (Bullae et documenta, mit unvollständigem Datum); Kopie 18. Jh., Carpentras, Bibl. Inguimbertine, Ms. 1654 fol. 43'-45' (Grossy, Mémoire historique sur l'église d'Apt). Druck: Wiederhold, PUU Frankreich 4 S. 147-148 Nr. 66 (Teildruck, zu 1182 Mai 18) = Acta Rom. pont. 7 S. 393-394. Reg.: Gallia christiana 1 Sp. 379.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

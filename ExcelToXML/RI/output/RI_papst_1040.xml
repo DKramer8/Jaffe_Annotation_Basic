@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,5 n. 310</idno>
+        <idno type="urn">1192-01-04_10_0_4_4_5_310_310</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Cölestin III., RI IV,4,4,5 n. 310</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Rom, Lateran</placeName>
+              <date type="issued" notBefore="1192-01-04" notAfter="1192-01-04">(1192) Januar 4</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Cölestin III. schreibt Unterdekan R(udolf), Scholaster R(adulf) und Kanoniker H. von St. Peter in Köln (R. secundo decano et R. scolastico et H. canonico ecclesie sancti Petri in Colonia) aufgrund der Klage der Kanoniker der Kollegiatkirche Ste-Croix in Lüttich (sancte Crucis in Leodio canonicorum), die in die vakante Kirche von Fize-le-Marsal (ecclesiam de Fies), deren Patronat ihnen aufgrund des Gründungsrechts zustehe, mit Zustimmung des ganzen Kapitels ihren Kanoniker Lambert (Lambertum nomine concanonicum) eingesetzt hätten; die Einkünfte der Kirche sollten vorbehaltlich der Abgaben an den Diözesanbischof und den Archidiakon von Lüttich ihrem Stift zugute kommen, wie dies vom damaligen Bischof R(udolf) von Lüttich und Erzbischof Philipp von Köln (R. quondam Leodiensis episcopus et Philippus Coloniensis archiepiscopus) sowie durch den Apostolischen Stuhl bestätigt worden sei; Lambert habe die Kirche ungestört besessen, bis der Lütticher Archidiakon Everard (Everardo archidyacono Leodiensis ecclesie), der ihm die Seelsorge übertragen hatte, vom damaligen Legaten (Kardinal-)Bischof H(einrich) von Albano (H. quondam Albanensis episcopi tunc apostolice sedis legati) durch den Archidiakon Albert (Albertus) ersetzt wurde, der Ste-Croix mit der Forderung nach ungeschuldeten Abgaben belästigt habe und dabei zudem noch von seinen Verwandten und Freunden Dompropst B(runo) und Domdekan A(dolf) von Köln (preposito ... B. et A. decano maioris ecclesie Coloniensis) unterstützt worden sei; Dekan (Theodor) von Mariengraden in Köln (decanus sancte Marie ad Gradus in Colonia) habe im daraufhin entbrannten Streit zwischem ihm, dem Dekan, und den Kanonikern von Ste-Croix in Lüttich Zeugnisse erlangt, mit denen er betrügerisch und unter Verschweigen der Wahrheit ein päpstliches Delegationsmandat an jene Verwandten, Dompropst Bruno und Domdekan Adolf, impetrieren konnte; die Kanoniker hätten die Richter jedoch als parteisch zurückgewiesen und deshalb an den Apostolischen Stuhl appelliert; dennoch hätten die Richter die Exkommunikation über die Kanoniker ausgesprochen und über den Kanoniker Lambert und dessen Brüder sowie über eine weitere Kirche des Kanonikers in Freeren (ecclesiam ... de Freres) das Interdikt verhängt; der Papst befiehlt, die Parteien vorzuladen, anzuhören und, falls die geschilderten Vorgänge der Wahrheit entsprechen und wenn die Kanoniker und der Kanoniker Lambert ein Sicherheitsversprechen geleistet haben, diese innerhalb von acht Tagen nach Empfang dieses Schreibens unter Ausschluß der Appellation von Exkommunikation und Interdikt zu absolvieren und den Streit beizulegen unter Vorbehalt der Festsetzung des (3.) Laterankonzils, wonach Abgaben nicht erhöht werden dürfen, es sei denn, eine derartige Festsetzung sei vom Apostolischen Stuhl bestätigt worden; unter Verschweigen der Wahrheit erlangte päpstliche Schreiben sind zu mißachten, und gegebenenfalls soll das Verfahren auch nur durch zwei der Delegaten ausgeführt werden.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Dilectorum filiorum sancte crucis in</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Lat. 2 non. ian. pont. a. 1.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zur Überlieferung vgl. Ramackers, PUU Niederlande S. 32. – Zur erwähnten Urk. des Erzbischofs Philipp von Köln von 1189 Juli 17 vgl. Poncelet, Inventaire Ste-Croix S. 20 Nr. 31. Eine entsprechende Urk. des Bischofs Rudolf von Lüttich war nicht nachzuweisen. Die von Archidiakon Everard getroffene Festsetzung bezüglich der Einkünfte der Kirche Fize-le-Marsal hatte Clemens III. 1189 Dezember 22 bestätigt (Böhmer-Schmidt, Papstregesten Clemens’ III. Nr. 753). Die im Reg. der GP VII S. 143-144 Nr. *38 (vgl. Böhmer-Schmidt Nr. 1304) mit Freeren identifizierte Kirche de Freres konnte nicht ermittelt werden. Zur Legation des Kardinalbischofs Heinrich von Albano vgl. Janssen, Legaten S. 130-134. Das von Dekan Theodor von Mariengraden in Köln impetrierte Delegationsmandat an Dompropst Bruno und Domdekan Adolf von Köln ist nicht erhalten und erging wahrscheinlich noch von Clemens III., vgl. Böhmer-Schmidt Nr. 1304. Domscholaster Radulf und Domkanoniker H. fällten 1194 März 6 ein Urteil zu Gunsten der Kanoniker von Ste-Croix (GP VII S. 146 Nr. 46, Ramackers, PUU Niederlande S. 478-479 Nr. 337).</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Überl.: Kopie 14. Jh., Lüttich, Arch. de l’État, Collégiale Ste-Croix T24/2 5 fol. 105 (Chartular von 1379).  Druck: Ramackers, PUU Niederlande S. 472-474 Nr. 330.  Reg.: Poncelet, Inventaire Ste-Croix S. 22 Nr. 36; GP VII S. 144 Nr. 39 (Nebenreg.).</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

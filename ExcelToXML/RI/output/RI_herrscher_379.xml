@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,2,3 n. 2253</idno>
+        <idno type="urn">1177-05-31_1_0_4_2_3_481_2253</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Friedrich I., RI IV,2,3 n. 2253</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>im Kloster S. Giacomo zu Volano im Erzbistum Ravenna</placeName>
+              <date type="issued" notBefore="1177-05-31" notAfter="1177-05-31">1177 Mai 31</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness">die Erzbischöfe Christian von Mainz, Philipp von Köln, Wichmann von Magdeburg und Arnold von Trier, die Bischöfe Hartwig von Augsburg, Hermann von Bamberg, Eberhard von Merseburg und Adelhog (Adilo) von Hildesheim, Graf Florentius von Holland, Markgraf Dietrich der Lausitz und sein Bruder Graf Dedo (von Groitzsch), Graf Heinrich von Diez, Dompropst Otto von Bamberg, Propst Eberhard von St. Jakob (zu Bamberg), Propst Burchard von (St. Maria und Gangolf zu) Theuerstadt, die Grafen Berthold von Tirol und Heinrich von Eppan, Albero von Burgeis, Hugo von Taufers, Eberhard von Reifenberg und sein Bruder Reinald sowie Hademar von Ahausen</legalActor>
+          </p>
+          <p>
+            <legalActor>unter Heranziehung des DF.I.487 für Kastl (Reg. 1490; VU.I), des DK.III.83 und des Privilegs Alexanders III. von 1177 April 28 (Jaffé-L. 12.815, Germ.Pont.1, 317 no  7; VU.II) von Seiten des Empfängers verfaßt, dann von Burkhard überarbeitet un</legalActor>
+          </p>
+          <p>
+            <legalActor>Gotefridus canc. vice Philippi Coloniensis archiep. et Ytalie archicanc.</legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Friedrich nimmt Abt Isinrich von Biburg  mit seinem Kloster, dessen Brüdern, Hintersassen und Besitzungen in seinen Schutz, bestätigt ihm Übertragungen seitens des Ministerialen Ortolf von Dirschhofen, des Edelfreien Bruder Wolfher, des Bischofs Eberhard von Trient sowie des Vogtes der Trientner Kirche, des Grafen Berthold von Tirol, und des Bischofs Hartmann von Brixen und dessen Nachfolgern sowie die namentlich angeführten klösterlichen Besitzungen, legt fest, daß der Abt und die Brüder mit Rat und Hilfe des Bamberger Bischofs sich einen geeigneten Vogt wählen dürfen, der sein Amt nur für sein Seelenheil ausüben, es nicht vererben darf und gegebenenfalls unter Zustimmung des Bamberger Bischofs abgesetzt werden kann, schenkt dem Kloster den in seinen Grenzen angegebenen Reichsforst an der Isar und gewährt ihm das Recht des Erzabbaues auf Klostergrund. Z.: die Erzbischöfe Christian von Mainz, Philipp von Köln, Wichmann von Magdeburg und Arnold von Trier, die Bischöfe Hartwig von Augsburg, Hermann von Bamberg, Eberhard von Merseburg und Adelhog (Adilo) von Hildesheim, Graf Florentius von Holland, Markgraf Dietrich der Lausitz und sein Bruder Graf Dedo (von Groitzsch), Graf Heinrich von Diez, Dompropst Otto von Bamberg, Propst Eberhard von St. Jakob (zu Bamberg), Propst Burchard von (St. Maria und Gangolf zu) Theuerstadt, die Grafen Berthold von Tirol und Heinrich von Eppan, Albero von Burgeis, Hugo von Taufers, Eberhard von Reifenberg und sein Bruder Reinald sowie Hademar von Ahausen. — Gotefridus canc. vice Philippi Coloniensis archiep. et Ytalie archicanc. ; unter Heranziehung des DF.I.487 für Kastl (Reg. 1490; VU.I), des DK.III.83 und des Privilegs Alexanders III. von 1177 April 28 (Jaffé-L. 12.815, Germ.Pont.1, 317 no  7; VU.II) von Seiten des Empfängers verfaßt, dann von Burkhard überarbeitet und geschrieben; SP. Ratio suadet et .</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Ratio suadet et</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">(II kal. iunii mensis, apud cellam sancti Iacobi in Uolana in archiepiscopatu Rauennati)</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zur kanzleigeschichtlichen Beurteilung sowie zur Anordnung der — ebenso wie in DF.I.669 (Reg. 2242) — nachträglich erweiterten Zeugenliste (beginnend mit Dompropst Otto von Bamberg) vgl. die Vorbemerkung zum D. — Zu dem Zeugen Albero von Burgeis (= identisch mit Albero von Wangen) und Dompropst Otto von Bamberg, zugleich Propst von Aachen, vgl. Plassmann, Struktur des Hofes (MGH Studien und Texte, 20, 1998) 258, 270 und 279. — Zum D. vgl. auch Tyroller, Schirmvögte des Klosters Biburg, Verhh.d.Hist. Ver.f.Niederbayern 53 (1917) 87 f. — Zum Ausstellungsort vgl. Kehr, Italia pont. 5, 176 f.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Orig.: Hauptstaatsarchiv München, Kloster Biburg Urkunden 2a (A). Drucke: Mon.Boica 29a, 424 no  530; MG.DF.I.672. Faks.: Herkenrath, Reichskanzlei 1174 bis 1180, Abb.2 Teilfaks. Reg.: Stumpf 4195.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>Digitalisat der RI-BuchseiteDruck in MGH DDEintrag in AVEKK</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p>SP.</p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

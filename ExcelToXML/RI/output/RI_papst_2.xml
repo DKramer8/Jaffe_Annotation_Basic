@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,1 n. 4</idno>
+        <idno type="urn">1181-09-09_2_0_4_4_1_4_4</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Lucius III., RI IV,4,4,1 n. 4</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Velletri</placeName>
+              <date type="issued" notBefore="1181-09-09" notAfter="1181-09-09">(1181) September 9</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Lucius III. beauftragt die Bischöfe (Johannes) von Tarazona, (Vitalis) von Salamanca und (Ferdinand) von Porto (Tirasonensi, Salamaticensi et Portugalensi episcopis) mit folgender Angelegenheit: Erzbischof P(eter) von Compostela (P. Compostellanus archiepiscopus) habe, wie er dies auch schon unter Alexander (III.) erbeten habe, von Bischof (Wilhelm) von Zamora (Zamorensi episcopo) die Wahrung seiner Rechte hinsichtlich der Unterstellung der Kirche von Zamora gefordert; obwohl aber der Erzbischof von Braga (Bracarensis archiepiscopus) von Papst Eugen (III.) die Unterstellung der Kirche von Zamora gegen die Ansprüche von Toledo (Toletanam) erlangt habe, sei dennoch unter Alexander (III.) festgelegt worden, daß der Bischof von Zamora dem Erzbischof von Compostela unterstellt sein solle; da aber in der Sache nicht weiter vorgegangen worden sei, befiehlt der Papst ihnen, dafür zu sorgen, daß der Bischof von Zamora seine Unterstellung unter die Kirche von Compostela anerkennt; er befiehlt weiterhin, diesen vorzuladen, den Erzbischof (Godinus) von Braga davon zu unterrichten und die päpstliche Entscheidung auch gegebenenfalls in Abwesenheit des Bischofs von Porto und ungeachtet einer etwaigen Appellation des Erzbischofs von Braga durchzuführen.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Venerabili fratre nostro Zamorensi episcopo</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Velletri 5 id. sep.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zur Überlieferung vgl. auch Erdmann, PUU Portugal S. 107. – Die Datierung ins Jahr 1181 wird durch das Delegationsmandat Lucius' III. Reg. 3 an die gleichen Richter nahegelegt. Zur genannten Entscheidung Eugens III. vgl. dessen Urk. von 1153 Juni 13 (JL –, Erdmann S. 217-218 Nr. 51). Die genannte Urk. Alexanders III. ist nicht erhalten. Zum Urteil der delegierten Richter von 1184 Januar 24 vgl. Erdmann S. 289-291 Nr. 99. Zur Sache vgl. Ferreira, Fastos episcopaes Braga S. 343, Mansilla Reoyo, Disputas diocesanas S. 91-112, Feige, Anfänge S. 315 f. und S. 318 sowie García y García, Alejandro III y los reinos ibéricos S. 248.    Verbesserungen und Zusätze (2018):  Das Mandat ist jetzt in der Iberia Pont. IV S. 104-105 Nr. 93 verzeichnet.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Überl.: Kopie 12. Jh., Lissabon, Arch. nac. da Torre do Tombo, Colecção Especial, Parte II, Caixa 43, M 2 Nr. 17 (Pergamentblatt von 1199). Druck: Erdmann, PUU Portugal S. 259-260 Nr. 86. Reg.: – .</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

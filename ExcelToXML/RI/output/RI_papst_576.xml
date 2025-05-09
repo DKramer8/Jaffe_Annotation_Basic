@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,3 n. 440</idno>
+        <idno type="urn">1187-01-06_1_0_4_4_3_440_440</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Urban III., RI IV,4,4,3 n. 440</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Verona</placeName>
+              <date type="issued" notBefore="1187-01-06" notAfter="1187-01-06">1187 Januar 6</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Urban III. nimmt Abt Matthäus und die Brüder des Klosters S. Nicolò (di Lido in Venedig) (Matthaeo abbati monasterii sancti Nicolai, quod in Rivoaltensis portus litore situm est, eiusque fratribus) (D. Castello), das der damalige Doge Dominicus Contarenus gemeinsam mit Patriarch Dominicus von Grado und Bischof Dominicus von Castello (bone memorie Dominicus Contarenus Venetiarum dux cum ... Dominico Gradensi patriarcha et Dominico Olivolensi episcopo) errichtet hat, auf deren Bitten wie Calixt (II.), Alexander (III.) und Lucius (III.) in den päpstlichen Schutz, bestätigt ihre genannten Besitzungen und Rechte und gewährt die Wahl des Abts.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Pie postulatio voluntatis effectu debet</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Verone pm. Moysis Lateranensis canonici vicem agentis cancellarii 8 id. ian. ind. 5 inc. 1186 pont. a. 2.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zur Überlieferung vgl. Kehr, PUU Venedig, S. 289 = Acta Rom. pont. 1 S. 13, Kehr, Ältere PUU III S. 507 = Acta Rom. pont. 3 S. 481 und Kehr, PUU röm. Bibl. II S. 93 = Acta Rom. pont. 4 S. 93. – Die genannten Privilegien Calixts II., Alexanders III. und Lucius' III. sind verloren, vgl. IP VII,2 S. 190 Nr. *1, S. 191 Nr. *5 und Nr. *6 (= Böhmer-Baaken-Schmidt, Papstregesten Lucius' III. 2, Nr. 2055.). Zur Überlieferung und zum Besitz vgl. auch Favreau-Lilie, Italiener S. 45 mit Anm. 61.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Kopie 15. Jh., Venedig, Arch. di Stato, Corporazioni religiose soppresse, S. Nicolò di Lido, Busta 4, Processo 1 (Kopie von 1445 März 8); Kopie 15. Jh., Venedig, Arch. di Stato, Corporazioni religiose soppresse, S. Nicolò di Lido, Busta 1 Processo fol. 8-8' (Kopie von 1447 März 18); Kopie 15. Jh., Venedig, Arch. di Stato, Corporazioni religiose soppresse, S. Nicolò di Lido, Busta 4 Processo 1 (ohne Unterschriften inseriert in das Orig. der Urk. Nikolaus' V. von 1447 Juni 12).   Drucke: Ughelli/Coleti, Italia sacra 5 Sp. 1247; Margarini, Bullarium Casinense 2 S. 208 Nr. 204 (mit ind. 4 im Datum); Cornelius, Ecclesiae Venetae 9 S. 126-127 (als Insert in der Urk. Nikolaus' V.); Migne, PL, 202 Sp. 1492-1494 Nr. 115 (nach Ughelli/Coleti); Hiestand, PUU für Kirchen im Heiligen Lande, S. 394-395 (Teildruck, irrig zu 1186 Januar 6).   Reg.: JL 15926 (J 9940); IP VII,2 S. 191 Nr. 7.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

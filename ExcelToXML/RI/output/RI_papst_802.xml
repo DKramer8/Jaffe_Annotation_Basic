@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,4 n. 140</idno>
+        <idno type="urn">1188-03-17_4_0_4_4_4_140_140</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Clemens III., RI IV,4,4,4 n. 140</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Rom, Lateran</placeName>
+              <date type="issued" notBefore="1188-03-17" notAfter="1188-03-17">1188 März 17</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Clemens III. nimmt Prior Hugo von S. Maria di Reno (in Bologna) und dessen Brüder (Hugoni priori ecclesie sancte Marie de Reno eiusque fratribus) auf deren Bitten in den päpstlichen Schutz, bestätigt die Augustinerregel und den genannten Besitz, darunter die Kirche S. Prassede (in Rom) (ecclesiam sancte Praxedis), die ihnen Anastasius (IV.), Alexander (III.), Lucius (III.) und Urban (III.) übertragen haben, vorbehaltlich der Rechte des Kardinals dieser Kirche, sowie die Freiheiten und Immunitäten, die die Bischöfe Heinrich und Gerhard von Bologna (bone memorie Henrico et Gerardo Bononien. episcopis) ihnen gewährt haben und wonach sie von allen Leistungen und Abgaben mit Ausnahme der bischöflichen Jurisdiktion befreit sind, gewährt das Aufnahmerecht, verbietet, nach abgelegter Profeß das Stift unerlaubt zu verlassen außer beim Wechsel zu einem strengeren Orden, gestattet dem Prior, flüchtige Brüder nach dreimaliger Ermahnung zu exkommunizieren, bestätigt die seit 40 Jahren in ihrem unbestrittenem Besitz befindlichen Zehnten, verbietet, sie mit neuen und ungeschuldeten Abgaben zu belasten, gewährt die freie Sepultur, gestattet, ihre Kleriker von einem Bischof ihrer Wahl ordinieren zu lassen, bekräftigt den Besitz der Zehnten aller ihrer Erträge in der Diözese Bologna, die ihnen die Bischöfe von Bologna übertragen haben, gestattet die Wahl des Priors gemäß der Augustinerregel und setzt als jährlichen Anerkennungszins zwei Luccheser Solidi fest.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Cum nobis sit licet immeritis</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Lat. pm. Moysis SRE. subdiaconi vicem agentis cancellarii 16 kal. apr. ind. 6 inc. 1187 pont. a. 1.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zur Überlieferung vgl. Kehr, PUU Padova S. 367 = Acta Rom. pont. 1 S. 155. – Die genannte Urk. Anastasius' IV. ist verloren (JL –, IP V S. 279 Nr. *10). In den beiden Privilegien Alexanders III. für S. Maria di Reno von 1178 Januar 23 (JL 13012, IP V S. 280 Nr. 14, Migne, PL, 200 Sp. 1159-1160 Nr. 1334) und von 1178 Dezember 21 (JL 13126, IP V S. 280 Nr. 15, [Boeri], Bullarium canonicorum regularium 1 S. 17 Nr. 11) wird der Besitz von S. Prassede in Rom erwähnt. VUU sind die Privilegien Lucius' III. von 1182 Mai 3 (Böhmer-Baaken-Schmidt, Papstregesten Lucius' III. 1, Nr. 215) und Urbans III. von 1186 Januar 27 (Böhmer-Schmidt, Papstregesten Urban III., Nr. 44). – Zur Übertragung von S. Prassede vgl. IP I S. 49 sowie Gehrt, Regularkanonikerstifte S. 100. Die undatierte Urk. Bischof Heinrichs von Bologna (nach Dorsualnotiz von 1136) ist bei Trombelli, Memorie S. Maria di Reno S. 358-360 Nr. 2 gedruckt. Zu Bischof Gerhard von Bologna vgl. Schwartz, Besetzung S. 165, seine Urk. konnte nicht nachgewiesen werden, vgl. Fanti/Paolini, Codice bolognese S. 263 Nr. 130.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Orig., Bologna, Arch. di stato, Corporazioni religiose soppresse, Canonici di S. Salvatore, 2/2449 n. 3.   Drucke: Serenius, Indulta ac privilegia S. 115-118; Bullarium Lateranense (Rom 1727) S. 59-61; (Boeri), Bullarium canonicorum regularium 1 S. 22-24 Nr. 14; Trombelli, Memorie S. Maria di Reno S. 381-382 Nr. 15; Migne, PL, 204 Sp. 1524-1526 Nr. 35 (nach Trombelli).   Reg.: JL 16177 (J 10055); IP V S. 283 Nr. 27.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,4 n. 460</idno>
+        <idno type="urn">1188-10-28_4_0_4_4_4_460_460</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Clemens III., RI IV,4,4,4 n. 460</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Rom, Lateran</placeName>
+              <date type="issued" notBefore="1188-10-28" notAfter="1188-10-28">1188 Oktober 28</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Clemens III. gewährt Erzbischof Wilhelm von Monreale (Wilielmo archiepiscopo Montis regalis) für die Kirche von Monreale, die König Wilhelm (II.) von Sizilien (Willelmus illuster Sicilie rex) als Kloster begründet und der Römischen Kirche übertragen hat, wie dies von Alexander (III.) bestätigt wurde, und die Lucius (III.) zur Würde der Metropolitankirche erhoben hat, daß niemand von ihren Gütern, die die Brüder in Eigenwirtschaft bebauen, den Zehnten oder die Zehntquart fordern sowie ihre Leute nicht exkommunizieren oder interdizieren und ihre Kleriker nicht zu Synoden laden darf; der Papst erlaubt dem Erzbischof, auf seinem Grund Synoden einzuberufen und gewährt ihm und seinen Brüdern das Aufnahmerecht sowie den Brüdern das Läuterecht in ihren Kirchen und verbietet den Erzbischöfen und Bischöfen, die Leute zu behindern, die diese Kirchen zum Gottesdienst besuchen außer bei allgemeinem Interdikt, gewährt die freie Sepultur und untersagt, Leute, die bei ihnen die Sepultur wählen, zu exkommunizieren, mit dem Interdikt zu belegen oder ihnen Beichte und Viaticum zu verweigern; der Papst verbietet, daß ein Erzbischof, Bischof oder andere Personen ihr Kloster ohne Einwilligung des Konvents oder ihre Kirchen ohne Erlaubnis des örtlichen Prälaten oder der Brüder betritt und die Oblationen des Kirchenvolks behindert, gewährt dem Erzbischof das Recht, alle, die ihm unterworfen sind, zu ordinieren und in allen kirchenrechtlichen Fällen zu urteilen, erlaubt dem Erzbischof und den Brüdern, auf ihrem Grund Oratorien zu errichten und Gottesdienst zu feiern, legt fest, daß der Erzbischof und der Konvent in ihrem Besitz für Ordinationen ihrer Kleriker und Mönche, für Konsekrationen, für Chrisma und Heiliges Öl sowie andere Sakramente einen Bischof ihrer Wahl aufsuchen können, der dafür nichts fordern darf; der Papst gestattet, in ihren Pfarrkirchen durch ihre Kleriker Taufwasser zu weihen und die Taufe zu spenden, und setzt die dauernde Gültigkeit der Schenkungen, die mit Zehntrechten oder anderen Rechten Dritter belastet sind, sowie einen jährlichen Anerkennungszins von 100 Tarenen fest.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Cum tanta erga pia opera</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Lat. pm. Moysis SRE. subdiaconi vicem agentis cancellarii 5 kal. nov. ind. 7 inc. 1188 pont. a. 1.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zur Überlieferung vgl. Kehr, PUU Sizilien S. 298f. = Acta Rom. pont. 2 S. 48f. und Kehr, PUU römische Bibliotheken I, S. 9 und S. 17 = Acta Rom. pont. 4 S. 9 und S. 17. – Die genannten VUU sind die Privilegien Alexanders III. von 1174 Dezember 30 (JL 12403, IP X S. 275 Nr. 2, Migne, PL, 200 Sp. 1000-1003 Nr. 1150) und Lucius' III. von 1183 Februar 5 (Böhmer-Baaken-Schmidt, Papstregesten Lucius' III. 1, Nr. 479). Der im Reg. der IP X angekündigte Druck bei Girgensohn, Miscellanea 1 ist nicht erfolgt.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Orig., Palermo, Bibl. centrale della Regione Siciliana, Fondi antichi, Tabulario di S. Maria Nuova in Monreale, Perg. 60; Kopie 15. Jh., Palermo, Bibl. centrale della Regione Siciliana, Fondi antichi, Tabulario di S. Maria Nuova in Monreale, Perg. 61; Kopie 14. Jh., Monreale, Seminario arcivescovile, Bibl. de Torres, XX E 7 fol. 78' (Liber privilegiorum S. Mariae Montis Regalis ecclesie iussu Arnaldi de Rexac archiep., 1306-1324); Kopie 15. Jh., Rom, Bibl. Vat., Cod. Vat. lat. 3880 fol. 32 (Liber privilegiorum sancte Montis Regalis ecclesie).   Druck: Kehr, PUU Sizilien S. 331 Nr. 29 = Acta Rom. pont. 2 S. 81 (nur Datum und Unterschriften unter Verweis auf die VU Lucius' III.).   Reg.: JL 16338; Garufi, Tabulario Monreale S. 30-31 Nr. 60 und S. 31 Nr. 61; IP X S. 280 Nr. 19.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

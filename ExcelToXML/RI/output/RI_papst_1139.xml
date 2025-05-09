@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,5 n. 855</idno>
+        <idno type="urn">1193-05-23_7_0_4_4_5_855_855</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Cölestin III., RI IV,4,4,5 n. 855</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Rom, Lateran</placeName>
+              <date type="issued" notBefore="1193-05-23" notAfter="1193-06-17">(1193 Mai 23 – Juni 17)</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Cölestin III. antwortet Erzbischof (Samarus) von Trani (Tranensi archiepiscopo) auf folgende Anfragen: (Teil a) auf die Frage, ob Besitzungen und Einkünfte, die der Vorgänger des Erzbischofs (Bertrand) bis zu seinem Tod zum eigenen Gebrauch in seinen Händen hielt und die nicht als Lehen vergeben waren, zur mensa des Erzbischofs zu rechnen seien und diese trotz des dem Apostolischen Stuhl geleisteten Treueids, wonach nichts entfremdet werden darf, doch entfremdet werden dürfen, antwortet der Papst, daß, gleichgültig, ob der Besitz zur bischöflichen mensa gehöre oder nicht, er nicht entfremdet werden darf; hingegen dürfen Besitzungen, die der bischöflichen Kirche nur von geringem Nutzen sind, mit Zustimmung des Kapitels veräußert oder vertauscht werden; (Teil b) der Papst setzt fest, daß jemand, der bei Vakanz des Bischofsstuhls sich widerrechtlich Eigentum der Kirche aneignet, die Rechte der Kirche mindert oder eigenmächtig Gebrauch von kirchlichem Eigentum macht, bis zur Wiedergutmachung unter Ausschluß der Appellation exkommuniziert werden soll; (Teil c) der Papst gewährt wie Alexander (III.) das Recht, an bestimmten Sonntagen Nonnen zu weihen, deren Profeß entgegenzunehmen und an diesen und an anderen Feiertagen das Pallium zu tragen, und beantwortet schließlich (Teil d) die Frage, wie die Formel 'wir übergeben dir das Pallium zum Gebrauch innerhalb deiner Kirche' zu verstehen sei, und belehrt den Erzbischof, daß er das Pallium in jeder Kirche seiner Kirchenprovinz anlegen dürfe, es aber ablegen müsse, wenn er seine Kirchenprovinz verläßt.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Ut super aliqua reposite questionis</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Lat. eodem anno ( = 3).</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zur weiteren Überlieferung dieser Dekretale vgl. Heckel, Dekretalensammlungen S. 181 und S. 198, Vetulani, Collectio Cracoviensis S. 61 Nr. 18 und S. 71 Nr. 105, Holtzmann, Collectio Seguntina S. 447 Nr. 106, Holtzmann, Kanonistische Ergänzungen zur IP /2/ S. 146-147 Nr. 194 (S. 128-129), Cheney, Fragment of a decretal collection S. 7 Nr. 17 sowie Cheney/Cheney, Studies S. 176, S. 215, S. 228, S. 260, S. 281 und S. 287. Sie ist in der Sammlung Walther Holtzmanns als WH 1045 (KI 1175) verzeichnet. – Das Datum, das so auch in der Collectio Cracoviensis überliefert ist, ergibt sich aus der Nennung des Ausstellungsorts Lateran und des dritten Pontifikatsjahrs in der chronologisch angeordneten Collectio Seguntina, wo dieses Stück zwischen Reg. 854 und Reg. 858 steht, vgl. Holtzmann, Collectio Seguntina S. 415f. Die in Teil c genannte Urk. Alexanders III. ist dessen Dekretale JL 13769 (Comp. 1 lib. 1 tit. 6 c. 1, ed. Friedberg S. 4, Decr. Greg. lib. 1 tit. 11 c. 1, ed. Friedberg Sp. 118). Zum in Teil a erwähnten Treueid, wonach kirchlicher Besitz nicht entfremdet werden darf, vgl. Gottlob, Amtseid S. 57, Sweeny, Inalienability S. 237, Enzensberger, Cultura giuridica S. 182 Anm. 63, Cheney, Inalienability S. 477f. und Theisen, Emphyteuse S. 312.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Drucke: Comp. 2 lib. 1 tit. 4 c. 1 (ed. Friedberg S. 67, mit dem Erzbischof von Ravenna als Empfänger, Teil d); Comp. 2 lib. 3 tit. 10 c. 1 (ed. Friedberg S. 83, mit dem Erzbischof von Ravenna als Empfänger, Teil a); Decr. Greg. lib. 1 tit. 8 c. 1 (ed. Friedberg Sp. 100, mit dem Erzbischof von Ravenna als Empfänger, Teil d); Decr. Greg. lib. 3 tit. 13 c. 8 (ed. Friedberg Sp. 514, mit dem Erzbischof von Ravenna als Empfänger, Teil a); Holtzmann, Kanonistische Ergänzungen zur IP /2/ S. 146-147 Nr. 194 (S. 128-129) (Teile b und c); Migne, PL 206 Sp. 1022-1023 Nr. 137.  Reg.: JL 17049 (J 10235, J 10442); Migne, PL 206 Sp. 1253 Nr. 45 (Teil d); IP V S. 73 Nr. 270 (mit Erzbischof Wilhelm von Ravenna als Empfänger); IP IX S. 299 Nr. 40.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

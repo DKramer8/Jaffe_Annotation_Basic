@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,2 n. 1655</idno>
+        <idno type="urn">1185-06-13_1_0_4_4_2_489_1655</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Lucius III., RI IV,4,4,2 n. 1655</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Verona</placeName>
+              <date type="issued" notBefore="1185-06-13" notAfter="1185-06-13">1185 Juni 13</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Lucius III. nimmt Propst Peter von S. Antonino in Piacenza und dessen Brüder (Petro preposito ecclesie sancti Antonini martiris quod sita est in civitate Placentia eiusque fratribus) auf deren Bitten wie Cölestin (II.), Eugen (III.), Hadrian (IV.) und Alexander (III.) in den päpstlichen Schutz, bestätigt die erwähnten Kirchen mit ihren im einzelnen aufgeführten Rechten sowie die Schenkungen und Vergünstigungen, die ihnen die genannten Bischöfe von Piacenza gewährt haben; bekräftigt die ihnen vom damaligen Bischof Arduin von Piacenza (bone memorie Arduino Placentino) zugestandene Freiheit, wonach die zur Priesterweihe bestimmten Kanoniker vor und nach der Ordination von jeder Eidesleistung gegenüber dem Bischof, dem Domkapitel oder anderen Personen befreit seien und wonach sie, wie auch die Priester und Kleriker der ihnen unterworfenen Kirchen, die ihnen übertragenen Güter in gewohnter Weise innehaben sollen; bestätigt alle durch die Bischöfe von Piacenza (Placentinis episcopis) gewährten Freiheiten und Gewohnheiten sowie ihr Recht, an den Apostolischen Stuhl zu appellieren.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Pie postulatio voluntatis effectu debet</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Verone pm. Alberti SRE. presb. card. et cancellarii id. iun. ind. 3 inc. 1185 pont. a. 4.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zur Überlieferung vgl. auch KEHR, PUU Parma S. 7 und S. 13f. = Acta Rom. pont. 2 S. 223 und S. 229f. – Die erwähnten Urkk. sind die Privilegien Cölestins II. von 1144 Januar 1 (JL 8474, IP V S. 476 Nr. 19, KEHR, PUU Parma S. 37-38 Nr. 16 [Teildruck] = Acta Rom. pont. 2 S. 253-254), Eugens III. von 1148 Juli 22 (JL 9285, IP V S. 476 Nr. 22, PFLUGK-HARTTUNG, Acta 3 S. 92-93 Nr. 90), Hadrians IV. von 1157 Mai 21 (JL 10280, IP V S. 478 Nr. 29, Kehr S. 42-43 Nr. 22 [Teildruck] = S. 258-259) und Alexanders III. von 1169 März 19 (JL 11606, IP V S. 478 Nr. 31, Kehr S. 47-48 Nr. 25 [Teildruck] = S. 263-264), die auch VUU waren. – Als Grund dafür, daß Propst Peter, der seit 1185 April 4 (Reg. 1573) zugleich Kardinaldiakon von S. Nicola in carcere Tulliano war, hier ohne diese Würde als Adressat erscheint, nimmt MALECZEK, Papst und Kardinalskolleg S. 85 Anm. 169 einen Irrtum der päpstlichen Kanzlei an. Möglicherweise wollte man dadurch eine dauernde Bindung an den Inhaber dieser Titelkirhe verhindern.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Überl.: Orig., Piacenza, Arch. di S. Antonino, D 54; Kopie 14. Jh., Piacenza, Arch. di S.Antonino, C 62 fol. 78'-81 (Statuta et privilegia eccl. s. Antonini).</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl> JL 15432; IP V S. 482 Nr. 49.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

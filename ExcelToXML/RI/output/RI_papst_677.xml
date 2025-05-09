@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,3 n. 935</idno>
+        <idno type="urn">1186-09-01_2_0_4_4_3_935_935</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Urban III., RI IV,4,4,3 n. 935</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Verona</placeName>
+              <date type="issued" notBefore="1186-09-01" notAfter="1186-09-01">(1186 – 1187) September 1</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Urban III. schreibt Erzbischof (Bartholomäus) von Tours (Turonensem archiepiscopum) wegen dessen Streits mit der Kirche von Dol-de-Bretagne (inter tuam et Dolensem ecclesiam), der auf Betreiben des Erzbischofs an den Apostolischen Stuhl gelangt und dort lange anhängig gewesen sei, wobei insbesondere Alexander (III.) während seines Aufenthalts in Tuskulum (dum moram faceret Tusculani) Zeugen zugunsten Dols empfangen und angehört habe; schließlich seien aufgrund eines Mandats Lucius' (III.) an Dekan (Nikolaus) von Le Mans, I(vo) von Vieux-Pont, Archidiakon von Rouen, und Magister Hugo, Propst von S. Maria di Castello (in Genua) (decano Cenomanensi, I. de Veteri Ponte archidiacono Rothomagensi et magistro Hugone Ianuensi preposito sancte Marie de Castello), die Zeugen beider Seiten angehört, deren Aussagen protokolliert und dem Apostolischen Stuhl übersandt worden; der Papst setzt auf Bitten des Königs Philipp (II. August) von Frankreich (Philippi illustris Francorum regis) fest, daß, falls der Streit nicht bis zum nächsten März einvernehmlich beigelegt wird, der Erzbischof sich persönlich oder durch geeignete Vertreter am Apostolischen Stuhl einzufinden hat, ungeachtet der Schreiben, die die Boten des Erzbischofs ohne Wissen des Elekten und der Kanoniker von Dol (electi et canonicorum dicte Dolensis ecclesie) übermittelt haben und die entsprechend diesem Schreiben zu verändern sind, und ermahnt den Erzbischof, gewissenhaft auf eine Einigung hinzuarbeiten.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Licet negotium quod inter tuam</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Verone kal. sep.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Eine hs. Überlieferung war nicht nachzuweisen, der Druck weist keine Adresse auf, bei Martène/Durand, Thesaurus 3 Sp. 911-912 heißt es in der Kopfzeile lediglich ad Turonensem archiepiscopum. – Zum Verlauf des Streits unter Lucius III. vgl. dessen hier genanntes Mandat von (1184-1185) August 18 (Böhmer-Baaken-Schmidt, Papstregesten Lucius' III. 2, Nr. 1735). Zur Beauftragung durch Alexander III. vgl. Müller, Delegationsgerichtsbarkeit 2 S. 23-24 Nr. 104 sowie S. 24 Nr. 104a. Zum Streit um die Erhebung Dols vgl. DHGE 14 Sp. 570 und LexMA 3 Sp. 1169. Zum politischen Hintergrund vgl. Janssen, Legaten S. 29f. Vgl. dazu auch die Briefe König Philipps II. August von Frankreich an Lucius III. (Delaborde, Philippe Auguste 1 S. 165-167 Nr. 136 und S. 179-180 Nr. 148) sowie an Kardinaldiakon Oktavian von SS. Sergio e Bacco (Delaborde S. 180-181 Nr. 149) und die Erwähnungen der in der Briefsammlung Stephans von Tournai überlieferten königlichen Schreiben bei Lohrmann PUU Frankreich 8 S. 120 Nr. 121, Nr. 122 und Nr. 123. Zum weiteren Verlauf des Verfahrens vgl. Baldwin, Government S. 69f. mit den Anm. auf S. 476. Zur durch Innocenz III. 1199 Juni 1 gefällten Entscheidung (Potthast 726) vgl. (Register Innocenz' III. 2 S. 150-171 Nr. 79.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Drucke: Martène/Durand, Thesaurus 3 Sp. 911-912 (zu 1185); Morice, Mémoires Bretagne 1 Sp. 704-705; Bouquet, Recueil 19 S. 329-330 (nach Morice); Migne, PL, 202 Sp. 1489-1490 Nr. 90 (nach Martène/Durand, aber irrig zu [1186-1187] September 4).  Reg.: JL 15914 (J 9934).</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

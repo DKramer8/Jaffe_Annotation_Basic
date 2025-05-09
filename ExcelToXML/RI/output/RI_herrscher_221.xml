@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,2,2 n. 1593</idno>
+        <idno type="urn">1166-10-00_1_0_4_2_2_1036_1593</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Friedrich I., RI IV,2,2 n. 1593</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>durch das Tal von Trient</placeName>
+              <date type="issued" notBefore="1166-10-01" notAfter="1166-10-31">1166 (Ende Oktober/Anfang November)</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Friedrich zieht mit einem großen Heer, dem zahlreiche Fürsten, darunter der Erzbischof (Christian) von Mainz, die Bischöfe (Daniel) von Prag, (Gero) von Halberstadt und (Udo) von Naumburg, Abt (Hermann) von Fulda, Herzog (Friedrich) von Rothenburg, (Herzog) Welf (VII.), der Sohn Welfs (VI.) von den Bergen (Chron. Fuldensis: de Montanis) und Graf Berengar (II.) von Sulzbach mit 300 Rittern (Kasteler Reimchronik) sowie auch Söldner (Brabanzonen) angehören, zum viertenmal nach Italien, um für Papst Paschal III. tätig zu sein und gegen die rebellischen Städte vorzugehen.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">-</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Unter den in historiographischen Quellen bezeugten Teilnehmern der Heerfahrt sind auch Rainald von Dassel (Chron. reg. Col., Chron. Fuldensis, Gestorum abb. Trudon. Cont. secunda), der allerdings einen anderen Weg (über Ivrea) einschlug, und Alexander von Lüttich (Chron. Fuldensis, Gestorum abb. Trudon. Cont. secunda), der allerdings erst zu Weihnachten 1166 aufbrach (erste Nennung in DF. I. 522 = Reg. 1619), zu nennen. Zur Teilnahme Graf Markwards von Leuchtenberg vgl. Reg. 1618. Den Zeitpunkt des Aufbruchs geben am genauesten die Ann. Reichersperg. (1. November) an, vgl. dazu Reg. 1592. - Als Grund der Heerfahrt werden die Probleme des Schismas (Ann. Ratispon., Chron. reg. Col., vgl. auch das Schreiben Johanns von Salisbury an Magister Gerhard Pucella, Letters of John of Salisbury II, ed. Millor - Brooke, no  186, S. 228), aber auch der Aufstand von Verona, d. h. die Bildung der Lega Veronese (Ann. Ratispon.) sowie Bestrebungen zum Wiederaufbau von Mailand (Chron. reg. Col.) genannt. Ziel des Feldzuges war allerdings auch das militärische Vorgehen gegen das Normannenreich in Sizilien, was hier nicht erwähnt wird. - Zur Teilnahme von Söldnern vgl. Grundmann, Rotten und Brabanzonen, DA 5 (1942) 445 f.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Chron. reg. Col., ed. Waitz, MG. SS rer. Germ. in us. schol., 116 f., Chron. Fuldensis, ed. Heinemeyer, AfD Beiheft 1 (1976) 69 f., Ann. Aquenses, MG. SS XXIV, 38, Ann. Augustani minores, MG. SS X, 8, Ann. Bergomates, MG. SS XXXI, 328, Ann. Brixienses, MG. SS XVIII, 813, Ann. Camerac., MG. SS XVI, 538, Ann. s. Disibodi, MG. SS XVII, 30 (zu 1165), Ann. Engelberg., MG. SS XVII, 279, Ann. Isingr. Ottenbur. mai., MG. SS XVII, 315 (zu 1167), Ann. s. Iacobi Leodiensis, MG. SS XVI, 642, Ann. Neresheimenses, MG. SS X, 22, Ann. Palid., MG. SS XVI, 93, Ann. Ratispon., MG. SS XVII, 588, Ann. Reichersperg., MG. SS XVII, 473 (zu 1166 November 1), Ann. s. Rudberti Salisburg., MG. SS IX, 776(zu 1167), Ann. Seligenstad., MG. SS XVII, 32, Ann. Stad., MG. SS XVI, 345, Rahewini Gesta Frid. Appendix, ed. Waitz - Simson, MG. SS rer. Germ. in us. schol., 348 (zu 1167), Cont. Admunt., MG. SS IX, 583, Gestorum abb. Trudon. Cont. secunda, MG. SS X, 350, Kasteler Reimchronik, ed. Moritz, Abhh. d. hist. Cl. d. kgl. bayer. Akad. d. Wiss. München 1/2 (1883) 145 f. V. 511 ff., Sigeb.Cont. Aquicinct., MG. SS VI, 412.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>Digitalisat der RI-Buchseite</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

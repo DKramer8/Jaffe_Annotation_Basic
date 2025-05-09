@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,4 n. 459</idno>
+        <idno type="urn">1188-10-28_3_0_4_4_4_459_459</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Clemens III., RI IV,4,4,4 n. 459</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Rom, Lateran</placeName>
+              <date type="issued" notBefore="1188-10-28" notAfter="1188-10-28">1188 Oktober 28</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Clemens III. bestätigt wie Alexander III. für König Wilhelm (II.) von Sizilien (Guilielmo illustri Sicilie regi) dem von diesem gestifteten und ausgestatteten Kloster S. Maria (in Monreale) (monasterium in honorem beate Marie Dei genitricis et virginis) die Freiheit von jeglicher erzbischöflichen und bischöflichen Unterstellung außer unter den Römischen Bischof, setzt fest, daß jeder außerhalb und innerhalb des Königreichs liegende Besitz dem Kloster ungeschmälert verbleibt, gestattet, Weihehandlungen von jedem beliebigen Bischof zu empfangen, erlaubt die Vornahme von Taufen in seinen Pfarrkirchen, verbietet den Erzbischöfen und Bischöfen, seine Kirchen oder das Kloster zu betreten, setzt fest, daß Zehnte und bischöfliche Rechte an Kirchen und Güter, die dem Kloster übertragen werden, dem Kloster verbleiben, verbietet, Zehnte oder den Zehntquart vom Kloster zu fordern, untersagt, das Kloster mit Exkommunikation oder Interdikt zu belegen oder den Abt zu Synoden zu laden, gestattet dem Abt, Synoden seiner Mönche und Kleriker einzuberufen, verbietet, dem Abt jemanden zur Leitung des Klosters vorzusetzen, es sei denn, der Abt sei eines Vergehens überführt, das mit kanonischen Strafen verfolgt werden muß, gestattet dem Abt den Gebrauch von Mitra, Handschuhen, Sandalen, Tunica, Dalmatica, Stab und Ring, gewährt das Aufnahmerecht und das Recht, mit Glocken zum Gottesdienst zu rufen, untersagt dem Erzbischof oder Bischof, Gottesdienst im Kloster oder seinen Zellen zu verbieten, es sei denn bei allgemeinem Interdikt, gewährt die freie Sepultur, gestattet die Weihe des Abts durch einen beliebigen Erzbischof oder Bischof, setzt fest, daß eventuelle Klagen gegen den Abt mit Zustimmung des Königs und seiner Erben durch geeignete kirchliche Prälaten untersucht und beigelegt werden, verbietet jedem Erzbischof und Bischof, ohne Zustimmung des Abts und des Konvents innerhalb des Klosters Gottesdienst zu feiern, erlaubt dem Abt, das Kloster und seine Kirchen kanonisch zu weihen, allen die Beichte abzunehmen und in den Besitzungen des Klosters Oratorien zu errichten.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Ex debito suscepti regiminis qualitates</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Lat. pm. Moysis SRE. subdiaconi vicem agentis cancellarii 5 kal. nov. ind. 7 inc. 1188 pont. a. 1.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zur Überlieferung vgl. Kehr, PUU Sizilien S. 298f. = Acta Rom. pont. 2 S. 48f. und Kehr, PUU römische Bibliotheken I, S. 9 und S. 17 = Acta Rom. pont. 4 S. 9 und S. 17. Die in der IP unter der Sigle B¹ verzeichnete Kopie von 1450 Januar 28 in Palermo, Bibl. centrale della Regione Siciliana, konnte laut freundlicher Auskunft der Bibliothek nicht nachgewiesen werden. – Die genannte VU Alexanders III. ist dessen Privileg von 1174 Dezember 30 (JL 12403, IP X S. 275 Nr. 2, Migne, PL, 200 Sp. 1000-1003 Nr. 1150) bzw. von 1176 Januar 14 (JL 12683, IP X S. 275 Nr. 3, Pflugk-Harttung, Acta 3 S. 246-248 Nr. 252 [mit 18 kal. feb. zu 1176 Januar 15]).</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Orig., Palermo, Bibl. centrale della Regione Siciliana, Fondi antichi, Tabulario di S. Maria Nuova in Monreale, Perg. 59; Kopie 14. Jh., Monreale, Seminario arcivescovile, Bibl. de Torres, XX E 7 fol. 77 (Liber privilegiorum S. Mariae Montis Regalis ecclesie iussu Arnaldi de Rexac archiep., 1306-1324).   Druck: Kehr, PUU Sizilien S. 330 Nr. 28 = Acta Rom. pont. 2 S. 80 (nur Datum und Unterschriften unter Verweis auf die VU Alexanders III.).   Reg.: JL 16337; Garufi, Tabulario Monreale S. 30 Nr. 59; IP X S. 280 Nr. 18.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

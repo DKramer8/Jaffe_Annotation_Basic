@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,3 n. 195</idno>
+        <idno type="urn">1186-06-18_3_0_4_4_3_195_195</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Urban III., RI IV,4,4,3 n. 195</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Verona</placeName>
+              <date type="issued" notBefore="1186-06-18" notAfter="1186-06-18">(1186) Juni 18</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Urban III. schreibt Kaiser F(riedrich Barbarossa) (F. illustri Romanorum imperatori semper augusto) und teilt ihm mit, daß er stets um ewigen Frieden zwischen Kirche und Imperium bemüht gewesen sei; das Schreiben des Kaisers habe er wohlwollend empfangen und werde nun die einzelnen darin angeführten Punkte beantworten; der Papst erinnere sich mit Wohlwollen, daß der Kaiser seine Wahl um des Friedens der Kirche willen mit schuldiger Reverenz und Devotion aufgenommen habe; durch kaiserliche Schreiben und Boten habe er, der Papst, erfahren, daß der Kaiser das Patrimonium Petri durch seinen Sohn König Heinrich (VI.) (Heinricum illustrem regem tue excellentie filium) in kaiserlichen Schutz nehmen wollte; es sei aber anders gekommen: Heinrich sei nicht zur Verteidigung des päpstlichen Landes (terre nostre), sondern zu dessen Unterdrückung geschritten und habe von Städten und anderen Orten, die unter päpstlicher Jurisdiktion stehen, nämlich Narni, Viterbo, Perugia (Narnia, Viterbio, Perusio) und anderen, das Fodrum und weitere ungeschuldete Abgaben verlangt und für den Weigerungsfall willkürliche Drohungen ausgesprochen; der Papst glaubt, daß dies nicht dem Willen des Kaisers entsprechen könne und lobt den Kaiser, der gegen die Bürger von Novara (Novarienses), die sich von der Kirche losgesagt hätten, vorgegangen sei; wundern müsse er sich allerdings über die kaiserlichen Vorwürfe wegen Cremonas (super facto Cremonensium), die gewiß auf falsche Einflüsterungen zurückgingen, denn er habe, obwohl die Cremonesen ihn mehrfach gebeten hätten, sie in den apostolischen Schutz zu nehmen und der Papst verpflichtet sei, allen seinen Schutz zu gewähren, diese Bitte abgelehnt, da er, der Papst, Frieden und Eintracht zwischen den Cremonesen (Cremonenses) und dem Kaiser nicht hintertreiben wolle und er zudem Bischof S(icard) von Cremona (S. Cremonensi episcopo) beauftragt habe, nach Kräften für den Frieden zwischen dem Kaiser und den Cremonesen zu wirken; auch könne er sich nicht erinnern, den lombardischen Bischöfen oder Städten (episcopis ... vel civitatibus Lombardie) verboten zu haben, den Kaiser in seinem Kampf gegen Cremona zu unterstützen; gewisse Bischöfe habe er von ihren Ämtern suspendiert, da sie in den Kirchen Italiens (ecclesiis Italicis) (dem Kaiser) bislang nicht geschuldete Leistungen erbracht hätten zum Schaden ihrer Kirchen; zudem habe er einigen Bischöfen befohlen, die Besitzungen und Güter der Kirchen in der Diözese Cremona (ecclesiarum Cremonensis diocesis) bei ihrer Unterstützung des kaiserlichen Vorgehens nicht zu verwüsten; tauchten (päpstliche) Briefe anderen Inhalts auf, so möge man ihm diese vorlegen und er werde ihre Authentizität nicht leugnen, sofern diese Schreiben von ihm mit seinem Wissen ergangen und nicht erschlichen seien, wie derartiges auch bei kaiserlichen Schreiben vorkomme; in all seinen Handlungen könne der Papst nichts erkennen, was gegen den Kaiser gerichtet sei, es sei denn, der Kaiser suche einen Grund, mit ihm, dem Papst, als Freund zu brechen; der Papst wiederum müsse den Kaiser darauf hinweisen, wieviel er vom Kaiser und dessen Ministerialen ungestraft zu erdulden habe; unter anderem hätten neulich kaiserliche Ministeriale in den Diözesen Turin und Ivrea (in Taurinensi er Hiporiensi diocesibus) von der Geistlichkeit ungeschuldete Abgaben gefordert und sie vor das weltliche Gericht gestellt; der Sohn des Kaisers (Heinrich VI.) und (Reichslegat) Bertold (von Künßberg) (Bertoldus) hätten mit dem kaiserlichen Heer die Kirchen Tusziens (ecclesias Tuscie) verwüstet und willkürliche Abgaben verlangt, der Herzog (Konrad von Urslingen) von Spoleto (dux Spoletanus) gehe gewaltsam gegen die Kirchen vor, wie auch der kaiserliche Ministeriale Walter (Galterus ministerialis tuus) in den Marken, in Tuszien und anderswo (in Marchia Tuscie), so daß unzählige Klagen an den Papst gelangt seien; der Kaiser möge nun gegen diese Untaten vorgehen und seinem Sohn (Heinrich VI.) verbieten, Besitzungen und Rechte des Apostolischen Stuhls zu verletzen, und ihm deren Schutz befehlen sowie seine Ministerialen von der Bedrückung der Kirchen abhalten; der Papst werde dann, wenn der Kaiser die Freiheit der Kirche schützen werde, alles beitragen zur Ehre des Kaisers; dies habe er, wie er sich erinnere, dem Kaiser auch schon wiederholt durch seine Boten, Subdiakon Alexander und den Mailänder Domkanoniker Magister O. (Alexander subdiaconus et magister O. Mediolanensis canonicus) mitteilen lassen, die ihm weitere Mitteilungen machen werden; sollte der Kaiser nicht gegen die Bedrückung der Kirche vorgehen und die Rechte der Römischen Kirche nicht verteidigen, werde der Papst seinem Amt gemäß dagegen einschreiten.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Si datum esset desuper et</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Verone 14 kal. iul.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zur Überlieferung vgl. Meyer, Zum Streite S. 61 und S. 63. – Das genannte kaiserliche Schreiben ist verloren. Die kaiserlichen Vorwürfe, die zum Teil noch in den nach dem Gelnhäuser Hoftag (1186 November 28, vgl. dazu Opll, Friedrich Barbarossa S. 156 und Böhmer-Opll, Regesten Friedrichs I. 4 Nr. 3037) verfaßten Schreiben der Erzbischöfe Wichmann von Mageburg an Urban III. (Weiland, MGH Const. 1,S. 444-446 Nr. 315, Israël/Möllenberg, UB Magdeburg 1 S. 547-550 Nr. 416) und Adalbert von Salzburg an die Kardinäle (Weiland, MGH Const. 1,S. 446-448 Nr. 316) eine Rolle spielten (vgl. dazu Reg. 567), werden hier teilweise mit Gegenvorwürfen beantwortet oder heruntergespielt. Vgl. im einzelnen zu Heinrichs VI. Vorgehen in Mittelitalien Kauffmann, Italienische Politik S. 112-130 und Opll, Friedrich Barbarossa S. 154, zum in diesem Zusammenhang genannten kaiserlichen Ministerialen Walter (von Ranschbach?) vgl. Keupp, Dienst und Verdienst S. 190f. mit Anm. 424, zum hier von Urban III. begrüßten Vorgehen des Kaisers gegen die Novareser vgl. Opll, Stadt und Reich S. 353-357, zu Barbarossas Konflikt mit Cremona Kauffmann S. 105-110, Opll, Stadt und Reich S. 259f., Opll, Friedrich Barbarossa S. 153f. und Laudage, Friedrich Barbarossa S. 315, zur Bitte der Cremoneser um päpstlichen Schutz vgl. IP VI,1 S. 295 Nr. *6 und zu Urbans Ablehnung dieser Bitte Reg. 192. Das Mandat an Bischof Sicard von Cremona mit der Aufforderung, für den Frieden zwischen dem Kaiser und den Cremonesen zu wirken, ist nur hier erwähnt, vgl. Reg. 193. Die Lösung der lombardischen Bischöfe und Städte von den dem Kaiser zu leistenden Diensten leugnet der Papst, er habe lediglich die Zerstörung des Kirchenguts in der Diözese Cremona verboten (Reg. 191). Vgl. hierzu auch die noch weitergehenden Vorwürfe, wonach Urban III. den Städten und Bischöfen Italiens unter Androhung des Anathems untersagt habe, dem Kaiser in seinen Auseinandersetzungen mit Cremona Hilfe zu leisten (Reg. 171). Zur angeblichen Suspension einiger italienischer Bischöfe vgl. Reg. 190. Zur Sache sowie zu diesem Schreiben allgemein vgl. Scheffer-Boichorst, Friedrich' I. letzter Streit S. 92-96, Kauffmann S. 132f. und Keupp S. 190f. Zum Titel Heinrichs VI. vgl. Schwarz, Herrschertitel S. 37 und S. 332, zum kaiserlichen Legaten Bertold von Künßberg LexMA 1 Sp. 2034, zu den in Urbans Schreiben angekündigten Boten Friedlaender, Legaten S. 22 und S. 144 Nr. 20 sowie zum hier zum Ausdruck gebrachten päpstlichen Gesetzgebungsanspruch vgl. Alberzoni, Redde rationem S. 321.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Kopie 12. Jh., Magdeburg, Landeshauptarch. Sachsen-Anhalt, Magdeburg, Cop., Nr. 375a fol. 40-41' (unvollständig) (Codex Viennensis); Kopie 12. Jh., Wien, Österreichische Nationalbibl., Cod. 738 fol. 198'-199'.  Drucke: Ludewig, Reliquiae manuscriptorum 2 S. 409-413 Nr. 148 (unvollständig); Denis, Codices manuscripti theologici 1,2 S. 1208-1215; Watterich, Pontificum Romanorum vitae, 2 S. 678-680 (unvollständig, nach Ludewig und Denis); Mansi, Collectio 22 Sp. 504-506 (unvollständig, nach Ludewig); Migne, PL, 202 Sp. 1410-1412 (unvollständig, nach Mansi); Meyer, Zum Streite S. 63-67 Nr. 2; Weiland, MGH Const. 1,S. 441-444 Nr. 314.  Reg.: JL 15634 (J 9828); Astegiano, Cremona S. 162-163 Nr. 428; Möllenberg, Codex Viennensis S. 164 Nr. 69; Balladore Pallieri/Vismara, Acta pontificia iuris gentium S. 101 Nr. 25 und S. 391 Nr. 68; Rossini, Verona S. 42 Nr. 27; Böhmer-Opll, Regesten Friedrichs I. 4 Nr. 3001.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

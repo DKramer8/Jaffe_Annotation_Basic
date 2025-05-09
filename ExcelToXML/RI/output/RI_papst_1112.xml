@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,5 n. 703</idno>
+        <idno type="urn">1193-03-04_1_0_4_4_5_703_703</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Cölestin III., RI IV,4,4,5 n. 703</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Rom, Lateran</placeName>
+              <date type="issued" notBefore="1193-03-04" notAfter="1193-03-04">1193 März 4</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Cölestin III. nimmt Abt Wilhelm und die Brüder des Klosters Notre-Dame in Villers (Willelmo abbati monasterii sancte Marie de Villario eiusque fratribus) (D. Lüttich) wie Alexander (III.) in den päpstlichen Schutz, bestätigt die Benediktinerregel und die Institution der Zisterzienser sowie die genannten Besitzungen und die Schenkungen erwähnter Personen, befreit sie vom Zehnten bei Eigenbau und für ihre Gärten und Fischteiche sowie ihr Tierfutter, gewährt das Aufnahmerecht, verbietet, nach abgelegter Profeß das Kloster unerlaubt zu verlassen, und gestattet, ein kanonisches Urteil gegen jene Mönche oder Konversen zu fällen, die nicht zurückkehren, verbietet, Güter oder Benefizien des Klosters ohne Zustimmung des Kapitels zu vergeben oder sonstwie zu entfremden, und erklärt derartige Veräußerungen für ungültig, untersagt die Leistung von Bürgschaften durch Mönche oder Konversen ohne Zustimmung von Abt und Kapitel sowie die nicht vom Kapitel genehmigte Kreditaufnahme außer bei offensichtlichem Nutzen und entbindet den Konvent von der Haftung, wenn solche Geschäfte ohne ihn getätigt werden, gestattet das Zeugnisrecht der Brüder in Zivil- und Kriminalfällen, untersagt, daß ein Bischof oder sonst jemand sie zu Synoden und vor Gericht zwingt, sie vor ein weltliches Gericht zieht oder ihr Kloster zu öffentlichen Versammlungen gegen ihren Willen betritt, verbietet, die Wahl des Abts entgegen den Statuten des Zisterzienserordens zu behindern oder sich in die Ein- und Absetzung des Abts einzumischen, berechtigt den Abt, falls der Diözesanbischof sich nach angemessenem Ersuchen weigert, ihn zu benedizieren, die Weihe der eigenen Novizen vorzunehmen und sein Amt zu führen, bis der Bischof einlenkt, setzt fest, daß der Bischof sich bei der Entgegennahme des Gelübdes mit den Formen und Gebräuchen zufriedengibt, die innerhalb ihres Ordens üblich sind, setzt fest, daß über den geschuldeten Gehorsam und die Freiheit des Ordens hinausgehende Forderungen des Bischofs und der Fürsten sowie deswegen gegen sie gerichtete bischöfliche Sentenzen mit apostolischer Autorität zurückgewiesen werden dürfen, bestimmt, daß für Konsekrationen und den Empfang von Heiligem Öl sowie die Spendung der Sakramente nichts von ihnen gefordert werden darf, und erlaubt, dies nötigenfalls von einem Bischof ihrer Wahl zu erbitten, erlaubt bei Vakanz des Bischofsstuhls den Empfang von Weihen und Ordinationen durch beliebige Bischöfe, ohne daß dadurch ein Präjudiz geschaffen werde, verbietet, daß Bischöfe oder sonstige geistliche Prälaten Suspension, Exkommunikation oder Interdikt über das Kloster oder seine Leute verhängen oder daß die Leute oder Händler des Klosters mit dem Interdikt oder der Exkommunikation belegt werden wegen ihrer Arbeit an Feiertagen oder über ihre Wohltäter wegen deren Leistungen Interdikt oder Exkommunikation zu verhängen, gewährt das Recht, Schreiben zu mißachten, die ihre Zugehörigkeit zum Zisterzienserorden nicht erwähnen und gegen ihre apostolischen Privilegien verstoßen, gebietet Frieden und untersagt Verbrechen in ihren Klausuren und Grangien, bestätigt die Freiheiten und Immunitäten, die ihnen von seinen Vorgängern gewährt worden sind, sowie die von Königen und Großen gewährten weltlichen Freiheiten und Exemtionen.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Religiosam vitam eligentibus apostolicum convenit</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Lat. pm. Egidii s. Nicolai in carcere Tulliano diaconi cardinalis 4 non. mar. ind. 11 inc. 1192 pont. a. 2.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zur Überlieferung vgl. Ramackers, PUU Niederlande S. 10 und Despy, Inventaire Villers S. 46 Nr. 29. – VU ist das Privileg Alexanders III. von 1177 Dezember 23 (JL 12963, Moreau, Chartes Villers-en-Brabant S. 30-33 Nr. 17, Ramackers, PUU Niederlande S. 326-328 Nr. 186 [Teildruck]). Zur Sache vgl. Wauters, Villers S. 19 und Moreau, Abbaye de Villers-en-Brabant S. 32-34.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Überl.: Kopie 14. Jh., Lüttich, Arch. de l’État, Chartular von Notre-Dame in Villers fol. 6-9 (früher Brüssel, Arch. gén. du Royaume, Arch. eccl. du Brabant n. 10966).  Drucke: Ramackers, PUU Niederlande S. 477-478 Nr. 335 (Teildruck unter Verweis auf die VU Alexanders III.); Moreau, Chartes Villers-en-Brabant S. 64-69 (Teildruck unter Verweis auf die VU Alexanders III.).  Reg.: JL 16832 (zu 1192 März 4 nach der Erwähnung bei Wauters, Villers S. 19) Coenen, Limburgsche Oorkonden 1 S. 240 Nr. 611.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

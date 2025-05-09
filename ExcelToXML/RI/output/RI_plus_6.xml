@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RIplus URH 1 n. 391</idno>
+        <idno type="urn">1165-10-04_1_0_20_10_1_391_391</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Friedrich I., RIplus URH 1 n. 391</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>(Köln)</placeName>
+              <date type="issued" notBefore="1165-10-04" notAfter="1165-10-04">(1165) Oktober 4</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Ks. Friedrich I. bekundet allen Getreuen: Bf. Nikolaus von Cambrai kam in Köln vor ihn (Colonie imperiali nostro assistens conspectui) und vertraute ihm in Gegenwart der Fürsten an (maiestati nostre in audientia principum intimavit), daß er nach Erbrecht ein Lehen vom Gf. von Hennegau besitze, das er am Hof des Gf. in dessen und der Standesgenossen des Bf. Anwesenheit an Goswin, den Bruder des Gf., für 40 Mk. verpfändet hatte. Als nach dessen Tod der Bf. das Pfand gegen 40 Mk. von seiner Witwe zurückverlangte, antwortete diese, das Lehen sei ihrem verstorbenen Gemahl und ihr für 1000 Mk. verpfändet gewesen, und zwar auf 60 Jahre, von denen schon 20 vergangen seien; das könnte sie hinreichend beweisen (id quod se sufficienter posse spondet comprobare). Der Bf. entgegnete, er könne einen besseren Beweis mit dem Zeugnis seiner Standesgenossen und des Gf. selbst (et parium suorum et ipsius comitis testimonio) führen.  Der Bf. bat die Fürsten dringend, dies am Hof zu prüfen (Super quo principum examen ipso instantius requirente imperialis nostra curia). Daraufhin verkündete Gf. Heinrich von Geldern mit Zustimmung der versammelten Fürsten und Barone folgenes Urteil (Henrico comite ... sententiam proferente, et universo principum ac baronum cetu assentientea, dictavit): Der Beweis ist nicht der Witwe des Gf., sondern dem Bf. zu gestatten (episcopo probationem permittendam), und der Gf. von Hennegau selbst hat sein Zeugnis dafür zu erbringen, daß der Bf. die Wahrheit sagte (veritati episcopi testimonium esse perhibendum).  Dem Urteil stimmten zu (huius sententie hii principum et baronum fuerunt assensores): Hzg. Heinrich von Sachsen und Bayern, Lgf. Ludwig, die Gff. Florentius von Holland, Dietrich von Kleve, Albrecht von Maubach, Otto von Ravensberg und Wilhelm von Jülich. Beisitzer (Hii autem assessores): Ebf. Rainald von Köln, Elekt Alexander von Lüttich, die Bff. Gottfried von Utrecht, Friedrich von Münster, Philipp von Osnabrück, Werner von Minden, Ebergisil von Paderborn und Bern von Schwerin, Abt Hermann von Fulda und viele andere vornehme Männer.  Der Ks. befiehlt aufgrund des Urteils der Fürsten, daß das Urteil des Hofes vom Gf. von Hennegau unverzüglich auszuführen ist (Nos itaque ex principum nostrorum sententia imperiali nostro edicto precepimus prefatam curie nostre sententiam a ... comite sine frustratoria dilatione effectui mancipari).</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">A.i.d. 1166, ind. 13, mense oct., luna 25.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Die Indiktion deutet auf das Jahr 1165. Aus der Liste der anwesenden Bff. geht hervor, daß die Sache in Köln im Anschluß an die am 2./3. Okt. vollzogene Weihe Rainalds von Dassel zum Ebf. entschieden wurde. – In dieser Form pflegte die Beurkundung nicht von Schreibern der kgl. Kanzlei durchgeführt zu werden. Auffällig ist die Scheidung der Zeugen in assesores, die der Sentenz zustimmen, und assessores, die lediglich Solemnitätszeugen sind. Der Schreiber war ein Romane. (MGH)</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Ü: A AD Lille, 3 G 8, P. 80.  D: MGH DD 10, 2 S. 417f. Nr. 493. (A). OB Gelre en Zutfen S. 307 Nr. 312. (A). OB Sticht Utrecht 1 S. 398 Nr. 446 (unvollständig).  R: Stumpf Nr. 4054.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>Druck in MGH DD</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p>aAI sel. 1 S. 114f. Nr. 122: assistente. </p>
+      </note>
+    </body>
+  </text>
+</TEI>

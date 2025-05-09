@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,2 n. 1513</idno>
+        <idno type="urn">1185-03-04_2_0_4_4_2_347_1513</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Lucius III., RI IV,4,4,2 n. 1513</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Verona</placeName>
+              <date type="issued" notBefore="1185-03-04" notAfter="1185-03-04">1185 März 4</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Lucius III. nimmt Abt Konrad und die Brüder von Kaisheim (Cunrado abbati de Cesarea eiusque fratribus) (D. Augsburg) auf deren Bitten mit ihrem Kloster Kaisheim (monasterium Kaysheim, quod mutato nomine Cesarea nuncupatur) in den päpstlichen Schutz, bestätigt die Benediktinerregel und die Institution der Zisterzienser sowie den genannten Besitz und die Schenkungen erwähnter Personen, befreit sie vom Zehnten bei Eigenbau und für Tierfutter, gewährt das Aufnahmerecht, verbietet, nach abgelegter Profeß das Kloster unerlaubt zu verlassen, gestattet, über jene zu urteilen, die entwichene Mönche und Konverse festhalten, untersagt unter Androhung des Anathems die Ausübung der Vogtei ohne Erlaubnis des Abts und der Brüder, verbietet Gewalttaten in ihren Klausuren und Grangien, bestätigt wie Innocenz (II.), Eugen (III.) und Alexander (III.), daß niemand sie zu Synoden und vor Gerichte zwingen darf, gewährt dem Abt das Recht, falls der zuständige Bischof sich nach dreimaligem angemessenen Ersuchen weigert, ihn zu benedizieren, die Benediktion der eigenen Novizen vorzunehmen und sein Amt zu führen, bis der Bischof einlenkt, und setzt fest, daß über den geschuldeten Gehorsam und die Freiheit des Ordens hinausgehende Forderungen des Bischofs und der Fürsten sowie deswegen gegen sie gerichtete bischöfliche Sentenzen mit apostolischer Autorität zurückgewiesen werden dürfen.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Religiosis votis annuere et eis</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Verone pm. Alberti SRE. presb. card. et cancellarii 4 non. mar. ind. 3 inc. 1184 pont. a. 4.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>In deutscher Übersetzung wird dieses Privileg auch wiedergegeben von Johann Knebel, Chronik des Klosters Kaisheim, ed. HÜTTNER S. 31f. – Die genannten päpstlichen Urkk. sind allgemein für den Zisterzienserorden ausgestellt worden. – Zur Sache vgl. STEICHELE, Bisthum Augsburg 2 S. 620 und MAIER, Kaisheim S. 52 und passim.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Überl.: Orig., Augsburg, StArch., KU 2 (alt: Kloster Kaisheim Urk. 2756).</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl> LÜNIG, Spicilegium ecclesiasticum 3,2 S. 326-328; Wirtembergisches UB 5 S. 383-385 Nr. 14 (nur Teildruck unter Verweis auf Reg. 1515, zu 1184 März 4); FRIED/LENGLE, Schwaben S. 259-260 Nr. 210 (Teildruck, ohne Unterschriften und Datum, zu 1184 März 4). HOFFMANN, Urkunden Kaisheim S. 9-11 Nr. 11 (mit Druck der Unterschriften); GP II,1 S. 101 Nr. 2.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>Druck in WUB-Online</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

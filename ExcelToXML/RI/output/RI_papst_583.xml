@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,3 n. 469</idno>
+        <idno type="urn">1186-01-15_1_0_4_4_3_469_469</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Urban III., RI IV,4,4,3 n. 469</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Verona</placeName>
+              <date type="issued" notBefore="1186-01-15" notAfter="1186-01-15">(1186 – 1187) Januar 15</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Urban III. schreibt Äbtissin Letizia und den Schwestern des Benediktinerinnenklosters (S. Vittore) in Meda (Letitie abbatisse et monialibus monasterii de Medda) (Erzd. Mailand) wegen des Streits zwischen ihnen und den Bewohnern (von Meda) (inter vos et burgenses) um die Wahl des Priesters der Pfarrkirche S. Maria in Meda (ecclesie sancte Marie, que parrochialis est ipsius loci), die ihrem Kloster gehört; dieser Streit sei vor seinen Vorgänger Alexander (III.) gebracht worden, der ihn auf Bitten beider Parteien unter Ausschluß der Appellation an Bischof Omnebonus von Verona (Omnebono Veronensi episcopo) zur Entscheidung übertragen habe, der nach sorgfältiger Untersuchung zugunsten der Äbtissin und der Schwestern geurteilt habe; dennoch hätten die Bürger gegen die Entscheidung des Bischofs Appellation an den Apostolischen Stuhl eingelegt, die Alexander III. aber, da die Delegation unter Ausschluß der Appellation erfolgt war, nicht zugelassen und vielmehr das Urteil des Bischofs bestätigt habe, das auch er wie sein Vorgänger Lucius (III.) nun bestätigt.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Cum inter vos et burgenses</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Verone 18 kal. feb.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Das Archiv von S. Vittore zu Meda ist jetzt im Besitz der Familie Antona Traversi, vgl. dazu Albuzzi, Pergamene inedite S. 193f. – Das genannte Delegationsmandat Alexanders III. an Bischof Omnebonus von Verona von 1176 Juni 10 (JL – , IP VI,1 S. 138 Nr. *2 zu 1176-1177 nach dem Reg. des 18. Jh. in der Risposta al papele intitolato Estratto delle spese attinenti alle campane della chiesa parrocchiale di Meda, vgl. IP VI,1 S. 137) ist jetzt gedruckt bei Orsini, Monastero di San Vittore di Meda S. 90 Nr. 20, vgl. hierzu auch Alexanders III. Urk. von 1176 Juni 15 (JL – , Orsini S. 91 Nr. 21) an die Äbtissin von Meda. Das Urteil des Bischofs von 1177 März 14 ist ungedruckt, der Text ist aber im Internet verfügbar (http://cdlm.unipv.it/edizioni). Die Ablehnung der Appellation der Bewohner Medas und die Bestätigung des Urteils des Delegaten durch Alexander III. von 1177 April 28 (JL – , IP VI,1 S. 138 Nr. *3) ist ebenfalls ungedruckt, jedoch aus einer ital. Übersetzung des 17. Jh. im Internet unter der gleichen Adresse zu finden. Zur Bestätigung der Vereinbarung durch Lucius III. vgl. Böhmer-Baaken-Schmidt, Papstregesten Lucius' III. 1 , Nr. 53 und die Ergänzungen zu diesem Reg. in diesem Bd. S. 801f. Das dort genannte Datum (1181 November 14-Dezember 13) kann durch den inzwischen unter der gleichen Internet-Adresse publizierten Text auf 1181 Dezember 7 präzisiert werden. Zu Bischof Omnebonus vgl. Wiegand, Frühe Kanonisten S. 137f. Vgl. zu weiterer Literatur die Hochzeits-Schrift Antona Traversi, Per le nozze Ponzani-Antona Traversi S. 43 und S. 47 (war nicht zugänglich), die Notiz NA 44/1922 S. 402-403 Nr. 366 sowie Picasso, Lettera S. 132 Anm. 3.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Orig., Meda, Arch. privato Antona Traversi, SVP, sec. XII Nr. 145.  Druck: Die Urk. ist ungedruckt, der Text ist aber im Internet verfügbar (http://cdlm.unipv.it/edizioni).  Reg.: IP VI,1 S. 138 Nr. *5 (zu 1186 Februar 14).</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

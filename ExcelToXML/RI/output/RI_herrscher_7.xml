@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,2,1 n. 486</idno>
+        <idno type="urn">1157-09-28_2_0_4_2_1_488_486</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Friedrich I., RI IV,2,1 n. 486</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Würzburg</placeName>
+              <date type="issued" notBefore="1157-09-28" notAfter="1157-10-06">1157 September 28-Oktober 6</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">Hoftag</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Friedrich hält einen Hoftag . Er läßt auf Betreiben der griechischen Gesandten (zu diesen vgl. Regg. 478 und 483) nach Beilegung einer Kontroverse wegen deren anmaßendem Verhalten und gemäß dem Wunsch der Kaiserin (Irene) deren Neffen, den jungen Herzog Friedrich von Schwaben, mit dem Schwert umgürten und zum Ritter schlagen. In Beantwortung dieser Legation wird Abt Wibald von Stablo nach Griechenland entsandt. Gesandte König Heinrichs (II.) von England überbringen Geschenke, darunter ein riesiges, prachtvolles Zelt, das nur mit Hilfe von Maschinen aufgerichtet werden kann, und einen Brief (Reg. 485). Des weiteren sind auch Gesandte aus Dänemark, Ungarn, Italien, Burgund, Spanien und Frankreich anwesend. Friedrich investiert auf Bitten des Herzogs Vladislav von Böhmen und des Bischofs Daniel von Prag den am 29. September in Prag zum Bischof von Olmütz gewählten Abt Johann von Leitomischl (Litomy?l) mit den Regalien und schickt ihn mit seinem Legaten, Markgraf Albrecht (dem Bären), zur Weihe an Erzbischof Arnold von Mainz nach Erfurt. Bischof Daniel von Prag erstattet dem Kaiser über seine erfolgreiche Legation nach Ungarn (Reg. 471) Bericht und bringt die von den Polen zur Wahrung des Friedens gestellten Geiseln.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">-</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Vgl. Simonsfeld, Jahrbücher 557 ff. - Die Datierung des Hoftages ergibt sich aus Regg. 483  und 487. Wibald von Stablo kehrte von dieser Legation nicht mehr zurück, er starb auf der Rückreise am 19. Juli 1158 zu Monastir (Bitola) in Mazedonien. Seine Gebeine wurden im Jahre darauf auf Wunsch des Kaisers nach Stablo überführt, vgl. dazu Hausmann, Reichskanzlei 250. - Zur Weihe des neuen Olmützer Bischofs durch Arnold von Mainz vgl. Acht, Mainzer UB. 2/1, 401 no  222 Vorbemerkung.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Zur Schwertleite Herzog Friedrichs und zu den verschiedenen Gesandtschaften vgl. Rahewini Gesta Frid. l. III capp. 6-8, ed. Waitz-Simson, MG. SS rer. Germ. in us. schol. 170 ff. und Ann. Marbacenses, ed. Bloch, MG. SS rer. Germ. in us. schol. 49 (Dölger, Reg. d. oström. Reiches 2, no  1414); Gesandte aus Spanien und Gallien bei Ligurinus V. 230 ff., ed. Migne, PL 212, Sp. 409. Zur Entsendung Wibalds vgl. Ann. Laub. Cont., MG. SS IV, 23 und Jaffé, Mon. Corb. 608. Zum Erscheinen der Böhmen mit den polnischen Geiseln vgl. Vinzenz von Prag, MG. SS XVII, 667 (vgl. Krabbo-Winter, Reg. Brandenburg no  278).</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>Digitalisat der RI-Buchseite</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

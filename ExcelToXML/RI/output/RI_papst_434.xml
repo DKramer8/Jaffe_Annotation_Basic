@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,2 n. 2283</idno>
+        <idno type="urn">1181-00-00_340_0_4_4_2_1117_2283</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Lucius III., RI IV,4,4,2 n. 2283</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>[Ausstellungsort]</placeName>
+              <date type="issued" notBefore="1181-01-01" notAfter="1181-12-31">(1181 – 1185)</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>(Lucius III.) beauftragt Prior Alan von (Christ Church in) Canterbury (den späteren Abt von Tewkesbury), Prior (Ralph von Bedford) von Worcester (?) und Prior (Roger von Norwich) von Lanthony (D. Worcester) (magistro Alano quondam Cantuariensi priori, nunc vero abbati de Tekesberia Wigorniensi, et de Lantonia priori) aufgrund der Klage des Abts und der Brüder von Winchcombe (abbatis et fratrum Wynchecumbe) (D. Worcester) mit der Untersuchung und Beilegung des Streits zwischen diesen und Kleriker Simon von Hailes (Simonem clericum de Hailes) wegen eines jährlichen Zinses von sieben Solidi (super annuis septem solidis).</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">-</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Der Ausstellungszeitraum dieses Delegationsmandats kann lediglich durch die Nennung des Priors Alan von Christ Church in Canterbury auf 1179-1186 eingegrenzt werden, vgl. KNOWLES/BROOKE/LONDON, Heads S. 34 und S. 73, wobei davon ausgegangen wird, daß Alan zum Zeitpunkt der Delegation offenbar noch Prior von Christ Church (1179-1186) und noch nicht Abt von Tewkesbury (D. Worcester) (1186-1202) war. Als Aussteller kommen mithin auch Alexander III. und Urban III. in Frage. Ob der Prior von Worcester tatsächlich zu den delegierten Richtern gehörte, ist angesichts der offenbar verderbten Formulierung ... magistro Alano quondam Cantuariensi priori, nunc vero abbati de Tekesberia Wigorniensi, et de Lantonia priori ... nicht sicher. Tewkesbury liegt in der Diözese Worcester, so daß Worcester hier auch die Diözesanzugehörigkeit des Klosters bezeichnen könnte, was aber in PUU dieser Zeit höchst ungewöhnlich wäre. In diesem Fall wäre allerdings denkbar, daß die Angabe der Diözesanzugehörigkeit den Eindruck der Befangenheit ausschließen sollte. Der Streit konnte durch diese Delegation jedoch nicht beigelegt werden, und Kleriker Simon gelang es, fraudulenter tacita veritate ein weiteres Delegationsmandat zu erlangen (Reg. 2284). In der Folge ergingen in diesem Streit mit den Urkk. Cölestins III. von 1193 Januar 9 (JL – , ROYCE, Landboc Winchelcumba 2 S. 301-302 Nr. 254, HOLTZMANN, PUU England 3 S. 538-539 Nr. 445) und von 1193 Dezember 12-1195 Oktober 24/25 (JL – , erw. in der undatierten Entscheidung der delegierten Richter, ROYCE, Landboc Winchelcumba 1 S. 66-67) noch zwei weitere Delegationsmandate.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Überl.: Dep., erw. in der Urk. Cölestins III. von 1193 Januar 9 (JL – , ROYCE, Landboc Winchelcumba 2 S. 301-302 Nr. 254, HOLTZMANN, PUU England 3 S. 538-539 Nr. 445).</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

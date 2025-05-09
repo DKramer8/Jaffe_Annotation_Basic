@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,5 n. 199</idno>
+        <idno type="urn">1191-11-04_1_0_4_4_5_199_199</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Cölestin III., RI IV,4,4,5 n. 199</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Rom, St. Peter</placeName>
+              <date type="issued" notBefore="1191-11-04" notAfter="1191-11-04">1191 November 4</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Cölestin III. schreibt Bischof Martin von Sigüenza (Martino Seguntino episcopo) wegen des Streits um die Diözesanzugehörigkeit der Stadt Soria (pro civitate Soria), der zwischen Bernhard, dem Vorgänger des Bischofs, und den Bischöfen Michael von Tarazona und Bertrandus von Osma (inter predecessorum tuum bone memorie Bernardum et fratres eius Michaelem Tirasonensem et Bertrandum quondam Oxomensem episcopos) ausgetragen worden sei und durch den damaligen Kardinaldiakon Guido (von SS. Cosma e Damiano) als apostolischem Legaten (Guidonis olim sancte Romane ecclesie diaconi cardinalis tunc apostolice sedis legati) mit Zustimmung des Königs Alfons (VII. von León und Kastilien) (Aldefonsi Yspaniarum regis) und aller auf dem Konzil von Burgos (von 1136) (concilium Burgense) anwesender Erzbischöfe, Bischöfe, Äbte und anderer Religiosen unter genauer Aufzählung des Besitzes zugunsten von Sigüenza entschieden worden ist; der Papst bestätigt auf Bitten des Bischofs Martin wie Innocenz (II.), Eugen (III.), Hadrian (IV.) und Alexander (III.) diese Entscheidung.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Superne miserationis respectu ad hoc</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Rome apud sanctum Petrum pm. Egidii s. Nicolai in carcere Tulliano diaconi cardinalis 2 non. nov. ind. 10 inc. 1191 pont. a. 1.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Der vollständige Text findet sich als Abschrift des Orig. in der Sammlung der Pius-Stiftung für Papsturkundenforschung in Göttingen. Für eine Kopie danke ich Thorsten Schlauwitz, Pius-Stiftung, Göttingen. Zur Bestätigung der Übereinkunft zwischen den Bischöfen durch Kardinaldiakon Guido von SS. Cosma e Damiano von 1136 September (Garrido Garrido, Documentación Burgos 1 S. 205-206 Nr. 117, Minguella y Arnedo, Historia Sigüenza 1 S. 358 Nr. 10) vgl. Säbekow, Legationen S. 43f. und Weiß, Legaten S. 118 Nr. 2a, S. 119 Nr. 2b sowie S. 120-122. Die genannten Urkk. sind die VUU Innocenz’ II. von 1138 Februar 15 (JL – , Minguella y Arnedo 1 S. 360-361 Nr. 12), von 1136 Dezember 17 (JL – , Minguella y Arnedo 1 S. 361 Nr. 13) und von 1138 März 6 (JL – , Minguella y Arnedo 1 S. 362-364 Nr. 14), Eugens III. von 1146 März 29 (JL – , Minguella y Arnedo 1 S. 378-380 Nr. 24), Hadrians IV. von 1155 April 29 (JL – , Minguella y Arnedo 1 S. 395-396 Nr. 39 bis) und Alexanders III. von 1163 Juni 17 (JL – , ebenfalls nur Verweis bei Minguella y Arnedo beim Druck der Urk. Hadrians IV.).</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Überl.: Orig., Sigüenza, Arch. capitular catedralicio, Sala 2a, Bandeja 9a, Diploma Pontificio n. 11.  Druck: Minguella y Arnedo, Historia Sigüenza 1 S. 395-396 Nr. 39 bis (Teildruck der Urk. Hadrians IV. von 1155 April 29 [JL –], wo unter Nennung des Datums auf die gleichlautende Urk. Cölestins III. verwiesen wird).  Reg.: Holndonner, Kommunikation S. 622 Nr. 44.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

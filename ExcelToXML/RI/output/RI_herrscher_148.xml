@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,2,2 n. 1144</idno>
+        <idno type="urn">1162-09-07_1_0_4_2_2_586_1144</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Friedrich I., RI IV,2,2 n. 1144</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Saint-Jean-de-Losne</placeName>
+              <date type="issued" notBefore="1162-09-07" notAfter="1162-09-07">1162 September 7</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">Savigny</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness">Primas und Erzbischof Heraclius von Lyon, Herzog Heinrich von Bayern und Sachsen, Graf Berthold von Andechs, Protonotar Heinrich, Archidiakon Drogo von Lyon, Truchseß Dalmacius Morellus von Lyon</legalActor>
+          </p>
+          <p>
+            <legalActor>unter Heranziehung von DH. IV. 397 aller Wahrscheinlichkeit nach verfaßt und geschrieben von RG</legalActor>
+          </p>
+          <p>
+            <legalActor>Ulricus canc. vice Reinaldi Coloniensis electi archicanc.</legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Friedrich nimmt auf Bitten des Erzbischofs und Primas Heraclius von Lyon das dem Kloster Savigny   unterstehende Priorat Lutry im Bistum Lausanne sowie die demselben Kloster unterstehenden Priorate Talloires, Saint-Jorioz und Lovagny in der Diözese Genf und Bourdeaux in der Diözese Die samt ihren Besitzungen und Rechten in seinen Schutz und bestätigt dem Kloster Savigny unter Vorbehalt der kaiserlichen Gerechtsame alle diese Kirchen und die im Reichsgebiet gelegenen Güter. Z.: Primas und Erzbischof Heraclius von Lyon, Herzog Heinrich von Bayern und Sachsen, Graf Berthold von Andechs, Protonotar Heinrich, Archidiakon Drogo von Lyon, Truchseß Dalmacius Morellus von Lyon. - Ulricus canc. vice Reinaldi Coloniensis electi archicanc. ; unter Heranziehung von DH. IV. 397 aller Wahrscheinlichkeit nach verfaßt und geschrieben von RG. Inclinare precibus fidelium .</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Inclinare precibus fidelium</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">(VIIo  idus septembris, apud Pontem Laone super Saonam fluvium)</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zur Überlieferung vgl. die Vorbemerkung zum D. - Nach der Quellenangabe im Drucke der Gallia christ. scheint es nicht ausgeschlossen, daß die genannten Priorate von Savigny über eigene Ausfertigungen des D. verfügten.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Kop.: Vidimus von 1481 Oktober 3, Staatsarchiv Lausanne (C); Abschrift des 18. Jh. im Ms. Hist. Helv. II 47 p. 53, Burgerbibliothek Bern (E); Abschrift des 18. Jh. von L. Besson Ms. no  68 f. 589, Bibliothèque de l'Académie Florimontane d'Annecy (F). Drucke: Gallia christ. ed. II. 4b, 18 no  23 ex autogr. Talluer. (Priorat Talloires, Dép. Haute-Savoie); MG. DF. I. 387. Reg.: Reg. Genevois 101 no  366; Hidber 2, no  2119; Chevalier, Rég. dauphinois 1, 694 no  4144; Stumpf 3965.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>Digitalisat der RI-BuchseiteAbb. des LBA MarburgDruck in MGH DD</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

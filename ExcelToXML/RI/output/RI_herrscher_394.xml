@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,2,3 n. 2278</idno>
+        <idno type="urn">1177-07-22_1_0_4_2_3_506_2278</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Friedrich I., RI IV,2,3 n. 2278</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>(Chioggia)</placeName>
+              <date type="issued" notBefore="1177-07-22" notAfter="1177-07-22">1177 Juli 22</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Friedrich und Papst Alexander (III.)  fixieren durch bevollmächtigte Vertreter — als Subskribenten werden die Erzbischöfe Wichmann von Magdeburg, Philipp von Köln, Christian von Mainz und Arnold von Trier sowie Protonotar Wortwin genannt — (im Anschluß an den Vorvertrag von Anagni, Reg. 2202) endgültig die Bedingungen für die Beendigung des Schismas und die Wiederherstellung des Friedens, wobei (im Vergleich mit Reg. 2202) die gegenseitige Anerkennung auch auf die Nachfolger ausgedehnt und vereinbart wird, daß die Rückstellung der gegenseitig entfremdeten Besitzungen und Rechte jeweils unter dem Vorbehalt der Gerechtsame von Reich und römischer Kirche erfolgen solle, ferner König (Wilhelm II.) von Sizilien gemäß den von den Unterhändlern schriftlich niedergelegten Verhandlungsergebnissen gemeinsam mit König Heinrich (VI.) ein fünfzehnjähriger Friede zugesichert und den Lombarden vom nächsten 1. August an ein sechsjähriger Waffenstillstand versprochen wird, zu dem auch die kaiserlichen Parteigänger unter den Lombarden und König Heinrich (VI.) verpflichtet werden müssen. — Dominus imperator F(redericus) .</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Dominus imperator F(redericus)</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">-</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>In unser Regest wurden nur die Teile aufgenommen, die vom Vorvertrag von Anagni (Reg. 2202) abweichen. Diese Abweichungen (etwa das Fehlen der Bestimmung über die Rückstellung der Mathildischen Güter), welche einige Erfolge der kaiserlichen Politik erkennen lassen, ergeben sich aus dem Verlauf der Verhandlungen; dazu und zur Überlieferung, die Ähnlichkeiten mit der von Reg. 2202  aufweist, sowie zur Herstellung des Textes vgl. die Vorbemerkung zum D. sowie Kehr, Anagni, NA 13 (1888) 107 f. — Während die Willenserklärung Alexanders III. und die Zusage zur Einhaltung der Verpflichtungen von Seiten der Kardinale verloren gegangen sind, haben sich diejenige des Kaisers und die von zwölf Großen des Reiches erhalten, vgl. Regg. 2337  und 2330. — Zur Datierung des D. vgl. Reg. 2276. — Vgl. auch die Eidesleistungen am 1. August in Venedig (Reg. 2290). — Zur Zusicherung eines Friedens gegenüber den sizilischen Gesandten vgl. auch Stumpf 4204 (wohl irrig zu 1177 August 1, Venedig) und dazu unten Reg. 2298.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Kop.: Gleichzeitige Kopie im Vatikanischen Archiv zu Rom, AA. Arm. I-XVIII 35, früher Arm. I. caps. IV no  10 (B); Abschrift aus dem Ende des 12. Jh. im Cod. 643a  f. 3, Stiftsbibliothek Klosterneuburg (C). Drucke: MG.Const. 1, 362 no  260; MG.DF.I.687. Faks.: Das Geheimarchiv des Vatikan. (Zürich 1992), 80 f. Tafel XVII. Reg.: Stumpf 4198.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>Digitalisat der RI-BuchseiteDruck in MGH DDDruck in MGH Const.</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

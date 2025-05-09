@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,3 n. 9</idno>
+        <idno type="urn">1185-12-13_1_0_4_4_3_9_9</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Urban III., RI IV,4,4,3 n. 9</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Verona</placeName>
+              <date type="issued" notBefore="1185-12-13" notAfter="1185-12-13">1185 Dezember 13</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Urban III. nimmt Abt Gonterius und die Brüder des Klosters Leno (Gonterio abbati Leonensis monasterii eiusque fratribus) (D. Brescia) auf deren Bitten wie Paschal (II.), Calixt (II.), Innocenz (II.), Eugen (III.), Hadrian (IV.) und Alexander (III.) in den päpstlichen Schutz, bestätigt genannte Besitzungen, erlaubt, für den Empfang von Chrisma, Heiligem Öl, Konsekrationen und Ordinationen den Bischof frei zu wählen, gestattet den Gebrauch von Mitra, Handschuhen, Stiefeln und Ring, gewährt die Wahl des Abts und bestätigt den Besitz ihrer Fischteiche.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Religiosam vitam eligentibus</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Verone pm. Transmundi SRE. notarii id. dec. ind. 4 inc. 1185 pont. a. 1.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zur Überlieferung vgl. Kehr, Nachträge zu den römischen Berichten S. 538 = Acta Rom. pont. 4 S. 196. – Das Privileg Urbans III. wiederholt laut Kehr jenes Alexanders III. von 1176 September 2 (JL 12732, IP VI,1 S. 347 Nr. 16, Kehr S. 573-574 Nr. 16 [Teildruck unter Verweis auf den Druck bei Zaccaria, Leno S. 237-240 Nr. 59, inseriert in die Urk. Eugens IV. von 1434 Juli 8] = Acta Rom. pont. 4 S. 231-232). Die genannten Urkk. sind die Privilegien Paschals II. (Dep., JL – , IP VI,1 S. 345 Nr. *6), Calixts II. von 1123 März 16 (JL 7024, IP VI,1 S. 345 Nr. 7, Robert, Bullaire Calixte II 2 S. 124-126 Nr. 354), Innocenz' II. von 1132 Juli 26 (JL 7588, IP VI,1 S. 345-346 Nr. 9, Migne, PL, 179 Sp. 152 Nr. 113), Eugens III. von 1146 Oktober 25 (JL 8950, IP VI,1 S. 346 Nr. 10, Zaccaria S. 117-119 Nr. 23), Hadrians IV. (Dep., JL – , IP VI,1 S. 346 Nr. *14), Alexanders III. Indulgenz von 1156 Dezember 5 (JL 10216, IP VI,1 S. 346 Nr. 12, Zaccaria S. 120-122 Nr. 24) und dessen oben genanntes Privileg.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Kopie 16. Jh., Rom, Arch. cap. di S. Giovanni in Laterano, FF 1: Miscellanea ab a. 1060 ad 1669 fol. 14.   Druck: Kehr, Nachträge zu den römischen Berichten S. 577-578 Nr. 20 (Teildruck unter Verweis auf die VU Alexanders III.) = Acta Rom. pont. 4 S. 235-236.   Reg.: IP VI,1 S. 347 Nr. 17.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

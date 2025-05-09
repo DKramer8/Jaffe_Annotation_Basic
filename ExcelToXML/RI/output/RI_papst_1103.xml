@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,5 n. 661</idno>
+        <idno type="urn">1192-06-28_7_0_4_4_5_661_661</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Cölestin III., RI IV,4,4,5 n. 661</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Rom, Lateran</placeName>
+              <date type="issued" notBefore="1192-06-28" notAfter="1193-01-07">(1192 Juni 28 – November 12) oder (1192 Dezember 6 – 1193 Januar 7)</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Cölestin III. schreibt Bischof (Hugo) von Rodez (Rutensi episcopo) und beantwortet dessen Anfrage wegen folgenden Falls: ein Mann hatte sich mit einem heiratsfähigen Mädchen öffentlich (per verba de presenti) verlobt; zwar hatte er noch keinen Verkehr mit seiner Verlobten, aber über zwei Jahre hinweg Verkehr mit der Mutter des Mädchens, das er dann kirchlich heiratete und mit dem er die Ehe vollzog; der Mann und seine Schwiegermutter hätten nun beide eidlich vor dem Bischof ihre Verfehlung eingestanden und um Bestrafung nachgesucht; der Papst teilt dem Bischof mit, daß dieses Eingeständnis jedoch nicht als Beweis des Vergehens genüge und nicht zur Trennung der Ehe führen könne, zumal die Ehe legitim geschlossen und vollzogen worden sei; dennoch solle den Ehegatten Enthaltsamkeit auferlegt werden oder zumindest dem Mann verboten sein, seine ehelichen Rechte zu fordern, während er aber die seiner Frau zu erfüllen hat; sollte der Skandal aber öffentlich bekannt sein und der Bischof erkennen, daß deswegen Infamie vorliege, so sei die Ehe gemäß dem Reskript Alexanders (III.) zu trennen, beiden Partnern angemessene Strafen aufzuerlegen und ihnen keine Hoffnung auf Wiederverheiratung zu lassen; die Frau allerdings dürfe, falls sie ohne Schuld war, nach dem Tod des Mannes eine erneute Ehe eingehen.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Non sine provide considerationis officio</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Lat. eodem anno ( = 2).</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Die Dekretale ist lediglich in der Collectio Seguntina und in der Colletio Remensis überliefert, vgl. Cheney/Cheney, Studies S. 283. Sie ist in der Sammlung Walther Holtzmanns als WH 674a (KI 764) verzeichnet. Das Datum ergibt sich aus der Nennung des Ausstellungsorts Lateran und des zweiten Pontifikatsjahrs in der chronologisch angeordneten Collectio Seguntina, wo dieses Stück zwischen Reg. 536 und Reg. 662 steht, vgl. Holtzmann, Collectio Seguntina S. 415f. Durch die von Holtzmann für die Datierung nicht berücksichtigten Reg. 539 und Reg. 540, die bereits 1192 Juni 28 im Lateran ausgestellt wurden, sowie Reg. 602 von 1192 November 12, ebenfalls mit dem Ausstellungsort Lateran, und den beiden in St. Peter ausgefertigten Reg. 603 und Reg. 604 von 1192 November 22 und 24 sowie die noch 1193 Januar 7 im Lateran ausgestellte Urk. Reg. 665 kann das von ihm erschlossene Datum (1192 Juli 4–Dezember 25) genauer auf (1192 Juni 28–November 12) bzw. (1192 Dezember 6–1193 Januar 7) eingegrenzt werden. Zur genannten Entscheidung Alexanders III. vgl. dessen Dekretale JL 14058, Decr. Greg. lib. 4 tit. 13 c. 2 (ed. Friedberg Sp. 696-697, WH 1066, KI 1197). Zur Sache vgl. Pfaff, Eherecht S. 108 und Rousseau, Prudent Sheperd S. 300f.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Druck: Holtzmann, Collectio Seguntina S. 439-440 Nr. 71.  Reg.: – .</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

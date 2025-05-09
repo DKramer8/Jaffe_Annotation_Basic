@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,2,1 n. 524</idno>
+        <idno type="urn">1158-01-28_1_0_4_2_1_526_524</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Friedrich I., RI IV,2,1 n. 524</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Nürnberg</placeName>
+              <date type="issued" notBefore="1158-01-28" notAfter="1158-01-28">1158 Januar 28</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">Münchaurach</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness">die Grafen Rapoto (von Abenberg) und Gerhard von Urach (Awrach), Burggraf Gottfried von Nürnberg, Konrad von Raabs (Ragthos), die Grafen Ernst und sein Bruder Friedrich von Hohenburg und Hermann von Velburg, Gebhard von Leuchtenberg (Luckenberc), Ottnand von Eschenau, Albert von Heng, Hermann von Stein am Kocher (?, Petra), Durekardus (von Pinkhofen) und Albert von Altenthann (Thaema)</legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor>Reynaldus canc. vice Arnoldi Maguntini archiep. et archicanc.</legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Friedrich nimmt auf Bitten des Burggrafen Gottfried von Nürnberg das Kloster Münchaurach   (cenobium ... in honore beati Petri apostoli in loco, qui Arwach dicitur) unter seinem Abt Hermann, das vom Grafen Goswin (von Höchstadt) und dessen Sohn, Pfalzgraf Hermann (bei Rhein), gegründet und von Otto, dem Bischof der Bamberger Kirche, der das Kloster untersteht, gefördert wurde, mit dessen genannten Besitzungen in seinen Schutz und verfügt, daß die Vogtei bei Verbot der Bestellung von Untervögten (sine subadvocacia) von dem nach dem Tode des Pfalzgrafen Hermann zum Vogt erwählten Burggrafen Gottfried und dessen rechtmäßigen Erben ausgeübt werden solle, solange sie sich nicht durch Missetaten dieses Amtes unwürdig erweisen. Z.: die Grafen Rapoto (von Abenberg) und Gerhard von Urach (Awrach), Burggraf Gottfried von Nürnberg, Konrad von Raabs (Ragthos), die Grafen Ernst und sein Bruder Friedrich von Hohenburg und Hermann von Velburg, Gebhard von Leuchtenberg (Luckenberc), Ottnand von Eschenau, Albert von Heng, Hermann von Stein am Kocher (?, Petra), Durekardus (von Pinkhofen) und Albert von Altenthann (Thaema). - Reynaldus canc. vice Arnoldi Maguntini archiep. et archicanc. ; nach Kanzleidiktat geschrieben von RD. Quandocumque nostre corroboracionis .</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Quandocumque nostre corroboracionis</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">(quinto kal. februarii, Nuremberg)</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zur Gründungs- und Frühgeschichte des Klosters vgl. Pfeiffer a. a. O. 22 ff.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Kop.: Transsumpt König Sigismunds von 1422 September 7 (Altmann Reg. 5151), Reichsregister G f. 151, Haus-, Hofund Staatsarchiv Wien (C); Deutsche Übersetzung in einem Transsumpt Kaiser Karls IV. von 1360 November 25 (B.-Huber Reg. 3431), zwei Abschriften des 15. Jh., Markgräfl. Bayreuth. Gemeinbuch no  l, Rep. 21 f. 37, Staatsarchiv Bamberg (D1) und Herrschaftl. Bücher no  1 f. 44, Staatsarchiv Nürnberg (D2). Drucke: Pfeiffer, Münchaurach, Würzb. Diözesangesch.bll. 26 (1964) 40 f.; MG. DF. I. 203. Reg.: Nürnberger UB. 46 no  69 ; Stumpf 3797.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>Digitalisat der RI-BuchseiteDruck in MGH DD</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

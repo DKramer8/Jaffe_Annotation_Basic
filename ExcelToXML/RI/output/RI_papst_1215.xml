@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,6 n. 1547</idno>
+        <idno type="urn">1195-09-12_1_0_4_4_6_160_1547</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Cölestin III., RI IV,4,4,6 n. 1547</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Rom, Lateran</placeName>
+              <date type="issued" notBefore="1195-09-12" notAfter="1195-09-12">1195 September 12</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Cölestin III. nimmt Erzbischof Bernhard (III.) von Auch (Bernardo Auxitanensis ecclesie archiepiscopo) auf dessen Bitten mit seiner Kirche in den päpstlichen Schutz, bestätigt den Besitz und die Freiheit der Kirche von Auch, die nur der Römischen Kirche unterstellt ist, wie diese von Chlodwig (IV.), König der Franken (Chlodovaeus quondam Francorum rex), gewährt wurden, der sie aus den Händen der Sarrazenen (de Sarracenorum manibus) befreit hatte, bestätigt die von diesem dem Erzbischof Perpetuus (archiepiscopi nomine Perpetui) gewährten genannten Besitzungen und Rechte, unterstellt der Kirche von Auch als Metropolitansitz die Diözesen Tarbes, Lescar, Oleron-Ste-Marie, Dax, Bayonne, Aire-sur-l’Adour, Bazas, Comminges, Conserans und Lectoure (Bigorritanum, Lascurrensem, Olorensem, Aquensem, Bayonensem, Adurensem, Vasatensem, Convenatum, Conseranensem et Lactorensem), erlaubt den Gebrauch des Palliums an genannten Festtagen und Hochfesten sowie bei der Vornahme von Kirch- und Bischofsweihen sowie Klerikerordinationen, gewährt wie Calixt (II.), Innocenz (II.), Lucius (II.), Eugen (III.), Anastasius (IV.), Hadrian (IV.) und Alexander (III.) die Sepultur, untersagt, daß sich jemand den Besitz von Friedhöfen oder kirchlichen Benefizien in seiner Kirchenpovinz nach Erbrecht anmaßt, verbietet, vom Erzbischof oder dessen Ministerialen Interdizierte und Exkommunizierte wissentlich in Kirchen aufzunehmen, mit ihnen Gottesdienst zu feiern oder sie zu beerdigen, untersagt, Leuten, die vom Bischof mit kanonischen Strafen belegt worden sind, ohne ausreichende Genugtuung die Absolution zu erteilen, es sei denn, für die Betreffenden bestehe Todesgefahr, bestätigt die alten Gewohnheiten und Regeln hinsichtlich der Ein- und Absetzung der Kanoniker, erlaubt dem Erzbischof, Kanoniker mit Zustimmung der regulierten Kanoniker in die Kirche aufzunehmen, untersagt die Aufnahme von Weltkanonikern, setzt fest, daß die Aufnahme von Kanonikern in genannte Kirchen nur erfolgt, nachdem diese dem Domkapitel präsentiert worden sind, dem sie auch Obödienz und Reverenz zu leisten haben, setzt fest, daß gemäß dem Dekret des Papstes Urban (III.?) die Mönche im Erzbistum mit bischöflicher Zustimmung Priester in ihre Pfarrkirchen einsetzen, die die Seelsorge vom Erzbischof empfangen und ihrem Abt für die Temporalien verantwortlich sind, erlaubt die Wahl des Erzbischofs durch die Regularkanoniker der Domkirche und verbietet die Einmischung weltlicher Personen.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">In eminenti sedis apostolice specula</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Lat. pm. Cencii s. Lucie in Orthea diac. card. domini pape camerarii 2 id. sep. ind. 13 inc. 1195 pont. a. 5.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zur Überlieferung vgl. Wiederhold, PUU Frankreich 7 S. 27 = Acta Rom. pont. 8 S. 737. Das Orig., nach dem Brugeles druckte, ist nicht mehr aufzufinden. Die Indiktion ist um eine Einheit zu niedrig angegeben. – Zur erwähnten Urk. Chlodwigs IV. von 717-718, für die außer der Erwähnung in diesem Privileg kein weiterer Beleg bekannt ist, vgl. Kölzer, Urkunden Merowinger 2 S. 655-656 Dep. 384, der aber Zweifel an ihrer tatsächlichen Existenz äußert. Die genannten Urkk. der Vorgänger Cölestins III. sind die Dep. Calixts II. (JL – , erwähnt in der Urk. Honorius’ II. von 1127 Juni 23 [JL – , Wiederhold S. 49-51 Nr. 14 = Acta Rom. pont. 8 S. 759-761]), Innocenz’ II. von 1131 Januar 19 (JL – , vgl. Wiederhold S. 27 Anm. 2), Cölestins II. von 1143 Februar 24 (JL – , vgl. Wiederhold S. 27 Anm. 2), Lucius’ II. von 1144 März 23 (JL – , vgl. Wiederhold S. 27 Anm. 2), die erhaltenen Urkk. Eugens III. von 1148 April 6 (JL – , Wiederhold S. 79-80 Nr. 35 [S. 789-791]) und von 1151 Februar 20 (JL – , Wiederhold S. 80-81 Nr. 36 [S. 790-791]), sowie die Dep. Anastasius’ IV. (ohne Datum, JL – , vgl. Wiederhold S. 27 Anm. 2), Hadrians IV. von 1155 Mai 24 (JL – , vgl. Wiederhold S. 27 Anm. 2) und von (1155–1159) Mai 26 (JL – , Wiederhold S. 98 Nr. 51 [S. 808]) sowie Alexanders III. von 1159–1181 (JL – , vgl. Wiederhold S. 27 Anm. 2). Das Sepulturrecht wird allerdings nur in der in Cölestins III. Privileg nicht genannten Urk. Honorius’ II. gewährt. Auf welches Dekret eines Papstes Urban sich der Hinweis wegen des Präsentationsrechts bezieht, ist unklar.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Überl.: Kopie 18. Jh., Auch, Arch. dép. Gers, Chapitre de Jégun G. 89.  Drucke: Brugeles, Chroniques Auch part 1 pr. S. 40-44 (nach dem Orig. im Kapitelarchiv von Auch); Migne, PL 206 Sp. 1111-1116 (nach Brugeles).  Reg.: JL 17283 (J 10548); Bréquigny, Table chronologique 4 S. 186.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

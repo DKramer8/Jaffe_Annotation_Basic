@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,2,1 n. 491</idno>
+        <idno type="urn">1157-10-00_1_0_4_2_1_493_491</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Friedrich I., RI IV,2,1 n. 491</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Besançon</placeName>
+              <date type="issued" notBefore="1157-10-01" notAfter="1157-10-31">1157 (Oktober)</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">Hoftag</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Friedrich hält einen Hoftag , auf dem Gesandte der Römer, Apulier, Tuszier, Veneter, Italer, Franzosen, Engländer und Spanier anwesend sind. Friedrich empfängt die päpstlichen Legaten, die Kardinalpresbyter Bernhard von S. Clemente und Roland von S. Marco, den Kanzler des Papstes, die ihn auffallend als Bruder der Kardinäle angeredet haben sollen und ein Schreiben des Papstes (Reg. 484) überbringen. Bei der Verlesung und Übersetzung des Briefes durch Kanzler Rainald kommt es infolge der Wiedergabe des Wortes benefitium  mit Lehen zu einem Tumult, der durch die Erinnerung an das Bildnis im Lateranpalast, das Kaiser Lothar (III.) als homo pape  darstellt und dessen Beseitigung der Papst dem Kaiser schon früher versprochen hatte (s. Reg. 314), so gesteigert wird, daß nur durch das Dazwischentreten des Kaisers ein tätlicher Angriff des Pfalzgrafen Otto von Bayern (Wittelsbach) verhindert worden sein soll. Die päpstlichen Legaten, bei denen Schreiben und besiegelte Blankette gefunden werden, die sie zum Eintreiben von Leistungen der deutschen Kirche verwenden können, schickt der Kaiser darauf umgehend nach Rom zurück. Friedrich beschäftigt sich erfolgreich mit den Angelegenheiten des Königreichs Burgund und verfügt dabei über die Besitzungen seiner Gemahlin. Erzbischof Stephan von Vienne, der Erzkanzler für Burgund, Heraklius, Erzbischof und Primas von Lyon, die Bischöfe Odo von Valence und Gaufred von Avignon und der Edle (magnus princeps et prepotens) Silvius von Clérieux erscheinen bei Hofe und leisten Friedrich Treueid und Mannschaft, der Erzbischof von Arles und die übrigen Erzbischöfe, Bischöfe, Großen und Edle versichern durch Boten Gehorsam und Treue.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">-</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zu den Ereignissen des berühmten Tages von Besançon vgl. zuletzt erschöpfend Heinemeyer, beneficium, AfD 15 (1969) 155 ff.; die Datierung ergibt sich aus der Angabe Rahewins, der Kaiser sei Mitte Oktober nach Burgund aufgebrochen und aus den in Besançon ausgestellten Diplomen (Regg. 488 -490). - Die genannten Erzbischöfe, Bischöfe und weltlichen Großen sind zum Teil erst nach dem eigentlichen Hoftag während des Zuges des Kaisers durch Burgund bei Hofe bezeugt, vgl. dazu DD. F. I. 184 (Vienne), 192 (Lyon), 196 (Valence), 195 (Avignon), 197 (betr. Clérieux) und 188 (Arles) (Regg. 489, 500, 505, 504, 506  und 494) und Simonsfeld 565 Anm. 148. Viellard, Documents de Belfort (1884) 278 no  227 erwähnt die Anwesenheit Graf Theoderichs II. von Mömpelgard (Montbéliard). - Zur Bedeutung dieses Burgundaufenthalts vgl. Mariotte, Bourgogne (Cahiers d'études comtoises 4, 1963) 50 und 72 und Büttner, Burgund (VuF 12, 1968) 94 ff.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Rahewini Gesta Frid. l. III cap. 8-12, ed. Waitz-Simson, MG. SS rer. Germ. in us. schol. 172 ff.; vgl. auch Ann. Campolil., ed. Haider, MIÖG 82 (1974) 115, Ann. s. Rudberti Salisburg., MG. SS IX, 776, Chron. reg. Col., ed. Waitz, MG. SS rer. Germ. in us. schol. 93 ff., Cont. Admunt., MG. SS IX, 582, Cont. Cremifan., MG. SS IX, 545, Ligurinus V. 250 ff., ed. Migne, PL 212, Sp. 410, Otto von St. Blasien cap. 8, ed. Hofmeister, MG. SS rer. Germ. in us. schol. 9 und weiters Johann von Salisbury, Brief no  124, ed. Millor-Butler-Brooke, Nelson Medieval Texts (1955) 206. Sigeb. Cont. Aquicinct., MG. SS VI, 407 bringt die Maßnahmen Friedrichs gegen die Legaten in irrigen Zusammenhang mit der Scheidung des Kaisers (Simonsfeld, Jahrbücher 167 f. Anm. 63). Vgl. auch die Erwähnung im Schreiben Alexanders III. an Arnulf von Lisieux von (1160) April 1, Anagni, ed. Migne, PL 200, Sp. 88 no  19; JL. 10627. Zur Beschäftigung mit burgundischen Fragen vgl. Rahewini Gesta Frid. l. III capp. 12-13 (179 ff.) und Chron. Montis Sereni, MG. SS XXIII, 151.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>Digitalisat der RI-Buchseite</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

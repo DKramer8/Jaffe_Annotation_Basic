@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,2,1 n. 271</idno>
+        <idno type="urn">1155-01-00_1_0_4_2_1_271_271</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Friedrich I., RI IV,2,1 n. 271</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>[Ausstellungsort]</placeName>
+              <date type="issued" notBefore="1155-01-01" notAfter="1155-01-31">(1155 Januar)</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">Papst Hadrian (IV.) Nachfolgern</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness">die päpstliche Legaten Kardinalbischof Cencius von Porto, die Kardinalpriester Bernhard (von S. Clemente) und Oktavian (von S. Cecilia), Erzbischof Arnold von Köln und Erzkanzler des regnum Italicum, Bischof Konrad von Passau, Patriarch Pilgrim von Aquileia, Erzbischof Hillin von Trier, die Bischöfe Eberhard (Ebrahardi) von Bamberg, Hermann von Konstanz, Ortlieb (Ordolebi) von Basel, die Äbte Wibald von Corvey und Markward von Fulda, Propst Albert von Aachen, der königliche Kapellan Gottfried, die Herzoge Heinrich von Sachsen, Berthold von Burgund, die Markgrafen Hermann von Baden (Vade), Otakar von Steier, die Grafen Ulrich von Lenzburg, Werner von Baden, Berthold von Andechs (Anedexe), Ernst von Hohenburg und andere Fürsten unseres Heeres</legalActor>
+          </p>
+          <p>
+            <legalActor>In Wiederholung von DF. I. 52 (VU.) von A II. C mundiert.</legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Friedrich erneuert Papst Hadrian (IV.)   und dessen Nachfolgern   (... sicut domino pape Eugenio firmavimus, ita paternitati vestre et successoribus vestris et Romane ecclesie fatemur et asserimus firmiter nos teneri...) den mit Eugen (III.) abgeschlossenen Konstanzer Vertrag (DF. I. 52, Reg. 169). Z.: die päpstliche Legaten Kardinalbischof Cencius von Porto, die Kardinalpriester Bernhard (von S. Clemente) und Oktavian (von S. Cecilia), Erzbischof Arnold von Köln und Erzkanzler des regnum Italicum, Bischof Konrad von Passau, Patriarch Pilgrim von Aquileia, Erzbischof Hillin von Trier, die Bischöfe Eberhard (Ebrahardi) von Bamberg, Hermann von Konstanz, Ortlieb (Ordolebi) von Basel, die Äbte Wibald von Corvey und Markward von Fulda, Propst Albert von Aachen, der königliche Kapellan Gottfried, die Herzoge Heinrich von Sachsen, Berthold von Burgund, die Markgrafen Hermann von Baden (Vade), Otakar von Steier, die Grafen Ulrich von Lenzburg, Werner von Baden, Berthold von Andechs (Anedexe), Ernst von Hohenburg und andere Fürsten unseres Heeres. - In Wiederholung von DF. I. 52 (VU.) von A II. C mundiert. Regie maiestatis dignitas .</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Regie maiestatis dignitas</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">-</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zur Anwendung des Kaisertitels vgl. die Vorbemerkung zu DF. I. 52. Die Abweichungen gegenüber der V U. erklären sich zum Teil aus den veränderten Zeitumständen. - Zur Entsendung der päpstlichen Legaten an Friedrich vgl. Jaffé, Mon. Corb. 569 no  434; JL. 9966 (vgl. dazu Dünken, Legaten, Hist. Stud. 209, 1931, 24 f.). - Zur Vertragserneuerung vgl. Simonsfeld, Jahrbücher 290 f. mit Anm. 11, Zatschek, Beiträge, SB. Wien 210/3 (1930) 24 ff., Rassow, Honor imperii 66 ff. und Maccarrone, Papato e impero 105 ff. Sie wird auch bei Vinzenz von Prag (MG. SS XVII, 666), allerdings nach der Kaiserkrönung, erwähnt. Auch inhaltlich geht die von ihm erwähnte gegenseitige Zustimmung (Post hanc itaque victoriam imperator cum domno papa Adriano federe et pacto inito, quod Romanos qui hostes imperii se fecerant, nec ipsum regem Sicilie qui imperio non obaudiebat, sine consilio et voluntate domni pape, nec e converso domnus papa sine consilio et voluntate domni imperatoris in gratiam eos reciperet, f eliciter in Lonbardiam revertitur.) über DDF. I. 51, 52 und 98 hinaus. - Zur Ausweitung der Vertragsdauer und zur Nennung Gottfrieds (von Viterbo) vgl. Baaken, Beurteilung Gottfrieds von Viterbo (Geschichtsschreibung und geistiges Leben im Mittelalter = FS. Heinz Löwe, 1978) 376.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Kop.: Transsumpt, angelegt auf dem Konzil von Lyon 1245 (Rouleaux de Cluny II), Cod. lat. 8989 der Nationalbibliothek Paris (B). Drucke: MG. Const. 1, 213 no  151; Zatschek, Beiträge, SB. Wien 210/3 (1930) 49 zu 1155 FebruarMärz; MG. DF. I. 98. Reg.: Batelli, I Transunti di Lione del 1245, MIÖG 62 (1954) 349 no  4; Stumpf 3712 zu 1155 Juni 18-19.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>Digitalisat der RI-BuchseiteDruck in MGH DD</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

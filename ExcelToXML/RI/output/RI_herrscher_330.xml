@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,2,3 n. 2134</idno>
+        <idno type="urn">1175-04-16_2_0_4_2_3_361_2134</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Friedrich I., RI IV,2,3 n. 2134</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>[Ausstellungsort]</placeName>
+              <date type="issued" notBefore="1175-04-16" notAfter="1175-04-16">1175 vor April 16</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Die Lega Lombarda (societas Lonbardie et Marchie et Romanie et Venecie) legt ihre Bedingungen für einen Frieden mit Kaiser Friedrich fest: 1. Die Lega will mit dem Kaiser unter der Bedingung Frieden schließen, daß er mit der römischen Kirche und Papst Alexander (III.) Frieden schließt. 2. Die Städte, nämlich Cremona, Mailand, Lodi, Bergamo, Ferrara, Brescia, Mantua, Verona, Vicenza, Padua, Treviso, Venedig, Bologna, Ravenna, Rimini, Modena, Reggio, Parma, Piacenza, Bobbio, Tortona, Alessandria, Vercelli und Novara, weiters Markgraf Opizo Malaspina, der Graf von Bertinoro, Rufinus de Traino und alle Kastellane und Personen, die mit der Kirche und der Lega in Eintracht leben, sind bereit, dem Kaiser nach Herstellung des Friedens und Wiedererlangung seiner Gnade all das zu leisten, was ihre Vorgänger seit der Zeit des Todes Kaiser Heinrichs (V.) geleistet haben. 3. Sollten sich über den Umfang dieser Leistungen Streitigkeiten ergeben, so mögen die Konsuln der betreffenden Stadt bzw. die für das Gebiet der Personen, bei denen derartige Unklarheiten vorkommen, zuständigen Konsuln diesen Leistungsumfang durch Eid festlegen. 4. Alle Gerechtsame, die die Mitglieder der Lega in der Weise innehaben, wie sie sie schon seit dem Tode Heinrichs (V.) besitzen, vor allem das Konsulat, mögen ihnen frei und ruhig verbleiben. Fodrum und colta  sowie alles andere mögen sie nach dem Brauch der Stadt leisten. Der Kaiser möge ihnen und allen mit ihnen verbündeten Erzbischöfen, Bischöfen, Äbten und Geistlichen alle Besitzungen und Rechte restituieren und alle dagegen stehenden Privilegien kassieren. 5. Der Kaiser möge der Lega alle feindlichen Maßnahmen nachsehen. 6. Den Mitgliedern der Lega möge es freistehen, die Befestigungen der Städte und Burgen und die Burgen selbst zu behalten sowie neue und bessere zu errichten, wovon allerdings die Abkommen, die Cremona und andere Städte, Personen und Orte untereinander geschlossen haben, ausgenommen seien; Alessandria möge seinen Status nach Rückstellung der Besitzungen an Obert de Foro und all seine Nachbarn auf Dauer beibehalten. 7. Der Kaiser möge mit seinem ganzen Heer allen geistlichen und weltlichen Mitgliedern der Lega hinsichtlich der Einhaltung dieser Bestimmungen auf ewig völlige Sicherheit gewähren, den Fortbestand der Lega erlauben, ihnen die Freiheit zum Abschluß von Bündnissen untereinander zugestehen und sie in Eintracht mit der Kirche belassen. 8. Die von den Konsuln, den genannten Einzelmitgliedern der Lega und ihren Rektoren gefällten Urteile sollen vor Aufhebung durch Appellationen sicher sein. Die Gefangenen werden danach freigelassen und zurückgestellt. 9. Die anerkannten Rechte des Kaisers sind die folgenden: das königliche Fodrum und die gewohnte Unterstützung (parata) beim Krönungszug nach Rom; weiters der ruhige und gewohnte Durchzug und ausreichender Markt. Er möge allerdings friedlich durchziehen und im Bistum bzw. in der Grafschaft nicht in betrügerischer Weise Aufenthalt nehmen. Von den Vasallen steht ihm der Treueid zu, von den Bürgern entsprechend den Gewohnheiten der betreffenden Stadt. Die Vasallen sollen ihm gemäß altem Herkommen auf dem Krönungszug nach Rom die Heerfolge leisten. Die Regalien, mit denen er oder seine Vorfahren Geistliche und Laien belehnt haben, möge er in Ruhe in deren Besitz belassen. Er möge den Städten und allen Mitgliedern der Lega die Gewohnheitsrechte im Hinblick auf Weiden, Fischerei, Mühlen, Backstuben, die Tische der Wechsler und der Händler, die Fleischmärkte und die Häuser, die auf oder an öffentlichen Straßen errichtet sind, sowie die althergebrachten Gewohnheiten belassen. 10. Sollten sich Streitigkeiten zwischen dem Kaiser und den Mitgliedern der Lega ergeben, so mögen diese seitens der Konsuln, die sich eidlich dazu verpflichten müssen, beiden Seiten ihr Recht zu wahren, entsprechend den städtischen Gewohnheiten entschieden werden.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">-</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Vgl. dazu Heinemeyer, Friede von Montebello, DA 11 (1954/55) 122 ff.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>MG.Const. 1, 342 no  244.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>Digitalisat der RI-BuchseiteDruck in MGH Const.</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

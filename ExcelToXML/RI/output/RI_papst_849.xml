@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,4 n. 354</idno>
+        <idno type="urn">1188-06-25_2_0_4_4_4_354_354</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Clemens III., RI IV,4,4,4 n. 354</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Rom, Lateran</placeName>
+              <date type="issued" notBefore="1188-06-25" notAfter="1188-06-25">1188 Juni 25</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Clemens III. teilt Prior Gerald und den Brüdern von Grandmont (Geraldo priori Grandimonti eiusque fratribus) (D. Limoges) mit, daß wegen des Streits innerhalb ihres Ordens, der lange Zeit nicht beigelegt werden konnte, Gesandte beider Parteien vor seinem Vorgänger Urban (III.) erschienen seien, der beide Seiten angehört und mit dem Rat seiner Brüder, der Kardinäle, festgesetzt habe, daß in den Orden Eintretende dem Prior oder bei Vakanz dem Kapitel Obödienz und Reverenz leisten müssen; der Papst verbietet, daß sie zur Aufnahme von Kanonikern gezwungen werden, gewährt dem Prior im geistlichen wie im weltlichen Bereich die Vollmacht, einem geeigneten Konversen die Verfügungsgewalt über die Temporalien zu übergeben, untersagt Laien, sich geistliche Befugnisse anzumaßen, bestätigt wie seine Vorgänger Hadrian (IV.), Alexander (III.) und Lucius (III.) das Korrektionsrecht über alle Diener des Ordens und bestätigt ihren Besitz.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Inter cetera que consuetudinis ecclesiastice</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Lat. pm. Moysis SRE. subdiaconi vicem agentis cancellarii 7 kal. iul. ind. 6 inc. 1188 pont. a. 1.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zur früheren Überlieferung vgl. Ramackers, PUU Frankreich 5, S. 25 und Ramackers 6 S. 34. Die noch von Ramackers 5 S. 25 genannte Kopie 17. Jh., Tours, Bibl. mun., Ms. 633 p. 7 (Bullarium Grandimontense von 1658) ist 1940 verbrannt, ebenso wie die Kopie des 17. Jh., Tours Ms. 632 (p. 68). Die Kopie im Bullarium des 17. Jh. der Médiathèque in Chartres (früher Bibl. mun.: Ms. 362 t. 5 p. 12) ist ebenfalls durch ein Feuer, das nur wenige Blätter des Chartulars verschonte, im Mai 1944 zerstört worden. Zur Überlieferung des 17. Jh. in Limoges vgl. Guibert, Manuscrits S. 57f. – Die genannten Urkk. sind die Privilegien Hadrians IV. von 1157 (JL –, Guibert, Destruction S. 51 Nr. 5) und Alexanders III. (JL –, Guibert S. 51-52 Nr. 6) sowie die Indulgenz Lucius' III. von 1182 August 27 (Böhmer-Baaken-Schmidt, Papstregesten Lucius' III. 1, Nr. 318). Zur Sache vgl. Meyer, De scismate S. 65f., Becquet, La première crise S. 300f., Wilkinson, Vita /1/ S. 111 und Wilkinson, Vita /2/ S. 152 und Conklin, Law passim.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Kopie 13. Jh., Troyes, Arch. dép. Aube, G 988 (Vidimus von 1290).  Drucke: Becquet, Bullaire Grandmont S. 156 Nr. 22 (Teildruck unter Verweis auf die Urk. Urbans III. von 1186 Juli 15 [ Böhmer-Schmidt, Papstregesten Urban III., Nr. 222] mit Ergänzungen bei Becquet, Bullaire Grandmont, Addenda S. 115 Nr. *22); Ramackers, PUU Frankreich 5, S. 324-325 Nr. 232 (Teildruck unter Verweis auf die Urk. Urbans III. von 1186 Juli 15 [Böhmer-Schmidt Nr. 222]).  Reg.: Guibert, Destruction S. 56 Nr. 22.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

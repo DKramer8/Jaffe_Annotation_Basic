@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,2,3 n. 2183</idno>
+        <idno type="urn">1176-05-29_2_0_4_2_3_411_2183</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Friedrich I., RI IV,2,3 n. 2183</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Como</placeName>
+              <date type="issued" notBefore="1176-05-29" notAfter="1176-05-29">1176  nach Mai 29</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Friedrich zieht sich mit wenigen Begleitern nach der Niederlage bei Legnano (Reg. 2182) nach Como zurück. Über seinen Verbleib ist man zunächst nicht unterrichtet, und die Kaiserin legt in Pavia bereits Trauerkleidung an.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">-</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Verbesserungen und Zusätze (2011):  Sprenger, Tyrann, Wohltäter, Heiliger, in: Die Staufer und Italien, Bd. 1 (2010) 43–45 (Reihenfolge der Anmerkungen stimmt nicht), sowie Ders., Barbarossa-Reliquie, in: Die Staufer und Italien, Bd. 2 (2010) 17 Kat.-Nr, 1.5, ist die Kenntnis einer angeblichen (?) Barbarossa-Reliquie in der Pfarrkirche SS. Nazaro e Celso in Brienno am Westufer des Comer Sees zu verdanken: Wiewohl die Reliquie selbst nicht erhalten ist, befindet sich dort die paläographisch ins ausgehende 14. oder frühe 15. Jahrhundert datierbare Beschriftung eines Papierumschlags mit dem Wortlaut: Rel(iquia) S(an)c(ti) F(r)id(e)rici imp(e) r(atoris) barbaros(sae). Reliquien Friedrich Barbarossas in Brienno werden summarisch erstmals anlässlich einer Visitation der Pfarrkirche im Jahre 1593 durch Bischof Feliciano Ninguarda (1588–1599) erwähnt; noch gegen Ende des 19. Jhs. weiß eine handschriftliche Beschreibung des Comasker Lokalhistorikers und Mediävisten Santo Monti (1855–1923) sogar von zwei (!) unterschiedlich beschrifteten Barbarossareliquien in der Pfarrkiche SS. Nazaro e Celso zu berichten. Nach lokaler Tradition soll es sich bei den Reliquien um einen Zahn des Kaisers gehandelt haben, den erst der Comasker Bischof Alessandro Macchi (1930–1947) im Jahre 1937 habe entfernen lassen. Heute liegt im Umschlag ein „derzeit noch undefinierbares Stückchen Holz“ (Sprenger, Tyrann, 43). – Sprenger (Tyrann, 43 f.) betont, dass sich die heiligmäßige Verehrung Kaiser Friedrichs I. Barbarossa in Brienno mit historischen Fakten nicht in Verbindung bringen lasse, und möchte diese ungewöhnlich positive Erinnerung an den Staufer vermutungsweise mit dessen guten Beziehungen zur Stadt Como in Verbindung bringen. Er nimmt auch auf die auf der Homepage der Gemeinde Brienno nachlesbare Tradition Bezug, der Kaiser habe nach der Niederlage zu Legnano auf dem Rückweg nach Deutschland in Brienno Station gemacht, habe dem lokalen Wein etwas zu intensiv zugesprochen, sei gestürzt, habe sich den Kopf an- und einen Zahn ausgeschlagen, den die Einwohner von Brienno aufbewahrt und sorgsam gehütet hätten (http://www.comune.brienno.co.it/navigation/builder.jsp?_dad=brienno&amp;_schema=BRIENNO&amp;_pageid=517,804106&amp;col_ref=808115;523;us; Zugriff am 21. Oktober 2010: La tradizione vuole che l’imperatore, dopo la sconfitta di Legnano, tornando in Germania, si fosse fermato a Brienno, dove ebbe occasione di assaggiare il vinello locale. Ubriaco fradicio, inciampò, battendo il capo e rompendosi un dente, che venne sollecitamente raccolto e custodito gelosamente dagli abitanti del paese.). – Zieht man von dieser Überlieferung das Lokalkolorit ab, bedenkt man das Faktum der in das späte Mittelalter zu datierenden Beschriftung des Umschlags und setzt man dies in Beziehung zu den Geschehnissen bei der Schlacht von Legnano am 29. Mai 1176 (Regg. 2182–2184), so ist in der zeitgenössischen Überlieferung jedenfalls eindeutig bezeugt, dass der Kaiser während des Kampfgeschehens vom Pferd stürzte und sich nach der Niederlage nach Como zurückzog, von wo er erst einige Tage später nach Pavia zurückkehrte, wo die Kaiserin bereits mit seinem Ableben gerechnet hatte. Völlig auszuschließen lässt sich somit nicht, dass ein realer Hintergrund für diese Barbarossa-Reliquie gegeben sein könnte.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Ann. s. Petri Erph. maiores, ed. Holder-Egger, MG. SS rer. Germ, in us.schol., 61 (nennen Como); Boso, ed. Duchesne, 433 (Trauerkleidung der Kaiserin); vgl. auch Romuald von Salerno, ed. Garufi, Rer. Ital. SS N. Ed. VII/1, 266 f.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>Digitalisat der RI-Buchseite</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

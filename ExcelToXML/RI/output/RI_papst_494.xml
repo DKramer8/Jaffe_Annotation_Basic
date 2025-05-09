@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,3 n. 95</idno>
+        <idno type="urn">1186-03-21_1_0_4_4_3_95_95</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Urban III., RI IV,4,4,3 n. 95</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Verona</placeName>
+              <date type="issued" notBefore="1186-03-21" notAfter="1186-03-21">1186 März 21</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Urban III. nimmt Abt Peter und die Brüder von St-Ruf (bei Valence) (Petro abbati et fratribus sancti Rufi) (D. Valence) auf deren Bitten wie Hadrian (IV.) in den päpstlichen Schutz, bestätigt genannten Besitz, verbietet allen Bischöfen, sie mit Interdikt oder Exkommunikation zu belegen ohne Erlaubnis des Römischen Bischofs oder seines Legaten, bestätigt die ihnen von seinen Vorgängern Urban (II.) und Alexander (III.) gewährten Privilegien, gewährt wie Paschal (II.) die freie Sepultur sowie das Aufnahmerecht und verbietet, das Kloster nach abgelegter Profeß unerlaubt zu verlassen.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Regularem vitam eligentibus apostolicum convenit</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Verone pm. Moysis Lateranensis canonici vicem agentis cancellarii 12 kal. apr. ind. 3 inc. 1185 pont. a. 1.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zur verlorenen Überlieferung vgl. Wiederhold, PUU Frankreich 3, S. 18 Anm. 3 = Acta Rom. pont. 7 S. 262. – Die Indiktion ist um eine Einheit zu niedrig angegeben. Die genannten Urkk. sind die Privilegien Urbans II. von 1095 September 19 (JL 5579, Carrier de Belleuse, Liste S. 215 Nr. 1, Chevalier, Codex dipl. S. Rufi S. 9-11 Nr. 6), Paschals II. von 1114 Januar 10 (JL 6369, Carrier de Bellense S. 218 Nr. 3, Chevalier S. 18-19 Nr. 14), das ohne Datum überlieferte Privileg Hadrians IV. (JL 10455, Chevalier S. 32-34 Nr. 25) sowie die Indulgenzen Alexanders III. von 1170 Juli 20 (JL 11819, Chevalier S. 54-55 Nr. 43), von (1171-1172) Juli 8 (JL 12091, Chevalier S. 58 Nr. 46), von 1180 Februar 1 (JL 13603, Chevalier S. 68-69 Nr. 56) und von 1181 März 28 (JL 14385, Chevalier S. 69 Nr. 57). Als VU diente das nicht angeführte Privileg Anastasius' IV. von 1154 April 24 (JL 9874, Chevalier S. 32 Nr. 24, Carrier de Bellense S. 218-221 Nr. 5). Zur Sache vgl. Vones-Liebenstein, Saint-Ruf S. 66 und S. 93.    Verbesserungen und Zusätze (2014):   Zur Sache vgl. jetzt Vones-Liebenstein, Regularkanoniker S. 115.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Drucke: Carrier &gt;de Belleuse, Liste S. 221-223 Nr. 9 (Teildruck unter Verweis auf die VUU); Hiestand, PUU für Kirchen im Heiligen Lande, S. 320 Nr. 144 (Teildruck unter Verweis auf die VUU).   Reg.: JL *15568; Chevalier, Codex dipl. S. Rufi S. 73 Nr. 62; Chevalier, Regeste dauphinois 1 Sp. 830 Nr. 4989 (zu [1185-1186] März 21).</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,3 n. 299</idno>
+        <idno type="urn">1186-10-30_1_0_4_4_3_299_299</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Urban III., RI IV,4,4,3 n. 299</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Verona</placeName>
+              <date type="issued" notBefore="1186-10-30" notAfter="1186-10-30">1186 Oktober 30</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Urban III. bestätigt Erzbischof Hubald von Pisa, dem Legaten des Apostolischen Stuhls (Hubaldo Pisano archiepiscopo apostolice sedis legato), wie Hadrian (IV.) die Übertragung, die Innocenz' (II.) vorgenommen hatte, der angesichts der schweren Verluste im Krieg zwischen den Städten Pisa und Genua (inter Pisanam et Ianuensem civitates) als Ausgleich für die Pisaner Bistümer auf Korsika (insula Corsice) dem Vorgänger Hubalds, Erzbischof Humbert (archiepiscopo Humberto), die Bistümer Galtellì und Civita im Judikat von Gallura (auf Sardinien) und Populonia (Massa Marittima) (in Gallurensi iudicatu duos episcopatus, Galtelinensem videlicet et Civitatensem, et Popoliniensem episcopatum) nach Metropolitanrecht unterworfen hatte; der Papst bestätigt weiterhin die Übergabe des Primats der Kirchenprovinz Torres (primatus honorem Turritane provincie) durch seine Vorgänger sowie den Primat über Cagliari und Arborea (primatum super Caralitanam et Arborensem provincias) mit den genannten Einschränkungen und ohne das Recht der Ladung beider Erzbischöfe zu Konzilien nach Pisa, die nur mit Wissen des Papstes erfolgen soll, während er den Primat über Torres, wie er geschenkt wurde, ausüben darf; der Papst bekräftigt die von Urban (II.) übertragene und durch Eugen (III.), Anastasius (IV.), Alexander (III.) und Lucius (III.) bestätigte Legation in Sardinien (legationem ... Sardinie) und erlaubt, zur Erhöhung der Ehre der Stadt Pisa (Pisana civitas) bei Prozessionen ein weißes Pferd mit weißer Prunkdecke zu benutzen sowie Kreuz und Christusfahne in den Kirchenprovinzen und in jenem Bereich des Bistums Volterra (Vulterranensis episcopatus) zu führen, durch den man aus dem Bistum Pisa in das Bistum von Populonia (Massa Marittima) gelangt, und gewährt dem Erzbischof das Pallium, das er nach der Gewohnheit der Pisaner Kirche bei der Konsekration der drei Bischöfe von Aleria, Ajaccio und Sagone auf Korsika (trium episcoporum in Corsica, Alleriensis scilicet, Aiacensis et Saguntini) und der beiden Bischöfe (von Galtellì und Civita) auf Sardinien (predictorum duorum in Sardinia) sowie des Bischofs von Populonia (Massa Marittima) (Popoloniensis episcopi), deren Metropolit er ist, tragen soll.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Tunc apostolice sedis et Romanorum</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Verone pm. Alberti SRE. presb. card. et cancellarii 3 kal. nov. ind. 5 inc. 1186 pont. a. 1.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zur Überlieferung vgl. Kehr, PUU Pisa, S. 177 = Acta Rom. pont. 1 S. 35, Kehr, PUU Rom 2 S. 369 = Acta Rom. pont. 2 S. 522 und Kehr, PUU röm. Bibl. II S. 90 = Acta Rom. pont. 4 S. 90. – Die genannten Urkk. Innocenz' II. sind dessen verlorenes Privileg mit dem erschlossenen Datum 1133 Mai 25 (JL – , IP III S. 324 Nr. *23) sowie jenes von 1138 April 22 (JL 7890, IP III S. 325 Nr. 26, Migne, PL, 179 Sp. 361-363 Nr. 315). VU ist das Privileg Lucius' III. von 1181 November 12 (Böhmer-Baaken-Schmidt, Papstregesten Lucius' III. 1 , Nr. 15). – Zum Verlust der zwei nördl. Bistümer auf Korsika, die Innocenz II. auf drei erhöhte und der neuen Metropole Genua unterstellt hatte, vgl. dessen Privileg von 1133 März 20 (JL 7613 [zu 1133 März 19], IP VI,2 S. 266 Nr. 5, Migne, PL, 179 Sp. 174-176 Nr. 132 [zu 1133 März 19]); vgl. außerdem die Urkk. Urbans II. von (1092-1099) (Dep., JL – , IP III S. 321 Nr. *11), Eugens III. von 1146 Mai 29 (JL 8929, IP III S. 325 Nr. 29, Pflugk-Harrtung, Acta, 3 S. 77-78 Nr. 76), Anastasius' IV. von (1153-1154) (Dep., JL – , IP III S. 326 Nr. *34) und Alexanders III. von 1162 Januar 26 (JL 10693, IP III S. 326-327 Nr. 38, Machin, Defensio 2 S. 145, Martini, Theatrum basilicae Pisanae S. 75 [beide so im Reg. der IP zitierten Drucke waren nicht zugänglich]). – Vgl. zu den päpstlichen Schenkungen Violante, Le concessioni pontificie S. 43-56 sowie zum Verlauf des Streits Maleczek, Das Frieden stiftende Papsttum S. 260-264. Zur Entwicklung der Pisaner Rechte auf den Inseln vgl. Rossi-Sabatini, L'espansione di Pisa S. 31-42, Zaccagnini, Il giuramento S. 40-50 und Scalfati, Ego episcopus firmavi S. 161-168; zu den Urkk. Innocenz' II. vgl. Ceccarelli Lemut, La sede metropolitana S. 154f. (mit Druck des Privilegs Innocenz' II. von 1138 April 22 S. 167-170 Nr. 3); zu den Rechten in Sardinien und zur VU Alexanders III. vgl. Turtas, L'arcivescovo di Pisa, bes. S. 216-223. Zum Judikat von Gallura vgl. Day, La Sardegna S. 20 und S. 52 (Karten) sowie S. 58 und LexMA 4 Sp. 1097f.; zu den Diözesen Galtellì und Civita-Olbia vgl. IP X S. 421f.; zu den Erzdiözesen Arborea (Sitz in Oristano) vgl. IP X S. 453f., zu Cagliari vgl. IP X S. 394f. und zu Torres (jetzt Porto Torres) vgl. IP X S. 426f. sowie LexMA 8 Sp. 879f.; zur Übertragung des Bischofssitzes von Populonia nach Massa Marittima vgl. IP III S. 268f. und LexMA 6 Sp. 369f. Vgl. zu den drei genannten Bistümern auf Korsika IP X S. 462f., zu Aleria LexMA 1 Sp. 352f. und zu Ajaccio Sp. 248.    Verbesserungen und Zusätze (2014):   Ein Reg. findet sich auch bei Bonaini, Diplomi Pisani S. 96 Nr. 26.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Orig., Pisa, Arch. di Stato, Diplomatico, Atti pubblici.   Drucke: Machin, Defensio 2 S. 148 (nur Unterschriften und Datum); Vivianus, De iure patronatus S. 80-81.   Reg.: JL 15685 (J 9849); Ughelli, Italia sacra, 3 Sp. 408 (mit 13 kal. zu 1186 Oktober 20); Migne, PL, 202 Sp. 1444 Nr. 63 (nach Ughelli/Coleti mit 13 kal. zu 1186 Oktober 20); IP III S. 329 Nr. 49.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

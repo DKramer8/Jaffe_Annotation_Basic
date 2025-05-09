@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,4 n. 1167</idno>
+        <idno type="urn">1191-00-00_117_0_4_4_4_1167_1167</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Clemens III., RI IV,4,4,4 n. 1167</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>[Ausstellungsort]</placeName>
+              <date type="issued" notBefore="1187-01-01" notAfter="1191-12-31">(1187 – 1191)</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Clemens III. nimmt Prior Simon und die Brüder des Klosters St-Denis in Nogent-le-Rotrou (Symoni priori monasterii sancti Dionisii de Nogento eiusque fratribus) (D. Chartres) auf deren Bitten wie Alexander (III.) in den päpstlichen Schutz, bestätigt ihre genannten Besitzungen, gewährt das Präsentationsrecht, untersagt, über das Kloster oder sie das Interdikt oder die Exkommunikation zu verhängen oder sonstige Rechte auszuüben, verbietet, ohne ihre Einwilligung öffentliche Messen oder Stationsgottesdienste im Kloster zu feiern, untersagt, bei Gewalttaten im Atrium den Gottesdienst auszusetzen, bestätigt die alten Freiheiten, Immunitäten und Gewohnheiten, bestimmt den freien Empfang von Chrisma, Heiligem Öl, Konsekrationen und Ordinationen durch den Diözesanbischof oder gegebenenfalls durch einen Bischof ihrer Wahl, gewährt die freie Sepultur, erlaubt der Rückerwerb von Zehnten ihrer Kirchen aus Laienhand, setzt die Freiheit ihrer Kirchen, Kapellen und Friedhöfe von allen Forderungen fest vorbehaltlich der Abgaben an den Bischof und dessen Strafrecht über ihre Kleriker, verbietet, innerhalb ihrer Pfarrgrenzen Sakralbauten zu errichten ohne Zustimmung des Bischofs vorbehaltlich apostolischer Privilegien, erlaubt, Vergabungen und Entfremdungen ihres Besitzes, die innerhalb der letzten 40 Jahre ohne Zustimmung des Kapitels unrechtmäßig erfolgt sind, zu revozieren; erlaubt in ihren Zellen Gottesdienst bei Interdikt unter Ausschluß der Gläubigen der Diözese, gestattet, Laien und Weltkleriker aufzunehmen und ihnen die Sepultur zu gewähren, beschränkt die Rechte der Bischöfe über ihre Altäre und Kirchen auf die bereits bestehenden, verbietet den Verkauf oder die Entfremdung von Klosterbesitz oder die Bürgschaftsleistung ohne Zustimmung des Kapitels und erklärt derartige Maßnahmen für ungültig, gebietet Frieden und untersagt Verbrechen in ihren Klausuren und Grangien.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Religiosis desideriis dignum est facilem</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">-</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zur Überlieferung vgl. Ramackers, PUU Frankreich 6, S. 29. – Das genannte Privileg Alexanders III. (JL –) scheint nicht erhalten zu sein.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Kopie 15. Jh., Chartres, Arch. dép. Eure-et-Loir, H 2601 fol. 58 (ohne Datum und Unterschriften); Kopie 17. Jh., Paris, Bibl. nat., Coll. Duchesne 22 fol. 220 (Cart. de l'abbaye de l'Isle-en-Barrois, Stein, Bibliographie Nr. 2194, Auszug ohne Datum und Unterschriften).   Drucke: Simon, Bullarium ordinis cluniacensis S. 92-94; Migne, PL, 204 Sp. 1472-1475 Nr. 155 (nach Simon); Souancé/Métais, St-Denis de Nogent-le-Rotrout S. 226-231 Nr. 113 (zu 1187).   Reg.: JL 16583 (J 10214); Bernard/Bruel, Chartes Cluny 5 S. 676 Nr. 4316.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

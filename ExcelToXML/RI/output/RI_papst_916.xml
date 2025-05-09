@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,4 n. 811</idno>
+        <idno type="urn">1190-03-31_1_0_4_4_4_811_811</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Clemens III., RI IV,4,4,4 n. 811</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Rom, Lateran</placeName>
+              <date type="issued" notBefore="1190-03-31" notAfter="1190-03-31">1190 März 31</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Clemens III. nimmt Abt Guarnerius und die Brüder von Clairvaux (Guarnerio abbati Clarevallensi eiusque fratribus) (D. Langres) auf deren Bitten mit ihrem Kloster in den päpstlichen Schutz, bestätigt die Benediktinerregel und die Institution der Zisterzienser sowie ihren Besitz und die genannten Grangien, verbietet, Güter oder Benefizien des Klosters ohne Zustimmung des Kapitels zu vergeben, und erklärt derartige Veräußerungen für ungültig, untersagt die Leistung von Bürgschaften durch die Mönche ohne Zustimmung von Abt und Kapitel sowie die nicht vom Kapitel genehmigte Kreditaufnahme außer bei offensichtlichem Nutzen und entbindet den Konvent von der Haftung, wenn solche Geschäfte ohne ihn getätigt werden, befreit sie vom Zehnten bei Eigenbau und für Tierfutter, gewährt das Aufnahmerecht, verbietet, nach abgelegter Profeß das Kloster unerlaubt zu verlassen, und gestattet, ein ka nonisches Urteil gegen jene Mönche oder Konverse zu fällen, die nicht zurückkehren, gewährt das Zeugnisrecht in eigener Sache, verbietet, sie zur Teilnahme an Synoden oder Gerichtsverfahren zu zwingen, einem weltlichen Gericht zu unterwerfen oder ihre Klöster zu Ordinationen, Gerichtsverfahren oder anderen öffentlichen Versammlungen gegen ihren Willen zu betreten, verbietet, die Wahl des Abts entgegen den Statuten des Zisterzienserordens zu behindern oder sich in die Ein- und Absetzung des Abts einzumischen, berechtigt den Abt, falls der Diözesanbischof sich nach dreimaligem angemessenem Ersuchen weigert, ihn zu benedizieren, die Weihe der eigenen Novizen vorzunehmen und sein Amt zu führen, bis der Bischof einlenkt oder dies von einem anderen Bischof zu erlangen, setzt fest, daß der Bischof sich bei der Entgegennahme des Gelübdes mit den Formen und Gebräuchen zufriedengibt, die innerhalb ihres Ordens üblich sind, setzt den freien Empfang von Konsekrationen, Heiligem Öl und anderen Sakramenten, nötigenfalls durch einen Bischof ihrer Wahl fest, erlaubt bei Vakanz des Bischofsstuhls den Empfang von Weihen und Ordinationen durch beliebige Bischöfe, verbietet, daß Leute oder Händler des Klosters mit dem Interdikt oder der Exkommunikation belegt werden wegen ihrer Arbeit an Feiertagen oder daß über ihre Wohltäter wegen deren Leistungen Interdikt oder Exkommunikation verhängt wird, gewährt das Recht, Schreiben zu mißachten, die ihre Zugehörigkeit zum Zisterzienserorden nicht erwähnen und gegen ihre apostolischen Privilegien verstoßen, erlaubt Gottesdienst bei Interdikt, gebietet Frieden und untersagt Verbrechen in ihren Klausuren und Grangien, bestätigt die Freiheiten, Immunitäten und Gewohnheiten, die ihnen von seinen Vorgängern Innocenz (II.), Eugen (III.), Alexander (III.), Lucius (III.), Urban (III.) und Gregor (VIII.) gewährt worden sind, sowie die von Königen und Großen gewährten weltlichen Freiheiten und Exemtionen.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Quotiens postulatur a nobis quod</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Lat. pm. Moysis SRE. subdiaconi vicem agentis cancellarii 2 kal. apr. ind. 8 inc. 1189 (sic) pont. a. 3.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zur Überlieferung vgl. Wiederhold, PUU Frankreich 5, S. 15 = Acta Rom. pont. 7 S. 433 (die Anm. 5 ohne weiteren Beleg geäußerte Vermutung, das Privileg sei auch in London, Brit. Lib., Cotton Faustina B I überliefert, ist unzutreffend) und Meinert, PUU Frankreich 1, S. 46. Zur Überlieferung des fragmentarischen Orig. vgl. Meinert, PUU Frankreich 1, S. 45. Erhalten ist nur die rechte untere Ecke des Kontexts und drei Unterschriften (Iacinthus, Gratianus und Soffredus). Das Ms. in der Médiathèque in Troyes ist auf der Homepage der Bibliothek online zugänglich. – Das Inkarnationsjahr ist um eine Einheit zu niedrig angegeben, Pontifikatsjahr und Indiktion weisen eindeutig auf 1190. VUU sind die Privilegien Innocenz' II. von 1132 Februar 17 (JL 7544, Waquet-Roger-Veyssière, Chartes Clairvaux, S. 8-9 Nr. 5) und Alexanders III. von 1163 Dezember 8 (JL –, Waquet/Roger/Veyssière S. 116-122 Nr. 99). Eine Urk. Eugens III. konnte nicht nachgewiesen werden. Vielleicht diente auch das Privileg Clemens' III. von 1188 Januar 7 (Reg. 31) als VU, die hier erweitert wurde. Die Privilegien Lucius' III. (Böhmer-Baaken-Schmidt, Papstregesten Lucius' III. 2, Nr. 2128), Urbans III. (Böhmer-Schmidt, Papstregesten Urban III., Nr. 1093) und Gregors VIII. (Böhmer-Schmidt Nr. 1454) sind verloren. NU ist das Privileg Cölestins III. von 1197 Januar 31 (JL –, Waquet/Roger/Veyssière S. 438-442 Nr. 350.      Verbesserungen und Zusätze (2018):  Zur Überlieferung vgl. nun auch Ramackers, Troyes S. 74 und S. 75 mit Anm. 116.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>2 Origg., Troyes, Arch. dép. Aube, 3 H 48 und 3 H 67 (Fragment, vgl. den Kommentar); Kopie 13. Jh., Troyes, Médiathèque de l'Agglomération Troyenne, Fonds Manuscrits du Moyen Âge, Ms. 591 fol. 213'-214'; Kopie 15. Jh., Troyes, Arch. dép. Aube, 3 H 39 fol. 2'-4' (Kopie von 1485 April 25); Kopie 15. Jh., Yzeure, Arch. dép. Allier, Fonds de Septfonds, H 2 fol. 6'-8'.   Drucke: Meinert, PUU Frankreich 1, S. 390-391 Nr. 273 (nur Adresse und Datum); Meinert, PUU Frankreich 1, S. 391 Nr. 275 (nur Verweis auf das fragmentarische Orig. 3 H 67, zu 1187-1191); Wiederhold, PUU Frankreich 5, S. 155-156 Nr. 140 (nur Adresse, Unterschriften und Datum) = Acta Rom. pont. 7 S. 573-574; Waquet-Roger-Veyssière, Chartes Clairvaux, S. 337-340 Nr. 277.   Reg.: Geyer, Klemens III., S. 56 Nr. 85.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

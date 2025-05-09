@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,4 n. 678</idno>
+        <idno type="urn">1189-07-20_1_0_4_4_4_678_678</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Clemens III., RI IV,4,4,4 n. 678</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Rom, Lateran</placeName>
+              <date type="issued" notBefore="1189-07-20" notAfter="1189-07-20">1189 Juli 20</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Clemens III. nimmt Abt Walter und die Brüder von Westminster (Waltero abbati Westmonasterii eiusque fratribus) (D. London) auf deren Bitten mit ihrem Kloster, das im Recht und Eigentum des hl. Petrus steht, in den päpstlichen Schutz, bestätigt die Benediktinerregel und den Besitz, verbietet, daß ihre Kirchen und andere Besitzungen, insbesondere die Kirchen von Oakham, Ashwell, Staines, Aldenham und Wheathampstead (ecclesiam de Ocham et de Aeswelle et de Stanes et de Haldeham et ecclesiam de Wathamstede) mit deren Kapellen und Pertinenzen ihrem Gebrauch entfremdet werden, behält die Verhängung von Exkommunikation und Interdikt über die Mönche und die Prioren der Zellen dem römischen Bischof vor, verbietet den Bischöfen und Erzbischöfen, innerhalb des Klosters Meßfeiern, Konvente oder Synoden ohne ihre Zustimmung abzuhalten oder sie vor ihr Gericht zu ziehen, befreit sie von der Gerichtsbarkeit des Bischofs von London (Lundoniensi episcopo) und dessen Offizialen, bestätigt alle Pensionen, die sie vor dem (3.) Laterankonzil besaßen oder die vom Diözesanbischof bestätigt wurden, befreit sie davon, wegen vom Apostolischen Stuhl impetrierter Schreiben vor Gericht gezogen zu werden, es sei denn aufgrund besonderer päpstlicher Anweisung in Kommissionsangelegenheiten; der Papst bestätigt die Urkunden und Privilegien der Könige und anderer Großer sowie jene des Erzbischofs Dunstan (von Canterbury) (archipresul Dunstanus), behält das Straf-, Einsetzungs- und Absetzungsrecht der Prioren und Mönche ausschließlich dem Abt vor und verbietet unter Androhung der Exkommunikation die Auferlegung ungeschuldeter Lasten entgegen den Statuten des (3.) Laterankonzils.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Quotiens illud a nobis petitur</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Lat. pm. Moysis SRE. subdiaconi vicem agentis cancellarii 13 kal. aug. ind. 7 inc. 1189 pont. a. 2.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zur Überlieferung vgl. Holtzmann, PUU England 1, S. 105, S. 115 und S. 185-187. – VUU sind die nicht genannten Privilegien Alexanders III. von 1163 Oktober 6 (JL –, Holtzmann 1 S. 364-366 Nr. 101) und von 1177 April 18 (JL –, Holtzmann 1 S. 415-417 Nr. 144). Zur Urk. des Erbischofs Dunstan vgl. Mason, Westminster Abbey and its People S. 8. Zu den angeführten Bestimmungen des 3. Laterankonzils vgl. dessen can. 7 (Tanner, Decrees 1 S. 214f.). Zur Sache vgl. Knowles, Essays in Monastic History 4 S. 419, Knowles, Essays in Monastic History 6 S. 515, Sayers, Monastic Archdeacons S. 185f., Harvey, Westminster Abbey S. 48, Mason, Westminster Abbey and its Parish Churches S. 47 und S. 54 sowie Mason, Westminster Abbey and its People S. 63 und S. 125.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Orig., London, Westminster Abbey, Muniments n. 1508; Kopie 14. Jh., London, Westminster Abbey, Muniments n. 12754 (Notariatsinstrument von 1302 Februar 15, ohne Unterschriften); Kopie 14. Jh., London, Westminster Abbey, Muniments n. 12755; Kopie 14. Jh., London, Westminster Abbey, Muniment books vol. 11 fol. 9'-10 (ohne Unterschriften) (Westminster Domesday, Davis, Medieval cartularies Nr. 1013); Kopie 14. Jh., London, Brit. Lib., Cotton Faustina A III fol. 171'-173 (ohne Unterschriften) (Chart. von Westminster, Davis, Medieval cartularies Nr. 1011); Kopie 14./15. Jh., London, Westminster Abbey, Muniment books vol. 12 fol. 6 und fol. 6-6' (Reg. in der Tabula super bullis, instrumentis, confirmationibus et consecrationibus ad ecclesiam Westmon. pertinentibus, Davis, Medieval cartularies Nr. 1014); Kopie 15. Jh., London, Westminster Abbey, Muniments n. 12756 (Auszug); Kopie 15. Jh., London, Westminster Abbey, Muniment books vol. 1 fol. 138' (Liber niger, Davis, Medieval cartularies Nr. 1015); Kopie 15. Jh., London, Brit. Lib., Cotton Titus A VIII fol. 45-45' (Chart. von Westminster, Davis, Medieval cartularies Nr. 1012); Kopie 15. Jh., London, Brit. Lib., Add. Ch. 15895 n. 11.   Druck: Holtzmann, PUU England 1, S. 551-553 Nr. 262.   Reg.: Mason/Bray/Murphy, Westminster Abbey Charters S. 87-88 Nr. 179.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

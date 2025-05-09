@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,3 n. 1367</idno>
+        <idno type="urn">1187-11-16_1_0_4_4_3_1367_1367</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Gregor VIII., RI IV,4,4,3 n. 1367</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Ferrara</placeName>
+              <date type="issued" notBefore="1187-11-16" notAfter="1187-11-16">1187 November 16</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Gregor VIII. nimmt Archipresbiter Acursus und die Brüder der Kirche S. Maria in Monteveglio (Acurso archipresbytero ecclesie b. Marie Montis Belii eiusque fratribus) (D. Bologna) auf deren Bitten wie Eugen (III.), Alexander (III.) und Urban (III.) in den päpstlichen Schutz, bestätigt die Augustinerregel und die Institution der Brüder von S. Frediano (in Lucca) (institutionem fratrum s. Frigdiani) sowie ihre genannten Besitzungen, befreit sie vom Zehnten für Neubrüche bei Eigenbau und für Tierfutter, verbietet, daß Laien vom Land im Besitz ihrer Kirche Zehnte fordern, erlaubt Gottesdienst bei Interdikt, gewährt wie Alexander (III.) die Wahl des Archipresbiters aus ihrem oder einem anderen regulierten Konvent, der dem Diözesanbischof präsentiert und von diesem bestätigt werden muß, setzt den freien Empfang von Chrisma, Heiligem Öl, Konsekrationen und Ordinationen durch den Diözesanbischof, nötigenfalls durch einen Bischof ihrer Wahl fest, bestätigt die von den Bischöfen von Bologna (Bononiensium episcoporum) gewährten Privilegien und insbesondere die Festsetzungen des früheren Bischofs Gerhard von Bologna (bone memorie Gerardum quondam Bononiensem episcopum), bestätigt die alten Gewohnheiten und Freiheiten, untersagt dem Bischof von Bologna, ihnen neue und ungeschuldete Lasten und Forderungen aufzuerlegen, verbietet wie Alexander (III.), von ihnen einen Eid zu fordern, gewährt das Aufnahmerecht, untersagt, die Kirche nach abgelegter Profeß unerlaubt zu verlassen, erlaubt die freie Sepultur, verbietet, in ihrer Pfarrei Gotteshäuser zu errichten ohne ihre Zustimmung und die des Diözesanbischofs vorbehaltlich päpstlicher Privilegien, und untersagt, daß jemand von ihnen kanonisch verhängte Interdikte oder Suspensionen ohne hinreichende Genugtuung aufhebt.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Monet nos apostolice sedis auctoritas</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Ferrarie pm. Moysis Lateranensis canonici vicem gerentis cancellarii 16 kal. dec. ind. 6 inc. 1188 (sic) pont. a. 1.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Eine hs. Überlieferung des vollständigen Textes ist nicht mehr nachzuweisen, vgl. IP V S. 293. Der Druck bei Pennotto erfolgte nach dem Orig. – Das Inkarnationsjahr ist um eine Einheit zu hoch angegeben. Die genannten Urkk. sind das Privileg Eugens III. von 1150 November 24 (JL 9416, IP V S. 294 Nr. 2, Migne, PL, 180 Sp. 1428-1429 Nr. 405), das Dep. Alexanders III. (JL – , IP V S. 294 Nr. *4, Fanti/Paolini, Codice bolognese S. 311 Nr. 162) und das nur unvollständig überlieferte Privileg Urbans III. von (1186 November 25-1187 September 22) (Reg. 956). Erwähnt wird dieses Privileg auch in der Urk. Innocenz' IV. von 1253 März 29 (Potthast – , Berger, Registres Innocent IV 3 S. 198-199 Nr. 6443). Die Urk. des Bischofs Gerhard von 1155 Januar 1 ist gedruckt bei Fanti/Paolini S. 250-252 Nr. 122.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Kopie 15./16. Jh., Bologna, Arch. di Stato, S. Maria di Monteveglio, 33/486 n. 1b (Reg.).   Drucke: Pennotto, Generalis Historia tripartita S. 690-691; Fanti/Paolini, Codice bolognese S. 333-334 Nr. 178 (Teildruck).   Reg.: JL 16053; Nadig, Gregors Pontifikat S. 62; IP V S. 294-295 Nr. 6.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

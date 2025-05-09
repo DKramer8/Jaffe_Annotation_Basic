@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RIplus Regg. EB Mainz 2 [n. 239]</idno>
+        <idno type="urn"></idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Christian I., RIplus Regg. EB Mainz 2 [n. 239]</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Ferrara</placeName>
+              <date type="issued" notBefore="1177-04-21" notAfter="1177-04-21">1177 April 11 bis 21</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>kommt mit sechs anderen kaiserlichen gesandten nach Ferrara, wo nach längeren verhandlungen ihr vorschlag durchdringt, Venedig zum ort der friedensverhandlungen zu machen. Postquam Lombardi finem fecere dicendi, papa eos de more benedixit et ad hospitia singulos abire permisit. Post diem autem tertium Christianus cancellarius, Coloniensis, Madeburgensis et Treverensis archiepiscopi, Guarmaciensis electus, Gotifridus alius cancellarius et protonotarius ex parte imperatoris Ferrariam ad papam venientes, residentibus cum eo regis nunciis et Lombardis, in consistorio publice protestati sunt, et dixerunt .. Quumque haec contentio aliquantis diebus de loco colloquii perdurasset, tandem suadentibus regis nuntiis, voluntati domini Papae praebuere consensum et se ituros Venetias, praestitis tamen securitatibus, promiserunt. Romoaldi Ann. in: M. G. SS. XIX, 446. und Watterich, Vitae pont. Rom. II, 612; .. Sed ex parte imperatoris: Moguntinus, Coloniensis, Treverensis, Bisuntinus, Magdeburgensis et Salzburgensis aei cum aliquibus eorum suffraganeis episcopis, electo quoque Wormatiensi et A. protonotario. Bosonis Vita Alexandri III. in: Watterich, Vitae pont. Rom. II, 439. ‒ Vergl. Reuter, Papst Alexander III. Bd III, 274 flgde. u. Varrentrapp, Christiau I. v. Mainz. 75‒78 namentlich die noten, wo dargethan wird, dass der bericht Romoald's ‒ wie auch schon Reuter III, 274 annahm -den vorzug vor demjenigen Boso's vediene, während Fechner (Erzb. Wichmann v. Magdeburg. in: Forschungen V, 461 flgde.) in seiner darstellung der friedensverhandlungen zu Venedig dem letzteren zumeist vertrauen schenkte. Hiegegen hat sich Prutz in seinem K. Friedrich I. Bd II, 363 entschieden ausgesprochən und die glaubwürdigkeit Romoald's mit sehr guten gründen vertheidigt; Görz, Mittelrhein. Reg. II, 108, nr. 386. [Nummer im Druck: 148]</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">-</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>[Inhalt des Sachkommentars. Bibliographische Referenzen werden als &lt;bibl&gt;Bibliographische Angabe&lt;/bibl&gt; getagged.]</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>[Weitere Referenzen als listBibl]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

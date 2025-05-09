@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,5 n. 437</idno>
+        <idno type="urn">1192-04-21_1_0_4_4_5_437_437</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Cölestin III., RI IV,4,4,5 n. 437</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Rom, Lateran</placeName>
+              <date type="issued" notBefore="1192-04-21" notAfter="1192-04-21">1192 April 21</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Cölestin III. nimmt Bischof Wilhelm von Lucca (Guilielmo Lucano episcopo) auf dessen Bitten wie Alexander II., Paschal II., Calixt II., Urban II. und Lucius III. in den päpstlichen Schutz, bestätigt den genannten Besitz und wie Calixt (II.) das Recht, das Pallium bei feierlichen Gottesdiensten zu tragen, verbietet, ohne bischöfliche Zustimmung im Bistum Klöster oder Kirchen zu errichten unter Vorbehalt päpstlicher Privilegien, und untersagt den Mönchen, Krankensalbung und öffentliche Bußen ohne Einverständnis des Bischofs zu vollziehen, setzt fest, daß Gottesdienste in den Klöstern durch einen vom Bischof bestimmten Kaplan gefeiert werden, der Priester sein muß, vorbehaltlich der Gewohnheiten der anderen Kirchen, und bestimmt für die Pfarrkirchen der Klöster, daß darin gemäß dem Synodale Urbans II. kein Priester eingesetzt werden darf, der nicht dem Bischof präsentiert worden ist; der Papst trifft Bestimmungen über die Jurisdiktion und die kanonische Wahl des Bischofs durch die Domkanoniker, bestätigt die Urkunden Alexanders II. und Paschals II., das durch Bischof Hildebrand von Pistoia, Archipresbiter Argentus und Primicerius R(ainer) im Streit seines Vorgängers (Benedikt) mit dem Abt von Fucecchio (inter predecessorem tuum et Ficeclensem abbatem per Ildebrandum quondam Pistoriensem episcopum, Argentum archipresbiterum et R. primicerium) um Zehnte gefällte Urteil sowie die Refutationen des Grafen (Wilhelm) Bolgarus von Fucecchio (Bulgarus comes de Ficecclu) für Bischof Johannes, seinen Vorgänger (Iohanni predecessori tuo), gemäß dem Instrument des Notars Gerhard (Gerardi notarii) und gestattet den Gebrauch des Vortragekreuzes in seinem Bistum.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Et ordo rationis expostulat et</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Lat. pm. Egidii s. Nicolai in carcere Tulliano diaconi cardinalis 11 kal. maii ind. 10 inc. 1192 pont. 2.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zur Überlieferung vgl. Kehr, PUU westliche Toscana S. 595 = Acta Rom. pont. 4 S. 272. Die Unterschriften sind aus dem Orig. verzeichnet bei Pfaff, Kardinäle S. 343 Nr. 57. Der dort irrig genannte Kardinaldiakon Gregor von S. Marie in Aquiro hat jedoch in Wirklichkeit nicht unterschrieben. – Die genannten Urkk. sind die Privilegien Alexanders II. von 1070 Dezember 3 (JL 4680, IP III S. 388 Nr. 4, Migne, PL 146 Sp. 1360 Nr. 77), Paschals II. von 1107 September 18 (JL 6167, IP III S. 390-391 Nr. 15, Migne, PL 163 Sp. 226-227 Nr. 231), Calixts II. von 1122 April 4 (JL 6964, IP III S. 392 Nr. 24, Robert, Bullaire Calixte II 2 S. 26-28 Nr. 291), Urbans II., das ebenso wie sein erwähntes Synodale verloren ist (JL – , IP III S. 390 Nr. *13), und Lucius’ III. von 1181 November 12 (Böhmer-Baaken-Schmidt, Papstregesten Lucius’ III. 1 Nr. 16), das als VU diente. Zur Palliumverleihung vgl. die Urk. Calixts II. von 1120 Mai 7 (JL 7091 [zu 1119–1124], IP III S. 391-392 Nr. 23, Robert 2 S. 236-237 Nr. 429). Zu den weiteren genannten Urkk. Alexanders II. und Urbans II., die sich im einzelnen nicht bestimmen lassen, vgl. IP III S. 388-389 Nrr. 5-7 sowie S. 390 Nr. 11 und Nr. *12. Wiederholt wird dieses Privileg 1194 Juni 3 für Bischof Wilhelms Nachfolger Guido (Reg. 1120). – Das im Streit Bischof Benedikts mit dem Abt von Fucecchio ergangene Urteil von 1122 März 14 ist bei Nanni, Parrocchia S. 191-193 gedruckt; zu Archipresbiter Argentus vgl. Savigni, Episcopato S. 455f. und zu Primicerius Rainer S. 457. Zur Refutation des Grafen Wilhelm Bolgarus von Fucecchio vgl. Coturri, Ricerche e note d’archivio S. 109f., genealogische Tafel S. 145, Schwarzmaier, Lucca S. 209 mit genealogischer Tafel und S. 407 sowie Pescaglini Monti, Cadolingi S. 196f. mit Karte und genealogischer Tafel S. 204f. Zu Bischof Johannes von Lucca (1023–1056) vgl. Savigni S. 399. Vgl. allgemein zu diesem Stück Nanni S. 118f., zur Präsentationspflicht Spicciani, Pescia e la Valdinievole S. 148f. und zum Vortragekreuz Schmidt, Alexander II. S. 51.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Überl.: Orig., Lucca, Arch. storico diocesano, Arch. arcivescovile, Privilegi 90; Kopie 14. Jh., Lucca, Arch. storico diocesano, Bibl. arcivescovile, Libri Antichi Nr. 31 p. 2 (Libro detto della Croce, Liber continens iura et privilegia ad episcopatum Lucanum spectantia, scriptus a Bartholomaeo de Gaudiano not. a. 1388); Kopie 14. Jh., Lucca, Bibli. statale, Ms. 840 p. 848 (Liber privilegiorum episcopatus Lucen.).  Drucke: Memorie e documenti Lucca 4,1 (Documenti) S. 48-51 Nr. 28 (nur mit 2 Unterschriften); Migne, PL 206 Sp. 931-934 Nr. 72 (nach Memorie).  Reg.: JL 16859 (J 10369); IP III S. 395 Nr. 49; Concioni/Ferri/Ghilarducci, Lucensis ecclesiae Monumenta 2 S. 158, S. 175-176 und S. 269-270 sowie 3,1 S. 405 (alle zu 1192 April 26).</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RIplus Regg. EB Mainz 2 [n. 42]</idno>
+        <idno type="urn"></idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Konrad I. Erstes Pontifikat (1161-1177), RIplus Regg. EB Mainz 2 [n. 42]</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>‒</placeName>
+              <date type="issued" notBefore="1165-05-01" notAfter="1165-05-31">1165 Mai ende</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>begiebt sich heimlich nach Frankreich zu papst Alexander III. Electus Mogontiensis domnus Chuonradus, frater Ottonis palatini comitis, qui ante obedientiam fecerat per se Alexandro papae dum iret ad limina Sancti Jacobi, solus nocte de curia [Wirzeburgensi] fugiens venit in Franciam ad Alexandrum, et ibi exulabat.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">-</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>[Inhalt des Sachkommentars. Bibliographische Referenzen werden als &lt;bibl&gt;Bibliographische Angabe&lt;/bibl&gt; getagged.]</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Ann. Reich. in: M. G. SS. XVII, 472; 1163. set ille [Cuonradus] non multo post contra imperatorem in parte Alexandri papae sentiens, sponte episcopatum deseruit, et ad partes Rulandi transivit. Ann. Colon. max. (Recensio I) in M. G. SS. XVII, 778; 1163. Qui [Conradus] non multo post contra imperatorem sentiens, sponte episcopatum tamquam pro justicia deseruit et ad partem Alexandri pape, eo quod sibi probabilior videretur, transivit. Ann. Col. max. (Recensio I). in: Böhmer, Font. III, 436 u. M. G. SS. XVII, 778; 1164. Conradus Moguntinus electus confederatus est Orlando qui et Alexander fide et iuramento etc. Ann. Disib. in: M. G. SS. XVII, 30 u. Böhmer, Font. III, 216. Eo tempore Corradus quidam nobilis clericus Alamannie et imperatoris consanguineus, qui in Moguntina ecclesia erat electus, nolens Octaviani et imperatoris scismati consentire, ecclesiam suam deserens, ignorante imperatore ad Alexandrum papam in Franciam festinus advenit, quem papa satis bene suscipiens etc. Romoaldi Ann. in: M. G. SS. XIX, 433; Iste vero Coenredus, cum electus esset tempore schismatis ad archiepiscopatum Maguntinum noluit ab Octaviano antipapa consecrari; sed malens inter catholicos pro nomine Christi egere, quam inter schismaticos divitiis et transitoriis abundare, electioni suae abrenunciavit, et venit in partes Galliarum usque Senonensem civitatem; et invento ibi Alexandro summo pontifice, qui ea tempestate citra montes illuc pervenerat ad celebrandum concilium, pro amore Dei et pace ecclesiae se ipsum sponte deposuit: et a praefato papa catholico honorifice susceptus, inter episcopos cardinales connumeratus est, et in ipso concilio factus fuit episcopus cardinalis de episcopatu Savinae. Benedictus Petroburg., Gesta regis Henrici II ed. Stubbs, I, 186. und Roger de Hoveden. ed. Stubbs, II, 140. -Konrad sagt in seiner anrede an papst Alexander III zu Venedig i. j. 1177: „Novit vestra sanctitas, venerande Pater, novit universa haec Romana Ecclesia, quod ego vestrae personae intuitu, Moguntinam ecclesiam, in qua canonice electus fueram, inscio imperatore reliqui et honorem meum, parentes et patriam pro Dei amore deserui et ad vos in Franciam festinus accessi, exilium patriae praeposui et in labores et in angustias quietem meam et otium commutavi.' Baronius, Ann. eccl. (ed. Mansi) XIX ad a. 1174. nr. 73; Watterich, Vitae Pontif. II, 631; (May) Erzbischof Conrad I von Mainz. 201. [Nummer im Druck: 41]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

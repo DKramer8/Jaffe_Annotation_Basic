@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,2 n. 1265</idno>
+        <idno type="urn">1184-11-17_1_0_4_4_2_99_1265</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Lucius III., RI IV,4,4,2 n. 1265</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Verona</placeName>
+              <date type="issued" notBefore="1184-11-17" notAfter="1184-11-17">1184 November 17</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Lucius III. nimmt die Brüder, sowohl Kleriker als auch Laien, des Jacobusordens (fratribus milicie beati Iacobi clericis et laicis) und ihr Haus, das im besonderen Recht des hl. Petrus steht, auf deren Bitten wie Alexander (III.) in den päpstlichen Schutz, bestätigt genannte Besitzungen und die Schenkungen erwähnter Personen, verbietet, ihnen Besitz zu entziehen, und trifft Verfügungen über die Einhaltung der Ordensregel.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Licet universos religiosos viros paterna</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Verone pm. Hugonis SRE. notarii 15 kal. dec. ind. 3 inc. 1184 pont. a. 4.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zur Überlieferung vgl. auch KEHR, Ältere PUU III S. 502 und S. 506 = Acta Rom. pont. 3 S. 483 und S. 487, KEHR, PUU röm. Bibl. II S. 76 = Acta Rom. pont. 4 S. 76, KEHR, Nachträge zu den römischen Berichten S. 531 = Acta Rom. pont. 4 S. 189 sowie ERDMANN, PUU Portugal S. 50f. und S. 118. – Die genannte Urk. Alexanders III. ist dessen Privileg für den Orden von 1175 Juli 5 (JL 12504, Regest: MANSILLA, Documentación Inocencio III S. 138 Nr. 119, Druck: MARTÍN, Origines Santiago S. 248-254 Nr. 73), das auch VU war. – Zur hier bestätigten Ordensregel vgl. GALLEGO BLANCO, Rule St. James S. 76-147 (mit engl. Übersetzung der Regel).    Verbesserungen und Zusätze (2018):  Zur Sache vgl. jetzt Holndonner, Kommunikation S. 516.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Überl.: Kopie 14. Jh., Lissabon, Arch. nac. da Torre do Tombo, Colecção Especial, Caixa 1, Nr. 18; Kopie 15. Jh., Madrid, Arch. hist. nac., Códices y Cartularios 1046 B lib. 4, d. 2 p. 403-412 (inseriert in die Urk. Martins V. von 1428 August 1, Tumbo Menor de Castilla); Kopie 15. Jh., Madrid, Arch. hist. nac., Sección Ordenes militares, San Marcos de León, Carpeta 378; Kopie 15. Jh., Rom, Arch. Seg. Vat., Reg. Vat. 431 fol. 217' (inseriert in die Urk. Martins V. von 1428 August 1 im Transsumpt Nikolaus' V. von 1452 Juni 17, ohne Eschatokoll); Kopie 15. Jh., Lissabon, Arch. nac. da Torre do Tombo, Livro dos Copos. Ordem de Santiago, liv. 272 fol. 34-35'.  Verbesserungen und Zusätze (2012):  Die Urk. ist inzwischen auch gedruckt bei Domínguez Sánchez, Documentos León  S. 128-131 Nr. 65.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl> Bullarium S. Iacobi de Spatha S. 30-31 Nr. 5 (Teildruck unter Verweis auf die VU Alexanders III.); MANSILLA, Documentación Inocencio III S. 145-151 Nr. 124 (ohne Unterschriften); MARTÍN, Origines Santiago S. 350-351 Nr. 168 (Teildruck unter Verweis auf die VU Alexanders III.); BENITO RUANO, Orden S. 33-34 Nr. 3 (Teildruck); BENITO RUANO, Estudios Santiaguistas S. 263 Nr. 3 (Teildruck). SANTARÉM, Quadro Elementar 9 S. 19-20; KEHR, Ältere PUU II S. 543 Nr. 26 = Acta Rom. pont. 3 S. 517 (nur Adresse); SIERRA CORELLA, Archivo San Marcos S. 509 (123); MANSILLA REOYO, Fondos S. 396 Nr. 1; FERNÁNDEZ CATÓN, Indice San Marcos S. 360 Nr. 14.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

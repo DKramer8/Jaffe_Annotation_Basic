@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,4 n. 191</idno>
+        <idno type="urn">1188-04-06_1_0_4_4_4_191_191</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Clemens III., RI IV,4,4,4 n. 191</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Rom, Lateran</placeName>
+              <date type="issued" notBefore="1188-04-06" notAfter="1188-04-06">(1188) April 6</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Clemens III. gewährt Abt Garinus und den Brüdern von St Albans (Garino abbati et fratribus sancti Albani) (D. Lincoln), deren Kloster im Recht des hl. Petrus und im päpstlichen Schutz steht, das Recht, daß kein Erzbischof, Bischof oder anderer kirchlicher Prälat sie ohne päpstliches Mandat vor Gericht ziehen darf, verbietet wie Alexander (III.), daß Prioren oder Leute der Zellen von St Albans durch Erzbischöfe, Bischöfe oder andere kirchliche Prälaten von ihren Ämtern suspendiert oder mit dem Interdikt oder der Exkommunikation belegt werden und behält dies dem römischen Bischof und dessen Kardinallegaten vor, setzt fest, daß niemand außer dem Abt ohne die Autorität oder ein Mandat der römischen Kirche Rechts- oder Strafgewalt ausüben darf, gestattet Gottesdienst bei Interdikt, gewährt das Präsentationsrecht, verbietet innerhalb des Klosters die Einberufung von Konventen, die Durchführung von Prozessionen, die Vornahme der Königskrönung oder die Ausübung bischöflicher Funktionen in ihren Zellen durch Erzbischöfe oder Bischöfe ohne ihre Zustimmung, gewährt dem Prior von St Albans bei Vakanz das Recht, mit dem Rat der Mehrheit des Kapitels die Prioren und Mönche der Zellen ein- und abzusetzen, und verbietet, daß jemand an der Übertragung von Besitz oder Benefizien an das Kloster gehindert wird.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Cum vos et monasterium vestrum</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Lat. 8 id. apr. pont. a. 1.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zur Überlieferung vgl. Holtzmann, PUU England 1, S. 83, S. 87 (zur Überlieferung bei Matthäus Parisiensis) und S. 106 sowie Holtzmann 3 S. 81. – Das abweichende Tagesdatum in den Abschriften (8 id. mar. [März 8] bzw. 5 id. mar. [März 11]) dürften wohl kaum auf weitere Ausfertigungen dieser Urk. zurückgehen, sondern eher auf Kopistenfehlern beruhen. Die Datierung folgt hier der Angabe bei Matthäus Parisiensis. VU ist die Urk. Alexanders III. von 1170 Mai 26 (JL –, Holtzmann 3 S. 307-308 Nr. 170), wo im Apparat die Abweichungen der Urk. Clemens' III. gegenüber der Urk. Alexanders III. verzeichnet sind. Zur Sache vgl. Sayers, Papal Privileges S. 61f.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Kopie 14. Jh., London, Brit. Lib., Cotton Titus C VIII fol. 15 (nur Auszug mit der Bestimmung über die Befugnisse des Priors, ohne Datum im Chart. von Wymondham, Davis, Medieval cartularies Nr. 1082); Kopie 14./15. Jh., Bakewell, Chatsworth House, The Trustees of the Chatsworth Settlement, MS 73A fol. 35' (mit 8 id. mar. im Chart. von St. Albans, Davis, Medieval cartularies Nr. 832); Kopie 15. Jh., London, Brit. Lib., Cotton Claudius D XIII fol. 28'-29 (mit 5 id. mar. und dem Incipit Cum et monastrium vestrum in im Chart. von Binham, Davis, Medieval cartularies Nr. 56); inseriert in Matthäus Parisiensis, Chronica maiora, ed. Luard 6 S. 47-49 Nr. 33.  Reg.: JL 16196.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

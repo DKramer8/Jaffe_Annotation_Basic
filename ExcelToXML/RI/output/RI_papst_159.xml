@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,1 n. 648</idno>
+        <idno type="urn">1183-05-11_1_0_4_4_1_648_648</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Lucius III., RI IV,4,4,1 n. 648</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Velletri</placeName>
+              <date type="issued" notBefore="1183-05-11" notAfter="1183-05-11">(1182 – 1183) Mai 11</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Lucius III. berichtet Abt (Thomas) von Meaux und den Prioren (Ralph) von Guisborough und Kelso (abbati de Melsa, de Giseburne et de Kelzou prioribus), daß er eine Anfrage des Abtes von Newsham, des Abtes (Thomas) von Thornton und des Priors von North Ormsby (de Neus et de Thorent. abbatum et prioris de Hormesbi) erhalten habe; diese seien durch ein auf den Namen seines Vorgängers Alex(ander III.) ausgestelltes Schreiben damit beauftragt worden, den Streitfall zwischen den Kanonikern von Warter und den Kanonikern von Jedburgh (canonicos de Wartria et canonicos de Gedewrthe) um die Zelle von Lidel (cella de Lidel) zu untersuchen; Abt (Richard) von Jedburgh habe angesichts einer Abschrift dieses Schreibens jedoch behauptet, dieses sei gefälscht und eine Untersuchung des Schreibens durch den apostolischen Stuhl werde dies bestätigen; der Abt von Warter, der für die Echtheit des Schreibens nicht bürgen wollte, habe daraufhin an den apostolischen Stuhl appelliert; Gesandte beider Parteien seien sodann mit Schreiben der Äbte und des Priors sowie dem im Namen Papst Alexanders ausgestellten Schreiben bei Lucius erschienen und das fragliche Schreiben sei von ihm und den Kardinälen als offensichtliche Fälschung erkannt worden; der Papst befiehlt deshalb, jeden, der dieses Schreiben benutzt, seines Amts zu entheben und als Fälscher in ein Kloster zur Bußleistung zu überstellen; der Abt von Warter soll, sofern er nicht mit vier Eidhelfern beeiden kann, daß er das Schreiben nicht wissentlich als Fälschung benutzt hat, von seinem Amt suspendiert werden, bis er in Rom Vergebung erhalten hat; der Streit um die Zelle soll von den Adressaten untersucht und entschieden werden; sollte eine der Parteien Appellation einlegen, so solle dennoch mit den Zeugenverhören fortgefahren und die Zeugenaussagen besiegelt an den Papst geschickt werden.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Dilectorum filiorum nostrorum de Neus</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Velletri 5 id. maii.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zur Sache vgl. Chodorow, Dishonest Litigation S. 191 und S. 202 Anm. 25. Das Stück trägt in der noch unveröffentlichten Sammlung Walther Holtzmanns die Nr. 357.    Verbesserungen und Zusätze (2006):  Zur Sache vgl. FERGUSON, Representatives S. 173 und S. 210 Nr. 7.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Drucke: Loewenfeld, Epistolae S. 214-215 Nr. 356 (mit verderbter Adresse); Somerville, Scotia Pontificia S. 114-116 Nr. 120. Zur weiteren Überlieferung dieser Dekretale vgl. Singer, Beiträge S. 364 und Holtzmann, Sammlung Tanner S. 112. Reg.: JL 14769.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

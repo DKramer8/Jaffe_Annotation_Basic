@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,3 n. 571</idno>
+        <idno type="urn">1187-02-26_1_0_4_4_3_571_571</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Urban III., RI IV,4,4,3 n. 571</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Verona</placeName>
+              <date type="issued" notBefore="1187-02-26" notAfter="1187-02-26">1187 Februar 26</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Urban III. bestätigt Propst Plebanus und den Kanonikern von Prato (Plebano preposito et canonicis Pratensibus) (D. Pistoia) die Privilegien Alexanders (III.) und Lucius' (III.) über das Urteil, das Alexander III. gemäß der Entscheidung Innocenz' (II.) und deren Bestätigung durch Eugen (III.) im Streit zwischen ihren Mitkanonikern Roland und Ubaldus (Rolandus et Ubaldus concanonici vestri) und O., dem Pleban der Kirche S. Giusto (di Piazzanese in Prato) (O. plebanus sancti Iusti), um die Kapelle S. Giacomo (super cappella sancti Iacobi) gefällt hat, wonach bei Vakanz der Kapelle der Priester vom Pleban und der Pieve präsentiert wird und die Kapelle ihrer Pieve wie einer Mutterkirche unterworfen ist.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Quemadmodum equitatis vigor expostulat et</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Verone pm. Alberti SRE. presb. card. et cancellarii 4 kal. mar. ind. 5 inc. 1186 pont. a. 2.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Vgl. zu diesem jahrzehntelangen Streit die beiden Urkk. Innocenz' II. von (1138-1142) April 30 (JL – , IP III S. 137 Nr. 6, Wiederhold, PUU Florenz S. 314-315 Nr. 8 = Acta Rom. pont. 3 S. 217-218) und Eugens III. von 1147 Februar 9 (JL – , IP III S. 138 Nr. 15, Wiederhold S. 319-320 Nr. 14 = S. 222-223) sowie die Privilegien Alexanders III. von 1171 Oktober 22 (JL 11907, IP III S. 139 Nr. 20, Ughelli, Italia sacra, 3 S. 333-334) und Lucius' III. von 1184 Juli 25 (Böhmer-Baaken-Schmidt, Papstregesten Lucius' III. 2, Nr. 1168.), die als VUU gedient haben. – Zu S. Giusto di Piazzanese (Com. Prato) vgl. Repetti, Dizionario 4 S. 187, IP III S. 142 sowie die Karte bei Carlesi, Origine Prato vor S. 117. Eine Ecclesia s. Iacobi de Prato wird von Giusti/Guidi, Rationes decimarum Tuscia 2 S. 75 Nr. 1350 genannt.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Kopie 16. Jh., Prato, Arch. Storico Diocesano di Prato, Arch. del Capitolo della Cattedrale, Bolle e indulti c. 3 n. 4 (ohne Kardinalsunterschriften).   Drucke: Carlesi, Origine Prato S. 156-157 Nr. 16 (nur Adresse und Datum unter Verweis auf die VU Lucius' III.); Kehr, Nachträge II S. 281-282 Nr. 32 = Acta Rom. pont. 5 S. 119-120; Fantappiè, Documenti papali S. 61-64 Nr. 25 (mit den Unterschriften von Reg. 572 vom gleichem Tag); Fantappiè, Carte Prato 1 S. 430-432 Nr. 233 (mit den Unterschriften von Reg. 572 vom gleichem Tag).   Reg.: IP III S. 141 Nr. 28; Bandini/Fantappiè, Prato S. 9 Nr. 14.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

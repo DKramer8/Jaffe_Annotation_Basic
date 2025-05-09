@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,1 n. 206</idno>
+        <idno type="urn">1182-04-14_3_0_4_4_1_206_206</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Lucius III., RI IV,4,4,1 n. 206</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Velletri</placeName>
+              <date type="issued" notBefore="1182-04-14" notAfter="1182-04-14">(1182) April 14</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Lucius III. nimmt Patriarch Heinrich von Grado (Henrico Gradensi patriarche) auf dessen Bitten in den päpstlichen Schutz und bestätigt wie Pelagius (II.), Alexander (II.), Urban II., Hadrian (IV.) und Alexander III. den Patriarchat und insbesondere die durch Leo IX. sanktionierten Konstitutionen sowie die Ausübung des Amtes in den festgelegten Grenzen, erlaubt, daß ihm außer in Rom oder in Anwesenheit des Papstes ein Kreuz vorangetragen wird und daß er das Pallium an den genannten Tagen anlegen darf, ermahnt ihn, sich dessen in seinem Handeln würdig zu erweisen, unterstellt ihm als Primas das Erzbistum Zara mit den Bistümern (Jadertinum archiepiscopatum et episcopatus) vorbehaltlich der Palliumverleihung durch den Papst, bestätigt den Besitz und verbietet Bischöfen und Priestern, in den Grado übertragenen Kirchen Konsekrationen und Gottesdienste zu feiern, solange der Patriarch am Ort weilt.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Apostolice officium dignitatis et credite</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Velletri pm. Alberti SRE. presb. card. et cancellarii 18 kal. maii ind. 15 inc. 1183 pont. a. 1.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Das Inkarnationsjahr ist um eine Einheit zu hoch angegeben, die Indiktion und die Angabe der Papstjahre weisen auf 1182 als Ausstellungsjahr. Diese Urk. ist im Manuskript von Lanfranchi, Codice diplomatico Veneziano (vol. 1181-1182) Nr. 3486 S. 150-152 transkribiert. – Vgl. die Urkk. Pelagius' II. von 579 April 20 (JK †1047 zu Februar 18, IP VII,2 S. 32 Nr. †2), Leos IX., von 1053 (April) (JL –, IP VII,2 S. 55 Nr. *89 sowie JL 4295, IP VII,2 S. 55-56 Nr. 90), Alexanders II. von (1064 Juni) (JL 4739 mit 1061-1073, IP VII,2 S. 57 Nr. *94), Urbans II. von (1095 März-April) (JL 5752, IP VII,2 S. 59 Nr. *106), Hadrians IV. von 1157 Juni 13 (JL 10295, IP VII,2 S. 63 Nr. 120) und Alexanders III. von 1161 Juni 13 (JL 10665, IP VII,2 S. 64 Nr. 123), die auch VU war. – Auffällig ist, daß hier von der üblichen Reihenfolge der Kardinalsunterschriften abgewichen wird und Kardinaldiakon Ardicio am Ende unterschreibt. – Zum Pallium und zur Gestaltung der Admonitiones nach dem Liber diurnus vgl. Zotz, Pallium S. 156 f. Zur Geschichte Grados vgl. Groner, Die Diözesen Italiens S. 14 ff.; zum Patriarchentitel und zu den Hintergründen der Unterstellung Zaras durch Hadrian IV. vgl. Fuhrmann, Patriarchate II S. 55 ff.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Überl.: Orig., Venedig, Arch. di Stato, Mensa patriarcale, busta 3, A. 35; 2 Kopien 14. Jh., Venedig, Arch. di Stato, Pacta (Liber pactorum) vol. I fol. 60'-62 und vol. II fol. 102-103; Kopie 15. Jh., Venedig, Arch. di Stato, Mensa patriarcale, busta 1 fol. 9'-10 (Catasticum privilegiorum et notabilium patriarcatus Venetiarum detto Libro d'oro). Drucke: Ughelli/Coleti, Italia sacra 5 Sp. 1131 (Teildruck); Migne, PL 201 Sp. 1135-1136 Nr. 52 (Teildruck). Reg.: JL 14624 (J 9472) (zu 1182 April 18); IP VII,2 S. 69 Nr. 137; Gioppo, Repertorio S. 256 Nr. 352.  Verbesserungen und Zusätze (2006):  Alexandra Chirkova, St. Petersburg, verdanken wir den Hinweis darauf, daß die Unterschriften und das Datum (mit dem korrekten Inkarnationsjahr 1182) als Fragment einer Abschrift des Priesters Andreas von S. Canciano in Venedig von 1184 in St. Petersburg, Bibl. der Russischen Ak. der Wissenschaften, Handschriftenabteilung Fr. F 45 überliefert sind.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,1 n. 232</idno>
+        <idno type="urn">1182-05-15_2_0_4_4_1_232_232</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Lucius III., RI IV,4,4,1 n. 232</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Velletri</placeName>
+              <date type="issued" notBefore="1182-05-15" notAfter="1182-05-15">1182 Mai 15</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Lucius III. bestätigt Abt Simon und den Brüdern von St-Remi in Reims (Symoni abbati monasterii sancti Remigii Remensis eiusque fratribus) auf deren Bitten wie Alexander (III.) die von den Bischöfen von Lüttich (episcopos Leodienses) gewährte Freiheit der Kirche von Meerssen (ecclesie de Marsna) und setzt fest, daß verstorbene Kleriker, die in ihr Benefizien besitzen, durch Mönche ersetzt werden sollen; der Propst soll den Priester, dem er mit Zustimmung des Abtes und der Brüder des Klosters St-Remi (in Reims) (abbatis et fratrum cenobii sancti Remigii) eine Präbende zuweist, dem Archidiakon von Lüttich (Leodinensi archidiacono) präsentieren, der ihm die Seelsorge überträgt und dem er gemäß der Gewohnheit des Lütticher Bistums (secundum Leodinensis episcopatus consuetudinem) im bischöflichen und synodalen Recht untersteht; beschreibt den Umfang seiner mit Zustimmung des Abtes und des Kapitels von St-Remi und des Propstes von Meerssen (abbatis sancti Remigii et totius capituli et prepositi Marsnensis) festgelegten Präbende, bestätigt den genannten Besitz der Kirche von Meerssen, gewährt dem Propst von Meerssen das Recht, seine Ministerialen und Amtsträger ein- und abzusetzen, und gewährt die Sepultur.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Monet nos apostolice sedis cui</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Velletri pm. Alberti SRE. presb. card. et cancellarii id. maii ind. 15 inc. 1182 pont. a. 1.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zur Überlieferung vgl. auch Schaepkens, Cartulaires Meersen S. 136-138 und S. 151 f., Meinert, PUU Frankreich 1 S. 17 f. und S. 143 sowie Ramackers, PUU Niederlande S. 11. – Zur beinahe gleichlautenden Ausfertigung vom selben Tag vgl. Reg. 231 mit Kommentar.    Verbesserungen und Zusätze (2012):  Das Rijksarch. van Limburg in Maastricht ist in das Regionaal Historisch Centrum in Limburg überführt worden. Die Urk. trägt dort die Signatur Archief proosdij Meerssen, inv. nr. 1013 und ist jetzt auch gedruckt bei Petke, Reimser Urkunden- und Siegelfälschungen S. 246-249 Nr. 26. Zur Sache vgl. Petke S. 153-157.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Überl.: Orig., Maastricht, Rijksarch. van Limburg, proosdij Meerssen Nr. 1013; Kopie 13. Jh., Reims, Arch. dép. Marne (dépôt annexe), 56 H 1029 fol. 37-38 (Cart. B von St-Remi). Drucke: Habets, Houthem-Sint-Gerlach S. 200-203; Sloet, Oorkondenboek Gelre S. 354 Nr. 359 (Teildruck); Camps, Oorkondenboek van Noord-Brabant 1,1 S. 124-126 Nr. 76 (Teildruck unter Verweis auf die VU Alexanders III. von 1181 März 15, JL 14376, Camps S. 120-122 Nr. 74); Petke, Reimser Urkunden- und Siegelfälschungen Anhang Nr. 26 (im Druck). Reg.: JL 14646; Pflugk-Harttung, Beiträge S. 111 Nr. 223 (zu 1182-1185); Flament, Diplomen Meerssen S. 476; Nouv. Wauters Nr. 2405.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

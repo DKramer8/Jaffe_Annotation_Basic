@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,5 n. 224</idno>
+        <idno type="urn">1191-11-21_2_0_4_4_5_224_224</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Cölestin III., RI IV,4,4,5 n. 224</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Rom, St. Peter</placeName>
+              <date type="issued" notBefore="1191-11-21" notAfter="1191-11-21">(1191) November 21</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Cölestin III. schreibt Abt Roger und dem Konvent von St Augustine in Canterbury (Rogero abbati et conventui sancti Augustini Cantuariensis) wegen der Unterwerfung ihres Klosters unter den damaligen Erzbischof R(ichard) von Canterbury (bone memorie R. quondam Cantuariensi archiepiscopo), die dieser sich angemaßt habe und wegen der sie sich unter großen Gefahren an den Apostolischen Stuhl gewandt hätten; sein Vorgänger A(lexander III.) habe sorgfältig die Privilegien des Apostolischen Stuhls untersucht, insbesondere jenes, das der hl. Augustin, der Erzbischof von Canterbury (beati Augustini Cantuariensis archiepiscopi), ihrem Kloster gewährt hat, sowie die Schreiben seiner Vorgänger Anastasius’ (IV.) und Hadrians (IV.) und jenes, das Eugen (III.) an den damaligen Erzbischof Theobald (Thebaldo quondam Cantuariensi archiepicopo) gerichtet hat, wonach der damalige Elekt Silvester (Silvestro quondam electo monasterii vestri) die Weihe in seinem Kloster ohne Obödienzleistung erhalten sollte; Alexander (III.) habe mit dem Rat seiner Brüder, der Kardinäle, geurteilt, daß der jeweilige Abt von St Augustine vom Erzbischof von Canterbury zu weihen ist, ohne diesem Profeß zu leisten; der Papst bestätigt das Urteil Alexanders (III.), das Lucius (III.) konfirmiert hat, und bekräftigt weiterhin die Festsetzung Lucius’ (III.) hinsichtlich der Freiheit des Klosters, die wie in den letzten hundert Jahre weiterbestehen soll, unbeschadet des vom damaligen Erzbischof (Richard) aufgebrachten Streits um die Privilegien des Klosters.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Fatigati sepius a bone memorie</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Rome apud sanctum Petrum 11 kal. dec. pont. a. 1.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zur Überlieferung vgl. Holtzmann, PUU England 1 S. 72. – Eine einschlägige Urk. Anastasius’ IV. scheint unbekannt zu sein. Mit der Urk. Eugens III. ist dessen Privileg von 1146 April 16 (JL 8903, Thomas von Elmham, Historia S. Augustini Cantuariae, ed. Hardwick S. 392-397 Nr. 24) gemeint. Hadrian IV. befahl 1156 Januar 13 Abt Silvester, Erzbischof Theobald Obödienz zu leisten (JL 10124 und JL 10237, Gervasius von Canterbury, Chronica, ed. Stubbs 1 S. 163-164). Die hier genannte Entscheidung Alexanders III., wonach der Abt bei seiner Weihe dem Erzbischof keine Profeß zu leisten hat, wurde 1178 April 3 (JL 13039, Migne, PL 200 Sp. 1168 Nr. 1344) getroffen und Erzbischof Richard am gleichen Tag mitgeteilt (JL 13040, Migne, PL 200 Sp. 1169 Nr. 1345). Lucius III. bestätigte die Entscheidung seines Vorgängers in seinem Schreiben an Abt Roger und das Kapitel von St Augustine in Canterbury von 1182 Mai 21 (Böhmer-Baaken-Schmidt, Papstregesten Lucius’ III. 1 Nr. 241), das auch als VU diente. Nicht erwähnt wird die ebenfalls diese Bestimmung enthaltende Urk. Urbans III. von 1186 Mai 15 (Böhmer-Schmidt, Papstregesten Urbans III. Nr. 153). Erwähnt wird eine Urk. Cölestins III. mit diesem Inhalt auch bei William Thorne, Chronica S. Augustini Cantuariae, ed. Twysden Sp. 1839, wobei es sich aber nicht entscheiden läßt, ob Thorne hierbei diese Urk. oder Reg. 229 im Auge hatte.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Überl.: Kopie 13. Jh., London, Brit. Lib., Cotton Julius D II fol. 61' (Cart. von St Augustine’s, Davis, Medieval cartularies Nr. 192); Kopie 13. Jh., London, Brit. Lib., Cotton Claudius D X fol. 29 (Red Book, Davis, Medieval cartularies Nr. 193).  Druck: Holtzmann, PUU England 1 S. 575-577 Nr. 280.  Reg.: – .</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

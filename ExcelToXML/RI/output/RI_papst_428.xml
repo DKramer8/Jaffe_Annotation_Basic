@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,2 n. 2264</idno>
+        <idno type="urn">1181-00-00_321_0_4_4_2_1098_2264</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Lucius III., RI IV,4,4,2 n. 2264</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>[Ausstellungsort]</placeName>
+              <date type="issued" notBefore="1181-01-01" notAfter="1181-12-31">(1181 – 1185)</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Lucius III. entscheidet aufgrund der Anfrage des Bischofs (Johannes von Oxford) von Norwich (Norvicensi episcopo), (a) daß in dem Fall, wenn Religiose ihre Kleriker eidlich zu höheren Pensionen oder größeren Abgaben für ihre Benefizien verpflichtet haben, bei der Institution durch den Bischof jedoch schwören, daß die alten Abgaben nicht erhöht werden, dieser zweite Eid Geltung besitzen soll, da dies der Vernunft und den Beschlüssen des (3.) Laterankonzils entspreche; Kleriker, die einen solchen Eid leisten, sollen von ihren Kirchen ausgeschlossen werden; (b) der Papst setzt weiterhin fest, daß, wenn es zwischen Laien und Geistlichen zu einem Streit hinsichtlich des Präsentationsrechts kommt und dieser so beigelegt wird, daß der Laie das Präsentationsrecht erhält, den Religiosen hingegen ein neuer oder größerer Teil der Einkünfte aus der Kirche als bisher zukommen soll, dieses Vorgehen als simonistisch zu bewerten ist und deshalb rechtsungültig sein soll und (c) entscheidet schließlich den Fall, wenn ein Vogt für eine Kirche dem Bischof nacheinander zwei gleichermaßen geeignete Kandidaten vorgeschlagen hat, obwohl der erste Anwärter nicht zurückgewiesen wurde, dahingehend, daß, wenn das Präsentationsrecht einem Laien zusteht, der Bischof nach eigenem Ermessen entscheiden soll; wird das Präsentationsrecht jedoch von einem kirchlichen Kollegium oder einer kirchlichen Person ausgeübt, dann soll der zuerst Präsentierte das bessere Recht haben.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Tua nos duxit fraternitas consulendos / Preterea quando inter laicos et / Cum autem advocatus clericum unum</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">-</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zur Überlieferung dieser Dekretale vgl. auch SINGER, Beiträge S. 138, S. 186, S. 294 und S. 397, HECKEL, Dekretalensammlungen S. 241 und S. 252, HOLTZMANN, Sammlung Tanner S. 108, S. 116 und S. 134, DEETERS, Bambergensisgruppe S. 313, HOLTZMANN, Collectio Brugensis S. 406, DUGGAN, Decretal Collections S. 102 Anm. 4 und S. 184, LANDAU, Ursprung S. 87 mit Anm. 32, CHENEY/CHENEY, Studies S. 191 und HARPER-BILL, EEA 6: Norwich Appendix II S. 364 Nr. 66. – In der Dekretalenüberlieferung wird als Empfänger auch Erzbischof Walter von Rouen (Waltero Rothomagensi archiepiscopo) und als Aussteller auch Alexander III. genannt, vgl. Singer S. 138 Anm. 21, jedoch scheint Lucius III. als Aussteller zweifelsfrei festzustehen, vgl. hierzu und zur Sache LANDAU, Ursprung S. 87-92, LANDAU, Ius patronatus S. 156f. mit Anm. 557 sowie DUGGAN, Magnates S. 600. Zum Verbot der in Teil (b) der Dekretale erwähnten transactio vgl. MURAUER, Zwei Formen S. 44. Zu den hier angeführten Beschlüssen vgl. can. 7 des 3. Laterankonzils (TANNER, Decrees 1 S. 215). – Die Dekretale ist in der Sammlung Walther Holtzmanns als WH 1039 (KI 1167) verzeichnet.    Verbesserungen und Zusätze (2012):  Zu Teil (b) der Dekretale vgl. jetzt auch Murauer, Gerichtsbarkeit S. 69f.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Drucke: Comp. 1 lib. 3 tit. 33 c. 30 (ed. Friedberg S. 42, Teil c); Comp. 2 lib. 1 tit. 16 c. 4 (ed. Friedberg S. 71, Teil a); Comp. 2 lib. 2 tit. 16 c. 2 (ed. Friedberg S. 75, Teil a); Decr. Greg. lib. 1 tit. 36 c. 9 (ed. Friedberg Sp. 209, Teil b); Decr. Greg. lib. 2 tit. 24 c. 11 (ed. Friedberg Sp. 362-363, Teil a); Decr. Greg. lib. 3 tit. 38 c. 24 (ed. Friedberg Sp. 617, Teil c); SINGER, Beiträge S. 397 (Teil b).</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl> Comp. 1 lib. 3 tit. 33 c. 30 (ed. Friedberg S. 42, Teil c); Comp. 2 lib. 1 tit. 16 c. 4 (ed. Friedberg S. 71, Teil a); Comp. 2 lib. 2 tit. 16 c. 2 (ed. Friedberg S. 75, Teil a); Decr. Greg. lib. 1 tit. 36 c. 9 (ed. Friedberg Sp. 209, Teil b); Decr. Greg. lib. 2 tit. 24 c. 11 (ed. Friedberg Sp. 362-363, Teil a); Decr. Greg. lib. 3 tit. 38 c. 24 (ed. Friedberg Sp. 617, Teil c); SINGER, Beiträge S. 397 (Teil b). JL 14029 (J 9091, J 9093) (zu Alexander III., 1159-1181, Teile a und c) und JL 15186 (J 9671) (Teile a und b). Verbesserungen und Zusätze (2018):  Zur Überlieferung als Dekretale in der Collectio Cheltenhamensis vgl. Drossbach, Collectio Cheltenhamensis S. 241 Nr. 19.4.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

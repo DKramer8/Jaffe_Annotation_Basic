@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,2,3 n. 2129</idno>
+        <idno type="urn">1175-04-11_1_0_4_2_3_356_2129</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Friedrich I., RI IV,2,3 n. 2129</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>bei Alessandria</placeName>
+              <date type="issued" notBefore="1175-04-11" notAfter="1175-04-11">1175 April 11 — 13</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Friedrich läßt unter Bruch eines den Alessandrinern zugesagten Waffenstillstands in der Nacht vom Karfreitag auf den Karsamstag (11./12.4.) durch vorbereitete unterirdische Gänge 200 seiner Besten in die von den Alessandrinern und Piacentinern verteidigte Stadt einschleusen. Er selbst wartet mit dem ganzen Heer an den Toren auf eine Angriffsmöglichkeit. Die Kriegslist wird jedoch vorzeitig entdeckt und schlägt fehl, die Eindringlinge fallen zum Teil durch das Schwert, teilweise kommen sie in den einbrechenden unterirdischen Gängen ums Leben. In den am Morgen ausbrechenden Kämpfen erleidet der Kaiser eine schwere Niederlage, sein Lager wird in Brand geschossen, ein mit Genuesen besetzter Belagerungsturm zerstört. Wegen dieser Niederlage und der Gefahr der herannahenden lombardischen Entsatztruppen (vgl. Reg. 2127) läßt Friedrich in der Nacht vom Karsamstag auf den Ostersonntag (12./13.4.) sein Lager und die Belagerungsmaschinen zerstören und bricht am Morgen des Ostersonntags in Richtung Pavia gegen die lombardischen Truppen auf.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">-</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Verbesserungen und Zusätze (2011):  Zur Belagerung von Alessandria aus Sicht des Lombardenbundes vgl. jetzt Raccagni, The Lombard League, 87–89.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Boso, ed. Duchesne, 428 f.; Gesta Fed. I., ed. Holder-Egger, MG. SS rer.Germ. in us.schol., 62; Gottfried von Viterbo, Gesta Friderici, MG. SS XXII, 328 V. 937 ff.; Ann. Plac. Gib., MG. SS XVIII, 462 (mit irrigem Datum); Ioh. Cod. Ann., ed. Holder-Egger, MG. SS rer.Germ. in us.schol., 9 f.; Ann. Augustani minores, MG. SS X, 9 (Abzug irrig zum 12. 4.); Ann. Bergomates, MG. SS XXXI, 329 (Abzug irrig zum 24. 3.); Ann. s. Georgii, Cont. A, MG. SS XVII, 296; Ann. Magdeburg., MG. SS XVI, 193; Ann. Marbacenses, ed. Bloch, MG. SS rer.Germ. in us.schol., 54 (= ed. Schmale, Freiherr vom Stein-Gedächtnisausgabe XVIIIa, 168); Ann. Neresheimenses, MG. SS X, 22 (zu 1174); Ann. Pegav., MG. SS XVI, 261; Ann. s. Trinitatis Veronenses, MG. SS XIX, 4 (Abzug irrig zum 24.3.); Ann. Welfici Weingart., ed. König (Schwäb. Chroniken d. Stauferzeit 1,2 1978), 90; Chron. reg. Col., ed. Waitz, MG. SS rer.Germ. in us.schol., 126; Cont. Zwetlensis altera, MG. SS IX, 541; Otto von St. Blasien, Chronica, ed. Hofmeister, MG. SS rer.Germ. in us.schol., 32 f. (ed. Schmale, Freiherr vom Stein-Gedächtnisausgabe XVIIIa, 68); De pace Veneta relatio, MG. SS XIX, 461; Hofmeister, Annalen von St Georgen, ZGORh N.F. 33 (1918) 45; Roberti de Monte Chronica, MG. SS VI, 524; Romuald von Salerno, ed. Garufi, Rer. Ital. SS N. Ed. VII/1, 263 f. (zu 1173); Thomae Tusci Gesta imp. et pont., MG. SS XXII, 506 (Der Kaiser habe von den Alessandrinern die Herausgabe der Gefallenen erbeten, um diese in die Heimat überführen zu lassen, wofür er ihnen das Ende der Belagerung zugesagt habe.).</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>Digitalisat der RI-Buchseite</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

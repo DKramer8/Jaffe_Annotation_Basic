@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,2,2 n. 1117</idno>
+        <idno type="urn">1162-08-01_1_0_4_2_2_559_1117</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Friedrich I., RI IV,2,2 n. 1117</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>[Ausstellungsort]</placeName>
+              <date type="issued" notBefore="1162-08-01" notAfter="1162-08-01">(vor 1162 August 1)</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">Raimund Barcelona Raimund der Provence</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor>Geschrieben von RC</legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Friedrich schließt mit dem Grafen Raimund   von Barcelona   und dessen Neffen, dem Grafen Raimund   von der Provence , einen Vertrag über die Belehnung mit der Grafschaft Provence, der Stadt Arles mit Ausnahme der Gerechtsame von Erzbischof und Kirche von Arles und der Grafschaft Forcalquier gegen Bezahlung eines jährlichen Regalienzinses in der Höhe von 15 Mark guten Goldes nach Kölner Gewicht und die Verpflichtung, daß Reichsboten Geleit zu gewähren ist, dem Kaiser bei Aufenthalten im Lande alle Herrschaftsmittel zustehen sollen und eine einmalige, hohe Geldzahlung an den Kaiser (XIIcim  milia marbutinorum bonorum), die Kaiserin (II milia marbutinorum) und den Hof (mille marbutinorum) zu entrichten ist, sowie des weiteren über die Anerkennung Papst Viktors (IV.) und die Erhebung einer Anklage gegen Hugo von Baux wegen Meineids und Verletzung der Lehenspflicht. Die endgültige Bestätigung dieser Vereinbarungen soll am nächsten 1. August bei Hofe erfolgen, der Nichte des Kaisers, Richildis, der jetzigen Gräfin von der Provence, wird ihr Ausstattungsgut garantiert. - Geschrieben von RC; SP. D. Hęc est concorcdia .</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Hęc est concorcdia</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">-</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zu diesem Vertrag vgl. Riedmann, Verträge, 146 f., seine Entstehung ist wohl in den Herbst 1161 zu datieren (die Einreihung wurde nach dem genannten Ternin vorgenommen), als die Hochzeit Richildes mit dem Grafen von der Provence erfolgte (17. November 1161), vgl. Kehr, Papsttum und katalanischer Prinzipat, Abhandlungen der preußischen Akademie der Wissenschaften 1926 phil.-hist. Kl. 1, 64 f. und Opll, Stadt und Reich, 495; zu Richilde vgl. schon oben Reg. 131  und den Nachtrag zu Reg. 131  im hier vorliegenden 2. Band der Reg. Imp. - Die als Zahlungsmittel erwähnten marbutini  (auch: Maravedi) waren Goldmünzen, die auf der iberischen Halbinsel in Nachahmung der von den Almoraviden seit 1087 geschlagenen Golddenare geprägt wurden. - Zur Bestimmung über das gräfliche Geleit für Reichsboten in der Provence vgl. Fried, Krönung, HJb. 103 (1983) 349 f. mit dem interessanten Hinweis auf die dreimalige Tätigkeit Gottfrieds von Viterbo als Legat in der Provence. - Nach einer gleichzeitigen Kopie im Departementalarchiv zu Marseille sollte Hugo von Baux de periurio et homicidio  (nicht: hominio) angeklagt werden, der Schreibung des Originals ist aber mit Rücksicht auf die Sorgfalt des Kanzleinotars RC der Vorzug zu geben. - Die tatsächliche Belehnung erfolgte sodann nach dem Tod des Grafen (Reg. 1120) am 18. August 1162 in Turin, vgl. Reg. 1125.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Orig.: Departementalarchiv Marseille (A). Drucke: MG. Const. 1, 304 no  215; MG. DF. I. 378. Reg.: Gallia christ. noviss. 3, 235 no  601; Riberi, San Dalmazzo di Pedona, BSSS 110 (1929) 480; Stumpf 4537a.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>Digitalisat der RI-Buchseite</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p>SP. D.</p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

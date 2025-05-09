@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,2 n. 1574</idno>
+        <idno type="urn">1185-04-04_3_0_4_4_2_408_1574</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Lucius III., RI IV,4,4,2 n. 1574</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>[Ausstellungsort]</placeName>
+              <date type="issued" notBefore="1185-04-04" notAfter="1185-04-04">(1185) April 4</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Lucius III. nimmt Äbtissin Haalaidis von Blesle, deren Schwestern (Haalaidi abbatisse Blasilie monasterii eiusque sororibus) und ihr Kloster Blesle (monasterium Blasiliense) (D. Clermont), das gemäß den Urkunden Sergius' (III.) und Calixts (II.) sowie ihres Klostergründers Alexanders (III.) dem hl. Petrus gehört, auf deren Bitten in den päpstlichen Schutz, bestätigt die Benediktinerregel sowie den genannten Besitz, befreit sie vom Zehnten für Neubrüche bei Eigenbau und für Tierfutter, gewährt das Aufnahmerecht, erlaubt Gottesdienst bei Interdikt, setzt den freien Empfang von Chrisma, Heiligem Öl, Konsekrationen und Ordinationen durch den Diözesanbischof oder andernfalls durch einen Bischof ihrer Wahl fest, verbietet, über sie ohne Auftrag des Papstes oder seines Legaten Interdikt, Suspension oder Exkommunikation zu verhängen, gewährt die freie Sepultur und wie Urban (II.), Paschal (II.), Calixt (II.) und Alexander (III.) einen Ablaß von zehn Tagen der Sündenstrafen für alle, die ihr Kloster am Fest der Apostel Peter und Paul (29. Juni) besuchen, setzt die Wahl der Äbtissin und einen jährlichen Anerkennungszins von 5 Solidi fest.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Prudentibus virginibus que sub habitu</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">2 non. apr. ind. 3 ... pont. a. 4.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zur Überlieferung vgl. auch WIEDERHOLD, PUU Frankreich 6 S. 7 = Acta Rom. pont. 8 S. 605. Das Datum ist (ohne Angabe des Ortes und des Inkarnationsjahres) nur in der Gallia christiana 2 Sp. 450 überliefert. – Die genannte Urk. Sergius' III. ist dessen Dep. von (904-911) (JL *3548α); zu den anderen Urkk. vgl. die Privilegien Urbans II. von 1095 August 18 (JL 5572, Gallia christiana 2 Instrum. Sp. 157 Nr. 24), Calixts II. von 1119 Juni 2 (JL 6698a, ROBERT, Bullaire Calixte II 1 S. 24-25 Nr. 18, worin auch das Dep. Paschals II., JL – , genannt wird), sowie Alexanders III. von 1171 Februar 15 (JL 11881, Gallia christiana 2 Instrum. Sp. 157-158, nur Regest im Anhang zu Nr. 24). Zur Gründung vgl. DHGE 9 Sp. 187ff.; eine Wiederbegründung durch Alexander III. scheint nicht bekannt zu sein, vgl. dort Sp. 190. Zu Merkmalen der Exemtion vgl. SCHREIBER, Kurie 1 S. 64ff. sowie FALKENSTEIN, Papauté S. 106ff. und S. 155ff. Zum Zins vgl. PFAFF, Einnahmen S. 98ff. und zum Ablaß PAULUS, Ablaß 1 S. 111 und S. 118.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Überl.: Kopie 13. Jh., Clermont-Ferrand, Arch. dép. Puy-de-Dôme, 3 G armoire 2 sac A cote 3bis (ohne Unterschriften und Datum).</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl> JL 15398; CHAIX DE LAVARÈNE, Bullaire S. 317 Nr. 201 = CHAIX DE LAVARÈNE, Mon. pont. Arverniae S. 325 Nr. 201.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

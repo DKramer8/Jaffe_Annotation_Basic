@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,3 n. 1324</idno>
+        <idno type="urn">1187-11-02_2_0_4_4_3_1324_1324</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Gregor VIII., RI IV,4,4,3 n. 1324</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Ferrara</placeName>
+              <date type="issued" notBefore="1187-11-02" notAfter="1187-11-02">1187 November 2</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Gregor VIII. nimmt Bischof Sicard von Cremona (Sichardo Cremonensi episcopo) und die Kirche von Cremona auf dessen Bitten wie Alexander II., Lucius II. und Hadrian (IV.) in den päpstlichen Schutz, bestätigt genannte Besitzungen, insbesondere die Festsetzung Cölestins (II.) über die Kirche S. Paolo in Cittànova (in Cremona) (ecclesia sancti Pauli de Citanova), verbietet die Einsetzung in Lehen aus Kirchenbesitz durch Priester, Erzpriester oder Äbte seiner Diözese ohne bischöfliche Zustimmung und erklärt solche Bestallungen für ungültig, bestätigt den Vertrag über die Einsetzung, den Unterhalt und die Einkünfte der Domkanoniker, den Papst Calixt (II.) zwischen Sicards Vorgänger Bischof Obertus und den Domkanonikern von Cremona (antecessorem tuum Obertum et maioris ecclesie Cremonensis canonicos) vermittelt hat und den dieser und Papst Lucius (II.) bestätigt haben, setzt wie Eugen (III.) fest, daß die Kirchen in Cremona, die der Bischof aufgrund Pfarrechts innehat, und der Teil der Domkirche S. Maria, der den Domkanonikern gehört und dem Bischof gleichfalls aufgrund Pfarrechts unterworfen ist, ihm entsprechende Obödienz und Reverenz erweisen, verbietet die Einsetzung von Klerikern durch Laien oder die Einsetzung des Propsts ohne Zustimmung des Bischofs oder des Domkapitels im Falle einer Vakanz in diesen Kirchen, deren Kleriker und Laien dem Bischof von Cremona Reverenz und Gehorsam in geistlichen und in weltlichen Belangen zu leisten haben, und bestimmt, daß durch den Bischof von Cremona über seine Parochiane verhängte Exkommunikationen und Interdikte auch von jenen zu beachten sind, die zu den Diözesen Piacenza und Cremona (ad Placentinum ... ad Cremonensem episcopatum) gehören.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">In apostolice sedis specula disponente</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Ferrarie pm. Moysis Lateranensis canonici vicem agentis cancellarii 4 non. nov. ind. 6 inc. 1187 pont. a. 1.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zur Überlieferung vgl. Kehr, PUU Rom 3 S. 248 = Acta Rom. pont. 3 S. 184, Kehr, PUU Lombardei S. 143 und S. 145f. = Acta Rom. pont. 3 S. 318 und S. 320f. Das Orig., das Kehr noch in der Sammlung Luigi Azzolinis im Rom (vgl. Volpini, Additiones Kehrianae, S. 317 mit Anm. 5 und 6) gesehen hat, deren Bestände aber inzwischen auch in die Bibl. com. in Forlì und das Arch. di Stato in Florenz gelangt sind, konnte von Falconi nicht mehr gefunden werden, vgl. die Vorbem. zu seinem Druck. Erwähnt wird dieses Privileg bei Ughelli, Italia sacra, 4 S. 605 zu 1187 November 11. – Zwischen den Unterschriften der Kardinaldiakone Iacinthus und Octavianus ist eine Zeile freigeblieben, wahrscheinlich für die Unterschrift des Kardinaldiakons Gratian von SS. Cosma e Damiano. – Die genannten Urkk. sind die Privilegien Alexanders II. von 1066 Oktober 30 (JL 4596, IP VI,1 S. 264 Nr. 1, Migne, PL, 146 Sp. 1314-1315 Nr. 34), Lucius' II. von 1144 März 17 (JL 8524, IP VI,1 S. 266-267 Nr. 14, Migne, PL, 179 Sp. 831-833 Nr. 5), Eugens III. von 1148 Juli 7 (JL 9277, IP VI,1 S. 267-268 Nr. 18, Migne, PL, 180 Sp. 1355-1356 Nr. 308) und Hadrians IV. von 1156 Mai 11 (JL 10178 [zu Mai 5] und JL 10179 [zu Mai 10], IP VI,1 S. 268 Nr. 23, Pflugk-Harrtung, Acta, 3 S. 172-174 Nr. 163). Der durch Calixt II. zustandegekommene Vertrag wurde 1124 März 31 von diesem bestätigt (JL 7145 [zu März 22], IP VI,1 S. 265 Nr. 6, Migne, PL, 163 Sp. 1316 Nr. 262). Die erwähnte Bestätigung durch Lucius II. erfolgte in dessen oben genanntem Privileg von 1144 März 17. Zu den genannten Festsetzungen Cölestins II. über die Kirche S. Margherita in Citanova vgl. IP VI,1 S. 288 Nr. *9 und Nr. 11. Zur Sache vgl. Aporti, Memorie di storia ecclesiastica Cremonese 1 S. 38, Caprioli/Rimoldi/ Vaccaro, Diocesi di Crema S. 40f. und Ambrosioni, Rapporti S. 497.      Verbesserungen und Zusätze (2018):  Digitale Edition auf Grundlage des offenbar inzwischen wieder aufgetauchten Orig. jetzt im Codice diplomatico della Lombardia medievale (secoli VIII–XII) Nr. 80 (http://cdlm.unipv.it/ edizioni). Reg. bei BONAGLIA, Bozzolo S. 23 Nr. 32. Zur Sache vgl. FILIPPINI, San Pietro al Po di Cremona S. 164.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Kopie 13. Jh., Cremona, Bibl. statale, Deposito Libreria civica, Ms. AA.6.25 p. 92-93 Nr. 79 (Privilegia episcopi Cremonensis = Codice di Sicardo); Kopie 14. Jh., Cremona, Arch. di Stato, Arch. Sommi-Picenardi Codice A n. 2 (Olgiate Molgora Sommi Picenardi, Kopie von 1336 August 16).   Drucke: Zaccaria, Cremonensium episcoporum series S. 130 (nur Unterschriften und Datum); Sanclemente, Series episcoporum Cremonensium S. 261-265 Nr. 34; Cappelletti, Chiese 12 S. 177-181; Astegiano, Codex dipl. Cremone, 1 S. 165-166 Nr. 448; Falconi, Carte Cremonesi 4 S. 64-69 Nr. 657.   Reg.: JL 16029 (J 9991); Nadig, Gregors Pontifikat S. 59; (Robolotti), Repertorio Cremonese 1 S. 62 Nr. 532; Sommi Picenardi, Famiglia Sommi p. II (war nicht nachweisbar); IP VI,1 S. 273 Nr. 46.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

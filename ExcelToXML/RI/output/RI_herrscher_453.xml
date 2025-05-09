@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,2,3 n. 2538</idno>
+        <idno type="urn">1180-03-27_1_0_4_2_3_767_2538</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Friedrich I., RI IV,2,3 n. 2538</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Gelnhausen</placeName>
+              <date type="issued" notBefore="1180-03-27" notAfter="1180-03-27">1180 März 27 — April 6</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Friedrich hält einen Hoftag, auf dem die (bereits in Würzburg, vgl. Reg. 2530) verfügte Absetzung Heinrichs des Löwen umgesetzt wird. Mit Zustimmung aller Fürsten wird das Herzogtum geteilt, und im Bereich östlich der Weser an Graf Bernhard von Anhalt, im Westen dieses Flusses in Westfalen an Erzbischof Philipp von Köln übertragen; Landgraf Ludwig (III.) von Thüringen wird anstelle des ohne Erben verstorbenen Adalbert von Sommerschenburg zum Pfalzgrafen (von Sachsen) erhoben und sodann auf Befehl seines kaiserlichen Oheims und auf Bitten Erzbischof Philipps von Köln zur Bekämpfung des abgesetzten Welfenherzogs nach Sachsen entsandt. Allen Fürsten sagt Friedrich die Heerfahrt gegen Heinrich den Löwen für Jacobi (25. Juli) an. In Anwesenheit zweier Kardinale als päpstliche Legaten (wohl des Petrus von Pavia, Kardinalbischofs von Tusculum, und des Petrus de Bono, Kardinalpresbyters von S. Susanna) wird Bischof Siegfried von Brandenburg, der früher zum Erzbischof von Bremen gewählt worden ist, dann aber keine Anerkennung gefunden hat (vgl. Reg. 1839), während dieses Hoftages am Sonntag Letare (30. März) auf den Bremer Erzstuhl erhoben; Elekt Berthold von Bremen erhält das Bistum Metz (siehe dazu schon oben die Bemerkungen bei Reg. 2532).</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">-</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Urkundlich ist der Aufenthalt des Kaisers in Gelnhausen vom 1. — 13. April bezeugt, wobei am letzten Tag die berühmte 'Gelnhäuser Urkunde' (D.795 = Reg. 2540) ausgestellt wurde. Damals fand in Ausführung der bereits in Würzburg (Reg. 2530) getroffenen Maßnahmen das Vorgehen gegen Heinrich den Löwen seine Fortsetzung, vgl. dazu bereits die oben bei Reg. 2530  angeführte Literatur. — Zu den Kämpfen zwischen Ludwig von Thüringen und Heinrich dem Löwen in Sachsen, bei denen Goslar im Mittelpunkt stand, Ludwig dann am 14. Mai eine Niederlage erlitt und gemeinsam mit seinem Bruder Hermann und anderen in die Gefangenschaft Heinrichs fiel, vgl. Jordan, Heinrich der Löwe, 204 f. — Die erste Wahl Siegfrieds, des dritten Sohnes Albrechts des Bären, zum Bremer Erzbischof hatte nach dem Tode Erzbischof Hartwigs (11. Oktober 1168) stattgefunden, war aber dann auf dem Bamberger Hoftag vom Juni 1169 (Reg. 1839) unter dem Einfluß Heinrichs des Löwen, der damals noch eng mit Barbarossa verbündet war, gescheitert; Siegfried wurde 1173 Bischof von Brandenburg, vgl. dazu Jordan, Heinrich der Löwe, 120 ff. sowie die Literaturhinweise oben bei Reg. 1839. Als Tag seiner Inthronisation in Bremen ist der 21. September 1180 überliefert, vgl. dazu Heinemann, CD. Anhalt. 1, 467 no  637. — Zu den beiden bei der Regelung der Bremer Frage anwesenden Kardinallegaten vgl. jetzt Weiss, Die Urkunden der päpstlichen Legaten von Leo IX. bis Coelestin III., 259 ff. — Nach der Nennung des Elekten Bertram von Metz in der Zeugenreihe von Reg. 2532  war die Erhebung des vom Laterankonzil 1179 abgesetzten Bremer Erzbischofs Berthold (als Metzer Bischof: Bertram) schon früher erfolgt.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Chron. reg. Col., ed Waitz, MG. SS rer. Germ, in us. schol., 130 (zu März 27); Ann. Stadenses, MG. SS XVI, 349 (zu März 30); Ann. Pegav., MG. SS XVI, 263 (zu April 6); Ann. s. Petri Erph. maiores, ed. Holder-Egger, MG. SS rer. Germ, in us. schol., 64 f.; Ann. Seldental., ed. Böhmer, Fontes rer. Germ. 3, 526; Cron. s. Petri Erford. mod., ed. Holder-Egger, MG. SS rer. Germ, in us. schol., 189; Cron. Reinhardsbrunn., MG. SS XXX/1,540; Chron. Montis Sereni, MG. SS XXIII, 157; Chron. principum Saxoniae ampliata, MG. SS XXX/1, 30 und 32 (zu April 6); Ann. Egmundani, ed. Oppermann, Werken uitgegeven door het historisch genootschap 3. Serie/61 (1933), 184; Ann. Marbacenses, ed. Bloch, MG. SS rer. Germ, in us. schol., 52 (ed. Schmale, Freiherr vom Stein-Gedächtnisausgabe XVIIIa, 166); Ann. s. Georgii, Cont. A, MG. SS XVII, 296; Catalogus archiepp. Coloniensium, Cont. I und II., MG. SS XXIV, 344 und 345; Chounradi Schirensis Ann., MG. SS XVII, 630; Hugonis Chron. Cont. Weingartensis, MG. SS XXI, 475; Otto von St. Blasien, Chronica, ed. Hofmeister, MG. SS rer. Germ, in us. schol., 36 (ed. Schmale, Freiherr vom Stein-Gedächtnisausgabe XVIIIa, 74).</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>Digitalisat der RI-Buchseite</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

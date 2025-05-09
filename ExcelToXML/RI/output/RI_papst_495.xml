@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,3 n. 103</idno>
+        <idno type="urn">1186-04-02_1_0_4_4_3_103_103</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Urban III., RI IV,4,4,3 n. 103</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Verona</placeName>
+              <date type="issued" notBefore="1186-04-02" notAfter="1186-04-02">1186 April 2</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Urban III. nimmt Abt Hugo und die Brüder von Cluny (Hugoni abbati monasterii Clun. eiusque fratribus) (D. Mâcon), das seit seiner Gründung im eigenen Recht des Apostolischen Stuhls steht, wie Johannes XI., Johannes XIX., Agapit II., Benedikt VI., Benedikt VII., Leo VII., Leo IX., Gregor VI., Gregor VII., Alexander II., Stephan (IX.), Viktor III., Urban II., Paschal II., Gelasius II., Calixt II., Honorius II. und Eugen (III.) mit allen Kirchen, Friedhöfen, Mönchen, Klerikern und Laien innerhalb der beschriebenen Grenzen in den päpstlichen Schutz, verbietet, daß Priester oder Pfarrangehörige von Cluny von anderen als dem Abt von Cluny oder dem Papst zum Besuch von Synoden gezwungen werden, setzt den freien Empfang von Chrisma, Heiligem Öl, Konsekrationen und Ordinationen durch einen Bischof ihrer Wahl fest, untersagt, über sie Exkommunikation oder Interdikt zu verhängen außer im Auftrag des Papstes oder eines Legaten a latere, bestätigt wie Urban (II.) die Grenzen ihrer Immunitäten und verbietet Verbrechen innerhalb derselben, bestätigt die beschriebenen Grenzen ihres Bannbezirks, setzt fest, daß in den im einzelnen aufgezählten Abteien, deren Ordination dem Kloster von Cluny zusteht, kein Abt ohne Rat des Abts von Cluny gewählt werden darf, und bestimmt, daß in allen Prioraten und Zellen, die nun ohne eigenen Abt ihnen unterworfen sind, auch künftig kein Abt ordiniert werden soll; der Papst verbietet, ihre Altäre, Kirchen und Zehnten durch Bischöfe zu beschweren, bestätigt den Besitz ihrer Zehnten, die sie aus Laienhand zurückerhalten können, sowie ihrer Zehnten aus Eigenbau, bekräftigt die Freiheit ihrer Kirchen, Kapellen und Friedhöfe, gewährt das Präsentationsrecht und das Recht, die Brüder des Klosters zu Priestern zu wählen, setzt den freien Empfang von Chrisma, Heiligem Öl, Konsekrationen und Ordinationen durch den Diözesanbischof, nötigenfalls durch einen Bischof ihrer Wahl fest, erlaubt ihren Zellen Gottesdienst und Sepultur bei Interdikt, bestätigt genannte Besitzungen und verbietet, in ihren Pfarreien Sakralbauten zu errichten ohne ihre Zustimmung und die des Diözesanbischofs vorbehaltlich päpstlicher Privilegien.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Religionis monastice modernis temporibus speculum</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Verone pm. Alberti SRE. presb. card. et cancellarii 4 non. apr. ind. 4 inc. 1186 pont. a. 1.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zum Cart. E vgl. Delisle, Inventaire Cluni S. 234f. und Hillebrandt, Cartulaires Cluny S. 9f., zur Überlieferung in London Holtzmann, PUU England 1, S. 103. – Die genannten Privilegien und Indulgenzen sind die Johannes' XI. von 931 März (JL 3584, Böhmer-Zimmermann, Papstregesten 911-1024, Nr. 105, Zimmermann, PUU 1 S. 107-108 Nr. 64), Leos VII. von 938 Januar (JL 3605, Böhmer-Zimmermann Nr. 140, Zimmermann 1 S. 137-138 Nr. 81), Agapits II. von 954 März (JL 3648, Böhmer-Zimmermann Nr. 241, Zimmermann 1 S. 229-231 Nr. 130), Benedikts VII. von 978 Mai 22 (JL 3796, Böhmer-Zimmermann Nr. † 565, Zimmermann 1 S. 490-492 Nr. † 248), Johannes' XIX. von 1024 Mai-Juli (JL 4065, Böhmer-Frech, Papstregesten 1024-1046 Nr. 42, Zimmermann 2 S. 1052-1054 Nr. 558) und von 1027 März 28 (JL 4079, Zimmermann 2 S. 1083-1085 Nr. 570), Leos IX. von 1049 Juni 10 (JL 4169, Böhmer-Frech, Papstregesten 1046-1058 Nr. 567, Migne, PL, 143 Sp. 607), Stephans IX. von 1058 März 6 (JL 4385, Migne, PL, 143 Sp. 879), Alexanders II. von 1063 Mai 10 (JL 4513, Migne, PL, 146 Sp. 1293), Gregors VII. von 1075 Dezember 9 (JL 4974, Migne, PL, 148 Sp. 661), Urbans II. von 1088 November 1 (JL 5372, Migne, PL, 151 Sp. 291), von 1095 März 16 (JL 5551, Migne, PL, 151 Sp. 410) und von 1097 Januar 9 (JL 5676, Migne, PL, 151 Sp. 485), Paschalis' II. von 1100 November 20 (JL 5849, Migne, PL, 163 Sp. 56), von 1105 Oktober 28 (JL 6046) und von 1109 Juni 2 (JL 6238, Migne, PL, 163 Sp. 260), Gelasius' II. von 1118 April 12 (JL 6640, Migne, PL, 163 Sp. 492) und von 1118 Dezember 16 (JL 6668, Migne, PL, 163 Sp. 509), Calixts II. von 1120 Februar 22 (JL 6821, Migne, PL, 163 Sp. 1164), Honorius' II. von 1125 April 2 (JL 7193, Migne, PL, 166 Sp. 1225) und Eugens III. von 1146 Februar 15 (JL 8859, Migne, PL, 180 Sp. 1105).</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Kopie 13. Jh., Paris, Bibl. nat., Ms. lat. 5458 fol. 22'-24' (Cart. E de l'abbaye de Cluny, Stein, Bibliographie Nr. 989); Kopie 15. Jh., London, Brit. Lib., Cotton Vespasian F XV fol. 290' (Cart. von Lewes, Davis, Medieval cartularies, Nr. 557).   Drucke: Simon, Bullarium ordinis cluniacensis, S. 83-84; Migne, PL, 202 Sp. 1379-1383 Nr. 30 (nach Simon); Chaix de Lavarène, Monumenta pontificia Arverniae S. 348 Nr. 216 (Teildruck).   Reg.: JL 15574 (J 9811); Bernard-Bruel, Chartes Cluny, 5 S. 668 Nr. 4307 (mit Verbesserungen des bei Simon gedruckten Textes); Martin, Conciles Lyon S. 177 Nr. 667.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,5 n. 727</idno>
+        <idno type="urn">1193-03-17_1_0_4_4_5_727_727</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Cölestin III., RI IV,4,4,5 n. 727</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Rom, Lateran</placeName>
+              <date type="issued" notBefore="1193-03-17" notAfter="1193-03-17">1193 März 17</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Cölestin III. nimmt Propst Ulrich und die Brüder des Stifts Unserer Lieben Frau in Magdeburg (Uolrico preposito ecclesie sancte Marie Magdeburgensis eiusque fratribus) auf deren Bitten wie Hadrian (IV.), Alexander (III.), Urban (III.) und Clemens (III.) in den päpstlichen Schutz, bestätigt die Augustinerregel, wie sie vom ehemaligen Erzbischof Norbert von Magdeburg (Norberti quondam Magdeburgensis archiepiscopi) festgesetzt worden ist, gewährt die freie Wahl des Propsts, bestätigt die Unterstellung des Stifts unter die Erzbischöfe von Magdeburg und wie Honorius (II.), Innocenz (II.), Cölestin (II.), Lucius (II.), Eugen (III.), Anastasius (IV.), Hadrian (IV.), Alexander (III.), Urban (III.) und Clemens (III.) die Festsetzung ihres Gründers Norbert, wonach sie von niemandem grundlos belästigt werden dürfen und nur dem Erzbischof Obödienz schulden, bestätigt genannte Besitzungen, gewährt das Präsentationsrecht für ihre Pfarrkirchen, bekräftigt ihre alten Gewohnheiten, Immunitäten und Freiheiten, erlaubt Gottesdienst bei Interdikt und gewährt die freie Sepultur.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Quotiens a nobis petitur quod</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Lat. pm. Egidii s. Nicolai in carcere Tulliano diaconi cardinalis 16 kal. apr. ind. 11 inc. 1192 pont. a. 2.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zur Überlieferung vgl. Dolista, Praemonstratensia S. 361. – Die genannten Urkk. sind jene von Honorius II. (JL 7380, Israël/Möllenberg, UB Magdeburg 1 S. 271-272 Nr. 215 [zu 1129]), Innocenz II. von 1131 April 2 (JL 7464, Israël/Möllenberg 1 S. 282-283 Nr. 225), Cölestin II. von 1143 Dezember 6 (JL 8450, Grauwen, Lijst Nr. 71, Hugo, Annales 1,2 Sp. 14), Eugen III. von 1147 Mai 16 (JL 9050, Grauwen Nr. 87, Hugo 1,2 Sp. 15) und Alexander III. von 1177 April 27 (JL 12813, LePaige, Bibliotheca Praemonstratensis pars 2 lib. 3 S. 631-634 Nr. 19). Die Urkk. Lucius’ II., Anastasius’ IV., Hadrians IV., Urbans III. (Böhmer-Schmidt, Papstregesten Urbans III. Nr. 1070) und Clemens’ III. (Böhmer-Schmidt, Papstregesten Clemens’ III. Nr. 1129) sind verloren. Erw. wird das Privileg auch in der Urk. Innocenz’ III. von 1207 Februar 9 (Potthast 3006, Register Innocenz’ III. 9 S. 446-448 Nr. 261).</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Überl.: Orig., Prag, Národní arch. (StArch.), A. XXIV 15 (alt: D III 2).  Drucke: Stára, Urkunde Cölestins III. S. 212-216; Dolista, Praemonstratensia S. 365-367 (mit unvollständigen Unterschriften).  Reg.: Grauwen, Lijst S. 176 Nr. 104.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

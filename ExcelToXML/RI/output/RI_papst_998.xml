@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,5 n. 103</idno>
+        <idno type="urn">1191-06-20_1_0_4_4_5_103_103</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Cölestin III., RI IV,4,4,5 n. 103</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Rom, St. Peter</placeName>
+              <date type="issued" notBefore="1191-06-20" notAfter="1191-06-20">1191 Juni 20</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Cölestin III. gewährt Prior Johannes von S. Frediano (in Lucca) (Iohanni priori sancti Fridiani) ein Privileg.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Religiosam vitam eligentibus</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Rome apud sanctum Petrum pm. Egidii s. Nicolai in carcere Tulliano diaconi cardinalis 12 kal. iul. ind. 9 inc. 1191 pont. a. 1.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Laut dem Reg. bei JL ist dieses Stück auch erwähnt bei Pennottus, Generalis Historia tripartita (1. Aufl.) S. 735 (war nicht zugänglich, in der 2. und 3. Aufl. ist keine derartige Notiz zu finden). Wahrscheinlich wiederholte Cölestin III. die Privilegien für S. Frediano, die von Paschal II. (1109 März 7, JL 6226, IP III S. 415-416 Nr. 9, Bullarium Lateranense [Rom 1727] S. 4-5), Gelasius II. (1118 September 26, JL 6652, IP III S. 419 Nr. 28, Migne, PL 163 Sp. 499-500 Nr. 16), Calixt II. (1124 Mai 26, JL 7154, IP III S. 421 Nr. 37, Robert, Bullaire Calixte II 2 S. 318-320 Nr. 496), Honorius II. (1128 Mai 7, JL 7311, IP III S. 422 Nr. 42, Bullarium Lateranense [Rom 1727] S. 8), Cölestin II. (1143 Dezember 9, JL 8454, IP III S. 429 Nr. 81, Bullarium Lateranense [Rom 1727] S. 23-25), Eugen III. (1145 April 13, JL 8734, IP III S. 430 Nr. 88, Bullarium Lateranense [Rom 1727] S. 29-31), Alexander III. (1160 Dezember 21, JL – , IP III S. 434-435 Nr. 110, Kehr, PUU Campanien S. 323 Nr. 12 [Teildruck unter Verweis auf das Privileg Eugens III.] = Acta Rom. pont. 2 S. 490), Urban III. (Dep., Böhmer-Schmidt, Papstregesten Urbans III. Nr. 1002), Gregor VIII. (Böhmer-Schmidt Nr. 1388) und Clemens III. (Böhmer-Schmidt, Papstregesten Clemens’ III. Nr. 171) ausgestellt wurden.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Überl.: Kopie 16. Jh., Rom, Bibl. Vat., Cod. Vat. lat. 12117 (olim: Arch. Seg. Vat., Misc. Arm. XI t. 34) fol. 73'; Kopie 16. Jh., Rom, Bibl. Vat., Cod. Vat. lat. 12536 (olim: Arch. Seg. Vat., Misc. Arm. VIII ord. II vol. H) fol. 113 (beide Kopien nur mit fragmentarischer Adresse, Datum, Incipit und Unterschriften in den Scheden des Panvinius).  Druck: Kehr, Diplomatische Miszellen IV S. 26-27 Nr. 30 = Acta Rom. pont. 3 S. 26-27.  Reg.: JL *16792 (nach Pennottus zu 1191, vgl. dazu den Kommentar); IP III S. 437 Nr. 126.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,5 n. 265</idno>
+        <idno type="urn">1191-12-19_1_0_4_4_5_265_265</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Cölestin III., RI IV,4,4,5 n. 265</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Rom, Lateran</placeName>
+              <date type="issued" notBefore="1191-12-19" notAfter="1191-12-19">(1191) Dezember 19</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Cölestin III. schreibt Bischof Peter von Pamplona (Petro Pampilonensi episcopo), der zur Zeit seines Vorgängers Clemens (III.) an der römischen Kurie erschienen sei und dort lange seine Forderung vertreten habe, daß das Kloster San Salvador in Leyre (Legerense monasterium sancti Salvatoris) (D. Pamplona) der Kirche von Pamplona zu vollem Recht gehöre, was nach langen Auseinandersetzungen unter Alexander III. und Urban III. auch festgestellt worden sei; Abt (García) von Leyre, der von Clemens (III.) vorgeladen worden sei, habe mittels Urkunden Alexanders II. und Urbans II. belegen wollen, daß das Kloster Leyre exemt sei, und weiterhin behauptet, daß er von Alexander III. eine Bestätigung dieser Privilegien erhalten habe und seinem Vorgänger (Eximinus) als Abt eines exemten Klosters das Recht zum Gebrauch von Mitra und Ring gewährt worden sei; der Abt habe zudem ein Schreiben Alexanders III. an König (Alfons II.) von Aragón (ad illustrem regem Aragonensium) vorgewiesen, in dem der König aufgefordert worden sei, das Kloster gegenüber der Kirche von Pamplona in Schutz zu nehmen; dieses Schreiben sei aber durch sorgfältige Untersuchung der Bulle als Fälschung erkannt worden; ebenso sei dem Privileg Alexanders (III.) zugunsten des Klosters nicht zu trauen, da dessen Bulle nicht gefunden werden konnte, und zudem sei der Papst (als Kardinaldiakon Iacinthus von S. Maria in Cosmedin) seinerzeit als Legat in Spanien im Auftrag seiner (des Papstes) Vorgänger mit diesem Streit beschäftigt gewesen und habe zugunsten des Bischofs von Pamplona entschieden; wegen des Todes seiner (des Papstes) Vorgänger habe jedoch der Streit bis zum jetzigen Zeitpunkt nicht beigelegt werden können; der Papst inseriert im folgenden das Delegationsmandat Urbans III. (von 1186 November 13) an Bischof (Johannes) von Tarazona, Bischof (Bernhard) von Bayonne und Abt (Peter) von Poblet (Erzd. Tarragona) (Tirasonensi et Baionensi episcopis et ... abbati de Populeto) und deren Schreiben an den Apostolischen Stuhl, wonach die Delegaten nach Vorladung und Anhörung der Aussagen den Parteien den nächsten Michaelstag (29. September 1187) festgesetzt hätten, um sich an der Kurie zur Durchführung des Verfahrens einzufinden; nach den Ausführungen des Bischofs von Pamplona, wonach Abt Simeon, der Vorgänger des jetzigen Abts (abbas Simeon istius predecessor abbatis), die Weihe in der Bischofskirche empfangen, dem Bischof Treue geleistet sowie fünf Jahr in Devotion verharrt habe, habe der Abt sich nach dem Vorbild der Privilegien von San Juan de la Peña (sancti Iohannis de Pinna) falsche Privilegien zusammengeschustert, wie es durch den Eid des jetzigen Abts feststehe, den dieser in Gegenwart des Bischofs und anderer geleistet habe; zudem seien die Privilegien Alexanders II. und Urbans II. sorgfältig begutachtet und durch die Art der Bullierung und wegen einiger unglaubwürdiger Hinzufügungen im Diktat sowie durch den Vergleich mit Privilegien dieser Päpste im Lateranarchiv (in Lateranensi archivo) und anderswo als Fälschungen entlarvt worden; aus den Zeugenaussagen und weiteren Belegen, unter anderem aus den Privilegien Urbans II. und dessen Nachfolgern bis zu Lucius III., sowie aus der Tatsache, daß die beiden gefälschten Privilegien (Alexanders II. und Urbans II.) nicht in den Registern enthalten seien und daß Kardinaldiakon Iacinthus bei seinen Legationen in Spanien keinen Zins vom Kloster empfangen habe, war für seinen Vorgänger Clemens III. hervorgegangen, daß das Kloster der Kirche von Pamplona unterstellt sei; da zudem der Abt sich unerlaubt von der Kurie entfernt und trotz peremptorischer Ladung nicht der Urteilsverkündung gestellt, sondern nur seinen Kämmerer García (Garsia, suo camerario) als Prokurator entsandt habe, habe Clemens (III.) mit dem Rat seiner Brüder, der Kardinäle, geurteilt, daß das Kloster dem Bischof zu vollem Recht unterstellt sein soll, und die genannten Privilegien Alexanders II. und Urbans II. für Fälschungen sowie das erschlichene Privileg Alexanders III. für nichtig erklärt; der Papst bestätigt das Urteil seines Vorgängers.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Patefactis causarum meritis in iudicio</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Lat. 14 kal. ian. pont. a. 1.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zur Überlieferung vgl. Kehr, PUU Spanien 2 S. 31. – Das Urteil Clemens’ III., das Cölestin III. bestätigte, ist in dessen Urk. von 1188 August 2 (Böhmer-Schmidt, Papstregesten Clemens’ III. Nr. 417) festgehalten. Von Urban III. ist keine Entscheidung des Streits oder eine Bestätigung einer solchen erhalten, wie dies der Text vermuten lassen könnte. Lediglich das hier inserierte Delegationsmandat von 1186 November 13 an Bischof Johannes von Tarazona, Bischof Bernhard von Bayonne und Abt Peter von Poblet (Erzd. Tarragona) ist bekannt (Böhmer-Schmidt, Papstregesten Urbans III. Nr. 317). Von den als Fälschungen entlarvten Privilegien Alexanders II. und Urbans II. ist jenes Alexanders II. nicht erhalten. Die nach dem Privileg Urbans II. von 1089 Juli 4 für das Kloster San Juan de la Peña (JL – , Kehr 2 S. 269-272 Nr. 7) hergestellte Fälschung auf den Namen Urbans II. zu 1089 Mai 26 (JL –) ist gedruckt bei Kehr 2 S. 267-269 Nr. † 6 und bei Martín Duque, Documentación Leire S. 185-186 Nr. 129. Das von Clemens III. als Fälschung erkannte Privileg Alexanders III. von 1174 Juni 28 (JL 12385, Kehr 2 S. 468-472 Nr. 133, Martín Duque S. 432-433 Nr. 334), in dem als VU lediglich ein Privileg Alexanders II. genannt wird, gewährt Abt Eximinus nicht das Recht zum Gebrauch von Mitra und Ring. Es scheint deshalb also eine weitere verlorene Fälschung auf den Namen Alexanders III. existiert zu haben. Bei dem ebenfalls auf dessen Namen gefälschten Schreiben an König Alfons II. von Aragón scheint es sich nicht um Alexanders III. Urk. von 1174 Juni 30 (JL – , Kehr 2 S. 476-477 Nr. 136, Martín Duque S. 439-440 Nr. 337) zu handeln, in dem der König zwar aufgefordert wird, das Kloster in seinen Schutz zu nehmen, der Bischof von Pamplona jedoch nicht erwähnt wird. Zur genannten Entscheidung des Kardinaldiakons Iacinthus von S. Maria in Cosmedin zugunsten des Bischofs von Pamplona (Goñi Gaztambide, Colección Pamplona 1 S. 248-249 Nr. 281), die dieser auf seiner Legation im Juni 1155 traf, vgl. Weiß, Legaten S. 181 Nr. 22. Das inserierte Schreiben der von Urban III. in seinem inserierten Mandat beauftragten Delegaten an den Papst ist auch gedruckt bei Martín Duque S. 449 Nr. 345 und Goñi Gaztambide 1 S. 327 Nr. 379 (beide zu 1187 Januar–August). Die von Abt Simeon angefertigte Fälschung nach dem Vorbild der Privilegien für San Juan de la Peña ist das oben genannte angebliche Privileg Urbans II. Die erwähnten Ladungen des Abts von Leyre sind verloren, vgl. die Mandate Clemens’ III. Böhmer-Schmidt, Papstregesten Clemens’ III. Nr. 415 und Nr. 416. Die hier pauschal genannten Privilegien, in denen Leyre als Besitz der Kirche von Pamplona erscheint, sind ausgestellt von Urban II. von 1096 Juni 24 (JL 5650, Goñi Gaztambide 1 S. 90-91 Nr. 68 [zu 1097 Juni 24]), Paschal II. von 1100 März 4 (JL – , Goñi Gaztambide 1 S. 102-103 Nr. 84), Calixt II. (JL – , Dep., erw. im Privileg Innocenz’ II.), Honorius II. (JL – , Dep., erw. im Privileg Innocenz’ II.), Innocenz II. von 1137 Mai 6 (JL – , Goñi Gaztambide 1 S. 186-188 Nr. 203, aber ohne Erwähnung von Leyre), Cölestin II. von 1144 Februar 26 (JL – , Goñi Gaztambide 1 S. 218-220 Nr. 246), Lucius II. von 1144 Dezember 31 (JL – , Goñi Gaztambide 1 S. 220-221 Nr. 247 [Teildruck unter Verweis auf die VU Cölestins II.]), Eugen III. von 1146 April 28 (JL – , Goñi Gaztambide 1 S. 225 Nr. 252 [Teildruck unter Verweis auf die VU Lucius’ II.]), Hadrian IV. von 1156 Juni 14 (JL – , Goñi Gaztambide 1 S. 253 Nr. 287 [Teildruck unter Verweis auf die VU Eugens III.]) und Alexander III. von 1165 August 13 (JL – , Goñi Gaztambide 1 S. 262-263 Nr. 299 [Teildruck unter Verweis auf die VU Hadrians IV.]). Ein Privileg Lucius’ III., das merkwürdigerweise auch nicht in der NU Clemens’ III. von 1188 August 12 (Böhmer-Schmidt, Papstregesten Clemens’ III. Nr. 420) aufgezählt wird, ist nicht erhalten, vgl. Böhmer-Schmidt, Papstregesten Urbans III. S. 819 Reg. 2200a (Nachträge zu Lucius III.). Zur Sache vgl. García Villada, Historia eclesiástica de España 3 S. 264, Goñi Gaztambide, Historia Pamplona 1 S. 448-454, Fortún Pérez de Ciriza, San Salvador de Leire S. 50 und Smith, Iberian Legations S. 92-94.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Überl.: Orig., Pamplona, Arch. de la Catedral, Arca III Epi 37; Kopie 13. Jh., Pamplona, Arch. de la Catedral, Arca I n. 1 fol. 36' (Libro redondo).  Drucke: Kehr, PUU Spanien 2 S. 539-540 Nr. 189; Martín Duque, Documentación Leire S. 457 Nr. 351; Goñi Gaztambide, Colección Pamplona 1 S. 341-343 Nr. 396 (nur Druck der Varianten unter Verweis auf die Urk. Clemens’ III.).  Reg.: Goñi Gaztambide, Catálogo Pamplona S. 90 Nr. 372.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

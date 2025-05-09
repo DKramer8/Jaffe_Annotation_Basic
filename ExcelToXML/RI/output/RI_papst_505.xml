@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,3 n. 126</idno>
+        <idno type="urn">1186-04-22_1_0_4_4_3_126_126</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Urban III., RI IV,4,4,3 n. 126</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Verona</placeName>
+              <date type="issued" notBefore="1186-04-22" notAfter="1186-04-22">1186 April 22</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Urban III. nimmt Michael, Archipresbiter des Domkonvents von Ferrara (Michaeli conventus Ferrariensis archipresbytero), und das, was durch die Festsetzung des damaligen Bischofs Landulf von Ferrara (bone memorie Landulfum quondam Ferrariensem episcopum) über den Rückerwerb von Kirchen, Oblationen, Zehnten und Primitien aus Laienhand in den Besitz seiner Kirche zurückgelangt ist, auf dessen Bitten wie Innocenz (II.), Hadrian (IV.) und Alexander (III.) in den päpstlichen Schutz, verbietet, daß seine Kleriker kirchlichen Besitz oder Zehnte an Laien vergeben, bestätigt die Statuten des Bischofs L(andulf) von Ferrara (L. Ferrariensem episcopum) über die Messen an Hochfesten (de missis maioribus) und die Exequien sowie die Freiheit aller Kleriker des Konvents von Tribut, Abgaben und weltlichen Leistungen gemäß der Schutzurkunde Kaiser Ottos (III.) (mundiburdium ... Ottonis imperatoris), nimmt den Archipresbiter mitsamt seinen Besitzungen in den päpstlichen Schutz, bestätigt die alten Gewohnheiten des Konvents und gewährt das Appellationsrecht an den Apostolischen Stuhl.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Apostolice sedis moderamini et clementie</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Verone pm. Alberti SRE. presb. card. et cancellarii 10 kal. maii ind. 4 inc. 1186 pont. a. 1.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zur Überlieferung vgl. Kehr, PUU Padova S. 356f. und S. 360f. = Acta Rom. pont. 1 S. 144f. und S. 148f., Kehr, PUU Rom 1 S. 118 = Acta Rom. pont. 2 S. 300, Kehr, PUU Rom 2 S. 375 = Acta Rom. pont. 2 S. 528 und Kehr, PUU röm. Bibl. II S. 94 = Acta Rom. pont. 4 S. 94. – Die genannten Urkk. sind die Privilegien Innocenz' II. von 1139 Mai 23 (JL 8033, IP V S. 222 Nr. 7, Migne, PL, 179 Sp. 472-473 Nr. 409), Hadrians IV. von 1157 Juli 3 (JL – , IP V S. 223 Nr. 9, Kehr, PUU Padova S. 379-381 Nr. 5 = Acta Rom. pont. 1 S. 167-169) und Alexanders III. (Dep., JL – , IP V S. 224 Nr. *15). Die genannte Urk. Kaiser Ottos III. ist dessen Privileg von 998 April 26 (Böhmer-Uhlirz, Regesten Ottos III. Nr. 1259, Sickel, MGH DO III,S. 695-696 Nr. 275).</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Orig., Ferrara, Arch. Storico Diocesano, Arch. cap., Busta XIII posizione 13 (heute unlesbar).   Druck: Kehr, Nachträge IV S. 267-269 Nr. 20 = Acta Rom. pont. 5 S. 265-267.   Reg.: JL 15590 (J 9816); IP V S. 225 Nr. 17.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

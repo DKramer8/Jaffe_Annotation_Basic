@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,5 n. 1140</idno>
+        <idno type="urn">1194-06-14_1_0_4_4_5_1140_1140</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Cölestin III., RI IV,4,4,5 n. 1140</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Rom, St. Peter</placeName>
+              <date type="issued" notBefore="1194-06-14" notAfter="1194-06-14">1194 Juni 14</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Cölestin III. nimmt Dekan Simon und das Kapitel von St Peter in York (Simoni decano et capitulo ecclesie sancti Petri Eboracensis) auf deren Bitten mit ihrer Kirche in den päpstlichen Schutz, bestätigt genannte Besitzungen und Einkünfte sowie ihre alten Gewohnheiten, verbietet dem Erzbischof (von York) (archiepiscopus vester), den Domdekan, die Domkanoniker oder deren Leute entgegen ihrer Immunität mit der Exkommunikation, dem Interdikt oder der Suspension zu belegen ohne die Zustimmung des Dekans und des Kapitels, setzt fest, daß der Dekan dem Erzbischof beim Empfang eines kirchlichen Benefiziums entsprechend der Freiheit und Gewohnheit kein Hominium zu leisten habe, bestätigt ihr Recht der freien Wahl des Meisters des Hospitals St Peter in York (magistri domus hospitalis sancti Petri Eboracensis), bestätigt ihre von Königen, weltlichen Großen und Erzbischöfen gewährten und von den Päpsten bestätigten Würden, Freiheiten und Immunitäten, verbietet, entgegen der Freiheit ihrer Kirche ihre Kanoniker, Kleriker und Leute ohne zureichenden Grund zu exkommunizieren, mit Geldstrafen zu belegen oder die Schädiger des Kapitels von den Strafen, die das Kapitel über diese verhängt hat, ohne Wiedergutmachung zu absolvieren, bestätigt das Recht des Erzbischofs, für Präbenden zu präsentieren, setzt die Modalitäten der Aufnahme als Kanoniker fest und gewährt dem Kapitel das Präsentationsrecht, wenn der Erzbischof dieses Recht nicht innerhalb der vom (3.) Laterankonzil gesetzten Fristen wahrnimmt.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Cum Romana ecclesia cui dante</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Rome apud sanctum Petrum pm. Egidii s. Nicolai in carcere Tulliano diaconi cardinalis 18 kal. iul. ind. 12 inc. 1194 pont. a. 4.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zur Überlieferung vgl. Kehr, Ältere PUU I S. 416 = Acta Rom. pont. 3 S. 390 und Kehr, Ältere PUU III S. 497 = Acta Rom. pont. 3 S. 471 sowie Holtzmann, PUU England 1 S. 144 und Holtzmann 2 S. 105 und S. 107. – Zum erwähnten Verbot, Ordinationen grundlos zu verhindern oder hinauszuzögern, vgl. can. 16 des 3. Laterankonzils (Tanner, Decrees 1 S. 219-220). Dieses Privileg wurde zwei Tage später in Form einer littera, also mit verkürzter Pönformel und kleiner Datierung ausgestellt, vgl. Reg. 1144. Im Kontext stimmen beide Fassungen, abgesehen von unbedeutenden Varianten, überein. Eine gleichsam erst in der Überlieferung entstandene Verdoppelung dieses Privilegs scheidet angesichts der beobachteten formalen Unterschiede der beiden Stücke wohl aus. Vgl. zu dem aus der Verleihung dieses Privilegs entstandenen Streit zwischen Dekan und Kapitel einerseits und dem Erzbischof andererseits das Schreiben Innocenz’ III. von 1204 April 1 (Potthast 2167, Reg.: Cheney/Cheney, Letters Innocent III S. 90 Nr. 552, Druck: Register Innocenz’ III. 7 S. 59-60 Nr. 35). Zur Sache vgl. Crosby, Bishop and Chapter S. 359f.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Überl.: Kopie 13. Jh., Rom, Arch. Seg. Vat., Reg. Vat. 39 fol. 261' Nr. 60 (inseriert in die Urk. Nikolaus’ III. von 1279 September 19, Potthast – , Gay, Registres Nicolas III 1 S. 302-304 Nr. 673, Bliss, Calendar 1 S. 462-463); Kopie 14. Jh., London, Brit. Lib., Lansdowne 402 fol. 130-131 (Davis, Medieval cartularies Nr. 1085); Kopie 14. Jh., York, Minster Lib., L2/1 pars 1 fol. 53'-54' (Registrum magnum album, Davis, Medieval cartularies Nr. 1087); Kopie 15. Jh., York, Minster Lib., L2/2 fol. 2-2' (Domesday Book, Davis, Medieval cartularies Nr. 1088); Kopie 15. Jh., York, Minster Lib., M1/1d fol. 6-7' (Composicions and Bulls of Deane and Chapters Jurisdiccion, inseriert in eine Urk. Bonifaz’ IX. von 1397 Januar 21, vgl. Kehr, Ältere PUU III S. 497 = Acta Rom. pont. 3 S. 471).  Druck: Holtzmann, PUU England 2 S. 464-465 Nr. 271 (nur Druck der Adresse, des Incipits, der Unterschriften und des Datums unter Verweis auf die Drucke von Reg. 1144).  Reg.: – .</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

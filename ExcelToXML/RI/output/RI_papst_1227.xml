@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,6 n. 1673</idno>
+        <idno type="urn">1196-02-13_1_0_4_4_6_286_1673</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Cölestin III., RI IV,4,4,6 n. 1673</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Rom, Lateran</placeName>
+              <date type="issued" notBefore="1196-02-13" notAfter="1196-02-13">1196 Februar 13</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Cölestin III. nimmt Prior Gaufried und die Brüder vom Heiligen Grab (in Jerusalem) (Gaufrido priori ecclesie sancti Sepulcri eiusque fratribus) auf deren Bitten wie Honorius (II.), Innocenz (II.), Cölestin (II.), Lucius (II.), Eugen (III.) und Alexander (III.) in den päpstlichen Schutz, bestätigt die Augustinerregel, genannten Besitz und die Schenkungen genannter Personen sowie ihre Gewohnheiten, gewährt das Recht, frei über ihre Besitzungen zu verfügen, setzt fest, daß bei Abwesenheit des Patriarchen (Monachus) von Jerusalem (patriarcha Iherosolimitano) der Prior und die Kanoniker dessen Stellvertretung übernehmen, gewährt das Recht der Patriarchenwahl, erlaubt Stationsgottesdienste an genannten Orten, gestattet, gegen Schädiger ihrer Kirche, insbesondere jene, die die Leistung der Pfarrzehnten verweigern, mit Interdikt und Exkommunikation bei Abwesenheit des Patriarchen vorzugehen, verbietet dem Patriarchen und dem Prior, Kircheneigentum ohne Zustimmung der Kanoniker zu vergeben oder zu entfremden, gestattet, entfremdetes Eigentum zurückzuerlangen, und untersagt dem Patriarchen und dem Prior, jemanden ohne Zustimmung des Kapitels einer anderen Obödienz zu unterstellen, von seinem Amt zu suspendieren oder aus dem Kapitel zu entfernen, es sei denn wegen offensichtlicher Schuld, die öffentlich eingestanden oder deren der Betreffende überführt wurde; der Papst gewährt die Sepultur, verbietet, daß der Patriarch Eigentum der Kirche von den Kanonikern unter dem Vorwand der Obödienzleistung an sich bringt, befreit sie vom Zehnten für Neubrüche bei Eigenbau und für Tierfutter und bestätigt die Hälfte der gemeinsamen Besitzungen in den Orten, in denen sie die Hälfte der Ausgaben tragen.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Quotiens illud a nobis petitur</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Lat. pm. Cencii s. Lucie in Orthea diac. card. domini pape camerarii id. feb. ind. 14 inc. 1195 pont. a. 5.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zur Überlieferung vgl. Kehr, PUU römische Bibliotheken I S. 21 = Acta Rom. pont. 4 S. 21 und Hiestand, PUU für Kirchen im Heiligen Lande S. 27. – Die genannten Urkk. sind die Privilegien Honorius’ II. von 1128 September 4 (JL 7318, Hiestand S. 134-137 Nr. 28), Innocenz’ II. von 1138 Juli 26 (JL 7907, Hiestand S. 147-149 Nr. 37), Cölestins II. von 1144 Januar 10 (JL 8479, Hiestand S. 172-174 Nr. 52), Lucius’ II. von 1144 September 14 (JL 8652, Hiestand S. 177-178 Nr. 55), Eugens III. von 1146 Juli 13 (JL 8939, Hiestand S. 190-193 Nr. 62) und von 1148 Mai 7 (JL 9260, Hiestand S. 195-197 Nr. 64), Alexanders III. von 1163 Oktober 6 (JL – , Hiestand S. 234-236 Nr. 87), von 1164 Januar 3 (JL – , Hiestand S. 237-241 Nr. 88) und von 1170 September 9 (JL 11831, Hiestand S. 261-265 Nr. 102). Nicht genannt ist das Privileg Lucius’ III. von 1182 Juli 14 (Böhmer-Baaken-Schmidt, Papstregesten Lucius’ III. 1 Nr. 291). Als Vorurkunden wurden die beiden Privilegien Alexanders III. von 1164 und 1170 benutzt, vgl. die Vorbem. zum Druck bei Hiestand. Zur Sache vgl. Elm, Fratres et Sorores S. 154f., Pringle, The Churches of the Crusader Kingdom of Jerusalem 1 S. 162 und Edbury, Celestine III and the Crusade S. 139.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Überl.: Kopie 14. Jh., Rom, Bibl. Vat., Cod. Vat. lat. 7241 fol. 104-107' (Privilegia ecclesiae s. Sepulchri).  Drucke: Rozière, Cartulaire Saint-Sépulcre de Jérusalem S. 233-238 Nr. 128; Migne, PL 206 Sp. 1142-1147 Nr. 245 (nach Rozière); Hiestand, PUU für Kirchen im Heiligen Lande S. 350-352 Nr. 172; Bresc-Bautier, Cartulaire du Chapitre du Saint-Sépulcre de Jérusalem S. 323-328.  Reg.: JL 17324 (J 10571); Röhricht, Regesta regni Hierosolymitani S. 194 Nr. 725; Diplomatarium danicum 1,3,1 S. 337-338 Nr. 214; Wauters, Table 3 S. 52-53; Russo, Regesto Vaticano S. 90 Nr. 426.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

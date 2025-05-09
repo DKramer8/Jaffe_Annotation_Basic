@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RIplus URH 1 n. 416</idno>
+        <idno type="urn">1174-03-24_1_0_20_10_1_416_416</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Friedrich I., RIplus URH 1 n. 416</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Aachen</placeName>
+              <date type="issued" notBefore="1174-03-24" notAfter="1174-03-24">1174 März 24</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness">(idoneos testes): Der päpstliche Kardinal und Kanzler Martin, die Ebff. Philipp von Köln und Arnold von Trier, Propst Otto von Aachen, Protonotar Wortwin, Dekan Hugo von Köln, Propst Lothar von Bonn, die Äbte Erlebald von Stablo und Florentius von Kornelimünster, Hzg. Gottfried von Lothringen, Pfgf. Konrad, der Bruder des Ks., Lgf. Ludwig und sein Bruder Heinrich, die Gff. Heinrich von Diez, Engelbert von Berg, Wilhelm von Jülich, Gerhard von Loon und sein Bruder Hugo.</legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Ks. Friedrich I. bekundet allen Christgläubigen und Reichsgetreuen: Abt Lambert von St. Ghislain kam vor ihn mit der Bitte (celsitudinem nostram adiens petiit), sein von den ksl. Vorgängern Dagobert, Otto III., Heinrich II., Konrad II. und Konrad III. sowie Heinrich III. errichtetes Kl. in seinen Schutz zu nehmen und ihm seine Besitzungen zu bestätigen, wie sie in den Urkk. der Genannten1 niedergelegt sind. Auf Vermittlung seiner Gemahlin Beatrix erklärt der Ks. das Kl. für frei von jeglicher weltlichen Herrschaft, nimmt es in die Schutzvogtei des Ks. auf und bestätigt ihm erneut die von seinen Vorgängern verliehenen Besitzungen. Diese sollen keinen anderen als den Abt zum Vogt haben.  Weiter bestimmt er durch Urteil (provida iudicii ratione asserimus), daß Hörige, auch wenn sie Einwohner irgendeiner Stadt, Burg oder eines anderen Ortes sind, ohne rechtliches Hindernis dem Abt als ihrem Herrn und Vogt zu Diensten verpflichtet sein sollen. Die Mönche haben das Recht zur freien Abtswahl; der Abt soll dem Kg. huldigen und von ihm die Investitur erhalten. Durch Spruch der Fürsten wurde vor dem Ks. geurteilt (ex sententia principum coram nobis iudicatum est), daß in den Kl.-Besitzungen keine Villikation erblich sein dürfe, sondern daß der Abt aus der familia des Kl. geeignete Leute ein- und absetzen könne. Sollte jemand aus der familia gegen den Abt aufrührerisch sein, so soll er durch das Urteil seiner Standesgenossen zur Genugtuung gezwungen werden. Der Ks. verbietet (Decernimus ergo et regia auctoritate precipimus), daß irgendeine geistliche oder weltliche Person die hergebrachte Freiheit des Kl. antastet.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">A.i.d. 1174, ind. 7, Friderico imperante, Henrico regnante; dat. Aquisgrani in pascha domini coronato imperatore ibidem, a.i. 20, a.r. 23.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Wörtliche Wiederholung des gefälschten D K III 291 von 1145. Zum Inhalt vgl. Nr. 240.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Ü: A AE Mons (Kriegsverlust; in Photo und Abschrift in der Wiener Diplomata-Abteilung erhalten).  D: MGH DD 10, 3 S. 103f. Nr. 614. (A).  R: Stumpf Nr. 4156.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>Druck in MGH DD</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>1Vgl. D H II 386 von 1018; D K II 209 von 1034 Mai 3; D K III 137 von 1145 (Anfang Okt.); D K III 291 von 1145 (Fälschung auf der Grundlage des D K III 137). </p>
+      </div>
+      <div type="note">
+        <p>Ankündigung des ksl. Siegels und Handzeichens.</p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

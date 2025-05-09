@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,1 n. 1093</idno>
+        <idno type="urn">1184-05-03_1_0_4_4_1_1093_1093</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Lucius III., RI IV,4,4,1 n. 1093</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Veroli</placeName>
+              <date type="issued" notBefore="1184-05-03" notAfter="1184-05-03">1184 Mai 3</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Lucius III. nimmt Prior Berthold von St. Ulrich (Bertoldo priori monasterii sancti Petri de Cella eiusque fratribus) sowie dessen Brüder und deren Kloster, das Cluny gehört (quod ad Cluniacensem spectat ecclesiam), auf ihre Bitten wie Eugen (III.), Hadrian (IV.) und Alexander (III.) in den päpstlichen Schutz, bestätigt die Schenkungen erwähnter Personen, namentlich die Kirche von Achkarren (ecclesiam de Achteckarle), die ihnen durch die Urteile der Bischöfe Hermann von Konstanz und Heinrich von Basel (iudicio Hermanni quondam Constantiensis episcopi et postmodum ab Heinrico Basiliensi episcopo) zugesprochen wurde, sowie den genannten Besitz, befreit sie vom Zehnten für Neubrüche bei Eigenbau, für Tierfutter und ihre Wälder, gewährt das Aufnahmerecht, verbietet das unerlaubte Verlassen des Klosters nach abgelegter Profeß, gestattet den Gottesdienst bei Interdikt, gewährt das Präsentationsrecht und verbietet, in ihren Pfarreien ohne des Bischofs und ihre eigene Zustimmung vorbehaltlich päpstlicher Privilegien Gotteshäuser zu errichten, bekräftigt ihre alten Freiheiten und Gewohnheiten, untersagt, von ihnen etwas für den Empfang von Chrisma, Heiligem Öl, Konsekrationen, Ordinationen und anderen Sakramenten zu fordern, verbietet Angriffe auf den Klosterbesitz sowie bei Gewalttaten im Atrium den Gottesdienst auszusetzen, erlaubt, ihre Kirchen Grüningen und Achkarren (de Grveningen et de Hachekarle), weil dort das Kloster zuerst erbaut wurde, von drei Brüdern versehen zu lassen, und gewährt die freie Sepultur.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Monet nos apostolice sedis cui</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Verone pm. Alberti SRE. presb. card. et cancellarii 5 non. maii ind. 2 inc. 1184 pont. a. 3.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Schon bei JL wurde der überlieferte, jedoch nicht zum Datum passende Ausstellungsort in Verulis verbessert. Die genannten Urkk. sind die Privilegien Eugens III. von 1148 Januar 27 (JL 9177, GP II,1 S. 184-185 Nr. 3), Hadrians IV. von 1157 September 26 (JL 10305, GP II,1 S. 185 Nr. 4) und Alexanders III. von 1179 März 30 (JL 13350, GP II,1 S. 186 Nr. 7); zur undatierten Urk. Bischof Hermanns von Konstanz vgl. Ladewig/Müller, Regesten Constanz 1 S. 111 Nr. 995; die Urk. Bischof Heinrichs von Basel ist verloren, vgl. den oben genannten Druck S. 598 Anm. 6; zu Bischof Heinrich Helvetia Sacra 1,1 S. 174 f. – Zum seit der Zeit Lucius' II. anhaltenden Streit um die Pfarrechte der Kirche in Achkarren vgl. Büttner, Prozeß mit dem Druck (Anhang 1 S. 452-455) der in dieser Angelegenheit an Lucius III. gerichteten Supplik der Äbte Markward von St. Peter und Rudolf von St. Trudpert sowie der Prioren Berthold von St. Ulrich und Rudolf von Sölden (vgl. GP II,1 S. 186-187 Nr. 9). Zu St. Ulrich vgl. Germania Benedictina 5 S. 615 ff., wo der Streit S. 617 erwähnt wird. Zur Bedeutung des Atrium vgl. Sauer, Symbolik S. 124 ff. sowie LexMA 1 Sp. 1175 f.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Überl.: Kopie 14. Jh., Karlsruhe, Bad. Generallandesarch., B (Kopien) Nr. 7. Druck: Neugart, Episcopatus Constantiensis 1,2 S. 597-600 Nr. 14. Reg.: JL 15031 (J 9600); GP II,1 S. 187 Nr. 10.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

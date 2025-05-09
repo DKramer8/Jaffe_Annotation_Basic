@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RIplus URH 1 n. 436</idno>
+        <idno type="urn">1178-06-01_1_0_20_10_1_436_436</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Friedrich I., RIplus URH 1 n. 436</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>[Ausstellungsort]</placeName>
+              <date type="issued" notBefore="1178-06-01" notAfter="1178-08-31">(Wohl 1178 Juni–August)</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Ks. F[riedrich I.] an Mgf. O[tto] von Brandenburg, alle Geistlichen und das Volk der Wische:  Es ist ihm zu Gehör gekommen (pervenit ad nostre maiestatis audientiam), daß der Bf. [Ulrich] von Halberstadt bei Papst Alexander eine Klage vorgebracht hat (coram domino Alexandro ... querimoniam exposuerit), wonach die Verdener Kirche rechtswidrig Grenzgebiete seines Bt. in Besitz habe und ordnungswidrig, gewissermaßen gewaltsam, an ihnen festhalte.  Da die Verdener Kirche bekanntlich jene Grenzgebiete seit alters mit höchster Billigung in Frieden innehat, wundert er sich, weshalb und wozu der Bf. von Halberstadt den Verdener Bf. deswegen belästigt und diesem den von seinen Vorgängern bereits übernommenen Besitz mit einer nichtigen und unnützen Klage abnehmen will (proponat ... ea ... ei aliqua vana et inutili querimonia subtrahere).  Weil er es für richtig und gerecht hält (de ratione et iustitia tenemur), Bf. Hugo von Verden in seinen Schutz zu nehmen, trägt er Mgf. Otto von Brandenburg daher auf (mandamus ... rogando monendo et firmiter precipiendo), die erwähnten Gebiete, um die der Halberstädter Bf. zu Unrecht klagt (vane calumpniatur), der Verdener Kirche und ihrem Bf. zu erhalten und zu verteidigen sowie dem Bf. von Halberstadt darüber jede Antwort zu verweigern. Der Schutz und die Gerichtsbarkeit über weltliche Güter und Besitzungen stehen nämlich allein dem Ks. zu (defensio enim et iustitia temporalium bonorum et possessionum ad nos spectare cognoscitur); niemand kann und darf sich nach seinem Belieben einen Richter oder Vogt suchen (nec potest vel debet unusquisque iudicem et advocatum, quemcumque voluerit, sibi assumere).  Es ist daher sein Wille und Befehl, daß sich der Bf. von Halberstadt, falls er noch irgendwelche Forderungen an den Bf. von Verden hat, zu ihm begibt (conspectui nostro se representet), um die Klage vorzubringen und volle Gerechtigkeit zu erlangen (querimoniam expositurus et plenam iustitiam consecuturus).</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">-</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Außerhalb der Kanzlei auf südlichem Perg. verfaßt, wohl als sich Bf. Hugo von Verden vom 23. Juni bis 20. August 1178 am ksl. Hof aufhielt, um seine Sache zu betreiben. (MGH)</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Ü: A StA Stade, Domstift Verden Nr. 26.  Rückvermerk: (13. Jh.) Friderici imperatoris de terminis contra Halberstadensem episcopum.  D: MGH DD 10, 3 S. 310f. Nr. 758. (A). UB Hochstift Halberstadt 1 S. 255f. Nr. 285 (zu 1179 Juni/Juli?). (A).  R: Stumpf Nr. 4563 (zu 1177–1180 März 1).</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>Druck in MGH DD</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

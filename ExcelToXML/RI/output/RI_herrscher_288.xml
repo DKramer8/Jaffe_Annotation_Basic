@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,2,3 n. 1839</idno>
+        <idno type="urn">1169-06-08_3_0_4_2_3_64_1839</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Friedrich I., RI IV,2,3 n. 1839</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Bamberg</placeName>
+              <date type="issued" notBefore="1169-06-08" notAfter="1169-06-08">1169 Juni 8  Pfingsten  — 24</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Friedrich feiert einen allgemeinen Hoftag, dem Kardinallegaten des Gegenpapstes (Calixt III.) beiwohnen. Nach einem von Erzbischof Christian (von Mainz) formulierten Wahlvorschlag wird der fünfjährige Sohn des Kaisers, Heinrich (VI.), zum König und Nachfolger des Kaisers gewählt. Erzbischof (Adalbert) von Salzburg, der vom Kaiser an den Hof geladen worden ist und hier gemeinsam mit seinem Vater, König (Vladislav) von Böhmen, erscheint, wird vom Kaiser nicht empfangen, da dieser bereits andere Pläne mit der Salzburger Kirche hat. Die beiden Bremer Elekten (Siegfried, Sohn Albrechts des Bären, der in weiterer Folge Bischof von Brandenburg wird, und Otbert) werden abgesetzt, und gemäß dem Willen Herzog Heinrichs des Löwen wird Dompropst Balduin von Halberstadt auf den Bremer Erzstuhl erhoben.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">-</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Vgl. zuletzt Schmidt, a.a.O., 180 ff. — Zum Alter Heinrichs VI. vgl. Reg. 1519. — Zur Salzburger Angelegenheit vgl. neben Reg. 1832  Dopsch, Geschichte Salzburgs I/1, 289; zur Bremer Wahl — Elekt Siegfried hatte sich noch vor seiner Absetzung brieflich an Erzbischof Adalbert von Salzburg gewendet und dabei betont, er werde trotz der Ablehnung seiner Wahl durch den Kaiser standhaft bleiben und sich vom Papst (Alexander III.) weihen lassen (Hödl — Classen, Salzburger Briefsammlung, MG. Briefe VI, 187 no  28) — vgl. zuletzt Ehlers, Episkopat, VuF 40 (1992) 454. — Die unter den Quellen angeführte Urkunde Eberhards von Bamberg regelt die Beilegung von Streitigkeiten zwischen Albert von Truhendingen (Hohentrüdingen) und dem Bamberger Domkapitel um Rechte im Markt Staffelstein, die schon 1165 vom Kaiser behandelt worden waren (vgl. Reg. 1476); wenn dabei allerdings auch auf die Anwesenheit Bischof Herolds von Würzburg (siehe etwa dessen Nennung unter den Zeugen in Reg. 1842) und Herzog Friedrichs von Rothenburg hingewiesen wird (presente Wirceburgensi episcopo Heroldo et duce Friderico de Rotenburc), so muß hinsichtlich der Nennung des bereits am 19. August 1167 verstorbenen Rothenburgers (siehe dazu Reg. 1697) offenbleiben, ob sich dieser Hinweis nicht auf eine frühere Zusammenkunft der Beteiligten bezieht.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Chron. Magni presbiteri, MG. SS XVII, 489 f.; Ann. Palid., MG. SS XVI, 94 (zum 24. Juni 1169, aber irrig zu Erfurt); Ann. Pegav., MG. SS XVI, 260; Ann. Stadenses, MG. SS XVI, 346; Versus de vita Vicelini, ed. Schmeidler, MG.SS rer.Germ.in us.schol. (3 1937) 234 (zur Erhebung Balduins auf den Bremer Erzstuhl; dazu siehe auch oben Reg. 1812 sowie May, Reg.d.Erzbischöfe von Bremen 1, no  576); Ann. Engelbergenses, MG. SS XVII, 279 (zu 1182: Wahl und Krönung Heinrichs VI.); vgl. des weiteren die bei Reg. 1847 genannten Überlieferungen, B.-Baaken Reg. b, und die Zusammenstellung der Quellen bei Schmidt, Königswahl und Thronfolge, 180 f. Anm. 37. — Zum Bamberger Hoftag vom Juni 1169 ist auch eine Urkunde Bischof Eberhards von Bamberg von 1169 — —, — über eine Schenkung Kaiser Lothars III. an die Bamberger Kirche (= DL.III. 25) zu vergleichen, in der erwähnt wird, daß sie coram imperatore Friderico in publica concione  ausgestellt wurde, ed. Oesterreicher, Denkwürdigkeiten der fränkischen Geschichte, 3. Stück (Bamberg 1832), 92 no  10 (Stumpf 4102a).</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>Digitalisat der RI-Buchseite</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

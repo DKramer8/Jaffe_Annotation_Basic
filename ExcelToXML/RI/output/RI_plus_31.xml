@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RIplus Regg. EB Mainz 2 [n. 50]</idno>
+        <idno type="urn"></idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Konrad I. Erstes Pontifikat (1161-1177), RIplus Regg. EB Mainz 2 [n. 50]</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Rom</placeName>
+              <date type="issued" notBefore="1165-12-18" notAfter="1165-12-18">1165 Dez. 18</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>wird von papst Alexander III zum cardinalpriester mit dem titel „Sti Marcelli' und dann zum cardinalbischof von Sabina und Erzbischof von Mainz consecriert.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">-</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Es sei mir gestattet, hier eine bemerkung von Wattenbach in seinem „Schriftwesen des Mittelalters' S. 271 zu wiederholen, wo derselbe sagt, dass er die unterschrift des cardinals Conrad durch eine lange reihe von päpstlichen bullen verfolgte und sich dabei überzeugte, dass alle in verschiedener schrift erscheinen, woraus dann folgt, dass die cardinäle ihre namen nicht eigenhändig unter die bullen setzten. [Nummer im Druck: 49]</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Electus Mogontiensis (Chuonradus) in proximo natale Domini in diebus quatuor temporum, id est in 15 kal. Januarii, consecratus est Romae ab ipso Alexandro papa in presbiterum et archiepiscopum ad Mogontiensem ecclesiam. Annal. Reichersp. in: M. G. SS. XVII, 472; .... Chounradus .... Romam adiit, ibi per aliquot temporis spacium cum Alexandro moratus, ab ipso Sabinensi episcopatui preficitur. Chounradi chron. Schirense. in: M. G. SS. XVII, 621; [Alexander papa] .... postmodum secum Romam usque deduxit [Corradum], dehinc in cardinalem et Sabinensium episcopum promovit, postremo in Maguntinum archiepiscopum sublimavit. Romoaldi Ann. in: M. G. SS. XIX, 433. Sed suscitavit diabolus inter imperatorem et archiepiscopum immortales inimicitias; quia erat adhuc misera ecclesia Maguntinensis amplius castiganda. Causam huius discordiae longum esset enarrare, ideo praetermitto; nam et praesentem materiam non contingit. Dominus itaque Conradus, imperatoris non habens gratiam, exul et profugus fugit, Romam venit, ibique imperatori, quicquid mali poterat, fabricavit. Papa pro quadam causa imperatorem excommunicavit, ortumque est grave schisma inter ecclesiam seu clerum et imperium. In his omnibus dominus Conradus fuit imperatori adversarius capitalis. Christiani Chron. Mog. in: Böhmer, Font. II, 265; Jaffé, Mon. Mog. 692; M. G. SS. XXV, 245; ... ibi [Roma] per aliquot temporis spacium cum Alexandro moratus, ab ipso Sabinensi episcopatui preficitur. De fundat. Schirens. monast. in: Böhmer, Font. III, 509; .... ad Alexandrum papam confugerat, ab eoque cardinalis episcopus Sabinensis ... factus fuerat. Chronik v. Sinsheim. in: Mone, Quellensammlung, I, 207‒208.  ‒ In der rede Konrad's an papst Alexander III zu Venedig i. j. 1177 sagt er: ... „nam primo me in presbyterum Cardinalem, dehinc in Sabinensem episcopum, postremo in Moguntinum aeum consecrastis'. Baronius, Ann. eccl. XIX, ad a. 1177 nr. 73 u. Watterich, Vitae Pontif. Rom. 631. Z. j. 1167. Conradus Moguntinus aeus cum esset fautor Alexandri pape, propter vitandam communionem schismatici papae et imperatoris malam voluntatem relicta Moguntia Sabinam recessit; erat enim Sabinensis episcopus et Romane curie cardinalis. Chron. mont. sereni. in: M. G. SS. XXIII, 753. Vergl. auch oben nr. 41. ‒ In der urk. von 1189 Feb. 10. findet sich unter den datumsangaben: „ordinationis XXIV', was auf d. j. 1165 hinweist. ‒ In der bulle papst Alexander III von 1166 März 18 bei Jaffé, Reg. Pont. nr. 7519 erscheint Konrad zum erstenmale als: „episcopus Sabinensis'.   ‒ Die stellung, die Erzbischof Konrad zur vertheidigung der rechte des bisthums Sabina erhielt, erwähnt papst Innocenz III in einer bulle von 1206 Juni 27. (Potthast, Reg. pont. nr. 2830) und in dem schreiben Papst Innocenz' III an Konrad (1199 Mai 3) sagt derselbe .... „cum non tam Maguntinensis archiepiscopatus quam Sabinensis episcopatus consideratione post Romanum Pontificem maximum ecclesiae Dei membrum existas.' (S. auch Winkelmann, Philipp v. Schwaben. I, 399 und 453 note 1.) Vergl. Reuter, Papst Alexander III. Bd II, 242. ‒</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

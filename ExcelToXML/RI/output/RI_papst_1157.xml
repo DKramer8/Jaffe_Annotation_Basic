@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,5 n. 1006</idno>
+        <idno type="urn">1194-03-08_1_0_4_4_5_1006_1006</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Cölestin III., RI IV,4,4,5 n. 1006</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Rom, Lateran</placeName>
+              <date type="issued" notBefore="1194-03-08" notAfter="1194-03-08">1194 März 8</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Cölestin III. nimmt Abt Matthäus und die Brüder des Klosters S. Lorenzo in Aversa (Mattheo abbati monasterii sancti Laurentii de Aversa eiusque fratribus) auf deren Bitten wie Urban (II.), Alexander (III.) und Lucius (III.) in den päpstlichen Schutz, bestätigt die Benediktinerregel sowie den Besitz, verbietet allen Bischöfen, öffentliche Meßfeiern, Stationsgottesdienste und Prozessionen im Kloster abzuhalten ohne Einwilligung des Abtes und der Brüder, befreit sie vom Zehnten für Neubrüche bei Eigenbau und für Tierfutter, untersagt jedem Bischof, das Kloster und dessen Zellen dem Interdikt zu unterwerfen oder die Mönche zu exkommunizieren, gestattet die freie Wahl des Bischofs für den Empfang von Chrisma, Heiligem Öl, Konsekrationen und Ordinationen, verbietet, ihre Kapläne und Kleriker zu exkommunizieren, zu suspendieren oder zu Synoden zu laden, erlaubt wegen ihrer unmittelbaren Zugehörigkeit zur Römischen Kirche und aus Verehrung für den hl. Laurentius dem Abt und dessen Nachfolgern, die Mitra bei allen Gottesdiensten und den Ring täglich zu tragen, gewährt das Aufnahmerecht, die freie Sepultur sowie die Wahl des Abts gemäß der Regel des hl. Benedikt, der vom Papst benediziert werden soll, und trägt ihnen auf, die regulierte Disziplin zu bewahren.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Effectum iusta postulantibus indulgere et</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Lat. pm. Moysis SRE. subdiaconi Lateranensis canonici 8 id. mar. ind. 12 inc. 1193 pont. a. 3.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zur Überlieferung vgl. Kehr, PUU Salerno S. 210 = Acta Rom. pont. 2 S. 393. Das in der IP verzeichnete Orig. (Neapel, Arch. di Stato, Perg. di curia eccl. vol. 1) ist 1943 verbrannt, vgl. zu den Kriegsschäden Guida generale 3 S. 11. Die Abschrift in der Società Napoletana di storia patria konnte nicht überprüft werden. – Die genannten Urkk. sind die Privilegien Urbans II. von 1092 Mai 7 (JL 5466, IP VIII S. 289 Nr. 1, Analecta iuris pontificii 10/1869 Sp. 529-531) und Alexanders III. von 1173 April 20 (JL 12223, IP VIII S. 292-293 Nr. 14, Kehr, PUU Salerno S. 250-251 = Acta Rom. pont. 2 S. 433-434) sowie Lucius’ III. von 1181 November 29 (Böhmer-Baaken-Schmidt, Papstregesten Lucius’ III. 1 Nr. 39) und von 1183 März 18 (Böhmer-Baaken-Schmidt 1 Nr. 532). Zur Rechtsstellung S. Lorenzos, die auch durch die Verleihung des Rechtes zum Tragen der Mitra angezeigt wird, vgl. Pfaff, Sankt Peters Abteien S. 160 und S. 173. Zur Sache vgl. auch Vetere, Aversa Normanna S. 252f. und Goodich, Canonization Policy S. 311.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Überl.: Kopie 17. Jh., Brescia, Bibl. Queriniana, Ms. A IV 17 fol. 384' (Cornelii Margarini Schedae vol. 1); Kopie 18. Jh., Neapel, Bibl. della Società Napoletana di storia patria, XXVII A 3 fol. 51' (Ms. Capasso, Chartularium sive diplomata summorum pontificum archipraesulum, privilegia imperatorum etc. mon. s. Lauretii de Versa von 1716).  Drucke: Margarini, Bullarium Casinense 2 S. 220-222 Nr. 213; Migne, PL 206 Sp. 1029-1031 Nr. 152 (nach Margarini); Gallo, Codice dipl. Aversa 1 S. 274-276 Nr. 165.  Reg.: JL 17079 (J 10459); IP VIII S. 294 Nr. 20.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

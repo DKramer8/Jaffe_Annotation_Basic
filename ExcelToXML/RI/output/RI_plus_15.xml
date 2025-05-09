@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RIplus Regg. EB Mainz 1 [n. 2030]</idno>
+        <idno type="urn"></idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Arnold (1153-1160), RIplus Regg. EB Mainz 1 [n. 2030]</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Pavia</placeName>
+              <date type="issued" notBefore="1160-02-01" notAfter="1160-02-28">1160 Feb. 5 bis 13</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Aftersynode, welche sich in dem schisma zwischen dem kaiserlichen Papst Victor IV [Octavian] und dem von den Römern gewählten Alexander III [Roland] zu gunsten des ersteren entschied, während auch der letztere seine fürsprecher hatte. Arnold gehörte zur partei der Victoriner und unterzeichnete nach dem patriarchen von Aquileja das synodaldecret. (Ego Arnaldus aeus Mog. cum 14 suffraganeis interfui et consensi. MGH LL 2, 486.) ‒ Kaiser Friedrich eröffnete die versammlung, deren competenz vielen zweifelhaft schien. Allein vorzugsweise die deutschen Bischöfe erklärten sich gegen eine verschiebung der verhandlungen. 'Peregrinus Aquilegensis patriarcha, Arnoldus Moguntinus archiepiscopus, Renaldus Coloniensis archiepiscopus et alii episcopi surgentes dicunt: Quia Rolandus vocationem imperatoris et judicium ecclesiae spernit, spernatur et ipse; et quia Octavianus se humiliavit, et eorum judicio se obtulit, verum esse papam et katholicum iudicio ecclesiae Dei referunt etc. Vincentii Prag.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">-</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>[Inhalt des Sachkommentars. Bibliographische Referenzen werden als &lt;bibl&gt;Bibliographische Angabe&lt;/bibl&gt; getagged.]</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Ann. in: MGH SS 17, 679. u. Tauschinsky u. Pangerl, in: Font. Rer. Austr. Abth. I, Bd V, 130. ‒ In dem briefe des Propstes Heinrich von Berchtesgaden an den Erzbischof Eberhard v. Salzburg heisst es; .... Interfuerunt his omnibus metropolitani, domnus patriarcha, Moguntinus ..... quorum plurimi affectuosum et plenarium praedictae confirmationi tribuerunt assensum. MGH LL 2, 488. ‒ Die das päpstliche schisma betreffenden vorgänge erwähnt die Vita Arnoldi nur oberflächlich, dagegen berichtet sie ausführlich über die massregeln zur sühne der von den Mainzern gegen den Erzbischof verübten frevel. Während des concils löste Arnold die als geiseln zurückbehaltenen gegner von der excommunication. Die cleriker wurden zum 'hundetragen' ('harnschare') von St. Peter bis St. Alban verurtheilt; die vornehmsten der Ministerialen sollten die stadt meiden bis ihnen der Erzbischof die rückkehr gebiete; die Bürger aber sollten nach abbüssuug ihrer strafe die wohnung des Bischofs und dessen utensilien in den früheren oder einen noch besseren stand versetzen. Diese vor dem Kaiser und den fürsten gefassten und durch ein kaiserliches privileg bekräftigten beschlüsse wurden den Mainzern durch gesandte des kaisers mitgetheilt. -Ueber die stellung, welche Arnold auf dem concil eingenommen, und über seine thätigkeit während desselben berichtet die Vita Arnoldi im allgemeinen: 'Quanta autem auctori tatis dignitate inter alios catholicos patres in conspectu totius concilii effulserit; qualia quoque de christiane religionis unitate referenda contra divisionis impiissimum scisma more declamatorio et quam profunda disputarit; quomodo et universam ecclesiam in verbo exhortationis ad emulationem indivise armaverit unitatis et paternarum traditionum; quantum pro pacis bono, quantum ad reformandam concordiam inter regnum et sacerdotium desudaverit; et quantum Maguntinam ecclesiam profunditate sapientie, discipline gestusque sui reverentia, vocis totiusque persone dignitate in oculis omnium magnificaverit, ita ut recte id in ipsum regine Austri concreparent eulogium: 'Maior est sapientia tua quam rumor, quem audivi;' et quomodo omnem Theutonicum clerum in articulo diei illius sue virtutis fulgore nobilitarit; nulla temporis mobilitate a bonorum mentibus debet excidere. Vita Arnoldi. in: Böhmer, Fontes III. 300, u. Jaffé, Mon. Mog., III, 644. -Vergl. namentlich Reuter, G. Alexander's III. (2 Ausg.) Bd I, 111‒121 und 502 bis 516; Hefele-Hergenröther, Conc. G. V, 509‒523; Schmidt, Stellung d. Erzb. v. Salzburg zu Kirche u. Reich u. s. w. in: Archiv f. österr. G. XXXIV, 18 flgde; Prutz, K. Friedrich I. Bd I, 238 flgde u. 335 u. 336; Lehmann, De Annal. Col. max. 38. note 6; Baumbach, Arnold v. Selehofen. 78. [Nummer im Druck: 94]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>Druck in MGH LL</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

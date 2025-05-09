@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RIplus URH 1 n. 382</idno>
+        <idno type="urn">1162-09-07_1_0_20_10_1_382_382</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Friedrich I., RIplus URH 1 n. 382</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Saint-Jean-de-Losne</placeName>
+              <date type="issued" notBefore="1162-09-07" notAfter="1162-09-07">(1162) September 7</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness">(Huius autem nostre constitutionis et confirmationis testes sunt quam plurimi principes imperii): Die Ebff. Konrad von Mainz, Rainald von Köln, Patriarch Ulrich von Aquileia, die Ebff. Hillin von Trier, Wichmann von Magdeburg, Primas und Ebf. Heraclius von Lyon, die Ebff. Stephan von Vienne, Walter von Besançon, Hartwig von Bremen, Wilhelm von Embrun und Guido von Ravenna, die Bff. Heinrich von Würzburg, Eberhard von Bamberg, Heinrich von Lüttich, Hermann von Verden, Hermann von Konstanz, Konrad von Augsburg, Gottfried von Utrecht, Gero von Halberstadt, Hermann von Hildesheim, Ebergisel von Paderborn, Johannes von Merseburg, Udo von Zeitz, Daniel von Prag, die Bff. von Brandenburg, Havelberg und Osnabrück, Bf. Syrus von Pavia, der Bf. von Cremona, die Bff. Aicard von Parma, Anselm von Asti, die von Vercelli, Novara, von Bergamo und Concordia, die Bff. Garsendonius von Mantua, Heinrich von Como, die Bff. von Grenoble und von Gap, von Viviers und Avignon, die Äbte Hermann von Hersfeld, der von Reichenau, Erlebald von Stablo, der von St. Gallen, Eilulf von Murbach sowie die Äbte von Selz, Weißenburg und Lorsch, Hzg. Heinrich von Bayern und Sachsen, Mgf. Albrecht, Hzg. Friedrich von Schwaben, Lgf. Ludwig, Pfgf. Otto von Wittelsbach und seine Brüder Friedrich und Otto, Mgf. Otto von Meißen, Mgf. Dietrich, Gf. Dedo, Hzg. Diepold von Böhmen, Pfgf. Albrecht von Sommerschenburg, die Hzgg. Hermann von Kärnten und Gottfried von Löwen, die Gff. Ludwig von Loon, Gottfried von Duras, Albrecht und Konrad, Mgf. Wilhelm von Montferrat, Mgf. Opizo von Malaspina und seine Brüder, Gf. Guido von Biandrate und andere mehr.</legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Ks. Friedrich I. an den Klerus von Genf sowie die Bewohner, Ritter, Burgleute, Bürger und übrigen geringen und hohen Angehörigen des Bt. Genf: Bf. Arducius von Genf kam zu ihm (veniens ad nostre maiestatis presentiam) auf den allgemeinen Hoftag zu Saint-Jean-de-Losne (in generali curia nostra apud Pontem Laonç), wo nahezu alle Reichsfürsten zusammengekommen waren (ubi fere omnes imperii nostri principes convenerant), und legte ihm eine schwere Klage darüber vor (gravem querimoniam nobis exposuit), daß Hzg. Berthold von Zähringen und Gf. Amadeus von Genf gewaltsam in seine Diözese eingedrungen seien und ihm widerrechtlich alle Regalien weggenommen hätten.  Da er nachdrücklich sein Recht vom Ks. verlangte (instante et iusticiam perpensius a nobis postulante), fragte dieser Bf. Heinrich von Würzburg um ein Urteil darüber (iudicium quesivimus), ob das Zugeständnis, das der Ks. dem Hzg. bezüglich der Regalien der Genfer Kirche gemacht hatte, bestehen bleiben dürfe.  Der Bf. von Würzburg beriet sich mit den geistlichen und weltlichen Fürsten (communicato cum archiepiscopis et episcopis ceterisque principibus consilio) und verkündete mit allgemeiner Zustimmung in Gegenwart des Ks. das Urteil (sententiam cum laudamento et assensu communi in presentia nostra protulit): Nachdem der Bf. einmal die Investitur erhalten habe, dürfe sie nicht auf jemand anderen übergehen; die Übertragung an den Hzg. könne daher nicht aufrechterhalten werden. Dies wurde nach Befragen durch den Ks. von allen bestätigt (Quod iuxta nostram inquisitionem ab omnibus approbatum est).  Daher hebt der Ks. dem Urteil entsprechend (ex iudicio) die fragliche Schenkung an den Hzg. vollständig auf und bestätigt die Übergabe an den Bf. und die Genfer Kirche mit der Bestimmung, daß nach dem Ks. niemand außer dem Bf. Herrschaft in der Diözese Genf ausüben darf.  Da der Bf. danach seine Wiedereinsetzung in die Regalien und den Besitz seiner Kirche forderte (postularet), fragte der Ks. Mgf. Albrecht von Sachsen nach seinem Urteil bezüglich der Wiedereinsetzung (requisitus a nobis de iudicio restitutionis), und dieser verkündete mit Zustimmung aller Fürsten das zweite Urteil (secundam sententiam assentientibus universis principibus in medium promulgavit): Der Bf. sei durch ksl. Auftrag (per mandatum nostrum) in die Regalien und den Besitz der Kirche wieder in vollem Umfang einzusetzen; der Hzg. und der Gf. von Genf seien durch ksl. Befehl zu zwingen (nostra preceptione essent cohercendi), sich künftig in keiner Weise in diese Dinge einzumischen und alles Weggenommene zu ersetzen.  Nach Abschluß der ordentlichen Gerichtsverhandlung (hoc ordine iudiciario rite completo) befahl daher der Ks. (edicto imperiali precepimus) dem Hzg. und dem Gf., innerhalb einer angemessenen Frist alles zurückzuerstatten und von weiteren Belästigungen des Bf. und seiner Kirche abzusehen. Da nun alles ordnungsgemäß zu Ende gebracht ist, gibt der Ks. der Kirche und dem Volk von Genf ihren Bf. Arducius huldreich und in seiner vollen Amtswürde zurück (remittimus) und befiehlt ihnen bei Huldverlust (mandantes ... et sub optentu gratiç nostrç firmiter precipientes), ihn als ihren Herrn und Bf. zu empfangen und ihm künftig die schuldige Ehrerbietung und Dienste zu leisten. Zusätzlich befiehlt und ordnet er an (iubemus, et nostra pragmatica constitutione sanccimus), daß niemand den Bf. künftig in seinen Regalien beeinträchtige.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Act. a.d.i. 1162, ind. 10, a.r. 10, a.i. 7; dat. in archiepiscopatu Bysuntino apud Pontem Laonç super Saónam, 7 id. sept.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Vgl. Nr. 383.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Ü: A StA Genf, P. h. Nr. 17.  B1 ASt Turin, Genf Abt. I Paket 2 Nr. 5 (Vidimus des Bernhard von Arvière von 1289 Nov. 22).  B2 ASt Turin, Genf Abt. I Paket 3 Nr. 1 (Registrum eccl. Gebenn.; ca. 1306) Bl. 1.  B3 StA Genf, Ms. h. Nr. 62 (Livre des Franchises; Vidimus des Offizials von Genf Wilhelm von Châtillon, beglaubigt von den Notaren Gérard Reboulli, Jean Guillient und Girard de Bolo 1409 Jan. 9) Bl. 27v.  B4 ASt Turin, Genf Abt. I Paket 3 Nr. 5 (Vidimus des Offizials von Genf Amblard (Goyet), beglaubigt 1510 Nov. 16).  B5 StA Genf, P. h. Nr. 17 (Vidimus des Offizials von Genf, beglaubigt durch die Notare André Viennois und Jaques Profenat 1523 März 2).  D: MGH DD 10,2 S. 257ff. Nr. 388. (A;B1). Fontes rer. Bern. 1 S. 446ff. Nr. 49. (A). Rivoire/van Berchem, Les sources du droit du Canton du Genève 1 S. 16ff. Nr. 11. (A;B1–5).  R: Stumpf Nr. 3968.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>Druck in MGH DD</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

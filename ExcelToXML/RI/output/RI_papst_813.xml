@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,4 n. 177</idno>
+        <idno type="urn">1188-04-01_3_0_4_4_4_177_177</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Clemens III., RI IV,4,4,4 n. 177</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Rom, Lateran</placeName>
+              <date type="issued" notBefore="1188-04-01" notAfter="1188-04-01">(1188) April 1</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Clemens III. nimmt Abt Hugo von Prémontré (D. Laon) und dessen Brüder (abbati Hugoni Premonstratensis ecclesie eiusque fratribus) auf deren Bitten wie Hadrian (IV.), Alexander (III.) und Urban (III.) in den päpstlichen Schutz, bestätigt genannte Besitzungen sowie ihre Immunitäten und Freiheiten, untersagt allen kirchlichen Prälaten, ohne ausdrückliches päpstliches Mandat das Interdikt über sie zu verhängen, erlaubt Gottesdienst bei allgemeinem Interdikt, gestattet dem Abt bei der Visitation der Stifte seines Ordens deren Brüdern die Beichte abzunehmen, ihnen Strafen aufzuerlegen und die Absolution zu erteilen, erlaubt, in Abwesenheit des Bischofs Weihen und Konsekrationen vorzunehmen, gestattet, falls der zuständige Bischof nicht innerhalb von 40 Tagen nach Aufforderung gegen ihre Schädiger vorgeht, diese selbst zusammen mit den anderen Äbten des Prämonstratenserordens zu exkommuni-zieren, und verbietet den Bischöfen, diese ohne vorherige Genugtuung zu absolvieren, erlaubt, aus dem Orden Ausgetretene oder Ausgeschlossene nach entsprechender Strafe wieder aufzunehmen, es sei denn, die Schwere ihrer Vergehen erfordere ihren endgültigen Ausschluß, befreit sie vom Zehnten für Neubrüche bei Eigenbau und für Tierfutter vorbehaltlich der Abgaben an die Grundherren, gewährt das Präsentationsrecht, verbietet die Vergabe ihrer Kirchen, Ländereien und kirchlichen Benefizien ohne Zustimmung des Kapitels und schließt, wenn derartiges dennoch geschieht, die Haftung aus, untersagt die Leistung von Bürgschaften durch die Kanoniker und Konversen ohne Zustimmung von Abt und Kapitel sowie die nicht vom Kapitel genehmigte Kreditaufnahme außer bei offensichtlichem Nutzen und entbindet den Konvent von der Haftung, wenn solche Geschäfte ohne ihn getätigt werden.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Religiosam vitam eligentibus apostolicum convenit</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Lat. kal. apr. ind. 6 inc. 1188 pont. a. 1 (sic).</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zur Überlieferung vgl. Meinert, PUU Frankreich 1, S. 75, Ramackers, PUU Niederlande S. 19, S. 35 und S. 40, Ramackers, PUU Frankreich 2, S. 28 und S. 45 sowie Ramackers, PUU Frankreich 4, S. 29 und S. 38. Die Überlieferungen in Soissons, Gent und Parc konnten nicht überprüft werden. Nach freundlicher Auskunft der Bibliothek in Lüttich ist unter der von Ramackers, PUU Niederlande angegebenen Signatur kein Chartular zu finden. – Die genannten VUU sind die Privilegien Hadrians IV. von 1155 Januar 3 (JL 9970, Migne, PL, 188 Sp. 1373-1375 Nr. 9), Alexanders III. von 1177 April 27 (JL 12813, Migne, PL, 200 Sp. 1105-1108 Nr. 1278) und Urbans III. von 1187 Juni 30 (Böhmer-Schmidt, Papstregesten Urban III., Nr. 864). Zu der im Chart. von Prémontré in Soissons überlieferten Besitzliste, die in den Drucken fehlt, vgl. Lohrmann, Wirtschaftshöfe S. 213 Anm. 46 und S. 220. Verzeichnet sind die Besitzungen bei Lohrmann, Kirchengut S. 216-221 und in der Karte bei Lohrmann, Wirtschaftshöfe S. 220.      Verbesserungen und Zusätze (2018):  Zur Sache vgl. jetzt Cygler, Generalkapitel S. 150.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Kopie 13. Jh., Verdun, Bibl. mun., Ms. 751 p. 6-6' (Chart. von St-Paul in Verdun, Stein, Bibliographie Nr. 4060, Répertoire des microfilms S. 204 Nr. 38504); Kopie 13. Jh., Soissons, Bibl. mun., Ms. 7 fol. 11' (Chart. von Prémontré, Stein, Bibliographie Nr. 3087); Kopie 13. Jh., Paris, Bibl. nat., Ms. lat. 4394 fol. 83'; Kopie 14. Jh., Gent, Rijksarch., Drongen, Register 118 fol. 33'; Kopie 14. Jh., Gent, Rijksarch., Drongen, Register 119 fol. 8'; Kopie 15. Jh., Lüttich, Bibl. séminaire, G IV 7 fol. 19' (Chart. von Beaurepart) (vgl. aber den Kommentar); Kopie 15./16. Jh., Parc, Arch. van de Abdij, VII 35 fol. 27'; Kopie 15./16. Jh., Averbode, Arch. van de Abdij, IV Nr. 109 fol. 9.   Drucke: LePaige, Bibliotheca Praemonstratensis pars 2 lib. 3 S. 641-643 Nr. 25 (ohne Unterschriften); Migne, PL, 204 Sp. 1333-1334 Nr. 43 (ohne Unterschriften nach LePaige).   Reg.: JL 16188 (J 10063).                        </bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

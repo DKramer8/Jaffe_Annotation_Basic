@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,2,2 n. 1659</idno>
+        <idno type="urn">1167-05-00_1_0_4_2_2_1103_1659</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Friedrich I., RI IV,2,2 n. 1659</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>vor Ancona</placeName>
+              <date type="issued" notBefore="1167-05-01" notAfter="1167-05-31">1167 (Mai)</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Friedrich belagert mit seinen Truppen, darunter namentlich Lombarden, Tusziern, Bayern, den Bischöfen (Eberhard) von Regensburg, Daniel von Prag, Hermann von Verden und dessen Kapellan Hugo sowie Herzog Friedrich von Rothenburg, das in geschützter Lage am Meer gelegene, wohlbefestigte Ancona, das vom griechischen Kaiser durch Geld vom Reich abgebracht worden ist (Boso), fast drei Wochen lang. Ein Angebot, Tribut und 15 Geiseln zu stellen, wird zunächst nicht akzeptiert, vielmehr werden noch Belagerungsmaschinen hergestellt; vielleicht kommt es auch zu Angriffen vom Meer her (Ann. Laubienses).</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">-</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Vgl. dazu zuletzt ausführlich Leonhard, Die Seestadt Ancona im Spätmittelalter, 66 ff., der als Anlaß der Belagerung die Einforderung des fodrum  vermutet, aber auch auf den bei Boso ausdrücklich genannten Grund der Entfremdung der Stadt aus der Herrschaft des Reiches Bezug nimmt. Ob man die Angabe der Ann. Laubienses über Angriffe vom Meer her (navali prelio) wirklich als 'Konstruktion' abwerten darf (Leonhard, a. a. O., 70 mit Anm. 418 mit irrigem Zitat Giesebrechts), muß wohl dahingestellt bleiben.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Cont. Anonymi (Morena), ed. Güterbock, MG. SS rer. Germ. N. S. VII, 183, Ann. Ianuenses I, ed. Belgrano, Fonti per la storia d'Italia 11, 203, Vinzenz von Prag, MG. SS XVII, 683; vgl. des weiteren Helmold von Bosau l. II cap. 106, ed. Schmeidler, MG. SS rer. Germ. in us. schol. (3 1937) 207 f. (irrig: Einnahme von Genua !), Otto von St. Blasien cap. 20, ed. Hofmeister, MG. SS rer. Germ. in us. schol., 22 f. (irrige Angaben über die angebliche Entsendung Christians von Mainz, vgl. dazu schon oben Reg. 1638) sowie Ann. Casinenses, MG. SS XIX, 312, Ann. Laubienses, MG. SS IV, 24, Boso, ed. Duchesne, 414, Chron. Fuldensis, ed. Heinemeyer, AfD Beiheft 1 (1976) 72, Rahewini Gesta Frid. Appendix, ed. Waitz - Simson, MG. SS rer. Germ. in us. schol., 349, Romuald von Salerno, ed. Garufi, Rer. Ital. SS N. Ed. VII/1, 255 (Eroberung !) und Tholomeus von Lucca, Annalen, ed. Schmeidler, MG. SS rer. Germ. N. S. VIII, 67 (7 Monate Belagerung, vielleicht Verwechslung mit den Ereignissen von 1173); nur als Ort des kaiserlichen Itinerars genannt in Ann. Plac. Gib., MG. SS XVIII, 462, Cron. s. Petri Erf. mod., ed. Holder-Egger, MG. SS rer. Germ. in us. schol., 183 und Ioh. Cod. Ann., ed. Holder-Egger, MG. SS rer. Germ. in us. schol., 7 f.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>Digitalisat der RI-Buchseite</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

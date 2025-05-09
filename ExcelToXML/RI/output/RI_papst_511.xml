@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,3 n. 149</idno>
+        <idno type="urn">1186-05-12_1_0_4_4_3_149_149</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Urban III., RI IV,4,4,3 n. 149</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Verona</placeName>
+              <date type="issued" notBefore="1186-05-12" notAfter="1186-05-12">1186 Mai 12</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Urban III. nimmt Abt Tertius und die Brüder von Vallombrosa (Tertio abbati Vallumbrosano eiusque fratribus) (D. Fiesole) auf deren Bitten wie Paschal (II.), Hadrian (IV.), Alexander (III.) und Lucius (III.) in den päpstlichen Schutz, bestätigt die Benediktinerregel, den genannten Besitz sowie die Freiheiten und Immunitäten, die ihnen von seinen Vorgängern Viktor (II.), Gregor VII., Urban II., Paschal (II.), Innocenz (II.), Eugen (III.), Alexander (III.) und Lucius (III.) gewährt wurden, befreit sie vom Zehnten bei Eigenbau, gewährt das Aufnahmerecht, verbietet die Verlegung des Klosters ohne Zustimmung des Abts und der Kongregation, untersagt den Bischöfen, über sie die Exkommunikation oder das Interdikt zu verhängen, befreit sie von jeder Gerichtsbarkeit außer der des Apostolischen Stuhls, setzt die Unterwerfung der Klöster fest, die als ihr Besitz genannt werden, gewährt die Wahl des Abts und bekräftigt, daß sie die Nachfolger verstorbener Äbte einsetzen dürfen, wenn einer dieser Äbte zum Abt von Vallombrosa gewählt wird, gewährt die freie Sepultur und erlaubt, für den Empfang von Chrisma, Heiligem Öl, Konsekrationen und Ordinationen den Bischof frei zu wählen.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Religiosam vitam eligentibus apostolicum convenit</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Verone pm. Alberti SRE. presb. card. et cancellarii 4 id. maii ind. 4 inc. 1186 pont. a. 1.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zur älteren Überlieferung von Vallombrosa vgl. IP III S. 86 Sigle C und C1 sowie Volpini, Additiones Kehrianae, S. 319f. – Die genannten Urkk. sind die Privilegien bzw. Indulgenzen Viktors II. von 1056 (Dep., JL 4346, IP III S. 87-88 Nr. *1), Gregors VII. von 1073 (JL 4814, IP III S. 88 Nr. 3, Migne, PL, 146 Sp. 735-736 Nr. 97), Urbans II. von 1090 April 6 (JL 5433, IP III S. 88-89 Nr. 6, Migne, PL, 151 Sp. 322-324 Nr. 39), Paschals II. von 1115 Februar 9 (JL 6447 [zu 1115Februar 8], IP III S. 89-90 Nr. 10, Migne, PL, 163 Sp. 372-374 Nr. 420), Innocenz' II. von 1130 (JL 7414, IP III S. 90 Nr. 12, Migne, PL, 179 Sp. 57-58 Nr. 6), Eugens III. von 1147 Februar 7 (JL 9003, IP III S. 92 Nr. 17, Soldani, Passiniano S. 286-288), Hadrians IV. von 1156 Dezember 5 (JL – , IP III S. 92 Nr. 19, Kehr, PUU röm. Bibl. I S. 32-34 = Acta Rom. pont. 4 S. 32-34), Alexanders III. von 1176 April 20 (JL 12695, IP III S. 93 Nr. 26, Migne, PL, 200 Sp. 1067-1069 Nr. 2239 [irrig statt 1239]) und Lucius' III. von (1183 September 7-1184 März 23) (Dep., Böhmer-Baaken-Schmidt, Papstregesten Lucius' III. 1 , Nr. 1011). Vgl. hierzu auch das Privileg Urbans III. von 1186 Juni 26 (Reg. 199).</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Kopie 14. Jh., Florenz, Arch. di Stato, Corporazioni religiose soppresse dal governo francese, 260/126 fol. 13'-14.   Drucke: Nardi, Bullarium S. 60-64; Lami, Ecclesiae Florentinae Monumenta 1 S. 548-550; Tola, Codex diplomaticus Sardiniae 1 S. 255 Nr. 115 (Teildruck nach Lami); Migne, PL, 202 Sp. 1389-1391 Nr. 36 (nach Lami).   Reg.: JL 15604 (J 9819); IP III S. 94 Nr. 29.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

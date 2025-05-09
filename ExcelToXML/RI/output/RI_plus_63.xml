@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RIplus Regg. EB Mainz 2 [n. 87]</idno>
+        <idno type="urn"></idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Konrad I. Erstes Pontifikat (1161-1177), RIplus Regg. EB Mainz 2 [n. 87]</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Venedig</placeName>
+              <date type="issued" notBefore="1177-08-01" notAfter="1177-08-01">1177 Aug. 1</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>anwesend auf dem friedenscongress daselbst (von Benedictus Petroburg. Gesta regis Henrici II ed. Stubbs I, 183 wird Conradus episcopus Saviae, cardinalis, unter den anhängern des papstes, welche am concil theil nahmen, an vierter stelle genannt) erinnert er auf die nachricht hin, dass Christian den erzbischöflichen stuhl von Mainz behalten werde, den papst Alexander III an die ihm bewiesene treue, an seine verdienste um die kirche mit folgenden worten: „Novit Vestra Sanctitas, venerande Pater, novit universa Romana ecclesia, quod ego vestrae personae intuitu, Moguntinam Ecclesiam, in qua canonice electus fueram, inscio Imperatore, reliqui et honorem meum, parentes et patriam pro Dei amore, deserui, et ad vos in Franciam festinus accessi, exilium patriae praeposui, et in labores et augustias quietem meam et otium commutavi. Bene potestis recolere, quantum Catholicae Ecclesiae meus adventus contulerit, et qualiter partem vestram adhuc nutantem et debilem plurimum roboraverit. Vos autem vestri gratia mihi vicem congruam protempore rependistis, nam primo me Cardinalem, dehinc in Sabinensem Episcopum, postremo in Moguntinum Archiepiscopum consecrastis nunc autem (ut audio) vultis Christiano Cancellario, qui Moguntinam Ecclesiam per violentiam invaserat, eandem converso religionis ordine confirmare. Quod multum ab aequitate discrepat et a ratione discordat, ut Schismaticus Catholico et intrusus canonice electo debeat anteponi. Rogo igitur et humiliter postulo, ut postquam deus pacem Ecclesiae suae reddidit, mihi quoque de iure mea reddatur Ecclesia ut, sicut fui socius tribulationis, item sim particeps consolationis et gaudii.' ‒ Der papst erwiderte ihm, dass er ihn weder habe kränken, noch ihm ein unrecht zufügen wollen und erinnert ihn daran, dass er [der Erzbischof] sich wiederholt bereit erklärt habe, auf den mainzer stuhl zu verzichten, wenn der friede inter ecclesiam et imperium auf keine andere weise hergestellt werden könne. Der Kaiser verlange aber mit nachdruck, dass sein kanzler Christian den mainzer stuhl behalten müsse, wenn zwischen ihm und der kirche frieden bestehen solle. (Et ecce imperator, cum magna instantia asseverat, quod nullatenus in pace ecclesiae remanebit, si Christianus cancellarius a Maguntinae sedis fuerit praelatione deiectus.). Konrad bat sich nun einige bedenkzeit aus, um sich mit seinen freunden zu berathen. Nachdem dies geschehen, gab er die erklärung ab: „Licet, reverende Pater, mihi iniuriosum sit pariter et molestum, ut Ecclesiam meam debeam sine culpa dimittere et locum mei regiminis, nulla offensa interveniente, multare, tamen, quia ad meum spectat officium, non, quae me, sed quae Jesu Christi sunt, quaerere nolo ut occasione mei pax inter vos et imperatorem facta remaneat, et discordia sepulta resurgat. Pro pace Ecclesiae conservanda, pro qua Christus vitam suam perdidit, libenter volo meum honorem perdere et cum meo damno utilitati Ecclesiae providere. Et idcirco, ut omnis materia discordiae et scandali auferatur e medio, Moguntinum Archiepiscopatum in potestate vestra sponte relinquo et me liberalitati vestrae et patrocinio recommendo.' Romoaldi Annales. in: M. G. SS. XIX, 454; Baronius, Ann. eccl. ad a. 1177; Meiller, Mirac. mundi seu S. Otto. 309; Watterich, Vitae Pontif. II, 631 flgde. (May), Erzbischof Conrad I von Mainz. 201 flgde. Buchinger, Herzog Otto d. Gr. in Bayern. in: Abhandlungen d. Bayer. Akad. Histor. Cl. V, Abth. III, 72 flgde. ‒ Vergl. unten bei Erzbischof Christian I. nr. 155; Reuter, Papst Alexander III. Bd III, 312 flgde. Varrentrapp, Christian I v. Mainz. 89; Will, Konrad v. Wittelsbach. 35 flgde. [Nummer im Druck: 86]</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">-</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>[Inhalt des Sachkommentars. Bibliographische Referenzen werden als &lt;bibl&gt;Bibliographische Angabe&lt;/bibl&gt; getagged.]</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>[Weitere Referenzen als listBibl]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,1 n. 65</idno>
+        <idno type="urn">1181-12-29_1_0_4_4_1_65_65</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Lucius III., RI IV,4,4,1 n. 65</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Rom, Lateran</placeName>
+              <date type="issued" notBefore="1181-12-29" notAfter="1181-12-29">1181 Dezember 29</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Lucius III. nimmt Äbtissin Capitinigro des Klosters S. Ellero in Alfiano in der Diözese Fiesole und ihre Schwestern (Capitinigro abbatisse monasterii sancti Hilarii in episcopatu Fesulano siti eiusque sororibus) auf deren Bitten wie Alexander (II.), Cölestin (II.), Eugen (III.) und Hadrian (IV.) in seinen Schutz, bestätigt den genannten Besitz, befreit sie vom Zehnten für Neubrüche bei Eigenbau und für Tierfutter, gewährt das Aufnahmerecht für Frauen, erlaubt die Feier des Gottesdienstes bei Interdikt, gewährt das Präsentationsrecht, bestätigt wie Hadrian (IV.) den dauernden Verbleib der Nonnen, untersagt neue Abgaben, bestätigt das Taufrecht sowie das Recht der Äbtissin, mit Zustimmung des Konvents das Amt des Vizegrafen zu besetzen und zu entziehen, bekräftigt den freien Empfang von Chrisma, Heiligem Öl, Konsekrationen und Ordinationen durch den Diözesanbischof und gestattet die freie Sepultur sowie die Wahl der Äbtissin.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Prudentibus virginibus que sub habitu</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Lat. pm. Alberti SRE. presb. card. et cancellarii 4 kal. ian. ind. 15 inc. 1181 pont. a. 1.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Eine Urk. Alexanders II., in der er S. Ellero in den päpstlichen Schutz nimmt, ist IP III S. 82 nicht nachgewiesen; das Dep. Alexanders, das als Nr. *2 verzeichnet ist, wird entgegen der dortigen Angabe in dieser Urk. Lucius' III. nicht erwähnt; die Urk. Hadrians IV. ist verloren (IP III S. 82 Nr. *5); die beiden anderen sind die Privilegien Cölestins II. von 1144 Februar 8 (JL 8489, IP III S. 82 Nr. 3) und Eugens III. von 1148 November 15 (JL 9304, IP III S. 82 Nr. 4). Zu der älteren Überlieferung von Vallombrosa IP III S. 86 Sigle C und C1 vgl. Volpini, Additiones Kehrianae 2 S. 319 ff. und S. 323 ff; dort und S. 328 f. auch zu ihrer Neubewertung. – Pfaff, Sieben Jahre S. 183 Nr. 15 übernimmt die unvollständige Liste der Kardinalsunterschriften von Migne.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Überl.: Orig., Florenz, Arch. di Stato, Diplomatico, Lunghe, 1181 (Vallombrosa); Kopie 14. Jh., Florenz, Arch. di Stato, Corporazioni religiose soppresse 260 Nr. 6 fol. 10'-11 (Liber privilegiorum von 1322). Drucke: Lami, Deliciae eruditorum 3 S. 220-224; Lami, Ecclesiae Florentinae Monumenta 1 S. 202-203; Soldani, Passiniano S. 129-130; Migne, PL 201 Sp. 1083-1085 Nr. 10 (mit unvollständigen Unterschriften). Reg.: JL 14542 (J 9428); IP III S. 83 Nr. 6.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

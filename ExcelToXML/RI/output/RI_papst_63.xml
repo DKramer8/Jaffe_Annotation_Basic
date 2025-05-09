@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,1 n. 222</idno>
+        <idno type="urn">1182-05-10_1_0_4_4_1_222_222</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Lucius III., RI IV,4,4,1 n. 222</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Velletri</placeName>
+              <date type="issued" notBefore="1182-05-10" notAfter="1182-05-10">1182 Mai 10</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Lucius III. nimmt Dekan Friedrich und die Brüder des Kapitels von Passau (Friderico decano Pataviensi eiusque fratribus) auf deren Bitten wie Alexander (III.) in den päpstlichen Schutz, bestätigt genannten Besitz und die Schenkungen genannter Personen, verbietet die Vergabe und Entfremdung von Besitz durch den Bischof ohne Zustimmung des Kapitels und erklärt solcherart erfolgte Vergabungen für ungültig; verbietet gemäß ihrer Gewohnheiten, Leute des Klosters vor das Gericht städtischer Richter zu ziehen, untersagt, Unterkünfte der Kanoniker entgegen den Bestimmungen des Bischofs Konrad von Passau (Chunradi quondam Pataviensis episcopi) zu verlegen, setzt fest, daß über die Einkünfte der Kanoniker nur mit Zustimmung des Kapitels verfügt werden darf, und bestimmt, daß das Vermögen intestierter Kanoniker zum Nutzen des Kapitels verwendet werden soll.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Effectum iusta postulantibus indulgere et</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Velletri pm. Alberti SRE. presb. card. et cancellarii 6 id. maii ind. 15 inc. 1182 pont. a. 1.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Auffällig ist, daß Kardinalpriester Petrus von S. Susanna entgegen der üblichen Reihenfolge als letzter Kardinalpriester unterschreibt. Die genannte VU Alexanders III. ist dessen Privileg von 1179 April 10 (JL 13377, GP I S. 175 Nr. 1). Zur angeführten Urk. Bischof Konrads von Passau vgl. Boshof, Regesten Passau 1 S. 221-222 Nr. 719. Zur Sache vgl. Buchinger, Geschichte des Fürstenthums Passau 1 S. 163-166, Schrödl, Passavia sacra S. 172, Gengler, Beiträge zur bayerischen Rechtsgeschichte 1 S. 186 f. und Zurstrassen, Passauer Bischöfe S. 132.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Überl.: Kopie 15. Jh., München, Bayerisches HStArch., Hst. Passau Urk. 1304 (Transsumpt von 1417 Juli 15); Kopie 15. Jh., München, Bayerisches HStArch., HL Passau 3 fol. 117'-118' (Copiarum ecclesiae Pataviensis, Lonsdorfer Codex). Drucke: Hund/Gewold, Metropolis Salisburgensis 1, ed. München 1620 S. 375-376, ed. Regensburg 1719 S. 249-250; Lünig, Spicilegium ecclesiasticum 3 S. 777-778 Nr. 29; Hansiz, Germania sacra 1 S. 332-334; UB des Landes ob der Enns 2 S. 374-377 Nr. 258. Reg.: JL 14638 (J 9481); Monumenta Boica 29,2 S. 328 Nr. 6; Meiller, Regesten Salzburg S. 140 Nr. 53; GP I S. 175 Nr. 2.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

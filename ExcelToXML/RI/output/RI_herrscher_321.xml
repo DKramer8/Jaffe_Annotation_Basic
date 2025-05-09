@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,2,3 n. 2100</idno>
+        <idno type="urn">1174-09-05_1_0_4_2_3_327_2100</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Friedrich I., RI IV,2,3 n. 2100</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>[Ausstellungsort]</placeName>
+              <date type="issued" notBefore="1174-09-05" notAfter="1174-09-05">1174  um September 5 bzw. bald danach</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Friedrich, der ein großes Heer aus Deutschen, Böhmen — Herzog Soběslav entsendet seinen Bruder Ulrich mit Truppen- und Brabanzonen aus Flandern und den umliegenden Gebieten zusammengestellt hat, tritt auf Betreiben der Pavesen und des Markgrafen (Wilhelm) von Montferrat seinen fünften Heerzug nach Italien an. Um diese Zeit verbünden sich alle Städte der Lombardei und der Marken, die finanzielle Unterstützung von Venedig erhalten haben, durch Eid gegen ihn. Auch Erzbischof Arnold von Trier zieht mit einem starken Heer zum Kaiser nach Italien, wobei er die Kosten dafür selbst aufbringt und nicht zuläßt, daß der Kaiser dafür Abgaben bei den Kirchen und Bürgern des Erzstiftes eintreibt.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">[Lorem ipsum dolor sit amet]</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">-</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Die zeitliche Einordnung nach den Regensburger Annalen stimmt mit dem Aufenthalt des Kaisers in Basel, der bis zum 2. September bezeugt ist (vgl. Reg. 2097), überein. — Arnold von Trier wird sowohl in DF.I. 629 vom 1. 9. 1174 in Basel (Reg. 2096) wie auch im DF.I. 633 vom 19. 12. 1174 im Lager bei Roboreto (Reg. 2111) als Zeuge genannt. — Die böhmischen Truppen Herzog Ulrichs von Mähren, des Bruders des Herzogs von Böhmen, sollen nach Ioannes Dlugossius auf ihrem Weg nach dem Süden Ulm geplündert haben und um den 15. September (sub octavis Nativitatis Sancte Marie Virginis) von den Ulmer oppidani  vertrieben worden sein, worauf Ulrich nach Böhmen geflüchtet sei; letzteres trifft allerdings nicht zu (vgl. Regg. 2101  und 2111  [Ulrich unter den Zeugen genannt]). — Zu dem Versuch des Kaisers, Gelder für den Italienzug auch bei Städten aufzubringen, vgl. auch den kaiserlichen Befehl an die Stadt Cambrai, Reg. 2093. — Zu den Teilnehmern am 5. Italienzug des Staufers vgl. jetzt Stöckel, Heerfahrtspraxis der frühen Stauferzeit Teil 1 (Diss. Berlin 1993), 302 ff.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Ann. Ratisponenses, MG. SS XVII, 589 (5.9.; 4. Italienzug); Ann. Plac. Gib., MG. SS XVIII, 462; Boso, ed. Duchesne, 427 (rauhes Kriegsvolk aus Flandern und umliegenden Gebieten; 5. Italienzug); Ioh. Cod. Ann., ed. Holder-Egger, MG. SS rer. Germ, in us. schol., 8 f. (September; Deutsche, Böhmen und Brabanzonen); Hist. ducum Venet, MG. SS XIV, 82 (zu 1173; venezianische Unterstützung für die Lombarden); Romuald von Salerno, ed. Garufi, Rer. Ital. SS N. Ed. VII/1, 262 (zu 1173); Ann. s. Disibodi, MG. SS XVII, 30 (um den 8.9.); Ann. Magdeburg., MG. SS XVI, 193 (nach dem 15. 8.); Ann. Mediolanenses minores, MG. SS XVIII, 395 (Oktober; 5. Italienzug); Ann. Pragenses, MG. SS III, 121 (Zug nach Mailand!); Ann. Welfici Weingart., ed. König (Schwäb. Chroniken d. Stauferzeit 1,2 1978) 90 (um den 21. 9.); Chron. Montis Sereni, MG. SS XXIII, 155 (nach dem 15. 8.); Ann. Aquenses, MG. SS XXIV, 38; Ann. Besuenses, MG. SS II, 250; Ann. Blandinienses, MG. SS V, 29; Ann. Palid., MG. SS XVI, 94; Ann. s. Petri Erph. maiores, ed. Holder-Egger, MG. SS rer.Germ.in us.schol., 60; Ann. s. Rudberti Salisburg., MG. SS IX, 777 (6. Italienzug); Auctarium Lambacense, MG. SS IX, 555; Hofmeister, Annalen von St. Georgen, ZGORh N.F. 33 (1918) 45; Chron. reg. Col., ed. Waitz, MG. SS rer.Germ.in us.schol., 125; Cont. Admunt, MG. SS IX, 585 (6. Italienzug); Chron. Magni presbiteri, MG. SS XVII, 499; Cont. Claustroneoburg. II, MG. SS IX, 616 (3. Italienzug); Cont. Claustroneoburg. III, MG. SS IX, 630 (3. Italienzug); Cont. Gerlaci abbatis Milovicensis, MG. SS XVII, 687; Corpus Chron. Bononiensium, ed. Sorbelli, Rer. Ital. SS N. Ed. XVIII/1, 39; Cron. s. Petri Erford. mod., ed. Holder-Egger, MG. SS rer.Germ.in us.schol., 186; Cont. Zwetlensis altera, MG. SS IX, 541; Gestorum Treverorum Cont. III, MG. SS XXIV, 382 (zur Arnold von Trier); Hermanni Altah. Ann., MG. SS XVII, 384 (6. Italienzug); Otto von St. Blasien, Chronica, ed. Hofmeister, MG. SS rer.Germ.in us.schol., 31 f. (ed. Schmale, Freiherr vom Stein-Gedächtnisausgabe XVIIIa, 66); vgl. auch Ioannis Dlugossii Annales lib. VI, ed. Budkowa et al. (1973), 103 (zu 1175).</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>Digitalisat der RI-Buchseite</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

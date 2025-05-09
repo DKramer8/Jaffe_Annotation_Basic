@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,5 n. 1050</idno>
+        <idno type="urn">1193-04-14_16_0_4_4_5_1050_1050</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Cölestin III., RI IV,4,4,5 n. 1050</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Rom, Lateran</placeName>
+              <date type="issued" notBefore="1193-04-14" notAfter="1194-04-13">(1193 August 14 – 1193 August 14 April 13)</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Cölestin III. schreibt dem Bischof von Mileto (Militensi episcopo) aufgrund von dessen Bericht, (Teil a) wonach ein V. (Wi.) in der D. Mileto, der Überbringer dieses Schreibens, eine Lucia geheiratet habe, die jedoch bald ihrem Mann vorgeworfen habe, sie mit Gewalt und unter Drohungen zur Ehe gezwungen zu haben; Bischof und Kapitel hätten vergebens versucht, die Eintracht zwischen den Ehepartnern wiederherzustellen und der Mann habe seine Frau des Ehebruchs beschuldigt, den diese auch zugegeben habe, worauf der Bischof mit dem Rat des Domkapitels und anderer beiden Enthaltsamkeit auferlegt habe; der Mann habe jedoch heimlich in einer anderen Stadt eine Frau geheiratet und schließlich an den Apostolischen Stuhl appelliert; der Papst befiehlt, den Mann unter Ausschluß der Appellation und unter Androhung der Exkommunikation zur Rückkehr zu seiner Ehefrau zu zwingen und ihm eine angemessene Strafe wegen Ehebruchs aufzuerlegen; (Teil b) der Kaplan, der die zweite Eheschließung vorgenommen hat, soll von Amt und Benefizien suspendiert werden und unter Ausschluß der Appellation mit Schreiben des Bischofs an den Apostolischen Stuhl geschickt werden.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Ex litteris tuis accepimus quod</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Lat. eodem anno ( = 3).</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zur Überlieferung dieser Dekretale vgl. Heckel, Dekretalensammlungen S. 205 (zu Clemens III.), Holtzmann, Collectio Seguntina S. 449 Nr. 113, Holtzmann, Kanonistische Ergänzungen zur IP /2/ S. 158 Nr. 214 (S. 140), Vetulani, Collectio Cracoviensis S. 69 Nr. 81 sowie Cheney/Cheney, Studies S. 236, S. 257 und S. 275. Sie ist in der Sammlung Walther Holtzmanns als WH 434 (KI 490) verzeichnet. Aussteller und Datum ergeben sich aus der Nennung des Ausstellungsorts Lateran und des dritten Pontifikatsjahrs in der chronologisch angeordneten Collectio Seguntina, wo dieses Stück zwischen Reg. 1047 und Reg. 1049 steht, vgl. Holtzmann, Collectio Seguntina S. 415f. Zur Sache vgl. Pfaff, Eherecht S. 111, Brundage, Law S. 373 und Rousseau, Prudent Sheperd S. 300f.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Drucke: Comp. 2 lib. 4 tit. 3 c. 3 (ed. Friedberg S. 92, Teil a, zu Clemens III.); Comp. 2 lib. 4 tit. 15 c. 1 (ed. Friedberg S. 96, Teil b, zu Alexander III.); Decr. Greg. lib. 4 tit. 19 c. 5 (ed. Friedberg Sp. 721-722, Teil a, zu Clemens III.); Decr. Greg. lib. 4 tit. 21 c. 1 (ed. Friedberg Sp. 730, Teil b, zu Alexander III.); Migne, PL 204 Sp. 1491 Nr. 27 (Teile a und b, zu Clemens III.).  Reg.: JL 14180 (J 9250) (Teil b, zu Alexander III., 1159–1181); JL 16645 (J 10283) (Teil a, zu Clemens III., 1187–1191); Russo, Regesto Vaticano S. 86 Nr. 400 (Teil a, zu Clemens III., 1187–1191), S. 89 Nr. 423 (Teil b, zu Cölestin III.) und S. 424 (Teil a, zu Cölestin III.); IP X S. 141 Nr. 15.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

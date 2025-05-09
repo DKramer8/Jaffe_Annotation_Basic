@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,2 n. 2392</idno>
+        <idno type="urn">1184-07-22_11_0_4_4_2_1226_2392</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Lucius III., RI IV,4,4,2 n. 2392</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Verona</placeName>
+              <date type="issued" notBefore="1184-07-22" notAfter="1185-12-31">(1184 Juli 22 – 1185)</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>(Lucius III.) beauftragt den Erzbischof von Arles und Kardinaldiakon (Soffred) von S. Maria in Via lata (Arelan. archiepiscopo et sancte Marie in via lata diacono cardinali) mit der Untersuchung des Ehestreits zwischen Ermengard (Ermengardam mulierem) und Blanchacius (Blanchacium), dessen Untersuchung er bereits den Bischöfen von Fréjus und Gap (Furolienensi et Vapicenensi episcopis) übertragen hatte und die entschieden hätten, daß der Mann seine Frau wieder annehmen müsse; der Mann habe jedoch seine Frau dermaßen mißhandelt, daß sie gegen ihren Willen und gezwungenermaßen behauptet habe, zwischen ihnen bestünde eine Verwandtschaft; daraufhin habe einer der beiden delegierten Richter die Ehe getrennt, wiewohl die Frau fünf Söhne geboren und vierzehn Jahre ohne Klagen mit ihrem Mann zusammengelebt hatte; da die Ehe ein gewichtiges Sakrament sei und ohne vernünftigen und offensichtlichen Grund nicht aufgelöst werden dürfe, zumal sie nicht von den Menschen, sondern von Gott eingesetzt sei, befiehlt der Papst, die Angelegenheit sorgfältig zu untersuchen und, falls es sich herausstellen sollte, daß der Blanchacius die Ermengard infolge des Urteils nur eines der beiden beauftragten Bischöfe verstoßen habe, ihn unter Ausschluß der Appellation dazu zu zwingen, seine Frau wieder anzunehmen und mit ehelicher Zuneigung zu behandeln, da das Urteil nur eines Richters nicht verbindlich sei in einem Fall, der zweien übertragen worden war; sollte er sich weigern, so sollen er und die mittlerweile mit ihm zusammenlebende Frau mit der Exkommunikation belegt werden.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Causam matrimonii que inter I.</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Verone.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zur Überlieferung dieser Dekretale vgl. auch SINGER, Beiträge S. 220. – Diese Dekretale wird in der Dekretalenüberlieferung auch Alexander III. zugeschrieben, vgl. HOLTZMANN, Reg. Alexanders III. S. 45f. (in XII. libro registri, zu 1170-1171). Auf Lucius III. deutet der Ausstellungsort Verona, wo sich der Papst seit 1184 Juli 22 aufhielt, vgl. Reg. 1167, der aber lediglich in der von Holtzmann so genannten Collectio Orielensis prima (vgl. CHENEY/CHENEY, Studies S. 127-131, heute als Bambergensis O bezeichnet, vgl. Cheney/Cheney S. XXI) erscheint. Für Kardinaldiakon Soffred von S. Maria in Via lata, der der Dekretale zufolge eine Legation nach Südfrankreich ausgeführt haben müßte, lassen seine durchgängigen Unterschriften während des Pontifikats Lucius' III. eine solche eigentlich nicht zu. Andererseits wird er zusammen mit Kardinaldiakon Bobo von S. Angelo als Legat in Frankreich in der Urk. Urbans III. von (1186-1187) Juni 27 (JL 15882, Migne, PL 202 Sp. 1483-1484 Nr. 100) erwähnt. Für Bobo erscheint eine solche Legation gut möglich, er unterschreibt unter Lucius letztmals 1184 Mai 21 (Reg. 1123) und unter Urban erst wieder im April 1186, vgl. KARTUSCH, Kardinalskollegium S. 106. – Die hier erwähnte Delegation der Bischöfe von Fréjus und Gap ist sonst nicht bekannt, vgl. Reg. 2093. – Zur Sache vgl. LANDAU, Papst Innocenz III. und Wilhelmines Ehe S. 525-527, der an Alexander III. als Aussteller festhält. – Die Dekretale ist in der Sammlung Walther Holtzmanns als WH 108 (KI 122) verzeichnet.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Drucke: Comp. 1 lib. 1 tit. 21 c. 21 (ed. Friedberg S. 9); Decr. Greg. lib. 1 tit. 29 c. 16 (ed. Friedberg Sp. 162-163).</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl> Comp. 1 lib. 1 tit. 21 c. 21 (ed. Friedberg S. 9); Decr. Greg. lib. 1 tit. 29 c. 16 (ed. Friedberg Sp. 162-163). JL 11867 (zu Alexander III. 1170-1171).</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

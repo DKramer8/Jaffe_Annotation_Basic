@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,3 n. 187</idno>
+        <idno type="urn">1186-06-13_2_0_4_4_3_187_187</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Urban III., RI IV,4,4,3 n. 187</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Verona</placeName>
+              <date type="issued" notBefore="1186-06-13" notAfter="1186-06-13">1186 Juni 13</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Urban III. nimmt Archipresbiter Guido und die Brüder der Domkirche von Lucca (Guidoni archipresbitero Lucane ecclesie eiusque fratribus) auf deren Bitten wie Gelasius (II.), Eugen (III.), Anastasius (IV.), Hadrian (IV.) und Alexander (III.) in den päpstlichen Schutz, bestätigt ihre Gewohnheiten, nämlich die Krankensalbung und die Sepultur in der eigenen Stadt und ihren Teil der Begräbnisbenefizien (beneficii funerum), die zu anderen Kirchen gehören, gewährt die Wahl der Prioren und verbietet die Einsetzung von Klerikern in den Kirchen der Stadt und der Vorstädte ohne Zustimmung des Bischofs und der Prioren, untersagt Versammlungen in ihren Kirchen ohne ihr Einverständnis oder die Verhängung öffentlicher Bußen; der Papst untersagt die Lösung von Exkommunikationen, die vom Bischof oder von ihnen verhängt wurden, ohne ihre Zustimmung, legt fest, daß die Kleriker der Stadt ihnen die gewohnte Obödienz leisten und an den gewohnten Riten teilnehmen, setzt fest, daß gemäß ihrer Gewohnheit ab der fünften Nacht vor Ostern keine Glocken geläutet werden und am Ostersamstag keine heilige Kerze geweiht wird, bestimmt, daß niemand Messen feiern darf an den Festen des hl. Martin, des hl. Regulus und am zweiten Ostertag, setzt fest, daß niemand das Amt, das der Mutterkirche zusteht, unbefugt feiern darf, bestätigt ihre ungeschmälerten Zehnten, verbietet dem Bischof, einem Kanoniker Amt oder Benefizium ohne kanonisches Urteil zu entziehen, bestätigt ihre Einnahmen und die Prokurationen, die sie von der Kirche S. Concordii (in Lucca) (ecclesia sancti Concordii) empfangen, wie dies von Lucius (III.) noch als Kardinal(bischof Hubald von Ostia und Velletri) (in presentia Lucii pape predecessoris nostri dum adhuc cardinalis esset) festgelegt worden sei, verbietet unter Androhung des Anathems, daß sich jemand Rechte über den Friedhof oder das Atrium ihrer Kirche entgegen der Würde ihrer Kirche oder ihren Willen anmaßt, bestätigt genannte Besitzungen und gewährt die freie Sepultur.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Iustis votis assensum</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Verone pm. Alberti SRE. presb. card. et cancellarii id. iun. ind. 4 inc. 1186 pont. a. 1.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Die Überlieferung in Lucca konnte nicht überprüft werden. – Die genannten Urkk. sind die Privilegien Gelasius' II. von 1118 September 13 (JL 6651, IP III S. 401 Nr. 20, Migne, PL, 163 Sp. 497-499 Nr. 15), Eugens III. von 1150 September 16 (JL 9404, IP III S. 403 Nr. 32, Pflugk-Harrtung, Acta, 3 S. 98-99 Nr. 97), Anastasius' IV. von 1153 November 26 (JL 9758, IP III S. 403 Nr. 33, Pflugk-Harttung 3 S. 125-126 Nr. 119), Hadrians IV. von 1155 April 16 (JL 10028, IP III S. 404 Nr. 36, Pflugk-Harttung 3 S. 164-166 Nr. 153) und Alexanders III. von 1173 März 23 (JL 12212, IP III S. 404 Nr. 38,Kehr, PUU westliche Toscana, S. 619-620 Nr. 10 [Teildruck] = Acta Rom. pont. 4 S. 296-297). NU ist das Privileg Clemens' III. von 1188 Januar 13 (JL 16116, IP III S. 406 Nr. 48, Kehr S. 628 Nr. 20 [Teildruck] = Acta Rom. pont. 4 S. 305).      Verbesserungen und Zusätze (2018):  Ein Reg. mit Identifizierung der genannten Besitzungen findet sich jetzt bei CONCIONI/ FERRI/GHILARDUCCI, Lucensis ecclesiae Monumenta 2 S. 76, S. 125 und S. 447 sowie Bd. 3,1   S. 385 und bei CADEDDU, Petre pasce agnos meos S. 104 Nr. 25.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Orig., Lucca, Arch. cap. BB 56; Kopie 14. Jh., Lucca, Arch. cap. BB 57.   Drucke:Kehr, PUU westliche Toscana, S. 625-627 Nr. 18 (Teildruck unter Verweis auf die VUU) = Acta Rom. pont. 4 S. 302-304; Guidi/Parenti, Regesto Lucca 2 S. 351-352 Nr. 1539 (Teildruck unter Verweis auf die VUU).   Reg.: JL 15631; IP III S. 406 Nr. 47.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

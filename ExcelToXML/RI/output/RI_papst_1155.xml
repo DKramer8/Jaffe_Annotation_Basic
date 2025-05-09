@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,5 n. 995</idno>
+        <idno type="urn">1194-02-14_2_0_4_4_5_995_995</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Cölestin III., RI IV,4,4,5 n. 995</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Rom, Lateran</placeName>
+              <date type="issued" notBefore="1194-02-14" notAfter="1194-02-14">1194 Februar 14</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Cölestin III. nimmt Äbtissin Ermilinda und die Schwestern des Klosters S. Maria in Aquileia (Ermelinde abbatisse monasterii sancte Marie Aquilegensis eiusque sororibus) auf deren Bitten wie Alexander (III.) mit ihrem Kloster in den päpstlichen Schutz, bestätigt genannte Besitzungen und die Schenkungen genannter Personen sowie die Öl- und anderen Zehnten in Izola (de Insula), die Graf Engelbert (II. von Görz) (Engilbertus comes) als Lehen der bischöflichen Kirche von Triest (a Tergestina ecclesia) innehatte, die der Graf in die Hände des Patriarchen Udalrich II., des damaligen päpstlichen Legaten (Volrici iunioris patriarche tunc apostolice sedis legati), resigniert und die der damalige Bischof Bernhard von Triest (Werinhardus quondam Tergestinus episcopus) ihnen mit Bestätigung des Patriarchen (Udalrich) (predictus patriarcha) übertragen hat, bekräftigt wie Lucius (III.), Urban (III.) und Clemens (III.) die Vereinbarung, die wegen des Streits zwischen Bischof Aldigerus von Koper/Capodistria und ihrem Kloster (Aldigerum quondam Iustinopolitanum episcopum et verstram ecclesiam) um diese Zehnten in Gegenwart des Patriarchen Gottfried von Aquileia (Gotfridi Aquilegensis patriarche) von beiden Seiten geschlossen und in der Urkunde des Patriarchen festgehalten worden ist, erlaubt Gottesdienst bei Interdikt und gewährt die freie Sepultur sowie die Wahl der Äbtissin gemäß der Benediktinerregel.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Virginibus sacris que acceptis lampadibus</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Lat. pm. Moysis SRE. subdiaconi Lateranensis canonici 16 kal. mar. ind. 12 inc. 1193 pont. a. 3.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zur Überlieferung vgl. Kehr, PUU Friaul S. 256, S. 258 und S. 260 = Acta Rom. pont. 2 S. 6, S. 8 und S. 10. – Cölestin III. wiederholte hier sein eigenes Privileg von 1193 Juni 21 (Reg. 861), das um einige Rechte erweitert wurde. Die genannte Urk. Alexanders III. ist dessen Privileg von 1174 April 27 (JL 13747, IP VII,1 S. 53 Nr. 1, Kehr, PUU Friaul S. 264-266 Nr. 2 = Acta Rom. pont. 2 S. 14-16, Härtel, S. Maria zu Aquileia S. 111-114 Nr. 23). Zur erwähnten Urk. des Patriarchen Udalrich II., mit der er 1166 die Schenkung des Bischofs Bernhard von Triest bestätigte, vgl. Wiesflecker, Regesten Tirol S. 68-69 Nr. 250 und Härtel, Aggiunte S. 189 Nr. 3. Patriarch Gottfried bekräftigte 1184 März 9 das Urteil, mit dem der Äbtissin Zehnte in Izola zugesprochen worden waren, vgl. Kandler, Codice dipl. istriano 1 (ohne Paginierung [S. 324]) Nr. 171 und Härtel, Aggiunte S. 191 Nr. 9. Vgl. zu diesem Urteil auch Paschini, Patriarchi d’Aquileia S. 253. Die genannte Bestätigung Lucius’ III. ist verloren, vgl. Böhmer-Baaken-Schmidt, Papstregesten Lucius’ III. 2 Nr. 2042. Erhalten hat sich die Urk. Urbans III. von (1186–1187) Mai 7 (Böhmer-Schmidt, Papstregesten Urbans III. Nr. 740). Clemens III. beauftragte Bischof Gerhard von Padua mit der Untersuchung des Streits zwischen Bischof Aldigerus und dem Kloster (Dep., vgl. Böhmer-Schmidt, Papstregesten Clemens’ III. Nr. 687), dessen Urteil der Papst 1189 September 9 revozierte und den Streit erneut an Bischof Romulus von Concordia delegierte, vgl. Böhmer-Schmidt Nr. 688. 1190 November 28 bestätigte Clemens III. (Böhmer-Schmidt Nr. 954) schließlich die von Patriarch Gottfried von Aquileia 1189 Dezember 20 beurkundete Vereinbarung (Härtel, S. Maria zu Aquileia S. 126-128 Nr. 36). Zur Sache vgl. Härtel, Additamenta S. 110f. und S. 114.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Überl.: Orig., Joannis (Aiello del Friuli), Archivio Frangipane, Pergamene I Nr. 9.  Drucke: Kehr, PUU Friaul S. 279 Nr. 20 (nur Druck des Datums und der Unterschriften unter Verweis auf die VU Alexanders III., mit 6 kal. mar. zu 1194 Februar 24) = Acta Rom. pont. 2 S. 29; Tore Barbina, Diplomi S. Maria d’Aquileia S. 42-47 (mit 16 mar. zu 1193); Härtel, S. Maria zu Aquileia S. 135-138 Nr. 41.  Reg.: Kos, Gradivo 4 S. 413-414 Nr. 826 (mit 6 kal. mar. zu 1193 Februar 24) und S. 433 Nr. 856a (mit 6 kal. mar. zu 1194 Februar 24); IP VII,1 S. 71 Nr. 8 (mit 6 kal. mar. zu 1194 Februar 24); Gioppo, Repertorio S. 296 Nr. 430 (zu 1194 Februar 24); Härtel, Aggiunte S. 194-195 Nr. 21.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

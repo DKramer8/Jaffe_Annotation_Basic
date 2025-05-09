@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,3 n. 317</idno>
+        <idno type="urn">1186-11-13_1_0_4_4_3_317_317</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Urban III., RI IV,4,4,3 n. 317</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Verona</placeName>
+              <date type="issued" notBefore="1186-11-13" notAfter="1186-11-13">(1186) November 13</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Urban III. schreibt Bischof (Johannes) von Tarazona, Bischof (Bernhard) von Bayonne und Abt (Peter) von Poblet (Erzd. Tarragona) (Tirasonensi et Baionensi episcopis et ... abbati de Populeto) aufgrund der Klage des Bischofs (Peter) von Pamplona (Pampilonensis episcopi), wonach Abt (Eximinus) von San Salvador in Leyre (abbas sancti Salvatoris de Legere) (D. Pamplona) ein Exemtionsprivileg von seinem Vorgänger Alexander (III.) erschlichen habe, durch das die Kirche von Pamplona in ihren Rechten gemindert worden sei; von Seiten des Abts sei dem Papst jedoch mitgeteilt worden, daß dessen Kloster nullo medio dem Apostolischen Stuhl gehöre und besagtes Privileg rechtmäßig erlangt worden sei; der Papst be- fiehlt, die Parteien unter Ausschluß der Appellation vorzuladen, ihre Allegationen und Zeugenaussagenanzuhören, dies alles schriftlich festzuhalten und den Parteien einen Termin festzusetzen, an dem sie sich mit den mit dem Siegel der Delegaten versehenen Beweismitteln an den Apostolischen Stuhl zu begeben haben, wo der Papst sodann das Verfahren mit dem Rat der Kardinäle durchführen werde; im Verhinderungsfalle soll das Verfahren von zweien der Delegaten durchgeführt werden.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Conquestione venerabilis fratris nostri Pampilonensis</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Verone id. nov.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zur Überlieferung vgl. Kehr, PUU Spanien, 2 S. 31. – Vgl. hierzu die Urk. Clemens' III. von 1188 August 2 (JL – , Kehr S. 526-529 Nr. 178, Martín Duque, Documentación Leire S. 451-453 Nr. 347), in die dieses Delegationsmandat und der Bericht der beiden delegierten Bischöfe (hieraus gedruckt bei Martín Duque S. 449 Nr. 345) inseriert ist, und in der Clemens III. die hier angeführte Urk. Alexanders III. von 1174 Juni 28 (JL 12385, Martín Duque S. 432-433 Nr. 334) als Fälschung entlarvt, wie auch Cölestin III. in seiner Urk. von 1191 Dezember 19 an Bischof Peter von Pamplona (JL – , Martín Duque S. 457 Nr. 351). – Auf dieses Delegationsmandat bezieht sich die Klage des Königs Alfons II. von Aragón an Papst Urban III. von 1187, in der der König Bischof Peter von Pamplona vorwirft, dieses tacita veritate erschlichen zu haben an iudices, quos familiares sibi sciebat (Kehr, PUU Spanien, 2 S. 510-511 Nr. 165, Martín Duque S. 449-450 Nr. 346). – Zur Sache vgl. Altisent, Poblet S. 77, Goñi Gaztambide, Historia Pamplona 1 S. 450f. und Fortún Pérez de Ciriza, San Salvador de Leire S. 50.    Verbesserungen und Zusätze (2014):   Die Urk. ist jetzt auch gedruckt bei Goñi Gaztambide, Colección Pamplona 1 S. 326-327 Nr. 377. Der Bericht der beiden Delegaten an Papst Urban III. ist ebenfalls bei Goñi Gaztam-bide 1 S. 327 Nr. 379 gedruckt, wie auch das Protestschreiben des Königs Alfons II. von Aragón an den Papst (S. 328 Nr. 380).</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>4 Kopien 13. Jh., Pamplona, Arch. de la Catedral, Arca I Nr. 1, Libro redondo fol. 30 (inseriert in das Privileg Clemens' III. von 1188 August 12 JL – , Kehr, PUU Spanien, 2 S. 530-531 Nr. 180]), fol. 31-33 (inseriert in die Urk. Clemens' III. von 1188 August 2 JL – , Kehr S. 526-529 Nr. 178, Martín Duque, Documentación Leire S. 451-453 Nr. 347]), fol. 38 (inseriert in das Privileg Cölestins III. von 1191 Dezember 18 JL – , Kehr S. 538-539 Nr. 188, Wiederholung des Privilegs Clemens' III. von 1188 August 12]), fol. 36' (inseriert in die Urk. Cölestins III. von 1191 Dezember 19 JL – , Kehr S. 539-541 Nr. 189, Wiederholung der Urk. Clemens' III. von 1188 August 2]).   Drucke: Kehr, PUU Spanien, 2 S. 507 Nr. 161; Martín Duque, Documentación Leire S. 448 Nr. 344.   Reg.: – .</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,3 n. 91</idno>
+        <idno type="urn">1186-03-14_1_0_4_4_3_91_91</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Urban III., RI IV,4,4,3 n. 91</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Verona</placeName>
+              <date type="issued" notBefore="1186-03-14" notAfter="1186-03-14">1186 März 14</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Urban III. nimmt den Meister und die Brüder der Johanniter (magistro xenodochii sancte civitatis Ierusalem eiusque fratribus) wie Innocenz (II.), Cölestin (II.), Lucius (II.), Eugen (III.), Anastasius (IV.), Hadrian (IV.), Alexander (III.) und Lucius (III.) in den päpstlichen Schutz, bestätigt ihren Besitz, gestattet, in entvölkerten Gebieten Siedlungen sowie Kirchen und Friedhöfe zu errichten, sofern dort keine religiöse Gemeinschaft existiert, die dadurch in ihren Rechten gemindert wird, und gewährt dieses Recht auch für bebautes und unbebautes Land, das ihnen rechtmäßig übertragen wird, nimmt ihre Spendensammler in den päpstlichen Schutz, gestattet die Sepultur von Ordensmitgliedern, sofern diese nicht namentlich exkommuniziert sind, erlaubt, in interdizierten Orten einmal im Jahr Gottesdienst unter Ausschluß der Exkommunizierten zu feiern, befreit sie von der Leistung des Zehnten, setzt fest, daß kein Bischof über ihre Kirchen das Interdikt oder die Exkommunikation verhängen darf, gestattet Gottesdienst bei allgemeinem Interdikt, gewährt das Aufnahmerecht auch für Konversen und verbietet den Ordensaustritt, gestattet, Weihehandlungen von jedem beliebigen Bischof zu empfangen, setzt fest, daß sie Konsekrationen, Ordinationen und die Sakramente durch den Diözesanbischof oder einen Bischof ihrer Wahl empfangen, gewährt die Wahl des Meisters und bestätigt ihren Besitz in Asien und Europa (in Asia ... vel Europa).</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Christiane fidei religio hoc pie</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Verone pm. Alberti SRE. presb. card. et cancellarii 2 id. mar. ind. 4 inc. 1185 pont. a. 1.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zur Überlieferung vgl. Kehr, PUU Malta S. 377, S. 379, S. 381f. und S. 385 = Acta Rom. pont. 2 S. 97, S. 99, S. 101f. und S. 105, Zammit Gabarretta/Mizzi, Catalogue 7 S. 7 (irrig zu 1186 Februar 14) sowie Hiestand, PUU Templer und Johanniter, S. 97, S. 133, S. 164, S. 166-168 und S. 185. Die im Druck bei Hiestand 1 genannte Kopie 15./16. Jh., Potsdam, Brandenburgisches Landeshauptarch., Rep. 9 B Johanniterorden U 222 (Transsumpt eines Vidimus von 1495 Juni 26, ohne Unterschriften) ist nach freundlicher Auskunft des Archivs nicht aufzufinden. Vielleicht handelt es sich bei Hiestands Angabe um eine Verwechslung mit der unter der gleichen Archivsignatur aufbewahrten Kopie des Privilegs Cölestins III. von 1192 Dezember 25 (Delaville le Roulx, Cartulaire 1 S. 591 Nr. 935, Hiestand 1 S. 403-405 Nr. 228). Die Unterschriften sind nur noch durch die frühen bei Hiestand zitierten Drucke überliefert. – Zu den genannten VUU und zum Formular vgl. Hiestand 2 S. 104-135 mit Edition S. 130-135.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Kopie 15. Jh., Madrid, Arch. hist. nac., Sección Ordenes militares, Manuscritos 1436 C fol. 3 Nr. 2 (ohne Unterschriften); Kopie 15. Jh., Karlsruhe, Bad. Generallandesarch., Kopialbücher 67/671, 2. Teil fol. 1 (ohne Unterschriften).   Drucke: Bullarium Germanum = Privilegia ordinis s. Iohannis Iherosolymitani fol. 37 (Inkunabel von ca. 1495/96, laut Hiestand 1 S. 164 nur in wenigen Exemplaren erhalten, von Hiestand in Straßburg, Arch. dép. eingesehen, war nicht zugänglich); Privilegia ... (Leipzig 1520) fol. 90 (dieses von Hiestand nur so zitierte Werk war ebenfalls nicht zugänglich);Delaville Le Roulx, Cartulaire, Cartulaire 1 S. 500 Nr. 795 (nur Datum unter Verweis auf die Urk. Anastasius' IV. von 1154 Oktober 21, JL 9930,Delaville Le Roulx, Cartulaire, S. 173-175 Nr. 226, Auszug in deutscher Übersetzung: Wienand, Johanniter-Orden S. 603 Nr. 7); Hiestand, PUU Templer und Johanniter, S. 366-367 Nr. 179 (nur Adresse, Unterschriften und Datum unter Verweis auf Reg. 76 von 1186 März 12).   Reg.: – .</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

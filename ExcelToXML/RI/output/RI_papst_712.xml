@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,3 n. 1240</idno>
+        <idno type="urn">1187-00-00_252_0_4_4_3_1240_1240</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Urban III., RI IV,4,4,3 n. 1240</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>[Ausstellungsort]</placeName>
+              <date type="issued" notBefore="1185-01-01" notAfter="1187-12-31">(1185 – 1187)</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>(Urban III.) gewährt Erzbischof (Øystein Erlendsson) von Trondheim, dem apostolischen Legaten (Trundensi archiepiscopo apostolice sedis legato), auf dessen Bitte das Recht, die Säkularkanoniker der Kirche von Kungahälla (bei Kungälv) (ecclesia de Conongellia) (D. Oslo) unter Ausschluß der Appellation durch regulierte Kanoniker zu ersetzen, sofern der Diözesanbischof (von Oslo) seine Zustimmung erteilt, und befiehlt, die verbleibenden Säkularkanoniker auf Lebenszeit zu versorgen; der Papst teilt dem Erzbischof weiterhin mit, daß dessen Boten von ihm eindringlich ein Bestätigungsprivileg hinsichtlich der (regulierten) Kanoniker wünschten, das er aber nicht erteilen könne, da es in Kungahälla bislang noch keine (regulierten) Kanoniker gebe; erst wenn diese dort eingesetzt seien, könne er ihnen seine Gunst zuwenden.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Ad audientiam nostram iam pridem</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">-</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zur weiteren Überlieferung dieser in der Cottoniana (London, Brit. Lib., Cotton Vitellius E XIII fol. 252) Alexander III. zugeschriebenen Dekretale vgl. Seckel, Drei Canones-Sammlungen S. 535 und S. 537, Singer, Beiträge S. 308 und Heckel, Dekretalensammlungen S. 280. – Zur Sache vgl. den Kommentar zum Reg. von Holtzmann, der Alexander III. als Aussteller wahrscheinlich macht, und den Kommentar zum Druck bei Vandvik S. 175f. Die Dekretale ist in der Sammlung Walther Holtzmanns als WH 22 (KI 25) verzeichnet, wo ebenfalls die Zuschreibung an Alexander III. erwogen wird, die zuletzt auch von Duggan, Decretals of Øystein S. 498 vertreten wurde. Zu Ausgrabungen in Kungahälla vgl. Andersson/Carlsson/Vretemark, Kungakälla passim.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Drucke: Comp. 2 lib. 3 tit. 26 c. 4 (ed. Friedberg S. 90); Decr. Greg. lib. 3 tit. 48 c. 5 (ed. Friedberg Sp. 653); Storm/Huitfeld-Kaas/Bugger, Romerske Oldbreve 1 S. 4-5 Nr. 6 (zu ca. 1186); Vandvik, Latinske Dokumenter S. 68-71 Nr. 14 (mit norwegischer Übersetzung, zu Alexander III.).  Reg.: JL 15750 (J 9887); Storm, Regesta Norvegica, 1 S. 17-18 Nr. 111 (zu 1186-1187); Holtzmann, Krone und Kirche in Norwegen im 12. Jh. S. 387 Nr. 4 (zu Alexander III., 1164-1181); Gunnes, Regesta Norvegica 1 S. 68 Nr. 142 (zu Alexander III., 1161-1172).</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,6 n. 1874</idno>
+        <idno type="urn">1196-07-01_5_0_4_4_6_487_1874</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Cölestin III., RI IV,4,4,6 n. 1874</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Rom, Lateran</placeName>
+              <date type="issued" notBefore="1196-07-01" notAfter="1196-07-01">(1196) Juli 1</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Cölestin III. schreibt Bischof (Gilbert) von Rochester, Abt (Wilhelm) von Westminster und Abt (Walter) von (Holy Cross in) Waltham in der Diözese London (Rofensi episcopo et ... de West. et de Watham abbatibus in Lundoniensi diocesi constitutis) aufgrund der Klage des Abtes und Konvents des Klosters in Fécamp (abbatis et conventus monasterii Fiscannensis) (Erzd. Rouen), wonach dem Kleriker W(ilhelm) de Marinis aus der Diözese Chichester (W. de Marinis Cicestrensis diocesis) die Kirche von Rye (ecclesiam de Ria) vom Kloster Fécamp übertragen worden sei und dieser beschworen habe, eine jährliche Pension von 13 Mark zu leisten, dann aber die Zahlung verweigerte; der Papst befiehlt, den Kleriker unter Ausschluß der Appellation mit Kirchenstrafen zur vollen Leistung der Pension zu zwingen und den Eidbruch kanonisch zu bestrafen, dabei aber zu klären, ob die Pension nicht nach dem (3.) Laterankonzil erhöht oder erst neu festgesetzt worden ist, ungeachtet eventueller unter Verschweigen der Wahrheit vom Apostolischen Stuhl erlangter Schreiben; im Verhinderungsfall soll das Mandat vom Bischof und einem der beiden anderen Delegaten ausgeführt werden.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Exposita nobis dilectorum filiorum abbatis</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Lat. kal. iul. pont. a. 6.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zur Überlieferung vgl. Ramackers, PUU Frankreich 2 S. 11 und S. 16. – Die Urk. der Delegaten, in der die von ihnen herbeigeführte Einigung bestätigt wird, ist gedruckt bei Müller, Delegationsgerichtsbarkeit 2 S. 221-222 Nr. 107, Reg.: Round, Calendar 1 S. 49-50 Nr. 144 (zu 1197 Juni 1), Müller 2 S. 41 Nr. 200a. Zur angeführten Bestimmung des 3. Laterankonzils vgl. dessen can. 7 (Tanner, Decrees 1 S. 214f.). Zur Kirche von Rye vgl. Chibnall, Fécamp and England S. 128.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Überl.: Kopie 12. Jh., Rouen, Arch. dép. Seine-Maritime, 7 H 57 (inseriert in das Orig. der Bestätigung der gütlichen Vereinbarung durch die Delegaten); Kopie 13. Jh., Rouen, Bibl. mun., Ms. 1207 fol. 26'-27' (inseriert in die Urk. der delegierten Richter, Cart. von Fécamp, Stein, Bibliographie Nr. 1309, CartulR: https://telma-repertoires.irht.cnrs.fr/cartulr/notice/13649).  Druck: Ramackers, PUU Frankreich 2 S. 412-413 Nr. 331.  Reg.: Müller, Delegationsgerichtsbarkeit 2 S. 41 Nr. 200.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,2 n. 2217</idno>
+        <idno type="urn">1181-00-00_274_0_4_4_2_1051_2217</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Lucius III., RI IV,4,4,2 n. 2217</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>[Ausstellungsort]</placeName>
+              <date type="issued" notBefore="1181-01-01" notAfter="1181-12-31">(1181 – 1185)</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>(Lucius III.) beauftragt die Bischöfe von Bath und Exeter (Baton. et Exon. episcopis) mit der Untersuchung des Streits zwischen Herbert (Herbertus) und Kleriker Jordanes Fantasma (Iordanem Fantasma), wonach Herbert den Kleriker vor dem damaligen Bischof H(einrich) von Winchester (H. quondam Wintonensi episcopo) wegen des Todes seines, Herberts, Vaters verklagt habe; Jordanes habe jedoch an den Papst appelliert und Herbert sei mit Schreiben des Bischofs, die den Sachverhalt darlegten, beim Papst erschienen; nachdem jedoch innerhalb von 40 Tagen weder Jordanes selbst noch ein Stellvertreter erschienen seien, habe der Papst die Angelegenheit dem Bischof von Exeter und Dekan I. von Chichester (tibi frater Exoniensis et ... I. tunc Cistrensi decano) übertragen und befohlen, den Kleriker zu suspendieren, falls er sich nicht bei ihm, dem Papst, einfinde oder sich nicht dem Urteil der delegierten Richter unterwerfe; der Kleriker habe jedoch versucht, die Angelegenheit einem weltlichen Gericht zu übertragen, und sich geweigert, das Urteil der delegierten Richter anzunehmen; darüberhinaus sei es ihm gelungen, (päpstliche?) Schreiben zu impetrieren, in denen den Zeugen des Herbert verboten worden sei, für diesen Zeugnis abzulegen; als diese aus Furcht ihre Aussagen zurückgenommen hätten, seien die delegierten Richter nicht mehr mit der Untersuchung der Angelegenheit fortgefahren; der Papst befiehlt nun, den Kleriker Jordanes wegen der impetrierten Schreiben von seinen kirchlichen Benefizien zu suspendieren, bis er Genugtuung leistet; weiterhin sollen sie den ursprünglichen Streitfall wegen des Todes von Herberts Vater untersuchen und entscheiden sowie die Zeugen, die der Herbert präsentierte, mit kirchlichen Strafen dazu zwingen, wahrheitsgemäß auszusagen; sollte der Kleriker für schuldig befunden werden, so sollen ihm Amt und Benefizium entzogen werden, sollte er jedoch nicht überführt werden können, dann soll ihm eine kanonische Purgation auferlegt werden.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Lator presentium Herbertus nomine coram</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">-</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zur Überlieferung dieser Dekretale vgl. auch SINGER, Beiträge S. 364. Sie wird in der Dekretalenüberlieferung sowohl Alexander III. als auch Lucius III. zugeschrieben. Der Ausstellungszeitraum kann, da Bischof Heinrich von Winchester bereits als verstorben bezeichnet wird und der Bischofsstuhl von Bath von 1166 bis 1173 April vakant war (vgl. Handbook of British Chronology S. 205 und S. 258), nur auf 1173 April-1185 eingegrenzt werden. Da zudem ein Dekan I. von Chichester, der neben dem Bischof von Bath als Empfänger des hier genannten und nicht erhaltenen ersten Delegationsmandats (Reg. 2216) genannt wird, nur für die Zeit von 1157-1172 (Johannes) und 1173/74-1178 (Jordan) nachgewiesen werden kann (LE NEVE/GREENWAY, Fasti 5: Chichester S. 7f.), erscheint trotz dieser höchst lückenhaften Dekanliste Alexander III. als Aussteller wahrscheinlicher. – Zur bereits vorher in dieser Angelegenheit erfolgten Delegation vgl. Reg. 2216. Zur Sache und zu Jordanes Fantasma oder Fantosme, der als Kleriker in der Umgebung des Bischofs Heinrich von Winchester nachgewiesen werden kann und auch literarisch hervorgetreten ist, vgl. HOWLETT, Chronicles 3 p. LX-LXVI und MOREY, Bartholomew of Exeter S. 54f., der sich auch für Alexander III. als Aussteller dieser Dekretale ausspricht. – Die Dekretale ist in der Sammlung Walther Holtzmanns als WH 602 (KI 679) verzeichnet.    Verbesserungen und Zusätze (2018):  Zur Überlieferung als Dekretale in der Collectio Cheltenhamensis vgl. Drossbach, Collectio Cheltenhamensis S. 211-212 Nr. 17.8.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>Druck: FRIEDBERG, Canones-Sammlungen S. 159.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>

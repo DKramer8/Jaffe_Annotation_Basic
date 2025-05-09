@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>RI IV,4,4,3 n. 802</idno>
+        <idno type="urn">1187-06-01_1_0_4_4_3_802_802</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Urban III., RI IV,4,4,3 n. 802</bibl>
+        <bibl type="jaffe">[Jaffe-Nummer]</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>Verona</placeName>
+              <date type="issued" notBefore="1187-06-01" notAfter="1187-06-01">1187 Juni 1</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">[Issuer]</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <legalActor type="witness"></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <legalActor></legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>Urban III. nimmt Propst Nikolaus und die Brüder des Stifts S. Croce in Mortara (Nicolao preposito ecclesie sancte Crucis Mortariensis eiusque fratribus) (D. Pavia), das nullo mediante der Römischen Kirche gehört, auf deren Bitten wie Innocenz (II.), Lucius II., Eugen (III.) und Alexander (III.) in den päpstlichen Schutz, bestätigt die Augustinerregel und genannte Besitzungen, gewährt das Aufnahmerecht, verbietet, nach abgelegter Profeß das Stift unerlaubt zu verlassen, und setzt fest, daß gegen Zuwiderhandelnde mit der Suspension vorgegangen werden soll und diesen von den Bischöfen jede Amtshandlung untersagt wird, erlaubt dem Propst, bei bischöflichen Vakanzen reumütige Schismatiker oder solche, die die ihnen auferlegten Strafen verbüßt haben, in die Kirche wiederaufzunehmen, gestattet, Chrisma, Heiliges Öl und Weihehandlungen vom Diözesanbischof oder, falls dieser sich weigern sollte, von jedem beliebigen Bischof zu empfangen, bestätigt ihre Zehnten bei Eigenbau in ihren Pfarreien zum gemeinsamen Unterhalt, setzt fest, daß kein Bischof oder dessen Ministeriale sie deswegen belästigen dürfen, und verbietet, daß Laien sich diese Zehnten gewaltsam aneignen, bestätigt ihnen den Besitz ihrer Kirchen, die niemand ihrer Obödienz entziehen darf, untersagt dem Propst, Kirchenbesitz zu vergeben oder weltlichen Personen als Lehen zu übertragen oder ohne Zustimmung der Kongregation jemandem zu Eigentum zu übergeben, gewährt den Priestern ihrer Kirchen das Recht, Strafen zu verhängen, die Sepultur und sonstige priesterlichen Aufgaben auszuüben, verbietet, über ihre Brüder die Exkommunikation oder das Interdikt zu verhängen, erlaubt Gottesdienst bei Interdikt, untersagt, innerhalb ihrer Pfarrgrenzen Kirchen zu errichten ohne Zustimmung des Diözesanbischofs und des Stifts, verbietet, daß Bischöfe, Kleriker oder Laien von ihnen Gastrecht oder sonstige Dienste fordern, verbietet, bei bischöflichen Kollekten für päpstliche Legaten, Nuntien oder Prokuratoren ihre Kirchen gesondert zu belasten, gewährt wie Lucius (II.) die freie Sepultur und gestattet, ihnen gemachte Oblationen ohne Widerspruch zu empfangen.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">Quanto ecclesia vestra pro religionis</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">Dat. Verone pm. Alberti SRE. presb. card. et cancellarii kal. iun. ind. 5 inc. 1187 pont. a. 2.</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>[Dekretale 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>[Edition 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>Zur Überlieferung vgl. Kehr, PUU Parma S. 18 = Acta Rom. pont. 2 S. 234, Kehr, PUU Rom 1 S. 134f. = Acta Rom. pont. 2 S. 316f., Kehr, PUU Turin S. 66 = Acta Rom. pont. 3 S. 36, Kehr, Ältere PUU II S. 442 = Acta Rom. pont. 3 S. 416. Die genannte Urk. Johannes' XXII. von 1324 März 23 ist verzeichnet bei Mollat, Registres Jean XXII Lettres communes 5 S. 94 Nr. 19175. – Die genannten Urkk. sind die Privilegien Innocenz' II. von 1134 (JL 7667, IP VI,1 S. 230 Nr. 6, Bullarium Lateranense [Rom 1727] S. 12), Eugens III. von 1145 Mai 30 (JL 8761, IP VI,1 S. 230 Nr. 8, Bullarium Lateranense [Rom 1727] S. 31) und Alexanders III. von 1168 November 30 (JL 11423, IP VI,1 S. 231 Nr. 11, Bullarium Lateranense [Rom 1727] S. 43). Das ebenfalls genannte Privileg Lucius' II. ist verloren (JL – , IP VI,1 S. 230 Nr. *7). Zur Sache vgl. Pezza, S. Croce in Mortara S. 209, wo in Anm. 1 die Besitzungen im einzelnen identifiziert werden, Mornacchi, Aspetti Genova S. 156, Andenna, Mortariensis ecclesia S. 190 und S. 197 sowie Andenna, Kanoniker S. 60-68. – Das IP VI,1 S. 191 Nr. *1 verzeichnete Privileg Urbans III. für die Kirche S. Marcello in Pavia ist zu streichen. Die Grundlage für das Reg. ist die Erwähnung der Pfarrkirche als Besitz von Mortara bei Girolamo Bossi, Notizie delle chiese di Pavia (Ms. 17. Jh., Pavia, Bibl. universitaria, Ms. Ticinesi 182 vol. 2 fol. 252 [alt: fol. 542], erwähnt bei Robolini, Notizie 3 S. 256), wo jedoch lediglich auf ein Privileg Urbans III. verwiesen wird. Da im vorliegenden Privileg an zweiter Stelle in der Besitzliste in Papiensi ecclesia sancti Marcelli genannt ist, ist damit unzweifelhaft dieses Privileg gemeint und die Annahme eines eigenen Privilegs für S. Marcello in Pavia hinfällig.      Verbesserungen und Zusätze (2018):  Der bislang ungedruckte Auszug in der Kopie 17. Jh. (Mailand, Arch. di Stato, Arch. generale del Fondo di Religione, Brescia, S. Affra alias S. Salvatore, Privilegi-Immunità-Statuti-Regole cart. 3328 fol. 3'-5) ist jetzt gedruckt bei ANDENNA, Archivio di Santa Croce di Mortara S. 48-49.</p>
+      </div>
+      <div type="bibliography">
+        <head>Archival History</head>
+        <listBibl>
+          <bibl>2 Kopien 13. Jh., Rom, Bibl. S. Pietro in Vincoli, Arm. B; Kopie 14. Jh., Rom, Bibl. S. Pietro in Vincoli, Arm. B (inseriert in das Orig. der Urk. Johannes' XXII. von 1324 März 23); Kopie 14. Jh., Rom, Arch. Seg. Vat., Reg. Avin. 20 fol. 434 Nr. 761 (inseriert in die Urk. Johannes' XXII von 1324 März 23); Kopie 14. Jh., Rom, Arch. Seg. Vat., Reg. Vat. 76 fol. 251 Nr. 761 (inseriert in die Urk. Johannes' XXII von 1324 März 23); Kopie 14. Jh., Turin, Arch. di Stato, Corte, Sez. 1a, Regolari canonici Lateranensi (inseriert in die Urk. Johannes' XXII von 1324 März 23).   Drucke: Serenius, Indulta ac privilegia S. 110-114; Bullarium Lateranense (Rom 1727) S. 56-58.   Reg.: JL 15985 (J 9964); IP VI,1 S. 232 Nr. 17.</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Literatur</head>
+        <listBibl>
+          <bibl>[Literaturverzeichnis]</bibl>
+        </listBibl>
+      </div>
+      <div type="bibliography">
+        <head>Externe Links</head>
+        <listBibl>
+          <bibl>[Externe Links]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+      <div type="note">
+        <p></p>
+      </div>
+      <note>
+        <p></p>
+      </note>
+    </body>
+  </text>
+</TEI>
