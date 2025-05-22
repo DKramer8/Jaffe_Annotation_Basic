@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cceh/FormierungEuropas/refs/heads/main/CEI_TEI_Schema/tei_cei_formierung_edited.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/hannahbusch/Formierung_Europas_wip/master/style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" source="formierung-europas_regesta_imperii">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Die Nummer des Regests im Projekt]</title>
+        <respStmt>
+          <resp>Ursprünglicher Bearbeiter/Bearbeiter Datenquelle</resp>
+          <persName>[Vorname und Nachname der Bearbeiter*in]</persName>
+        </respStmt>
+        <respStmt>
+          <resp when="2024">Encoding:</resp>
+          <persName>[Vorname und Nachname der Überarbeiter*in/Auszeichnung]</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Die Formierung Europas</publisher>
+        <idno>13162_2725_8626. 9016. 9193. 9194. 9203. 9206. 9207. 9209</idno>
+        <availability>
+          <licence>Lizenz</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="jaffe">13162</bibl>
+        <bibl type="jaffe_alt">8626. 9016. 9193. 9194. 9203. 9206. 9207. 9209</bibl>
+        <diploDesc>
+          <p>
+            <issued>
+              <placeName>[Ausstellungsort]</placeName>
+              <date type="issued" notBefore="1163-01-01" notAfter="1179-12-31">  1163—1179</date>
+            </issued>
+          </p>
+          <p>
+            <legalActor type="issuer">ALEXANDER III.</legalActor>
+          </p>
+          <p>
+            <legalActor type="recipient">[Recipient 1]</legalActor>
+          </p>
+          <p>
+            <objectType>[Typisierung 1]</objectType>
+          </p>
+        </diploDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="lat">Latin</language>
+        <language ident="en-GB">English</language>
+      </langUsage>
+    </profileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/>
+    </xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="abstract">
+        <head>Abstract:</head>
+        <p>R(ogerio) episcopo Wigorniensi, variis de rebus consulenti, respondet 1) qui habitum religionis susceperint, si postmodum duxerint uxores, eos cogendos esse illas dimittere et ad ecclesiam redire; 2) de monachis, „qui vicarios parochialium ecclesiarum in tantum gravant, ut hospitalitatem tenere non possint nec honestam sustentationem habere“; 3) „simplices sacerdotes ret clericos non posse ecclesias, quibus praesint, auctoritate sua post decessum suum censuales efficere“, 4) de co, qui post factam citationem iter ad sedem apostolicam arripuerit; 5) litem infra certum terminum decidendam non posse ultra praefixum diem sine communi partium consensu prorogari; 6) de „sententia post appellationem supersedenda“ et de „appellationibus pro causis minimis factis“; 7) de iis, qui „matrem vel sororem vel filiam uxoris suae carnaliter forte cognoverit“ et „qui aliquam uxoris consanguineam, quae illam in tertio vel alio deinceps gradu contingat, carnali commixtione cognoverit“; 8) de donatione per abbatem eius dioecesis facta, „si pars conventus postea reclamaverit, datae rei quantitatem et illius - terrae consuetudinem attendendam esse“; ac de possessionibus sub conditione donatis; 9) „scripta autentica, si testes inscripti decesserint, nisi forte per manum publicam fuerint facta, aut sigillum autenticum habuerint, non videri sibi alicuius firmitatis robur habere“.</p>
+      </div>
+      <div type="other">
+        <head>Echtheitskriterien:</head>
+        <authen type="formula" n="deperditum">
+          <p>[*+?-]</p>
+        </authen>
+      </div>
+      <div>
+        <head>Incipit:</head>
+        <diploPart type="incipit" xml:lang="lat">„Meminimus nos ex“ „Miminimus ex parte“ „Ceterum cum aliquam“ „Super eo quod“ „De appellationibus“ „De monachis autem“ „Praeterea illi qui“ „Si aliquis parochianorum“ „Si quis parochianorum“ „Ceterum si abbatem“ „Verum cum alicui“ „Si autem lis“ „Scripta vero autentica“.</diploPart>
+      </div>
+      <div>
+        <head>Datatio:</head>
+        <diploPart type="datatio">-</diploPart>
+      </div>
+      <div type="msSources">
+        <head>Handschriftliche Überlieferung und alte Drucke</head>
+        <listBibl>
+          <bibl>[Handschrift oder Alter Druck]</bibl>
+        </listBibl>
+      </div>
+      <div type="decretals">
+        <head>Dekretalen</head>
+        <listBibl>
+          <bibl>(App. conc. Lat. VII. 14, VIII. 5, X. 8. 9. 10, XII. 1, XXVIII. 1. 9, XXIX. 3, cf. ibid. X. 27, Coll. Lips. VI. 1, XXIII. 21, XXXV. 14, XLIII. 7, XLVII. 9. 10. 11, LX. 1, Coll. Cass. XVIII. 1, XXVII. 2, XXXV. 17, XLII. 15, XLVIII. 4, LI. 7. 9. 10, LIX. 1, Coll. Bamb. VI. 1, XXXIII. 14. XXXIX. 4, LII. 1, LXII. 6. 8. 9, Comp. I. L. I. t. 21. c. 12, L. 2. t. I. c. 3, L. 2. t. 15. c. 2, L. 2. t. 20. c. 9. 10. 11, L. 3. t. 5. c. 14, L. 3. t. 34. c. 8, L. 4. t. 5. c. 3, L. 4. t. 20. c. 6, Decr. Greg. L. II. t. 22. c. 2, L. II. t. 28. c. 9. 10. 11, L. III. t. 24. c. 3, L. III. t. 39. c. 8, L. IV. t. 5. c. 4, L. IV. t. 6. c. 3).</bibl>
+        </listBibl>
+      </div>
+      <div type="historiography">
+        <head>Erwähnungen in der Historiographie</head>
+        <listBibl>
+          <bibl>[i.d.R. nach Edition, also Literaturtitel zitiert]</bibl>
+        </listBibl>
+      </div>
+      <div type="editions">
+        <head>Editionen</head>
+        <listBibl>
+          <bibl>Gilberti Foliot epist. ed. Giles II. 99,</bibl>
+        </listBibl>
+      </div>
+      <div type="regesta">
+        <head>Regesten</head>
+        <listBibl>
+          <bibl>[Regest 1]</bibl>
+        </listBibl>
+      </div>
+      <div type="commentary">
+        <head>Sachkommentar</head>
+        <p>[Inhalt des Sachkommentars. Bibliographische Referenzen werden als &lt;bibl&gt;Bibliographische Angabe&lt;/bibl&gt; getagged.]</p>
+      </div>
+      <div type="bibliography">
+        <head>Bibliographie</head>
+        <listBibl>
+          <bibl>[Weitere Referenzen als listBibl]</bibl>
+        </listBibl>
+      </div>
+      <div type="note">
+        <head>Fußnoten</head>
+        <p>[Anmerkungen, Notizen und Fragen der Bearbeiter*in.]</p>
+      </div>
+    </body>
+  </text>
+</TEI>

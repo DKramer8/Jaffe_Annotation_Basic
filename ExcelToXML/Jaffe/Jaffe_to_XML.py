@@ -4,8 +4,8 @@ import re
 import calendar
 from datetime import datetime
 
-#INPUT_PATH = "input/Jaffe_Korrekturdatei_I_komplett.xlsx"
-INPUT_PATH = "input/jaffe_test.xlsx"
+INPUT_PATH = "input/Jaffe_Korrekturdatei_I_komplett.xlsx"
+#INPUT_PATH = "input/jaffe_test.xlsx"
 OUTPUT_FOLDER = "output"
 COLUMNS_XML_MAP = { # "excel_column": "xml" 
     "pope": "legal_actor_issuer_inner",
@@ -66,18 +66,19 @@ MONTH_DICT = {
 }
 
 def build_date(year, month, day, xml_content_map_instance, id):
-    def check_for_timespan(date_value):        
+    def check_for_timespan(date_value):  
+        date_value = str(date_value)
         if year == "": # No entry
             first, last = "", ""
-        elif any(c in date_value for c in ["-", "—"]): # Timespan divided by "-" or "—"
-            parts = re.split(r"[-—]", date_value, maxsplit=1)
+        elif any(c in date_value for c in ["-", "—","–", "/"]): # Timespan divided by "-" or "—" or "–" or "/"
+            parts = re.split(r"[-—–/]", date_value, maxsplit=1)
             first, last = parts[0], parts[1]
         elif re.search(r"(?<=\d)\s(?=\d)|(?<!\d)\s(?!\d)|(?<=\d\.)\s(?=\d)|(?<=\D\.)\s(?=\D)", date_value): # Timespan divided by whitespace
             parts = re.split(r"\s", date_value, maxsplit=1)
             first, last = parts[0], parts[1]
         else: # No timespan
             first, last = date_value, date_value
-
+        
         return first, last    
     
     def get_month_digits(month_str):
@@ -95,7 +96,11 @@ def build_date(year, month, day, xml_content_map_instance, id):
                 return value
         return ""     
 
-    xml_content_map_instance["date"] = f"{day} {month} {year}"
+    year = "" if pd.isna(year) else str(year)
+    month = "" if pd.isna(month) else str(month)
+    day = "" if pd.isna(day) else str(day)
+
+    xml_content_map_instance["date"] = f"{day.replace('[', '(').replace(']', ')')} {month} {year}"
 
     firstYear, lastYear = check_for_timespan(year)
     if firstYear == "" or lastYear == "":
@@ -327,7 +332,7 @@ for _, row in df.iterrows():
     output_file = f"{OUTPUT_FOLDER}/Jaffe_{id}.xml"
     build_date(row["year"], row["month"], row["day"], xml_content_map_instance, id)
     create_tei_xml(output_file, id)
-    print(f"XML-Datei wurde erstellt: {output_file}")
+    #print(f"XML-Datei wurde erstellt: {output_file}")
 
 #output_file = f"{OUTPUT_FOLDER}/Jaffe_{id}.xml"
 #create_tei_xml(output_file)
