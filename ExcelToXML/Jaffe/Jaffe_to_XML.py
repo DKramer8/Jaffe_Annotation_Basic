@@ -147,7 +147,7 @@ def create_tei_xml(output_file, lfdN):
     }
 
     # Root element
-    tei = etree.Element("TEI", nsmap=namespaces, source="formierung-europas_regesta_imperii")
+    tei = etree.Element("TEI", nsmap=namespaces, source="formierung-europas_jaffe")
 
     # teiHeader
     tei_header = etree.SubElement(tei, "teiHeader")
@@ -253,7 +253,7 @@ def create_tei_xml(output_file, lfdN):
     # Echtheitskriterien
     authen_div = etree.SubElement(body, "div", attrib={"type": "other"})
     etree.SubElement(authen_div, "head").text = "Echtheitskriterien:"
-    authen = etree.SubElement(authen_div, "authen", attrib={"type": "formula", "n": "deperditum"})
+    authen = etree.SubElement(authen_div, "authen", attrib={"type": "formula"})
     etree.SubElement(authen, "p").text = str(xml_content_map_instance["authen_p"])
 
     # Incipit
