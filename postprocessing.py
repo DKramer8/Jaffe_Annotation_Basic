@@ -1,22 +1,34 @@
-#Postprocessing der Päpste, Jahre?, Monate, Orte, Nummern? Und leere Spalten hinzufügen
-
-# Testing....
+#Postprocessing der Jahre, Monate und Nummern noch hinzufügen. Und leere Spalten hinzufügen
+import pandas as pd
+import os
 from rapidfuzz import process, fuzz
 
-dictionary = {
-    "apfel": 1,
-    "banane": 2,
-    "orange": 3,
-    "birne": 4
-}
+DIR_PATH = os.getcwd()
+DICTIONARY_FILE = DIR_PATH + f'/data/static/jaffe_dicts.xlsx'
+INPUT_FILE = DIR_PATH + f'/data/output/jaffe2_preAlexander.xlsx'
+OUTPUT_FILE = f'postprocessed.xlsx'
+COLUMNS = ['pope', 'place']
 
-def ersetze_durch_aehnlichstes_wort(text, dictionary, min_score=70):
+def ersetze_durch_aehnlichstes_wort(text, dictionary, row_nmb, min_score=70):
     match, score, _ = process.extractOne(
         text,
-        dictionary.keys(),
+        dictionary,
         scorer=fuzz.ratio
     )
-    return match if score >= min_score else text
+    if score >= min_score and score != 100:
+        print(f"Ersetze '{text}' durch '{match}' (Score: {score}) at row {row_nmb+2}")
+        return match
+    else:
+        return text
 
-eingabe = "apfl"
-print(ersetze_durch_aehnlichstes_wort(eingabe, dictionary))
+if __name__ == '__main__':
+    df_dict = pd.read_excel(DICTIONARY_FILE)
+    df_input = pd.read_excel(INPUT_FILE)
+    output_df = df_input
+
+    for column in COLUMNS:
+        text = df_input[column].astype(str).tolist()
+        dictionary = df_dict[column].dropna().astype(str).tolist()
+        output_df[column] = [ersetze_durch_aehnlichstes_wort(t, dictionary, idx) for idx, t in enumerate(text)]
+
+    output_df.to_excel(OUTPUT_FILE, index=False)
