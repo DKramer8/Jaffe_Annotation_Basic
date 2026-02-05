@@ -105,7 +105,7 @@ def get_dates(row, nr):
             _, last_day_of_month = calendar.monthrange(int(lastYear), int(lastMonth))
             lastDay = str(last_day_of_month).zfill(2)    
         except ValueError as e:
-            print(f'{nr}, {row['JL']}, {row['Year']}.{row['Month']}.{row['Day']}: Cant get first and last day of month: {e}')
+            print(f'{nr}, {row["JL"]}, {row["Year"]}.{row["Month"]}.{row["Day"]}: Cant get first and last day of month: {e}')
     
     try:
         notBefore = f"{firstYear}-{firstMonth}-{firstDay}"
@@ -113,7 +113,7 @@ def get_dates(row, nr):
         notAfter = f"{lastYear}-{lastMonth}-{lastDay}"
         datetime.strptime(notAfter, "%Y-%m-%d")
     except ValueError as e:
-        print(f'{nr}, {row['JL']}, {row['Year']}.{row['Month']}.{row['Day']}: Cant build full date: {e}')
+        print(f'{nr}, {row["JL"]}, {row["Year"]}.{row["Month"]}.{row["Day"]}: Cant build full date: {e}')
         notBefore, notAfter = None, None
     
     return notBefore, notAfter

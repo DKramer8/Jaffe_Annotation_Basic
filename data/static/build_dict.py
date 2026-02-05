@@ -1,0 +1,18 @@
+import pandas as pd
+
+INPUT_FILE = 'training_data.xlsx'
+OUTPUT_FILE = 'jaffe_dicts.xlsx'
+
+if __name__ == "__main__":
+    df = pd.read_excel(INPUT_FILE)
+
+    popes = df['pope'].unique()
+    places = df['place'].unique()
+    months = df['month'].unique()
+
+    output_df = pd.DataFrame({
+        'pope': pd.Series(popes),
+        'month': pd.Series(months),
+        'place': pd.Series(places)
+        })
+    output_df.to_excel(OUTPUT_FILE, index=False)

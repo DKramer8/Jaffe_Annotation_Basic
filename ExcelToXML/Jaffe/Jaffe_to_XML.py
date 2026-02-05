@@ -174,9 +174,9 @@ def create_tei_xml(output_file, lfdN):
     idno = etree.SubElement(publication_stmt, "idno")
     if str(xml_content_map_instance["bibl_jaffe"]) != str(XML_CONTENT_MAP["bibl_jaffe"]):
         if str(xml_content_map_instance["bibl_jaffe_alt"]) != str(XML_CONTENT_MAP["bibl_jaffe_alt"]):
-            idno_text = f"{str(xml_content_map_instance['bibl_jaffe'])}_{lfdN}_{str(xml_content_map_instance['bibl_jaffe_alt'])}"
+            idno_text = f'{str(xml_content_map_instance["bibl_jaffe"])}_{lfdN}_{str(xml_content_map_instance["bibl_jaffe_alt"])}'
         else:
-            idno_text = f"{str(xml_content_map_instance["bibl_jaffe"])}_{lfdN}"
+            idno_text = f'{str(xml_content_map_instance["bibl_jaffe"])}_{lfdN}'
     else:
         idno_text = ""
     idno.text = idno_text

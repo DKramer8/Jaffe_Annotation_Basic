@@ -18,8 +18,8 @@ from zipfile import ZipFile
 # ------------------------------------------------------------------------------------
 # ------------------------------------------------------------------------------------
 DIR_PATH = os.getcwd()
-INPUT_PATH = DIR_PATH + f'\\input'
-OUTPUT_PATH = DIR_PATH + f'\\output'
+INPUT_PATH = DIR_PATH + f'\\data\\input'
+OUTPUT_PATH = DIR_PATH + f'\\data\\output'
 
 TEXTREGION_THRESHOLD_MIN_WIDTH = 1000
 TEXTREGION_THRESHOLD_MIN_HEIGHT = 1000
