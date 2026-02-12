@@ -632,6 +632,7 @@ def classify(scan):
     df = pd.DataFrame(textRegion_dict)
     df = df.sort_values('y')
     df = df.reset_index(drop=True)
+    df['text'] = df['text'].fillna(' ')
     df = detect_new_pope(df)
     df = detect_pope_overview(df)
     df = drop_unnecessary(df)
@@ -650,6 +651,20 @@ def classify(scan):
         i += 1
 
     #print(len(final_regest_dict['pope']), len(final_regest_dict['date']), len(final_regest_dict['place']), len(final_regest_dict['number']), len(final_regest_dict['text']), len(final_regest_dict['incipit']))
+    # Länge aller Listen im final_regest_dict herausfinden
+    max_len = max(len(lst) for lst in final_regest_dict.values())
+    for i in final_regest_dict.values():
+        print(len(i))
+
+    # Alle Listen auf gleiche Länge auffüllen
+    for key, lst in final_regest_dict.items():
+        while len(lst) < max_len:
+            if key == 'pope':
+                # falls pope-Liste leer ist, fülle mit leerem String oder ersten Pope
+                lst.append(lst[0] if lst else '')
+            else:
+                lst.append('')  # leere Strings für date, place, number, text
+
     final_df = pd.DataFrame(final_regest_dict)
 
     return df, final_df
