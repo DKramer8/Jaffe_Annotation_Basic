@@ -31,10 +31,15 @@ def replace_by_dict(text: str, dictionary: list, lev_distance: int, row_nmb: int
     Replaces a given text with the closest match from a provided dictionary if the Levenshtein distance score is above a certain threshold.
     
     :param text: The text to be replaced
+    :type text: str
     :param dictionary: A list of valid entries to compare against
+    :type dictionary: list
     :param lev_distance: The minimum Levenshtein distance score required for a replacement to occur
+    :type lev_distance: int
     :param row_nmb: The row number in the original DataFrame, used for logging purposes
+    :type row_nmb: int
     :return: The original text if no close match is found, or the closest match from the dictionary if the score is above the threshold
+    :rtype: str
     '''
 
     match, score, _ = process.extractOne(
@@ -42,6 +47,7 @@ def replace_by_dict(text: str, dictionary: list, lev_distance: int, row_nmb: int
         dictionary,
         scorer=fuzz.ratio
     )
+
     if score >= lev_distance and score != 100:
         print(f"Ersetze '{text}' durch '{match}' (Score: {score}) at row {row_nmb+2}")
         return match
@@ -49,13 +55,21 @@ def replace_by_dict(text: str, dictionary: list, lev_distance: int, row_nmb: int
         return text
     
 def split_date(full_date: str) -> tuple:
+    '''
+    Splits a full date string into its components: year, month, and day. The function uses regular expressions to identify and extract these components, handling various formats and potential noise in the input string.
+    
+    :param full_date: The full date string to be split, which may contain the year, month, and day in various formats and with potential noise (e.g., extra characters, inconsistent spacing).
+    :type full_date: str
+    :return: A tuple containing the year, month, and day components
+    :rtype: tuple
+    '''
+
     if not full_date or full_date.strip() == '':
         return ' ', ' ', ' '
 
     full_date = full_date.strip()
 
-    # Jahresblock am Anfang erkennen
-    year_match = re.match(r'^\(?\d{4}(?:\s*[—-]\s*\d{4})?\)?', full_date)
+    year_match = re.match(r'^\(?\d{4}(?:\s*[—-]\s*\d{4})?\)?', full_date) # Regex by ChatGPT
 
     if year_match:
         year = year_match.group().strip()
@@ -64,12 +78,10 @@ def split_date(full_date: str) -> tuple:
         year = ' '
         rest = full_date
 
-    # Monat extrahieren (Buchstaben + Klammern)
     month = re.sub(r"[^a-zA-Z()]", "", rest)
     if not month:
         month = ' '
 
-    # Tag extrahieren
     day = re.sub(r"[^0-9]", "", rest)
     if not day:
         day = ' '
@@ -77,7 +89,16 @@ def split_date(full_date: str) -> tuple:
     return year, month, day
 
 
-def clean_number(s):
+def clean_number(s) -> str:
+    '''
+    Cleans a string by removing all characters except digits, parentheses, and spaces. This function is specifically designed to handle the 'number' column, which may contain various formats and noise. If the input is None or NaN, it returns an empty string.
+    
+    :param s: The string to be cleaned
+    :type s: str or float
+    :return: The cleaned string with only digits, parentheses, and spaces
+    :rtype: str
+    '''
+
     if s is None or (isinstance(s, float) and math.isnan(s)):
         return ''
     return re.sub(r'[^0-9() ]', '', str(s))
