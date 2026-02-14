@@ -31,10 +31,15 @@ def replace_by_dict(text: str, dictionary: list, lev_distance: int, row_nmb: int
     Replaces a given text with the closest match from a provided dictionary if the Levenshtein distance score is above a certain threshold.
     
     :param text: The text to be replaced
+    :type text: str
     :param dictionary: A list of valid entries to compare against
+    :type dictionary: list
     :param lev_distance: The minimum Levenshtein distance score required for a replacement to occur
+    :type lev_distance: int
     :param row_nmb: The row number in the original DataFrame, used for logging purposes
+    :type row_nmb: int
     :return: The original text if no close match is found, or the closest match from the dictionary if the score is above the threshold
+    :rtype: str
     '''
 
     match, score, _ = process.extractOne(
@@ -42,6 +47,7 @@ def replace_by_dict(text: str, dictionary: list, lev_distance: int, row_nmb: int
         dictionary,
         scorer=fuzz.ratio
     )
+
     if score >= lev_distance and score != 100:
         print(f"Ersetze '{text}' durch '{match}' (Score: {score}) at row {row_nmb+2}")
         return match
@@ -50,89 +56,52 @@ def replace_by_dict(text: str, dictionary: list, lev_distance: int, row_nmb: int
     
 def split_date(full_date: str) -> tuple:
     '''
-    Splits a date string into its components (year, month, day) and removes any unwanted characters. If any component is missing, it returns a space for that component.
+    Splits a full date string into its components: year, month, and day. The function uses regular expressions to identify and extract these components, handling various formats and potential noise in the input string.
     
-    :param full_date: The full date string to be split
-    :returns: A tuple containing the year, month, and day components
+    :param full_date: The full date string to be split, which may contain the year, month, and day in various formats and with potential noise (e.g., extra characters, inconsistent spacing).
+    :type full_date: str
+    :return: A tuple containing the year, month, and day components
+    :rtype: tuple
     '''
 
-    year = full_date[:4]
-    month = re.sub(r"[^a-zA-Z()]", "", full_date[4:])
-    if month.endswith('()'):
-        month = month[:-2]
-    day = re.sub(r"[^0-9\[\]]", "", full_date[4:])
-    if not year:
+    if not full_date or full_date.strip() == '':
+        return ' ', ' ', ' '
+
+    full_date = full_date.strip()
+
+    year_match = re.match(r'^\(?\d{4}(?:\s*[—-]\s*\d{4})?\)?', full_date) # Regex by ChatGPT
+
+    if year_match:
+        year = year_match.group().strip()
+        rest = full_date[year_match.end():].strip()
+    else:
         year = ' '
+        rest = full_date
+
+    month = re.sub(r"[^a-zA-Z()]", "", rest)
     if not month:
         month = ' '
+
+    day = re.sub(r"[^0-9]", "", rest)
     if not day:
         day = ' '
+
     return year, month, day
 
-def clean_number(s):
+
+def clean_number(s) -> str:
+    '''
+    Cleans a string by removing all characters except digits, parentheses, and spaces. This function is specifically designed to handle the 'number' column, which may contain various formats and noise. If the input is None or NaN, it returns an empty string.
+    
+    :param s: The string to be cleaned
+    :type s: str or float
+    :return: The cleaned string with only digits, parentheses, and spaces
+    :rtype: str
+    '''
+
     if s is None or (isinstance(s, float) and math.isnan(s)):
         return ''
     return re.sub(r'[^0-9() ]', '', str(s))
-
-# def process_number_column(numbers_raw: list) -> list:
-#     '''
-#     Postprocesses the OCR results of the "number" column based on a strict +1 sequence rule. (Made by ChatGPT)
-    
-#     :param numbers_raw: List of raw OCR strings from the number column
-#     :return: List of corrected values
-#     '''
-    
-#     processed = []
-#     last_valid_number = None
-
-#     for idx, value in enumerate(numbers_raw):
-#         value_str = str(value).strip()
-
-#         # Wenn leer → 그대로 übernehmen
-#         if not value_str or value_str.lower() == 'nan':
-#             processed.append('')
-#             continue
-
-#         value_str = re.sub(r'[^0-9() ]', '', value_str)
-
-#         # Hauptzahl extrahieren (erste Zahl im String)
-#         match = re.search(r'\d+', value_str)
-#         if not match:
-#             # Keine Zahl gefunden → unverändert lassen
-#             processed.append(value_str)
-#             continue
-
-#         ocr_number = match.group()
-#         rest = value_str[len(ocr_number):]  # Klammerteil etc. bleibt erhalten
-
-#         # Erste gefundene Zahl initialisiert Sequenz
-#         if last_valid_number is None:
-#             last_valid_number = int(ocr_number)
-#             processed.append(value_str)
-#             continue
-
-#         expected_number = str(last_valid_number + 1)
-
-#         # Wenn korrekt → übernehmen
-#         if ocr_number == expected_number:
-#             last_valid_number += 1
-#             processed.append(value_str)
-#             continue
-
-#         # Wenn nicht korrekt → Ähnlichkeit prüfen
-#         score = fuzz.ratio(ocr_number, expected_number)
-
-#         if score >= MIN_LEVDIS_SCORE_NUMBER:
-#             print(f"Ersetze '{ocr_number}' durch '{expected_number}' (Score: {score}) at row {idx+2}")
-#             corrected_value = expected_number + rest
-#             processed.append(corrected_value)
-#             last_valid_number += 1
-#         else:
-#             # OCR-Wert bleibt stehen
-#             processed.append(value_str)
-#             last_valid_number = int(ocr_number)
-
-#     return processed
 
 #------------------------------------------------------------
 #------------------------------------------------------------
@@ -168,7 +137,7 @@ if __name__ == '__main__':
 
             i = 0
             while i < len(years):
-                output_df.loc[i, 'date'] = f'{years[i]} {months[i]} {days[i]}'
+                output_df.loc[i, 'date'] = f'{years[i].strip()} {months[i].strip()} {days[i].strip()}'
                 i += 1
 
         elif column == 'number':
