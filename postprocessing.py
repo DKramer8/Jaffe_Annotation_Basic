@@ -88,7 +88,6 @@ def split_date(full_date: str) -> tuple:
 
     return year, month, day
 
-
 def clean_number(s) -> str:
     '''
     Cleans a string by removing all characters except digits, parentheses, and spaces. This function is specifically designed to handle the 'number' column, which may contain various formats and noise. If the input is None or NaN, it returns an empty string.

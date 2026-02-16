@@ -8,6 +8,7 @@ import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 import os
 import io
+import re
 from pagexml.helper.file_helper import  read_page_archive_files
 from pagexml import parser as pxml_parser
 from zipfile import ZipFile
@@ -30,10 +31,14 @@ NUMBERREGION_THRESHOLD_MAX_X_COORD = 750
 NUMBERREGION_THRESHOLD_MAX_W_COORD = 500
 NUMBERREGION_THRESHOLD_MIN_X_COORD = 2250
 
-REGEST_THRESHOLD_MIN_X_COORD_LEFT = 750
-PLACE_THRESHOLD_MIN_X_COORD_LEFT =  500
-REGEST_THRESHOLD_MIN_X_COORD_RIGHT = 600
-PLACE_THRESHOLD_MIN_X_COORD_RIGHT =  350
+# REGEST_THRESHOLD_MIN_X_COORD_LEFT = 750
+# PLACE_THRESHOLD_MIN_X_COORD_LEFT =  500
+# REGEST_THRESHOLD_MIN_X_COORD_RIGHT = 600
+# PLACE_THRESHOLD_MIN_X_COORD_RIGHT =  350
+REGEST_THRESHOLD_MIN_X_COORD_LEFT = 650
+PLACE_THRESHOLD_MIN_X_COORD_LEFT =  450
+REGEST_THRESHOLD_MIN_X_COORD_RIGHT = 400
+PLACE_THRESHOLD_MIN_X_COORD_RIGHT =  250
 
 NEW_POPE_THRESHOLD_Y_COOD = 300
 
@@ -99,23 +104,33 @@ def classify(scan):
         :param: scan: The PageXML scan to classify the regests from
         :return: A Pandas DataFrame containing positional data for plotting and Pandas Dataframe containing all regests
     '''
+    def detect_page_from_filename(filename):
+        match = re.search(r'page_(\d+)\.png', filename)
+        if match:
+            page_nr = int(match.group(1))
+            if page_nr % 2 == 0:
+                return 'l'
+            else:
+                return 'r'
+        return None
 
-    def detect_page(region):
-        '''
-            Detects whether the corresponding page is on left or right side of a book based on the passed coords of a page number region. Conditions for this decision are defined globally (NUMBERREGION_THRESHOLD_MAX_W_COORD, NUMBERREGION_THRESHOLD_MAX_X_COORD and NUMBERREGION_THRESHOLD_MIN_X_COORD)
 
-            :param region_coords: A dictionary containing integers on keys 'x', 'y', 'w', 'h'
-            :return: Returns either 'l', 'r' or 'not a pageNr'
-        '''
-        region_coords = region.coords.box
-        if region_coords['w'] < NUMBERREGION_THRESHOLD_MAX_W_COORD and region_coords['x'] < NUMBERREGION_THRESHOLD_MAX_X_COORD:                
-            # Left page
-            return 'l'
-        elif region_coords['w'] < NUMBERREGION_THRESHOLD_MAX_W_COORD and region_coords['x'] > NUMBERREGION_THRESHOLD_MIN_X_COORD:                
-            # Right page
-            return 'r'
-        else:
-            return 'not a pageNr'
+    # def detect_page(region):
+    #     '''
+    #         Detects whether the corresponding page is on left or right side of a book based on the passed coords of a page number region. Conditions for this decision are defined globally (NUMBERREGION_THRESHOLD_MAX_W_COORD, NUMBERREGION_THRESHOLD_MAX_X_COORD and NUMBERREGION_THRESHOLD_MIN_X_COORD)
+
+    #         :param region_coords: A dictionary containing integers on keys 'x', 'y', 'w', 'h'
+    #         :return: Returns either 'l', 'r' or 'not a pageNr'
+    #     '''
+    #     region_coords = region.coords.box
+    #     if region_coords['w'] < NUMBERREGION_THRESHOLD_MAX_W_COORD and region_coords['x'] < NUMBERREGION_THRESHOLD_MAX_X_COORD:                
+    #         # Left page
+    #         return 'l'
+    #     elif region_coords['w'] < NUMBERREGION_THRESHOLD_MAX_W_COORD and region_coords['x'] > NUMBERREGION_THRESHOLD_MIN_X_COORD:                
+    #         # Right page
+    #         return 'r'
+    #     else:
+    #         return 'not a pageNr'
 
     def add_coords_to_dict(dict, coords):
         '''
@@ -171,12 +186,12 @@ def classify(scan):
                 elif region_coords['x'] > HEADERREGION_THRESHOLD_MIN_X_COORD and region_coords['x'] < HEADERREGION_THRESHOLD_MAX_X_COORD and region_coords['h'] < HEADERREGION_THRESHOLD_MAX_H_COORD:
                     # Header region
                     pope = ''
-                    for char in region.lines[0].text:
-                        if char != '.':
+                    header_text = region.lines[0].text
+                    if header_text:
+                        for char in header_text:
                             pope += char
-                        else:
-                            pope += char
-                            break
+                            if char == '.':
+                                break
                     final_regest_dict['pope'].append(pope)
                 else:
                     # Unknown region
@@ -196,7 +211,7 @@ def classify(scan):
         '''
 
         for region in scan.text_regions:
-            if len(region.lines) > 0: # If region doesnt have lines its not relevant
+            if len(region.lines) > 0 : # If region doesnt have lines its not relevant
                 # Iterate through each text region and try to classify it based on coordinates and the global defined thresholds
                 region_coords = region.coords.box
 
@@ -222,12 +237,12 @@ def classify(scan):
                 elif region_coords['x'] > HEADERREGION_THRESHOLD_MIN_X_COORD and region_coords['x'] < HEADERREGION_THRESHOLD_MAX_X_COORD and region_coords['h'] < HEADERREGION_THRESHOLD_MAX_H_COORD:
                     # Header region
                     pope = ''
-                    for char in region.lines[0].text:
-                        if char != '.':
+                    header_text = region.lines[0].text
+                    if header_text:
+                        for char in header_text:
                             pope += char
-                        else:
-                            pope += char
-                            break
+                            if char == '.':
+                                break
                     final_regest_dict['pope'].append(pope)
                 else:
                     # Unknown region
@@ -620,15 +635,25 @@ def classify(scan):
         return df, final_regest_dict
 
     textRegion_dict, unknown_region_dict, final_regest_dict = new_dictionaries()
-    for region in scan.text_regions:
-        if len(region.lines) > 0:                
-            page = detect_page(region)
-            if page == 'l':
-                textRegion_dict, unknown_region_dict, final_regest_dict = classify_left_page_columns(scan, textRegion_dict, unknown_region_dict, final_regest_dict)
-                break
-            elif page == 'r':
-                textRegion_dict, unknown_region_dict, final_regest_dict = classify_right_page_columns(scan, textRegion_dict, unknown_region_dict, final_regest_dict)
-                break
+    # for region in scan.text_regions:
+    #     if len(region.lines) > 0:                
+    #         page = detect_page(region)
+    #         print(page)
+    #         if page == 'l':
+    #             textRegion_dict, unknown_region_dict, final_regest_dict = classify_left_page_columns(scan, textRegion_dict, unknown_region_dict, final_regest_dict)
+    #             break
+    #         elif page == 'r':
+    #             textRegion_dict, unknown_region_dict, final_regest_dict = classify_right_page_columns(scan, textRegion_dict, unknown_region_dict, final_regest_dict)
+    #             break
+    page = detect_page_from_filename(scan.id)
+    print(page)
+    if page == 'l':
+        textRegion_dict, unknown_region_dict, final_regest_dict = classify_left_page_columns(scan, textRegion_dict, unknown_region_dict, final_regest_dict)
+    elif page == 'r':
+        textRegion_dict, unknown_region_dict, final_regest_dict = classify_right_page_columns(scan, textRegion_dict, unknown_region_dict, final_regest_dict)
+    else:
+        print(f'{scan.id}: Could not detect page side. Classifying with left page thresholds as default.')
+        textRegion_dict, unknown_region_dict, final_regest_dict = classify_left_page_columns(scan, textRegion_dict, unknown_region_dict, final_regest_dict)
     df = pd.DataFrame(textRegion_dict)
     df = df.sort_values('y')
     df = df.reset_index(drop=True)
@@ -653,8 +678,8 @@ def classify(scan):
     #print(len(final_regest_dict['pope']), len(final_regest_dict['date']), len(final_regest_dict['place']), len(final_regest_dict['number']), len(final_regest_dict['text']), len(final_regest_dict['incipit']))
     # Länge aller Listen im final_regest_dict herausfinden
     max_len = max(len(lst) for lst in final_regest_dict.values())
-    for i in final_regest_dict.values():
-        print(len(i))
+    # for i in final_regest_dict.values():
+    #     print(len(i))
 
     # Alle Listen auf gleiche Länge auffüllen
     for key, lst in final_regest_dict.items():
@@ -877,6 +902,7 @@ elif input_type == 'zip':
     zip_df = []
     for info, data in read_page_archive_files(zip_file):
         if info['archived_filename'] != 'METS.xml':
+            print(info['archived_filename'])
             scan = pxml_parser.parse_pagexml_file(pagexml_file=info['archived_filename'], pagexml_data=data)
             df, final_df = classify(scan) #info['archived_filename']
             zip_df.append(final_df)
